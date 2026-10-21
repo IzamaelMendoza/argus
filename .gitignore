@@ -45,3 +45,7 @@ data/raw/genomas/
 # Modelos antiguos de la raiz y bases clonadas (no se versionan)
 /models/
 data/raw/2_ResFinder/resfinder_db/
+
+
+#Historial de analisis (pesado, reconstruible)
+historial_analisis/.
