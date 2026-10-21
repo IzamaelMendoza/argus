@@ -1,0 +1,3 @@
+metodo,recall,precision,f1
+ARGus v2 - regla OR,0.137,1.0,0.241
+ARGus v2 - mayoria,0.107,1.0,0.193

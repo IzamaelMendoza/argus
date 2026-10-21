@@ -1,0 +1,2 @@
+Protein identifier	Contig id	Start	Stop	Strand	Gene symbol	Sequence name	Scope	Element type	Element subtype	Class	Subclass	Method	Target length	Reference sequence length	% Coverage of reference sequence	% Identity to reference sequence	Alignment length	Accession of closest sequence	Name of closest sequence	HMM id	HMM description
+NA	GCF_000005845.2|NC_000913.3_1136	1	264	+	ariR	biofilm/acid-resistance regulator AriR	plus	STRESS	ACID	NA	NA	EXACTX	88	88	100.00	100.00	88	AAC74250.1	biofilm/acid-resistance regulator AriR	NA	NA

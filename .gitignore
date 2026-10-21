@@ -1,0 +1,47 @@
+# --- Python / Jupyter ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+*.log
+
+# --- Editor / sistema ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Cache reconstruible (se regenera al correr los cuadernos) ---
+data/models/dnabert2_emb/
+
+# --- Archivos temporales de CD-HIT / BLAST (reconstruibles) ---
+*.clstr
+*.bak
+*.tmp
+
+# --- Salidas intermedias pesadas (reconstruibles) ---
+*.daa
+data/interim/features_*.csv
+data/raw/7_ResFinderFG/ResFinder_FG_Construction/
+
+# --- Genomas crudos y bases de BLAST (pesados; se documentan, no se versionan) ---
+data/raw/genomas/
+*.zip
+*.gz
+*.nhr
+*.nin
+*.nsq
+*.ndb
+*.ntf
+*.nto
+*.njs
+*.nog
+*.nos
+*.not
+
+# Modelos antiguos de la raiz y bases clonadas (no se versionan)
+/models/
+data/raw/2_ResFinder/resfinder_db/

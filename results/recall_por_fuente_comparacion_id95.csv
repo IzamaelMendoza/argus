@@ -1,0 +1,7 @@
+fuente,n_pos,ARGus v2 (recall),ARGNet-l (recall),DeepARG id50 (recall),DeepARG id20 (recall)
+AMRFinderPlus,49,0.796,0.612,0.367,0.673
+ARGANNOT,11,0.909,0.727,0.182,0.364
+CARD,328,0.866,0.662,0.607,0.808
+MEGARes,112,0.884,0.643,0.732,0.786
+ResFinder,25,0.92,0.56,0.72,0.84
+ResFinderFG,475,0.922,0.446,0.067,0.735

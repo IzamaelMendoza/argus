@@ -1,0 +1,7 @@
+fuente,genes,detectados,recall,% del set positivo
+ResFinderFG,475,97,0.204,47.5
+AMRFinderPlus,49,35,0.714,4.9
+CARD,328,313,0.954,32.8
+ResFinder,25,24,0.96,2.5
+MEGARes,112,109,0.973,11.2
+ARGANNOT,11,11,1.0,1.1
