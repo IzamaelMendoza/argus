@@ -1,18 +1,14 @@
-name: base
+name: argus
 channels:
-  - defaults
+  - conda-forge
 dependencies:
-  - python=3.14
-  - conda=26.7.1
-  - setuptools
+  - python=3.11
   - pip
-  - wheel
-  - conda-anaconda-telemetry[version='>=0.3.0']
-  - conda-anaconda-tos[version='>=0.2.2']
-  - conda-content-trust
-  - conda-libmamba-solver
-  - menuinst
-  - anaconda-anon-usage
-  - anaconda-channel-guide
-  - anaconda-auth[version='>=0.15.1']
-prefix: /home/r4gbi/miniconda3
+  - pip:
+    - scikit-learn==1.9.1
+    - numpy==2.4.6
+    - pandas==3.0.5
+    - joblib==1.6.0
+    - matplotlib==3.11.0
+    - PySide6==6.9.2
+    - ipykernel==7.3.0
