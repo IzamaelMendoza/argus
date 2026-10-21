@@ -21,7 +21,7 @@ from collections import Counter
 #  1. FEATURIZACIÓN Y FRAGMENTACIÓN (Idéntico al Notebook)
 # ============================================================
 VENTANA = 500
-K = 4
+K = 6   # se ajusta solo al cargar el modelo (ver cargar_modelo)
 KMERS = ["".join(p) for p in product("ACGT", repeat=K)]
 KMER_IDX = {km: i for i, km in enumerate(KMERS)}
 
@@ -42,7 +42,7 @@ def fragmentar(seq, ventana=VENTANA):
     return frags
 
 def vector_kmer(seq):
-    """Convierte un fragmento de 500 pb en un vector de 256 frecuencias."""
+    """Convierte un fragmento de 500 pb en un vector de 4**K frecuencias."""
     seq = seq.upper()
     counts = Counter(seq[i:i+K] for i in range(len(seq) - K + 1))
     # Suma SOLO k-mers válidos (ACGT), ignorando el relleno de '0'
@@ -89,23 +89,52 @@ def leer_fasta(ruta):
 # ============================================================
 #  3. CONEXIÓN REAL CON EL MODELO ENTRENADO (.joblib)
 # ============================================================
-def predecir_mag(secuencias, callback_progreso=None, esta_detenido=None):
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    ruta_modelo_binario = os.path.join(base_dir, "modelo_rf_k4.joblib")
+RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+RUTA_MODELO = os.path.join(RAIZ, "data", "models", "argus_rf_k6_id95.joblib")
+UMBRAL_DEFECTO = 0.5
 
-    if not os.path.exists(ruta_modelo_binario):
+def _fijar_k(k):
+    """Reconstruye la tabla de k-mers si el modelo usa otra K."""
+    global K, KMERS, KMER_IDX
+    K = k
+    KMERS = ["".join(p) for p in product("ACGT", repeat=K)]
+    KMER_IDX = {km: i for i, km in enumerate(KMERS)}
+
+def cargar_modelo(ruta=RUTA_MODELO):
+    """Carga el .joblib (dict de ARGus v2 o RF suelto) y ajusta K automáticamente."""
+    if not os.path.exists(ruta):
         raise FileNotFoundError(
-            f"No se encontró el archivo del modelo en:\n{ruta_modelo_binario}\n\n"
-            "Asegúrate de haberlo guardado con joblib.dump desde tu Notebook."
+            f"No se encontró el archivo del modelo en:\n{ruta}\n\n"
+            "Ejecuta 'git lfs pull' o revisa la ruta."
         )
+    obj = joblib.load(ruta)
+    if isinstance(obj, dict):
+        rf = obj["modelo"]
+        umbral = float(obj.get("umbral", UMBRAL_DEFECTO))
+    else:
+        rf, umbral = obj, UMBRAL_DEFECTO
+    k = 1
+    while 4 ** k < rf.n_features_in_:
+        k += 1
+    if 4 ** k != rf.n_features_in_:
+        raise ValueError(f"El modelo espera {rf.n_features_in_} columnas; no corresponde a 4**K.")
+    _fijar_k(k)
+    try:
+        rf.set_params(n_jobs=1)
+    except Exception:
+        pass
+    return rf, umbral
 
-    # 1. Cargar tu Random Forest entrenado
-    modelo_etapa1 = joblib.load(ruta_modelo_binario)
+def predecir_mag(secuencias, callback_progreso=None, esta_detenido=None):
+    """
+    secuencias: lista de (id, secuencia) leídas del MAG.
+    Regla de gen: ARG si algún fragmento tiene probabilidad >= umbral.
+    """
+    modelo_etapa1, umbral = cargar_modelo()
 
-    # 2. Revisar si ya existe el modelo de Etapa 2 (Familias)
-    ruta_modelo_familias = os.path.join(base_dir, "modelo_familias.joblib")
-    modelo_etapa2 = joblib.load(ruta_modelo_familias) if os.path.exists(ruta_modelo_familias) else None
-    familias_demo = ["Beta-lactam", "Aminoglycoside", "Tetracycline", "Quinolone", "MLS"]
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    ruta_familias = os.path.join(base_dir, "modelo_familias.joblib")
+    modelo_etapa2 = joblib.load(ruta_familias) if os.path.exists(ruta_familias) else None
 
     datos = []
     total = len(secuencias)
@@ -114,19 +143,13 @@ def predecir_mag(secuencias, callback_progreso=None, esta_detenido=None):
         if esta_detenido and esta_detenido():
             break
 
-        # Fragmentar en ventanas de 500 pb y calcular k-mers (k=4)
         frags = fragmentar(seq, ventana=VENTANA)
         X_frags = np.array([vector_kmer(f) for f in frags], dtype=np.float32)
-
-        # Predicción real con tu Random Forest
-        etiquetas_frags = modelo_etapa1.predict(X_frags)
         probs_frags = modelo_etapa1.predict_proba(X_frags)[:, 1]
 
-        # Regla: si al menos un fragmento es 1 -> el gen se reporta como resistente
-        es_resistente = bool(np.any(etiquetas_frags == 1))
         prob_maxima = float(np.max(probs_frags))
+        es_resistente = prob_maxima >= umbral
 
-        # Separar limpiamente el nombre del MAG y el nombre del Gen
         if "|" in sid:
             partes = sid.split("|")
             nombre_mag = partes[0]
@@ -137,82 +160,22 @@ def predecir_mag(secuencias, callback_progreso=None, esta_detenido=None):
 
         if es_resistente:
             if modelo_etapa2 is not None:
-                idx_frag_max = int(np.argmax(probs_frags))
-                familia_pred = str(modelo_etapa2.predict(X_frags[idx_frag_max:idx_frag_max+1])[0])
+                i_max = int(np.argmax(probs_frags))
+                familia_pred = str(modelo_etapa2.predict(X_frags[i_max:i_max + 1])[0])
             else:
-                familia_pred = random.choice(familias_demo)
-
-            datos.append({
-                "mag": nombre_mag,
-                "gen": nombre_gen,
-                "presencia": "Sí",
-                "familia": familia_pred,
-                "probabilidad": round(prob_maxima, 2),
-            })
+                familia_pred = "Sin clasificar"
+            presencia = "Sí"
         else:
-            datos.append({
-                "mag": nombre_mag,
-                "gen": nombre_gen,
-                "presencia": "No",
-                "familia": "no_resist",
-                "probabilidad": round(prob_maxima, 2),
-            })
+            familia_pred, presencia = "no_resist", "No"
 
-        time.sleep(0.03)
-        if callback_progreso:
-            callback_progreso(idx, total)
+        datos.append({
+            "mag": nombre_mag,
+            "gen": nombre_gen,
+            "presencia": presencia,
+            "familia": familia_pred,
+            "probabilidad": round(prob_maxima, 2),
+        })
 
-    return datos
-# ============================================================
-#  PUNTO DE CONEXION DEL MODELO (Soporta progreso y parada)
-# ============================================================
-def predecir_mag(secuencias, callback_progreso=None, esta_detenido=None):
-    """
-    secuencias: lista de (id, secuencia) leídas del MAG.
-    callback_progreso: función opcional (actual, total) para actualizar la GUI.
-    esta_detenido: función opcional que devuelve True si el usuario presionó 'Detener'.
-    """
-    # >>> AQUI SE CONECTA EL MODELO ENTRENADO <<<
-    # Cuando conectes joblib, puedes cargar el modelo antes del ciclo for:
-    # import joblib
-    # modelo = joblib.load("modelo_rf.joblib")
-
-    random.seed(0)
-    familias_demo = ["Beta-lactam", "Aminoglycoside", "Tetracycline", "Quinolone", "MLS"]
-    datos = []
-    total = len(secuencias)
-
-    for idx, (sid, seq) in enumerate(secuencias, start=1):
-        # 1. Verificar si el usuario presionó el botón "Detener"
-        if esta_detenido and esta_detenido():
-            break
-
-        # 2. Featurización (y predicción real cuando conectes el modelo)
-        _ = vector_kmer(seq)
-        
-        # Pequeña pausa simulada (0.01s) para que puedas apreciar el progreso 
-        # y probar el botón "Detener" frente a tu asesora. (Puedes quitarla después).
-        time.sleep(0.01)
-
-        es_resistente = random.random() < 0.30
-        if es_resistente:
-            datos.append({
-                "mag": sid.split("|")[0] if "|" in sid else sid[:12],
-                "gen": sid[:20],
-                "presencia": "Sí",
-                "familia": random.choice(familias_demo),
-                "probabilidad": round(random.uniform(0.60, 0.99), 2),
-            })
-        else:
-            datos.append({
-                "mag": sid.split("|")[0] if "|" in sid else sid[:12],
-                "gen": sid[:20],
-                "presencia": "No",
-                "familia": "no_resist",
-                "probabilidad": round(random.uniform(0.0, 0.40), 2),
-            })
-
-        # 3. Notificar avance a la barra de estado
         if callback_progreso:
             callback_progreso(idx, total)
 
