@@ -96,7 +96,8 @@ def leer_fasta(ruta):
 #  3. CONEXIÓN REAL CON EL MODELO ENTRENADO (.joblib)
 # ============================================================
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RUTA_MODELO = os.path.join(RAIZ, "data", "models", "argus_rf_k6_id95.joblib")
+IDENTIDAD_MODELO = 90
+RUTA_MODELO = os.path.join(RAIZ, "data", "models", f"argus_rf_k6_id{IDENTIDAD_MODELO}.joblib")
 UMBRAL_DEFECTO = 0.5
 
 def _fijar_k(k):
@@ -839,7 +840,7 @@ class VentanaPrincipal(QMainWindow):
             return "claro"
 
     def _texto_boton_tema(self):
-        self.boton_tema.setText("☀️ Modo día" if self.tema == "oscuro" else "🌙 Modo noche")
+        self.boton_tema.setText("Modo claro" if self.tema == "oscuro" else "Modo oscuro")
 
     def cambiar_tema(self, oscuro):
         self.tema = "oscuro" if oscuro else "claro"
