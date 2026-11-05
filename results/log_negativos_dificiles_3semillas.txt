@@ -1,0 +1,48 @@
+Pool: 67,364 fragmentos | pos=6,386 neg=60,978 | memoria de features ≈ 1.10 GB
+Train: 60,627 frag (25,529 genes) | Test: 6,737 frag (2,837 genes)
+features listas (14s)
+1k+1k: 2000 genes (1000 pos) -> 4,667 fragmentos
+
+[1/2] Buscando negativos difíciles con validación cruzada dentro del entrenamiento (5 pliegues por gen)...
+  pliegue 1/5 listo (24s)
+  pliegue 2/5 listo (29s)
+  pliegue 3/5 listo (34s)
+  pliegue 4/5 listo (40s)
+  pliegue 5/5 listo (45s)
+AUC fuera de muestra (fragmentos, entrenamiento): 0.845
+Negativos del entrenamiento: 54,880 | difíciles (p >= 0.5): 9,600 (17.5 %) | genes con algún fragmento difícil: 7,214
+
+[2/2] Entrenando 3 variantes x 3 semilla(s) = 9 modelos...
+  semilla 42 | base           | train=11,494 | 1k+1k: recall=0.896 prec=0.730 F1=0.804 AUC=0.878 (55s)
+  semilla 42 | dificiles_50   | train=11,494 | 1k+1k: recall=0.874 prec=0.709 F1=0.783 AUC=0.870 (64s)
+  semilla 42 | dificiles_2a1  | train=17,241 | 1k+1k: recall=0.456 prec=0.966 F1=0.620 AUC=0.847 (87s)
+  semilla 43 | base           | train=11,494 | 1k+1k: recall=0.889 prec=0.729 F1=0.801 AUC=0.873 (96s)
+  semilla 43 | dificiles_50   | train=11,494 | 1k+1k: recall=0.879 prec=0.725 F1=0.795 AUC=0.883 (105s)
+  semilla 43 | dificiles_2a1  | train=17,241 | 1k+1k: recall=0.436 prec=0.969 F1=0.601 AUC=0.861 (123s)
+  semilla 44 | base           | train=11,494 | 1k+1k: recall=0.907 prec=0.742 F1=0.816 AUC=0.881 (130s)
+  semilla 44 | dificiles_50   | train=11,494 | 1k+1k: recall=0.879 prec=0.726 F1=0.795 AUC=0.878 (138s)
+  semilla 44 | dificiles_2a1  | train=17,241 | 1k+1k: recall=0.443 prec=0.969 F1=0.608 AUC=0.852 (156s)
+
+====================================================================================================
+RESUMEN (media ± desviación entre semillas)
+1k_*  = 1k+1k, por gen, umbral 0.5 | 1k_prec_mismo_recall = precisión si se fuerza el MISMO recall que 'base'
+test_* = test interno (proporción natural), AUC (no depende del umbral)
+====================================================================================================
+                  1k_recall       1k_prec         1k_f1        1k_auc 1k_prec_mismo_recall test_frag_auc  test_gen_auc
+variante                                                                                                              
+base           0.897 ±0.009  0.734 ±0.007  0.807 ±0.008  0.877 ±0.004         0.734 ±0.007  0.865 ±0.004  0.881 ±0.004
+dificiles_50   0.877 ±0.003    0.72 ±0.01  0.791 ±0.007  0.877 ±0.007         0.692 ±0.019  0.847 ±0.003  0.874 ±0.003
+dificiles_2a1   0.445 ±0.01  0.968 ±0.002   0.61 ±0.009  0.853 ±0.007         0.649 ±0.016  0.827 ±0.004   0.85 ±0.012
+
+Diferencia contra 'base' (positivo = mejor que hoy):
+               1k_recall  1k_prec  1k_f1  1k_auc  1k_prec_mismo_recall  test_frag_auc  test_gen_auc
+variante                                                                                           
+dificiles_50      -0.020   -0.014 -0.016  -0.000                -0.041         -0.018        -0.007
+dificiles_2a1     -0.452    0.235 -0.198  -0.024                -0.085         -0.038        -0.031
+
+Cómo leerlo:
+  - La mejora es REAL solo si la diferencia es mayor que la desviación (±) de ambas filas.
+  - Compara con 1k_auc y 1k_prec_mismo_recall: cambiar la proporción de negativos mueve el punto de operación,
+    pero NO debería subir el AUC si el modelo no aprendió nada nuevo.
+
+Archivos en /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/negativos_dificiles_id90

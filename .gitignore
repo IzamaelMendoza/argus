@@ -48,4 +48,25 @@ data/raw/2_ResFinder/resfinder_db/
 
 
 #Historial de analisis (pesado, reconstruible)
-historial_analisis/.
+historial_analisis/.# Salida de la GUI (historial local de analisis)
+historial_analisis/
+
+# BLAST: bases regenerables
+results/**/args_db.*
+*.nin
+*.nhr
+*.nsq
+
+# Python
+__pycache__/
+*.pyc
+
+*.nin
+*.nhr
+*.nsq
+*.ndb
+*.not
+*.ntf
+*.nto
+*.njs
+data/models/dnabert2_emb/

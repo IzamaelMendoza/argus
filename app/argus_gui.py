@@ -14,7 +14,9 @@ from PySide6.QtWidgets import (
 from PySide6.QtGui import QFont, QColor, QBrush, QPixmap, QIcon
 from PySide6.QtCore import Qt, QThread, Signal, QSettings, QEvent
 from matplotlib.backends.backend_qtagg import FigureCanvasQTAgg
+from matplotlib.backends.backend_pdf import PdfPages
 from matplotlib.figure import Figure
+import matplotlib.image as mpimg
 import numpy as np
 from itertools import product
 from collections import Counter
@@ -32,20 +34,43 @@ KMERS = ["".join(p) for p in product("ACGT", repeat=K)]
 KMER_IDX = {km: i for i, km in enumerate(KMERS)}
 
 def fragmentar(seq, ventana=VENTANA):
-    """Divide la secuencia en bloques de 500 pb rellenando con '0'."""
+    """Divide la secuencia en bloques de 500 pb.
+    El último bloque se corre hacia atrás en vez de rellenarse con ceros:
+    se solapa con el anterior, pero no pierde ninguna base y el vector
+    de k-meros sale completo."""
     seq = seq.upper()
     L = len(seq)
     frags = []
     if L < ventana:
-        frags.append(seq + "0" * (ventana - L))
+        frags.append(seq + "0" * (ventana - L))   # genes cortos: aquí el relleno es inevitable
     else:
         n = L // ventana
         for i in range(n):
             frags.append(seq[i*ventana:(i+1)*ventana])
-        resto = L - n * ventana
-        if resto > 0:
-            frags.append(seq[n*ventana:] + "0" * (ventana - resto))
+        if L % ventana:
+            frags.append(seq[-ventana:])
     return frags
+
+""" //ANTERIOR
+def fragmentar(seq, ventana=VENTANA):
+    #Divide la secuencia en bloques de 500 pb.
+    #El último bloque se corre hacia atrás en vez de rellenarse con ceros:
+    #se solapa con el anterior, pero no pierde ninguna base y el vector
+    #de k-meros sale completo.
+
+    seq = seq.upper()
+    L = len(seq)
+    frags = []
+    if L < ventana:
+        frags.append(seq + "0" * (ventana - L))   # genes cortos: aquí el relleno es inevitable
+    else:
+        n = L // ventana
+        for i in range(n):
+            frags.append(seq[i*ventana:(i+1)*ventana])
+        if L % ventana:
+            frags.append(seq[-ventana:])
+    return frags
+"""
 
 def vector_kmer(seq):
     """Convierte un fragmento de 500 pb en un vector de 4**K frecuencias."""
@@ -96,7 +121,7 @@ def leer_fasta(ruta):
 #  3. CONEXIÓN REAL CON EL MODELO ENTRENADO (.joblib)
 # ============================================================
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-IDENTIDAD_MODELO = 90
+IDENTIDAD_MODELO = 95
 RUTA_MODELO = os.path.join(RAIZ, "data", "models", f"argus_rf_k6_id{IDENTIDAD_MODELO}.joblib")
 UMBRAL_DEFECTO = 0.5
 
@@ -213,8 +238,8 @@ class HiloPrediccion(QThread):
         try:
             resultados = predecir_mag(
                 self.secuencias,
-                callback_progreso= lambda act, tot: self.progreso.emit(act, tot),
-                esta_detenido= lambda: self._detener,
+                callback_progreso=lambda act, tot: self.progreso.emit(act, tot),
+                esta_detenido=lambda: self._detener,
                 nombre_defecto=self.nombre_mag
             )
             self.finalizado.emit(resultados, self._detener)
@@ -241,18 +266,15 @@ def generar_datos_falsos():
 
 
 # === HISTORIAL-INICIO ==========================================
-# Guarda en disco los últimos MAX_HISTORIAL análisis (un .json por análisis).
-# Solo se guardan los RESULTADOS, no las secuencias del archivo cargado.
 MAX_HISTORIAL = 5
 CARPETA_HISTORIAL = os.path.join(RAIZ, "historial_analisis")
 
 def guardar_analisis(datos, meta, carpeta=CARPETA_HISTORIAL, maximo=MAX_HISTORIAL):
     """Guarda un análisis y borra los más antiguos para conservar solo `maximo`."""
     os.makedirs(carpeta, exist_ok=True)
-    # Con microsegundos el nombre crece siempre, así el orden alfabético = orden cronológico
     sello = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
     ruta = os.path.join(carpeta, f"analisis_{sello}.json")
-    tmp = ruta + ".tmp"                      # escritura atómica: no queda a medias
+    tmp = ruta + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump({"meta": meta, "datos": datos}, f, ensure_ascii=False)
     os.replace(tmp, ruta)
@@ -281,7 +303,7 @@ def listar_historial(carpeta=CARPETA_HISTORIAL):
             if isinstance(obj, dict) and isinstance(obj.get("meta"), dict) and isinstance(obj.get("datos"), list):
                 entradas.append({"ruta": ruta, "meta": obj["meta"]})
         except Exception:
-            continue                          # archivo dañado: se ignora
+            continue
     return entradas
 
 def cargar_analisis(ruta):
@@ -292,17 +314,14 @@ def cargar_analisis(ruta):
 
 
 # === TEMA-INICIO ===============================================
-# Paletas de color (modo día / modo noche) y hoja de estilo de la interfaz.
 from string import Template
 from matplotlib.colors import LinearSegmentedColormap
 
 PALETAS = {
     "claro": dict(
-        # --- interfaz ---
         fondo="#F8F9FA", tarjeta="#FFFFFF", alt="#F8F9FA", texto_ui="#212529",
         titulo_ui="#2C3E50", suave_ui="#495057", borde="#DEE2E6",
         tab="#E9ECEF", tab_txt="#495057", acento="#0D6EFD",
-        # --- gráficas ---
         lienzo="#FFFFFF", g_texto="#495057", g_titulo="#2C3E50", g_suave="#6C757D",
         g_borde="#DEE2E6", g_barra="#0D6EFD", g_si="#D9534F", g_no="#6C757D",
         cmap="Blues", celda_alta="white", celda_baja="#495057",
@@ -383,8 +402,6 @@ def generar_estilo(p):
 
 
 # === GRAFICAS-INICIO ===========================================
-# Funciones de dibujo independientes de la ventana. Reciben la figura,
-# los datos, las opciones y la paleta; no tocan ningún widget.
 SIN_FAMILIA = "Sin clasificar"
 TOP_OPCIONES = [10, 20, 30, 50]
 MAX_COLUMNAS_MAPA = 30      # máximo de MAGs (columnas) en el mapa de calor
@@ -428,8 +445,6 @@ def dibujar_barras(fig, datos, modo, top_n, p=None):
 
     ax = fig.add_subplot(111)
 
-    # Sin modelo de familias: en vez de una sola barra "Sin clasificar",
-    # mostramos el resultado de la Etapa 1 (con / sin resistencia).
     if modo == 0 and _sin_familia(datos):
         n_si = len(positivos)
         n_no = len(datos) - n_si
@@ -457,7 +472,7 @@ def dibujar_barras(fig, datos, modo, top_n, p=None):
     ax.barh(y, valores, color=p["g_barra"], edgecolor="none", height=0.7)
     ax.set_yticks(y)
     ax.set_yticklabels(nombres, fontsize=8)
-    ax.invert_yaxis()                       # el más frecuente arriba
+    ax.invert_yaxis()
     for yi, v in zip(y, valores):
         ax.text(v, yi, f" {v}", va="center", ha="left", fontsize=8, color=p["g_texto"])
     ax.set_xlim(0, max(valores) * 1.12)
@@ -523,7 +538,6 @@ def dibujar_mapa(fig, datos, modo, top_n, p=None):
     for sp in ax.spines.values():
         sp.set_color(p["g_borde"])
 
-    # Valor dentro de cada celda cuando la matriz es pequeña
     if matriz.size <= 200:
         for i in range(matriz.shape[0]):
             for j in range(matriz.shape[1]):
@@ -543,6 +557,85 @@ def dibujar_mapa(fig, datos, modo, top_n, p=None):
     cbar.ax.tick_params(colors=p["g_texto"])
     cbar.outline.set_edgecolor(p["g_borde"])
     fig.tight_layout()
+
+def aplicar_marca_agua(fig):
+    """Agrega marca de agua diagonal, pie de página oficial y logo de ARGus a la figura."""
+    fig.text(
+        0.5, 0.5, "ARGus • Cinvestav / TecNM",
+        fontsize=34, color="#6C757D", alpha=0.08,
+        ha="center", va="center", rotation=30, fontweight="bold",
+        zorder=100
+    )
+    sello_tiempo = datetime.now().strftime("%Y-%m-%d %H:%M")
+    fig.text(
+        0.99, 0.01,
+        f"Generado con ARGus (Antibiotic Resistance Genome understanding system) — {sello_tiempo}",
+        fontsize=8, color="#6C757D", alpha=0.75,
+        ha="right", va="bottom", style="italic"
+    )
+    ruta_logo = os.path.join(RAIZ, "ARGus.png")
+    if os.path.exists(ruta_logo):
+        try:
+            img = mpimg.imread(ruta_logo)
+            ax_logo = fig.add_axes([0.01, 0.008, 0.045, 0.045], anchor="SW", zorder=101)
+            ax_logo.imshow(img)
+            ax_logo.axis("off")
+        except Exception:
+            pass
+
+def exportar_tabla_con_marca_pdf(datos, ruta_pdf, filas_por_pagina=28):
+    """Exporta la tabla de resultados a un PDF multipágina (300 DPI) con marca de agua de ARGus."""
+    columnas = ["MAG", "Gen", "Presencia", "Familia", "Probabilidad"]
+    filas_totales = [
+        [d["mag"], d["gen"], d["presencia"], d["familia"], f"{d['probabilidad']:.2f}"]
+        for d in datos
+    ] or [["-", "-", "-", "-", "-"]]
+
+    n_paginas = max(1, (len(filas_totales) + filas_por_pagina - 1) // filas_por_pagina)
+
+    with PdfPages(ruta_pdf) as pdf:
+        for pag in range(n_paginas):
+            inicio = pag * filas_por_pagina
+            bloque = filas_totales[inicio:inicio + filas_por_pagina]
+
+            fig = Figure(figsize=(11, 8.5), facecolor="white")
+            ax = fig.add_subplot(111)
+            ax.axis("off")
+
+            ax.set_title(
+                f"Reporte de Predicción de Resistencia Antimicrobiana — ARGus (Pág. {pag + 1}/{n_paginas})",
+                fontsize=13, fontweight="bold", color="#2C3E50", pad=15
+            )
+
+            tabla = ax.table(
+                cellText=bloque,
+                colLabels=columnas,
+                loc="upper center",
+                cellLoc="center",
+                bbox=[0.0, 0.06, 1.0, 0.88]
+            )
+            tabla.auto_set_font_size(False)
+            tabla.set_fontsize(9)
+
+            for (fila, col), celda in tabla.get_celld().items():
+                celda.set_edgecolor("#DEE2E6")
+                if fila == 0:
+                    celda.set_facecolor("#2C3E50")
+                    celda.get_text().set_color("white")
+                    celda.get_text().set_weight("bold")
+                else:
+                    es_si = bloque[fila - 1][2] == "Sí"
+                    if fila % 2 == 0:
+                        celda.set_facecolor("#F8F9FA")
+                    else:
+                        celda.set_facecolor("#FFFFFF")
+                    if col == 2:
+                        celda.get_text().set_color("#D9534F" if es_si else "#6C757D")
+                        celda.get_text().set_weight("bold" if es_si else "normal")
+
+            aplicar_marca_agua(fig)
+            fig.tight_layout(rect=[0, 0.04, 1, 0.96])
+            pdf.savefig(fig, dpi=300)
 # === GRAFICAS-FIN ==============================================
 
 
@@ -558,7 +651,15 @@ class BarraTitulo(QWidget):
         self.setFixedHeight(34)
         lay = QHBoxLayout(self)
         lay.setContentsMargins(8, 0, 0, 0)
-        lay.setSpacing(0)
+        lay.setSpacing(6)
+
+        # Mini-icono de ARGus en la barra de título propia
+        ruta_icono = os.path.join(RAIZ, "ARGus.png")
+        if os.path.exists(ruta_icono):
+            lbl_ico = QLabel()
+            lbl_ico.setPixmap(QPixmap(ruta_icono).scaledToHeight(18, Qt.SmoothTransformation))
+            lay.addWidget(lbl_ico)
+
         self.texto = QLabel(ventana.windowTitle())
         self.texto.setObjectName("textoBarraTitulo")
         lay.addWidget(self.texto)
@@ -595,7 +696,6 @@ class BarraTitulo(QWidget):
             h = self._ventana.windowHandle()
             if h is not None and h.startSystemMove():
                 return
-            # Respaldo si el sistema no permite mover desde la app
             self._arrastre = e.globalPosition().toPoint() - self._ventana.frameGeometry().topLeft()
 
     def mouseMoveEvent(self, e):
@@ -617,6 +717,11 @@ class VentanaPrincipal(QMainWindow):
         self.setWindowTitle(nombre_sistema)
         self.resize(1100, 700)
         self.tema = self._leer_tema()     # "claro" u "oscuro" (se recuerda entre sesiones)
+
+        ruta_icono_argus = os.path.join(RAIZ, "ARGus.png")
+        if os.path.exists(ruta_icono_argus):
+            self.setWindowIcon(QIcon(ruta_icono_argus))
+
         if BARRA_TITULO_PROPIA:
             self.setWindowFlags(self.windowFlags() | Qt.FramelessWindowHint)
             self.setMouseTracking(True)
@@ -628,8 +733,6 @@ class VentanaPrincipal(QMainWindow):
         self.secuencias_cargadas = []
         self.ruta_actual = ""
         self.hilo = None
-
-        self.setWindowIcon(QIcon("logo.png"))
 
         self.setStyleSheet(generar_estilo(PALETAS[self.tema]))
 
@@ -754,7 +857,7 @@ class VentanaPrincipal(QMainWindow):
         dlg.setOption(QFileDialog.DontUseNativeDialog, True)
         if guardar:
             dlg.setAcceptMode(QFileDialog.AcceptSave)
-            dlg.setOption(QFileDialog.DontConfirmOverwrite, True)   # lo confirmamos nosotros
+            dlg.setOption(QFileDialog.DontConfirmOverwrite, True)
         else:
             dlg.setAcceptMode(QFileDialog.AcceptOpen)
             dlg.setFileMode(QFileDialog.ExistingFile)
@@ -885,7 +988,6 @@ class VentanaPrincipal(QMainWindow):
             self._msg(QMessageBox.Warning, "Archivo vacío", "No se encontraron secuencias en el archivo.")
             return
 
-        # Guardamos las secuencias listas y habilitamos el botón de "Iniciar"
         self.secuencias_cargadas = secuencias
         self.ruta_actual = ruta
         self.boton_iniciar.setEnabled(True)
@@ -901,7 +1003,6 @@ class VentanaPrincipal(QMainWindow):
         if not self.secuencias_cargadas:
             return
 
-        # Ajustar el estado de los botones
         self.boton_cargar.setEnabled(False)
         self.boton_iniciar.setEnabled(False)
         self.boton_detener.setEnabled(True)
@@ -909,7 +1010,6 @@ class VentanaPrincipal(QMainWindow):
         self.label_estado.setText("⏳ Iniciando predicción...")
         self.label_estado.setStyleSheet("color: #FD7E14; font-weight: bold;")
 
-        # Crear y lanzar el hilo de predicción
         nombre_mag = os.path.splitext(os.path.basename(self.ruta_actual))[0]
         self.hilo = HiloPrediccion(self.secuencias_cargadas, nombre_mag=nombre_mag)
         self.hilo.progreso.connect(self.actualizar_progreso)
@@ -927,15 +1027,13 @@ class VentanaPrincipal(QMainWindow):
 
     def actualizar_progreso(self, actual, total):
         porcentaje = int((actual / total) * 100)
-        self.label_estado.setText(f"⚙️ Analizando: {actual} de {total} secuencias ({porcentaje}%)...")
+        self.label_estado.setText(f"⏳ Analizando: {actual} de {total} secuencias ({porcentaje}%)...")
 
     def analisis_terminado(self, resultados, fue_cancelado):
-        # Restaurar botones
         self.boton_cargar.setEnabled(True)
         self.boton_iniciar.setEnabled(True)
         self.boton_detener.setEnabled(False)
 
-        # Si hay resultados (completos o parciales), actualizamos las tablas y gráficas
         if resultados:
             self.datos = resultados
             self.refrescar_vistas()
@@ -945,7 +1043,6 @@ class VentanaPrincipal(QMainWindow):
         n_total = len(self.secuencias_cargadas)
         n_res = sum(1 for d in resultados if d["presencia"] == "Sí")
 
-        # Guardar en el historial (también los análisis detenidos, marcados como parciales)
         if resultados:
             try:
                 guardar_analisis(resultados, {
@@ -1000,9 +1097,21 @@ class VentanaPrincipal(QMainWindow):
             except Exception as e:
                 self._msg(QMessageBox.Critical, "Error", f"No se pudo guardar el archivo:\n{str(e)}")
 
+    def exportar_tabla_pdf(self):
+        ruta, _ = self._dialogo_archivo("Guardar Tabla en PDF", "PDF files (*.pdf)", guardar=True)
+        if ruta:
+            if not ruta.lower().endswith(".pdf"):
+                ruta += ".pdf"
+            if not self._ok_sobrescribir(ruta):
+                return
+            try:
+                exportar_tabla_con_marca_pdf(self.datos, ruta)
+                self._msg(QMessageBox.Information, "Éxito", f"Reporte PDF con marca de agua guardado (300 DPI):\n{ruta}")
+            except Exception as e:
+                self._msg(QMessageBox.Critical, "Error", f"No se pudo guardar el PDF:\n{str(e)}")
+
     def exportar_grafica(self, cual):
-        """cual = 'barras' o 'mapa'. Siempre se exporta con fondo claro (para informes/papers),
-        aunque la app esté en modo noche."""
+        """cual = 'barras' o 'mapa'. Siempre se exporta con fondo claro y marca de agua."""
         ruta, filtro = self._dialogo_archivo("Guardar Gráfica", "TIFF files (*.tiff);;PDF files (*.pdf)", guardar=True)
         if ruta:
             if "TIFF" in filtro and not ruta.lower().endswith(('.tif', '.tiff')):
@@ -1019,8 +1128,11 @@ class VentanaPrincipal(QMainWindow):
                 else:
                     dibujar_mapa(fig, self.datos, self.combo_mapa.currentIndex(),
                                  self._valor_top(self.combo_top_mapa), PALETAS["claro"])
+
+                aplicar_marca_agua(fig)
+                fig.tight_layout(rect=[0, 0.03, 1, 1])
                 fig.savefig(ruta, dpi=300, bbox_inches='tight')
-                self._msg(QMessageBox.Information, "Éxito", f"Gráfica guardada en alta resolución (300 DPI):\n{ruta}")
+                self._msg(QMessageBox.Information, "Éxito", f"Gráfica guardada con marca de agua (300 DPI):\n{ruta}")
             except Exception as e:
                 self._msg(QMessageBox.Critical, "Error", f"No se pudo guardar la gráfica:\n{str(e)}")
 
@@ -1115,7 +1227,7 @@ class VentanaPrincipal(QMainWindow):
     def abrir_seleccion_historial(self):
         if self.hilo and self.hilo.isRunning():
             self._msg(QMessageBox.Information, "Historial",
-                                    "Hay un análisis en curso. Espera a que termine o deténlo.")
+                      "Hay un análisis en curso. Espera a que termine o deténlo.")
             return
         entrada = self._entrada_seleccionada()
         if entrada:
@@ -1139,6 +1251,13 @@ class VentanaPrincipal(QMainWindow):
         layout = QVBoxLayout(pestana)
         barra_controles = QHBoxLayout()
         barra_controles.addStretch()
+
+        boton_exportar_pdf = QPushButton("Exportar Tabla (PDF)")
+        boton_exportar_pdf.setObjectName("botonSecundario")
+        boton_exportar_pdf.clicked.connect(self.exportar_tabla_pdf)
+        boton_exportar_pdf.setCursor(Qt.PointingHandCursor)
+        barra_controles.addWidget(boton_exportar_pdf)
+
         boton_exportar = QPushButton("Descargar CSV")
         boton_exportar.setObjectName("botonSecundario")
         boton_exportar.clicked.connect(self.exportar_csv)
@@ -1188,7 +1307,6 @@ class VentanaPrincipal(QMainWindow):
         self.combo_barras = QComboBox()
         self.combo_barras.addItems(["Agrupado por Familia", "Conteo por Gen Específico"])
         self.combo_top_barras = self._crear_combo_top()
-        # Se conectan DESPUÉS de crear ambos combos y la figura (ver abajo)
         boton_exportar = QPushButton("Exportar Gráfica (TIFF/PDF)")
         boton_exportar.setObjectName("botonSecundario")
         boton_exportar.setCursor(Qt.PointingHandCursor)
@@ -1247,8 +1365,22 @@ class VentanaPrincipal(QMainWindow):
 
 
 if __name__ == "__main__":
+    # Identificador de proceso para que la barra de tareas muestre el icono de ARGus
+    if sys.platform.startswith("win"):
+        try:
+            import ctypes
+            ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("cinvestav.tecnm.argus.gui.1.0")
+        except Exception:
+            pass
+
     app = QApplication(sys.argv)
     app.setStyle("Fusion")
+    app.setApplicationDisplayName("ARGus")
+
+    ruta_icono_global = os.path.join(RAIZ, "ARGus.png")
+    if os.path.exists(ruta_icono_global):
+        app.setWindowIcon(QIcon(ruta_icono_global))
+
     ventana = VentanaPrincipal()
     ventana.show()
     sys.exit(app.exec())

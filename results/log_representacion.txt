@@ -1,0 +1,41 @@
+Pool: 67,364 fragmentos | pos=6,386 neg=60,978
+Train: 60,627 frag (25,529 genes) | Test: 6,737 frag (2,837 genes)
+1k+1k: 2000 genes (1000 pos) -> 4,667 fragmentos
+  [cruda] suma=1.000 min=0.000 max=0.251
+  [oe   ] suma=4095.980 min=0.000 max=1026.066
+  [oelog] suma=-646.320 min=-0.165 max=6.801
+
+Entrenando 3 representación(es) x 3 semilla(s) = 9 modelos
+
+[cruda] características listas (5s, 1.10 GB)
+  semilla 42 | cruda  | 1k+1k: recall=0.896 prec=0.730 F1=0.804 AUC=0.878 | test_frag_auc=0.861 (22s)
+  semilla 43 | cruda  | 1k+1k: recall=0.889 prec=0.729 F1=0.801 AUC=0.873 | test_frag_auc=0.868 (30s)
+  semilla 44 | cruda  | 1k+1k: recall=0.907 prec=0.742 F1=0.816 AUC=0.881 | test_frag_auc=0.866 (37s)
+[oe] características listas (7s, 1.10 GB)
+  semilla 42 | oe     | 1k+1k: recall=0.897 prec=0.727 F1=0.803 AUC=0.872 | test_frag_auc=0.861 (51s)
+  semilla 43 | oe     | 1k+1k: recall=0.888 prec=0.721 F1=0.796 AUC=0.863 | test_frag_auc=0.853 (59s)
+  semilla 44 | oe     | 1k+1k: recall=0.885 prec=0.731 F1=0.801 AUC=0.867 | test_frag_auc=0.858 (66s)
+[oelog] características listas (8s, 1.10 GB)
+  semilla 42 | oelog  | 1k+1k: recall=0.843 prec=0.698 F1=0.764 AUC=0.814 | test_frag_auc=0.804 (87s)
+  semilla 43 | oelog  | 1k+1k: recall=0.835 prec=0.692 F1=0.757 AUC=0.812 | test_frag_auc=0.813 (100s)
+  semilla 44 | oelog  | 1k+1k: recall=0.841 prec=0.696 F1=0.761 AUC=0.812 | test_frag_auc=0.816 (113s)
+
+============================================================================================
+RESUMEN (media ± desviación entre semillas) · 1k+1k por gen, umbral 0.5
+============================================================================================
+             recall     precision            f1           auc test_frag_auc  test_gen_auc
+rep                                                                                      
+cruda  0.897 ±0.009  0.734 ±0.007  0.807 ±0.008  0.877 ±0.004  0.865 ±0.004  0.881 ±0.004
+oe      0.89 ±0.006  0.727 ±0.005    0.8 ±0.004  0.867 ±0.004  0.857 ±0.004  0.868 ±0.006
+oelog   0.84 ±0.004  0.695 ±0.003  0.761 ±0.004  0.813 ±0.001  0.811 ±0.006  0.816 ±0.007
+
+Diferencia contra 'cruda' (positivo = mejor):
+       recall  precision     f1    auc  test_frag_auc  test_gen_auc
+rep                                                                
+oe     -0.007     -0.007 -0.007 -0.010         -0.008        -0.012
+oelog  -0.058     -0.038 -0.047 -0.065         -0.054        -0.065
+
+Lo que importa es el AUC: si sube MÁS que la desviación, la nueva representación
+aporta información nueva y no solo mueve el punto de operación.
+
+Archivos en /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/representacion_id90

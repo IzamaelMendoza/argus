@@ -1,5 +1,5 @@
 ,recall,precision,f1
 ARGus v1 (k=4),0.893,0.745,0.813
-"ARGus v2 (k=6, undersampling)",0.893,0.752,0.817
+"ARGus v2 (k=6, undersampling)",0.861,0.784,0.821
 "ARGNet (argnet-s, OR)",0.589,0.882,0.706
 DeepARG (id30),0.72,0.978,0.829
