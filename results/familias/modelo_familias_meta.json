@@ -1,0 +1,30 @@
+{
+  "algoritmo": "RandomForestClassifier",
+  "n_estimators": 400,
+  "K": 6,
+  "ventana": 500,
+  "class_weight": "balanced",
+  "semilla": 42,
+  "regla_gen": "promedio de probabilidades entre fragmentos",
+  "etiqueta": "AMR Gene Family de CARD, agrupada (ver tabla GRUPOS)",
+  "universo": "solo CARD (único con ontología curada)",
+  "min_clase": 30,
+  "clases": [
+    "AAC acetiltransferasa",
+    "ABC-F protección ribosomal",
+    "APH fosfotransferasa",
+    "Erm metiltransferasa 23S",
+    "OXA beta-lactamasa",
+    "cefalosporinasa AmpC (ADC/ACT/CMY)",
+    "dfr dihidrofolato reductasa",
+    "eflujo MFS",
+    "eflujo RND",
+    "otras beta-lactamasas",
+    "regulador de eflujo",
+    "van / glucopéptidos"
+  ],
+  "n_genes": 1011,
+  "n_fragmentos": 2485,
+  "test_gen_balanced_acc": 0.5414210137621212,
+  "test_gen_f1_macro": 0.5352564094174196
+}

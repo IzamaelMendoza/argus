@@ -1,0 +1,123 @@
+======================================================================================
+EXPLORACION DEL CONJUNTO POSITIVO
+======================================================================================
+archivo: /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/data/processed/argdb_POSITIVO_final.fasta
+secuencias: 4,228
+
+======================================================================================
+1. GENES UNICOS EN EL SET POSITIVO
+======================================================================================
+
+identificadores repetidos: 0
+
+secuencias EXACTAMENTE identicas: 2 secuencias en 1 grupos
+  -> sobran 1 copias
+secuencias identicas contando el reverso-complemento: 1 grupos (+0 respecto a solo hebra directa)
+
+SECUENCIAS UNICAS: 4,227 de 4,228  (100.0%)
+  -> OJO: hay repetidas DESPUES de cd-hit. Vale revisar si algo se concateno
+     al FASTA final despues de clusterizar.
+  detalle en /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/exploracion/duplicados.csv
+
+Por base de datos (en el positivo final):
+    2005   47.4%  ResFinderFG
+    1380   32.6%  CARD
+     459   10.9%  desconocido
+     197    4.7%  AMRFinderPlus
+     157    3.7%  ResFinder
+      30    0.7%  ARG-ANNOT
+
+  [aviso] 459 encabezados sin clasificar. Ejemplos:
+     MEGARes|MEG_24|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3
+     MEGARes|MEG_38|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3
+     MEGARes|MEG_47|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC3
+     MEGARes|MEG_72|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-
+     MEGARes|MEG_73|Drugs|Aminoglycosides|Aminoglycoside_N-acetyltransferases|AAC6-
+
+======================================================================================
+3. LARGO DE LOS GENES POSITIVOS
+======================================================================================
+
+  minimo        162 pb
+  Q1            531 pb
+  mediana       831 pb
+  Q3          1,050 pb
+  maximo      5,297 pb
+  promedio      882 pb
+
+EL MAS CORTO:
+      162 pb  [CARD]  CARD|gb|AE004091.2|-|4165718-4165880|ARO:3004056|ArmR
+      186 pb  [CARD]  CARD|gb|AF061757.1|+|834-1020|ARO:3005069|rsmA
+      198 pb  [desconocido]  MEGARes|MEG_2133|Drugs|Fluoroquinolones|Fluoroquinolone_resi
+      211 pb  [desconocido]  MEGARes|MEG_2612|Drugs|betalactams|Class_C_betalactamases|DH
+      228 pb  [CARD]  CARD|gb|DQ212986.1|+|2029-2257|ARO:3004253|vanU_in_vanG_cl
+
+EL MAS LARGO:
+    5,297 pb  [desconocido]  MEGARes|MEG_7572|Drugs|Glycopeptides|VanM-type_resistance_pr
+    5,239 pb  [desconocido]  MEGARes|MEG_7563|Drugs|Glycopeptides|VanB-type_resistance_pr
+    4,359 pb  [desconocido]  MEGARes|MEG_371|Drugs|Multi-drug_resistance|Multi-drug_ABC_e
+    4,359 pb  [CARD]  CARD|gb|XM_748018.1|+|0-4359|ARO:3003942|abcA
+    4,076 pb  [desconocido]  MEGARes|MEG_7571|Drugs|Glycopeptides|VanM-type_resistance_pr
+
+Relevante para la fragmentacion (ventana 500, minimo 150):
+  mas cortos que 150 pb -> NO producen ningun fragmento: 0 (0.0%)
+  entre 150 y 500 pb -> un solo fragmento parcial:    716 (16.9%)
+  de 500 pb o mas         -> al menos un fragmento entero:  3,512 (83.1%)
+
+Largo por base de datos:
+  base                  n      min   mediana       max
+  ResFinderFG        2005      318       717     2,202
+  CARD               1380      162       864     4,359
+  desconocido         459      198       876     5,297
+  AMRFinderPlus       197      237       861     3,225
+  ResFinder           157      237       876     3,135
+  ARG-ANNOT            30      417       834     2,466
+
+======================================================================================
+2. EJEMPLOS POR FAMILIA
+======================================================================================
+
+12 familias | 1,011 genes etiquetados (de 4,228 positivos: el resto no tiene familia en CARD)
+
+       n       %   acumulado  familia
+     291   28.8%       28.8%  otras beta-lactamasas
+     152   15.0%       43.8%  OXA beta-lactamasa
+      93    9.2%       53.0%  eflujo MFS
+      80    7.9%       60.9%  eflujo RND
+      77    7.6%       68.5%  van / glucopéptidos
+      61    6.0%       74.6%  AAC acetiltransferasa
+      57    5.6%       80.2%  Erm metiltransferasa 23S
+      55    5.4%       85.7%  cefalosporinasa AmpC (ADC/ACT/CMY)
+      49    4.8%       90.5%  dfr dihidrofolato reductasa
+      35    3.5%       94.0%  ABC-F protección ribosomal
+      31    3.1%       97.0%  regulador de eflujo
+      30    3.0%      100.0%  APH fosfotransferasa
+
+  razon mayor/menor: 9.7 a 1
+  la familia mas chica tiene 30 genes
+
+======================================================================================
+4. COMPOSICION ANTES Y DESPUES DE CD-HIT
+======================================================================================
+
+antes de cd-hit : 30,912 secuencias  (data/interim/combinado_v4_pre_cdhit.fasta)
+despues         : 4,228 secuencias  (argdb_POSITIVO_final.fasta)
+reduccion       : 26,684 secuencias (86.3% colapsadas por redundancia)
+
+  base                antes  despues   quedan  % del final
+  AMRFinderPlus       8,502      197     2.3%         4.7%
+  desconocido         7,018      459     6.5%        10.9%
+  CARD                6,059    1,380    22.8%        32.6%
+  ResFinderFG         3,897    2,005    51.4%        47.4%
+  ResFinder           3,212      157     4.9%         3.7%
+  ARG-ANNOT           2,224       30     1.3%         0.7%
+
+  tabla en /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/exploracion/positivos_por_base.csv
+
+  La 'tasa de supervivencia' dice que tan redundante era cada base: una tasa
+  baja significa que esa base traia muchas variantes casi identicas entre si.
+
+largo de cada gen en /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/exploracion/positivos_largos.csv
+figura: /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/exploracion/fig_antes_despues_cdhit.png
+figura: /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/exploracion/fig_largos.png
+figura: /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/exploracion/fig_familias.png

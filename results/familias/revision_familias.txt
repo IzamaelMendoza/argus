@@ -1,0 +1,5073 @@
+REVISIÓN DE LA AGRUPACIÓN EN FAMILIAS (nivel B)
+Cada bloque es una familia y los nombres de gen que quedaron dentro.
+Sirve para que la asesora valide o corrija las reglas de agrupación.
+
+======================================================================
+OXA  (clave: oxa)  n=171
+  bases: {'CARD': 152, 'MEGARes': 19}
+      19x  OXA
+       1x  OXA-329
+       1x  OXA-45
+       1x  OXA-60
+       1x  OXA-229
+       1x  OXA-236
+       1x  OXA-232
+       1x  OXA-12
+       1x  OXA-199
+       1x  OXA-43
+       1x  OXA-143
+       1x  OXA-278
+       1x  OXA-46
+       1x  OXA-357
+       1x  OXA-54
+       1x  OXA-137
+       1x  OXA-361
+       1x  OXA-243
+       1x  OXA-25
+       1x  OXA-347
+       1x  OXA-22
+       1x  OXA-198
+       1x  OXA-324
+       1x  OXA-215
+       1x  OXA-5
+       1x  OXA-129
+       1x  OXA-18
+       1x  OXA-255
+       1x  OXA-37
+       1x  OXA-184
+       1x  OXA-363
+       1x  OXA-360
+       1x  OXA-182
+       1x  OXA-119
+       1x  OXA-55
+       1x  OXA-53
+       1x  OXA-62
+       1x  OXA-209
+       1x  OXA-421
+       1x  OXA-258
+    ... y 113 nombres más
+======================================================================
+AAC6'  (clave: aac6)  n=107
+  bases: {'CARD': 29, 'ResFinder': 2, 'MEGARes': 72, 'AMRFinderPlus': 4}
+      72x  AAC6-PRIME
+       1x  AAC(6')-Iu
+       1x  AAC(6')-Iy
+       1x  AAC(6')-Is
+       1x  AAC(6')-Ia
+       1x  AAC(6')-Ih
+       1x  AAC(6')-Ij
+       1x  AAC(6')-Iv
+       1x  AAC(6')-Ig
+       1x  AAC(6')-Ii
+       1x  AAC(6')-Iw
+       1x  AAC(6')-Ic
+       1x  AAC(6')-I30
+       1x  AAC(6')-32
+       1x  AAC(6')-Ip
+       1x  AAC(6')-IIa
+       1x  AAC(6')-It
+       1x  AAC(6')-Ir
+       1x  AAC(6')-Iid
+       1x  AAC(6')-Iih
+       1x  AAC(6')-Ix
+       1x  AAC(6')-Ik
+       1x  AAC(6')-Iz
+       1x  AAC(6')-Ib8
+       1x  AAC(6')-Ib7
+       1x  AAC(6')-Im
+       1x  AAC(6')-Il
+       1x  AAC(6')-34
+       1x  AAC(6')-Va
+       1x  AAC(6')-I33
+       1x  aac(6')-Ib
+       1x  aac(6')-29b
+       1x  aac(6')-D292
+       1x  aac(6')-F72
+       1x  aac(6')-D42
+       1x  aac(6')-F309
+======================================================================
+Erm  (clave: erm)  n=34
+  bases: {'CARD': 24, 'ResFinder': 8, 'AMRFinderPlus': 2}
+       3x  erm(55)
+       1x  Erm(34)
+       1x  ermZ
+       1x  Erm(37)
+       1x  Erm(36)
+       1x  Erm(38)
+       1x  Erm(31)
+       1x  erm(40)
+       1x  Erm(30)
+       1x  Erm(35)
+       1x  Erm(43)
+       1x  Erm(39)
+       1x  Erm(33)
+       1x  Erm(41)
+       1x  Erm(49)
+       1x  Erm(K)
+       1x  Erm(47)
+       1x  Erm(48)
+       1x  erm(46)
+       1x  erm(45)
+       1x  Erm(52)
+       1x  Erm(51)
+       1x  Erm(50)
+       1x  erm(56)
+       1x  erm(A)
+       1x  erm(B)
+       1x  erm(E)
+       1x  erm(N)
+       1x  erm(T)
+       1x  erm(X)
+       1x  erm(42)
+       1x  erm(54)
+======================================================================
+aac(3)  (clave: aac3)  n=30
+  bases: {'CARD': 13, 'ResFinder': 11, 'MEGARes': 3, 'AMRFinderPlus': 3}
+       3x  AAC3
+       2x  aac(3)-VIII
+       1x  AAC(3)-Ia
+       1x  AAC(3)-IIIc
+       1x  AAC(3)-IIIb
+       1x  AAC(3)-IIa
+       1x  AAC(3)-Ib
+       1x  AAC(3)-VIIa
+       1x  AAC(3)-Id
+       1x  AAC(3)-IIb
+       1x  AAC(3)-Ic
+       1x  AAC(3)-Xa
+       1x  AAC(3)-IIIa
+       1x  AAC(3)-IXa
+       1x  AAC(3)-IIg
+       1x  aac(3)-I
+       1x  aac(3)-Ia
+       1x  aac(3)-If
+       1x  aac(3)-Ig
+       1x  aac(3)-Ih
+       1x  aac(3)-Ii
+       1x  aac(3)-IIIb
+       1x  aac(3)-IVa
+       1x  aac(3)-VIa
+       1x  aac(3)-C1264
+       1x  aac(3)-C322
+       1x  aac(3)-IVb
+======================================================================
+ADC  (clave: adc)  n=29
+  bases: {'CARD': 28, 'MEGARes': 1}
+       1x  ADC-8
+       1x  ADC-18
+       1x  ADC-19
+       1x  ADC-193
+       1x  ADC-13
+       1x  ADC-15
+       1x  ADC-16
+       1x  ADC-43
+       1x  ADC-44
+       1x  ADC-194
+       1x  ADC-167
+       1x  ADC-120
+       1x  ADC-127
+       1x  ADC-133
+       1x  ADC-138
+       1x  ADC-205
+       1x  ADC-207
+       1x  ADC-209
+       1x  ADC-254
+       1x  ADC-83
+       1x  ADC-84
+       1x  ADC-85
+       1x  ADC-87
+       1x  ADC-277
+       1x  ADC-288
+       1x  ADC-292
+       1x  ADC-295
+       1x  ADC-351
+       1x  ADC
+======================================================================
+APH(3')  (clave: aph3)  n=27
+  bases: {'CARD': 16, 'ResFinder': 4, 'MEGARes': 3, 'AMRFinderPlus': 4}
+       3x  APH3-PRIME
+       1x  APH(3')-Va
+       1x  APH(3')-VIIa
+       1x  APH(3')-Ia
+       1x  APH(3')-Vc
+       1x  APH(3')-Ib
+       1x  APH(3')-IIb
+       1x  APH(3')-IIc
+       1x  APH(3')-VIa
+       1x  APH(3')-IVa
+       1x  APH(3')-IIIa
+       1x  APH(3'')-Ia
+       1x  APH(3'')-Ic
+       1x  APH(3')-IIa
+       1x  APH(3')-VIIIa
+       1x  APH(3')-VIIIb
+       1x  APH(3')-IXa
+       1x  aph(3')-XV
+       1x  aph(3')-Vb
+       1x  aph(3')-Id
+       1x  aph(3')-IIc
+       1x  aph(3')-IId
+       1x  aph(3')-H48
+       1x  aph(3')-Ie
+       1x  aph(3')-H510
+======================================================================
+IMP  (clave: imp)  n=22
+  bases: {'CARD': 16, 'MEGARes': 6}
+       6x  IMP
+       1x  IMP-2
+       1x  IMP-42
+       1x  IMP-12
+       1x  IMP-51
+       1x  IMP-29
+       1x  IMP-5
+       1x  IMP-22
+       1x  IMP-48
+       1x  IMP-11
+       1x  IMP-35
+       1x  IMP-37
+       1x  IMP-18
+       1x  IMP-45
+       1x  IMP-27
+       1x  IMP-46
+       1x  IMP-100
+======================================================================
+ACT  (clave: act)  n=21
+  bases: {'CARD': 15, 'MEGARes': 6}
+       6x  ACT
+       1x  ACT-10
+       1x  ACT-48
+       1x  ACT-49
+       1x  ACT-50
+       1x  ACT-53
+       1x  ACT-59
+       1x  ACT-62
+       1x  ACT-83
+       1x  ACT-107
+       1x  ACT-118
+       1x  ACT-119
+       1x  ACT-120
+       1x  ACT-124
+       1x  ACT-159
+       1x  ACT-167
+======================================================================
+van  (clave: van)  n=17
+  bases: {'CARD': 13, 'ARGANNOT': 1, 'AMRFinderPlus': 3}
+       1x  vanN
+       1x  vanL
+       1x  vanC
+       1x  vanD
+       1x  vanG
+       1x  vanE
+       1x  vanO
+       1x  vanF
+       1x  vanM
+       1x  vanA
+       1x  vanJ
+       1x  vanI
+       1x  vanP
+       1x  vanA-G
+       1x  vanS-Sc
+       1x  vanS-I
+       1x  vanY-M
+======================================================================
+mph  (clave: mph)  n=17
+  bases: {'CARD': 13, 'ResFinder': 3, 'ARGANNOT': 1}
+       1x  mphF
+       1x  mphB
+       1x  mphC
+       1x  mphG
+       1x  mphM
+       1x  mphI
+       1x  mphL
+       1x  mphH
+       1x  mphK
+       1x  mphE
+       1x  mphN
+       1x  mphO
+       1x  mphJ
+       1x  mph(A)
+       1x  mph(C)
+       1x  mph(N)
+       1x  mph(D)
+======================================================================
+CTX  (clave: ctx)  n=17
+  bases: {'MEGARes': 17}
+      17x  CTX
+======================================================================
+blaOXA  (clave: blaoxa)  n=16
+  bases: {'ResFinder': 3, 'AMRFinderPlus': 13}
+       1x  blaOXA-104
+       1x  blaOXA-60d
+       1x  blaOXA-60c
+       1x  blaOXA-1327
+       1x  blaOXA-1460
+       1x  blaOXA-1434
+       1x  blaOXA-1378
+       1x  blaOXA-1383
+       1x  blaOXA-1353
+       1x  blaOXA-1368
+       1x  blaOXA-1379
+       1x  blaOXA-1179
+       1x  blaOXA-1180
+       1x  blaOXA-1408
+       1x  blaOXA-1410
+       1x  blaOXA-1453
+======================================================================
+ade  (clave: ade)  n=15
+  bases: {'CARD': 13, 'AMRFinderPlus': 2}
+       1x  adeF
+       1x  adeS
+       1x  adeC
+       1x  adeR
+       1x  adeH
+       1x  adeJ
+       1x  adeB
+       1x  adeG
+       1x  adeA
+       1x  adeI
+       1x  adeK
+       1x  adeN
+       1x  adeL
+       1x  adeE
+       1x  adeD
+======================================================================
+ANT3-DPRIME  (clave: ant3d)  n=15
+  bases: {'MEGARes': 15}
+      15x  ANT3-DPRIME
+======================================================================
+IND  (clave: ind)  n=14
+  bases: {'CARD': 9, 'MEGARes': 5}
+       5x  IND
+       1x  IND-7
+       1x  IND-11
+       1x  IND-6
+       1x  IND-3
+       1x  IND-5
+       1x  IND-9
+       1x  IND-4
+       1x  IND-17
+       1x  IND-18
+======================================================================
+LRA  (clave: lra)  n=13
+  bases: {'CARD': 13}
+       1x  LRA-12
+       1x  LRA-9
+       1x  LRA-5
+       1x  LRA-8
+       1x  LRA-18
+       1x  LRA-17
+       1x  LRA-2
+       1x  LRA-19
+       1x  LRA-1
+       1x  LRA-13
+       1x  LRA-3
+       1x  LRA-10
+       1x  LRA-7
+======================================================================
+mdt  (clave: mdt)  n=12
+  bases: {'CARD': 11, 'ResFinder': 1}
+       1x  mdtP
+       1x  mdtF
+       1x  mdtH
+       1x  mdtA
+       1x  mdtG
+       1x  mdtB
+       1x  mdtM
+       1x  mdtC
+       1x  mdtN
+       1x  mdtE
+       1x  mdtO
+       1x  mdt(A)
+======================================================================
+CARB  (clave: carb)  n=12
+  bases: {'CARD': 6, 'MEGARes': 6}
+       6x  CARB
+       1x  CARB-4
+       1x  CARB-23
+       1x  CARB-6
+       1x  CARB-42
+       1x  CARB-57
+       1x  CARB-58
+======================================================================
+CMY  (clave: cmy)  n=12
+  bases: {'CARD': 3, 'MEGARes': 9}
+       9x  CMY
+       1x  CMY-157
+       1x  CMY-179
+       1x  CMY-190
+======================================================================
+tet  (clave: tet)  n=11
+  bases: {'CARD': 8, 'ARGANNOT': 2, 'AMRFinderPlus': 1}
+       2x  tetB(60)
+       1x  tetA(P)
+       1x  tetB(P)
+       1x  tetA(58)
+       1x  tetA(46)
+       1x  tetB(46)
+       1x  tetA(60)
+       1x  tetB(58)
+       1x  tetH
+       1x  tetR(G)
+======================================================================
+nim  (clave: nim)  n=11
+  bases: {'CARD': 9, 'ResFinder': 2}
+       1x  nimD
+       1x  nimA
+       1x  nimC
+       1x  nimE
+       1x  nimG
+       1x  nimI
+       1x  nimJ
+       1x  nimK
+       1x  nimB
+       1x  nimF
+       1x  nimH
+======================================================================
+APH(2'')  (clave: aph2)  n=10
+  bases: {'CARD': 5, 'ResFinder': 3, 'AMRFinderPlus': 2}
+       1x  APH(2'')-Ie
+       1x  APH(2'')-Ig
+       1x  APH(2'')-IIIa
+       1x  APH(2'')-IIa
+       1x  APH(2'')-If
+       1x  aph(2'')-Ih
+       1x  aph(2'')-If
+       1x  aph(2'')-Ia
+       1x  aph(2'')-Ii
+       1x  aph(2'')-G141
+======================================================================
+fos  (clave: fos)  n=10
+  bases: {'ResFinder': 8, 'AMRFinderPlus': 2}
+       2x  fosX
+       2x  fosE
+       1x  fosA
+       1x  fosF
+       1x  fosB
+       1x  fos
+       1x  fosS
+       1x  fosZ
+======================================================================
+sme  (clave: sme)  n=9
+  bases: {'CARD': 9}
+       1x  SME-2
+       1x  smeD
+       1x  smeS
+       1x  smeF
+       1x  smeE
+       1x  smeC
+       1x  smeA
+       1x  smeR
+       1x  smeB
+======================================================================
+arr  (clave: arr)  n=9
+  bases: {'CARD': 6, 'ResFinder': 2, 'MEGARes': 1}
+       1x  arr-8
+       1x  arr-4
+       1x  arr-5
+       1x  arr-7
+       1x  arr-3
+       1x  arr-1
+       1x  ARR-3
+       1x  ARR-6
+       1x  ARR
+======================================================================
+ANT6  (clave: ant6)  n=9
+  bases: {'CARD': 2, 'ResFinder': 2, 'MEGARes': 5}
+       5x  ANT6
+       2x  ant(6)-Ia
+       1x  ANT(6)-Ia
+       1x  ANT(6)-Ib
+======================================================================
+TEM  (clave: tem)  n=9
+  bases: {'MEGARes': 9}
+       9x  TEM
+======================================================================
+dfr  (clave: dfr)  n=8
+  bases: {'CARD': 7, 'ResFinder': 1}
+       2x  dfrE
+       1x  dfrF
+       1x  dfrG
+       1x  dfrC
+       1x  dfrK
+       1x  dfrI
+       1x  dfrL
+======================================================================
+IMI  (clave: imi)  n=8
+  bases: {'CARD': 8}
+       1x  imiH
+       1x  imiS
+       1x  IMI-2
+       1x  IMI-8
+       1x  IMI-13
+       1x  IMI-5
+       1x  IMI-22
+       1x  IMI-27
+======================================================================
+emr  (clave: emr)  n=8
+  bases: {'CARD': 5, 'AMRFinderPlus': 3}
+       2x  emrD
+       1x  emrY
+       1x  emrK
+       1x  emrR
+       1x  emrA
+       1x  emrB
+       1x  emrC
+======================================================================
+GOB  (clave: gob)  n=8
+  bases: {'CARD': 8}
+       1x  GOB-1
+       1x  GOB-16
+       1x  GOB-2
+       1x  GOB-7
+       1x  GOB-25
+       1x  GOB-29
+       1x  GOB-33
+       1x  GOB-34
+======================================================================
+VANHA  (clave: vanha)  n=8
+  bases: {'MEGARes': 8}
+       8x  VANHA
+======================================================================
+lnu  (clave: lnu)  n=7
+  bases: {'CARD': 6, 'AMRFinderPlus': 1}
+       1x  lnuA
+       1x  lnuC
+       1x  lnuB
+       1x  lnuD
+       1x  lnuE
+       1x  lnuG
+       1x  lnu(I)
+======================================================================
+rmt  (clave: rmt)  n=7
+  bases: {'CARD': 7}
+       1x  rmtH
+       1x  rmtG
+       1x  rmtC
+       1x  rmtD
+       1x  rmtF
+       1x  rmtA
+       1x  rmtE
+======================================================================
+CTX-M  (clave: ctxm)  n=7
+  bases: {'CARD': 7}
+       1x  CTX-M-11
+       1x  CTX-M-151
+       1x  CTX-M-137
+       1x  CTX-M-123
+       1x  CTX-M-8
+       1x  CTX-M-64
+       1x  CTX-M-132
+======================================================================
+SHV  (clave: shv)  n=7
+  bases: {'CARD': 2, 'MEGARes': 5}
+       5x  SHV
+       1x  SHV-21
+       1x  SHV-100
+======================================================================
+AAC(2')  (clave: aac2)  n=7
+  bases: {'CARD': 7}
+       1x  AAC(2')-Ib
+       1x  AAC(2')-Ic
+       1x  AAC(2')-Id
+       1x  AAC(2')-Ia
+       1x  AAC(2')-IIa
+       1x  AAC(2')-IIb
+       1x  AAC(2')-Ie
+======================================================================
+cat  (clave: cat)  n=7
+  bases: {'CARD': 3, 'ResFinder': 2, 'ARGANNOT': 1, 'AMRFinderPlus': 1}
+       2x  catS
+       1x  catQ
+       1x  catV
+       1x  catT
+       1x  catD
+       1x  catC
+======================================================================
+FOSA  (clave: fosa)  n=7
+  bases: {'CARD': 1, 'MEGARes': 6}
+       6x  FOSA
+       1x  FosA
+======================================================================
+mex  (clave: mex)  n=7
+  bases: {'CARD': 5, 'AMRFinderPlus': 2}
+       1x  mexY
+       1x  mexP
+       1x  mexQ
+       1x  mexM
+       1x  mexN
+       1x  mexX
+       1x  mexE
+======================================================================
+BlaB  (clave: blab)  n=7
+  bases: {'CARD': 7}
+       1x  BlaB-12
+       1x  BlaB-15
+       1x  BlaB-16
+       1x  BlaB-20
+       1x  BlaB-26
+       1x  BlaB-27
+       1x  BlaB-28
+======================================================================
+VIM  (clave: vim)  n=6
+  bases: {'CARD': 2, 'MEGARes': 4}
+       4x  VIM
+       1x  VIM-37
+       1x  VIM-13
+======================================================================
+qac  (clave: qac)  n=6
+  bases: {'CARD': 6}
+       1x  qacA
+       1x  qacE
+       1x  qacH
+       1x  qacL
+       1x  qacJ
+       1x  qacG
+======================================================================
+aad  (clave: aad)  n=6
+  bases: {'CARD': 3, 'ResFinder': 2, 'ARGANNOT': 1}
+       1x  aadK
+       1x  aadS
+       1x  aadT
+       1x  aadE-Cc
+       1x  aadD
+       1x  aadC
+======================================================================
+mtr  (clave: mtr)  n=6
+  bases: {'CARD': 4, 'AMRFinderPlus': 2}
+       2x  mtrC
+       1x  mtrE
+       1x  mtrA
+       1x  mtrD
+       1x  mtrR
+======================================================================
+bla  (clave: bla)  n=6
+  bases: {'CARD': 2, 'ResFinder': 2, 'ARGANNOT': 1, 'AMRFinderPlus': 1}
+       1x  blaF
+       1x  blaC
+       1x  blaL
+       1x  blaZ
+       1x  blaB-4
+       1x  blaB-37
+======================================================================
+cfr  (clave: cfr)  n=6
+  bases: {'CARD': 5, 'AMRFinderPlus': 1}
+       1x  cfrA
+       1x  cfr(B)
+       1x  cfrC
+       1x  cfr(D)
+       1x  cfrE
+       1x  cfr(F)
+======================================================================
+vat  (clave: vat)  n=6
+  bases: {'CARD': 6}
+       1x  vatH
+       1x  vatC
+       1x  vatB
+       1x  vatE
+       1x  vatA
+       1x  vatF
+======================================================================
+SGM  (clave: sgm)  n=6
+  bases: {'CARD': 6}
+       1x  sgm
+       1x  SGM-1
+       1x  SGM-4
+       1x  SGM-5
+       1x  SGM-6
+       1x  SGM-7
+======================================================================
+ANT(3'')  (clave: ant3)  n=6
+  bases: {'CARD': 3, 'ResFinder': 1, 'AMRFinderPlus': 2}
+       1x  ANT(3'')-IIa
+       1x  ANT(3'')-IIb
+       1x  ANT(3'')-Ib
+       1x  ant(3'')-Ia
+       1x  ant(3'')-IId
+       1x  ant(3'')-Ic
+======================================================================
+BLAA  (clave: blaa)  n=6
+  bases: {'MEGARes': 6}
+       6x  BLAA
+======================================================================
+VANA  (clave: vana)  n=6
+  bases: {'MEGARes': 6}
+       6x  VANA
+======================================================================
+msr  (clave: msr)  n=5
+  bases: {'CARD': 5}
+       1x  msrE
+       1x  msrA
+       1x  msrC
+       1x  msrF
+       1x  msrH
+======================================================================
+lsa  (clave: lsa)  n=5
+  bases: {'CARD': 5}
+       1x  lsaE
+       1x  lsaB
+       1x  lsaA
+       1x  lsaC
+       1x  lsaD
+======================================================================
+CML  (clave: cml)  n=5
+  bases: {'CARD': 1, 'ResFinder': 1, 'MEGARes': 3}
+       3x  CML
+       1x  cmlB
+       1x  cml
+======================================================================
+SAT  (clave: sat)  n=5
+  bases: {'CARD': 3, 'MEGARes': 2}
+       2x  SAT
+       1x  SAT-3
+       1x  SAT-2
+       1x  SAT-4
+======================================================================
+cme  (clave: cme)  n=5
+  bases: {'CARD': 5}
+       1x  cmeB
+       1x  cmeC
+       1x  cmeA
+       1x  cmeR
+       1x  CME-3
+======================================================================
+APH(6)  (clave: aph6)  n=5
+  bases: {'CARD': 3, 'MEGARes': 2}
+       2x  APH6
+       1x  APH(6)-Ib
+       1x  APH(6)-Id
+       1x  APH(6)-Ia
+======================================================================
+lmr  (clave: lmr)  n=5
+  bases: {'CARD': 3, 'ResFinder': 1, 'ARGANNOT': 1}
+       1x  lmrC
+       1x  lmrD
+       1x  lmrP
+       1x  lmr(A)
+       1x  Lmr(B)
+======================================================================
+ANT(4')  (clave: ant4)  n=5
+  bases: {'CARD': 3, 'MEGARes': 2}
+       2x  ANT4-PRIME
+       1x  ANT(4')-IIa
+       1x  ANT(4')-IIb
+       1x  ANT(4')-Ib
+======================================================================
+ANT(9)  (clave: ant9)  n=5
+  bases: {'CARD': 3, 'MEGARes': 2}
+       2x  ANT9
+       1x  ANT(9)-Ia
+       1x  ANT(9)-Ib
+       1x  ANT(9)-Ic
+======================================================================
+TETA  (clave: teta)  n=5
+  bases: {'CARD': 1, 'MEGARes': 4}
+       4x  TETA
+       1x  tet(A)
+======================================================================
+sal  (clave: sal)  n=5
+  bases: {'CARD': 5}
+       1x  salA
+       1x  salB
+       1x  salC
+       1x  salD
+       1x  salE
+======================================================================
+KPC  (clave: kpc)  n=5
+  bases: {'CARD': 4, 'MEGARes': 1}
+       1x  KPC-107
+       1x  KPC-108
+       1x  KPC-129
+       1x  KPC-225
+       1x  KPC
+======================================================================
+MEFA  (clave: mefa)  n=5
+  bases: {'ResFinder': 1, 'MEGARes': 4}
+       4x  MEFA
+       1x  mef(A)
+======================================================================
+APH3-DPRIME  (clave: aph3d)  n=5
+  bases: {'MEGARes': 5}
+       5x  APH3-DPRIME
+======================================================================
+VANC  (clave: vanc)  n=5
+  bases: {'MEGARes': 5}
+       5x  VANC
+======================================================================
+VANSD  (clave: vansd)  n=5
+  bases: {'MEGARes': 5}
+       5x  VANSD
+======================================================================
+VANXA  (clave: vanxa)  n=5
+  bases: {'MEGARes': 5}
+       5x  VANXA
+======================================================================
+bep  (clave: bep)  n=5
+  bases: {'AMRFinderPlus': 5}
+       1x  bepD
+       1x  bepE
+       1x  bepC
+       1x  bepG
+       1x  bepF
+======================================================================
+blaPEN  (clave: blapen)  n=5
+  bases: {'AMRFinderPlus': 5}
+       1x  blaPEN-G
+       1x  blaPEN-F
+       1x  blaPEN-E
+       1x  blaPEN-H
+       1x  blaPEN-N
+======================================================================
+fus  (clave: fus)  n=4
+  bases: {'CARD': 4}
+       1x  fusB
+       1x  fusH
+       1x  fusD
+       1x  fusC
+======================================================================
+DHA  (clave: dha)  n=4
+  bases: {'CARD': 3, 'MEGARes': 1}
+       1x  DHA-15
+       1x  DHA-16
+       1x  DHA-12
+       1x  DHA
+======================================================================
+MOX  (clave: mox)  n=4
+  bases: {'CARD': 3, 'MEGARes': 1}
+       1x  MOX-5
+       1x  MOX-8
+       1x  MOX-9
+       1x  MOX
+======================================================================
+PER  (clave: per)  n=4
+  bases: {'CARD': 4}
+       1x  PER-4
+       1x  PER-2
+       1x  PER-6
+       1x  PER-12
+======================================================================
+arl  (clave: arl)  n=4
+  bases: {'CARD': 4}
+       1x  arlS
+       1x  arlR
+       1x  ARL-1
+       1x  ARL-2
+======================================================================
+bcr  (clave: bcr)  n=4
+  bases: {'CARD': 4}
+       1x  bcrC
+       1x  bcrA
+       1x  bcrB
+       1x  bcr-1
+======================================================================
+APH(9)  (clave: aph9)  n=4
+  bases: {'CARD': 3, 'ResFinder': 1}
+       1x  APH(9)-Ia
+       1x  APH(9)-Ib
+       1x  APH(9)-Ic
+       1x  aph(9)-Ia
+======================================================================
+sul  (clave: sul)  n=4
+  bases: {'CARD': 2, 'ResFinder': 2}
+       1x  sul3
+       1x  sul4
+       1x  sul1
+       1x  sul2
+======================================================================
+rph  (clave: rph)  n=4
+  bases: {'CARD': 2, 'MEGARes': 2}
+       2x  RPH
+       1x  rphA
+       1x  rphB
+======================================================================
+vga  (clave: vga)  n=4
+  bases: {'CARD': 4}
+       1x  vgaD
+       1x  vgaE
+       1x  vgaB
+       1x  vgaC
+======================================================================
+nor  (clave: nor)  n=4
+  bases: {'CARD': 3, 'AMRFinderPlus': 1}
+       1x  norB
+       1x  norA
+       1x  norC
+       1x  norM-Vib
+======================================================================
+ole  (clave: ole)  n=4
+  bases: {'CARD': 4}
+       1x  oleD
+       1x  oleB
+       1x  oleI
+       1x  oleC
+======================================================================
+PDC  (clave: pdc)  n=4
+  bases: {'CARD': 4}
+       1x  PDC-55
+       1x  PDC-292
+       1x  PDC-223
+       1x  PDC-243
+======================================================================
+ERMV  (clave: ermv)  n=4
+  bases: {'CARD': 1, 'ResFinder': 1, 'MEGARes': 2}
+       2x  ERMV
+       1x  Erm(44)v
+       1x  erm(44)v
+======================================================================
+PEN  (clave: pen)  n=4
+  bases: {'CARD': 3, 'ARGANNOT': 1}
+       1x  PEN-A2
+       1x  PEN-A37
+       1x  PEN-B1
+       1x  penA
+======================================================================
+cphA1  (clave: cpha1)  n=4
+  bases: {'ResFinder': 3, 'ARGANNOT': 1}
+       4x  cphA1
+======================================================================
+VanHDX  (clave: vanhdx)  n=4
+  bases: {'ResFinder': 4}
+       4x  VanHDX
+======================================================================
+BLE  (clave: ble)  n=4
+  bases: {'MEGARes': 3, 'AMRFinderPlus': 1}
+       3x  BLE
+       1x  ble-Sv
+======================================================================
+DFRA  (clave: dfra)  n=4
+  bases: {'MEGARes': 4}
+       4x  DFRA
+======================================================================
+L1  (clave: l1)  n=4
+  bases: {'MEGARes': 4}
+       4x  L1
+======================================================================
+PENI  (clave: peni)  n=4
+  bases: {'MEGARes': 4}
+       4x  PENI
+======================================================================
+VANSC  (clave: vansc)  n=4
+  bases: {'MEGARes': 4}
+       4x  VANSC
+======================================================================
+VANTC  (clave: vantc)  n=4
+  bases: {'MEGARes': 4}
+       4x  VANTC
+======================================================================
+VANYA  (clave: vanya)  n=4
+  bases: {'MEGARes': 4}
+       4x  VANYA
+======================================================================
+emh  (clave: emh)  n=4
+  bases: {'AMRFinderPlus': 4}
+       2x  emhC
+       1x  emhA
+       1x  emhB
+======================================================================
+blaIMP  (clave: blaimp)  n=4
+  bases: {'AMRFinderPlus': 4}
+       1x  blaIMP-106
+       1x  blaIMP-110
+       1x  blaIMP-111
+       1x  blaIMP-112
+======================================================================
+drc  (clave: drc)  n=4
+  bases: {'AMRFinderPlus': 4}
+       1x  drcB
+       1x  drcS
+       1x  drcR
+       1x  drcA
+======================================================================
+VEB  (clave: veb)  n=3
+  bases: {'CARD': 1, 'MEGARes': 2}
+       2x  VEB
+       1x  VEB-3
+======================================================================
+GIM  (clave: gim)  n=3
+  bases: {'CARD': 3}
+       1x  GIM-1
+       1x  gimA
+       1x  GIM-3
+======================================================================
+TLA  (clave: tla)  n=3
+  bases: {'CARD': 3}
+       1x  TLA-2
+       1x  TLA-1
+       1x  TLA-3
+======================================================================
+clb  (clave: clb)  n=3
+  bases: {'CARD': 3}
+       1x  clbB
+       1x  clbA
+       1x  clbC
+======================================================================
+mds  (clave: mds)  n=3
+  bases: {'CARD': 3}
+       1x  mdsA
+       1x  mdsC
+       1x  mdsB
+======================================================================
+mec  (clave: mec)  n=3
+  bases: {'CARD': 3}
+       1x  mecC
+       1x  mecB
+       1x  mecD
+======================================================================
+EBR  (clave: ebr)  n=3
+  bases: {'CARD': 3}
+       1x  EBR-1
+       1x  EBR-4
+       1x  EBR-5
+======================================================================
+BCII  (clave: bcii)  n=3
+  bases: {'CARD': 1, 'MEGARes': 2}
+       2x  BCII
+       1x  BcII
+======================================================================
+PEDO  (clave: pedo)  n=3
+  bases: {'CARD': 3}
+       1x  PEDO-1
+       1x  PEDO-2
+       1x  PEDO-3
+======================================================================
+FRI  (clave: fri)  n=3
+  bases: {'CARD': 3}
+       1x  FRI-1
+       1x  FRI-8
+       1x  FRI-12
+======================================================================
+far  (clave: far)  n=3
+  bases: {'CARD': 2, 'AMRFinderPlus': 1}
+       2x  farB
+       1x  farA
+======================================================================
+vgb  (clave: vgb)  n=3
+  bases: {'CARD': 3}
+       1x  vgbC
+       1x  vgbB
+       1x  vgbA
+======================================================================
+kam  (clave: kam)  n=3
+  bases: {'CARD': 1, 'ResFinder': 1, 'AMRFinderPlus': 1}
+       2x  kamB
+       1x  kamC
+======================================================================
+alm  (clave: alm)  n=3
+  bases: {'CARD': 3}
+       1x  almG
+       1x  almF
+       1x  almE
+======================================================================
+GES  (clave: ges)  n=3
+  bases: {'CARD': 1, 'MEGARes': 2}
+       2x  GES
+       1x  GES-42
+======================================================================
+RAHN  (clave: rahn)  n=3
+  bases: {'CARD': 3}
+       1x  RAHN-1
+       1x  RAHN-2
+       1x  RAHN-4
+======================================================================
+grm  (clave: grm)  n=3
+  bases: {'ResFinder': 3}
+       1x  grmO
+       1x  grmB
+       1x  grmA
+======================================================================
+tet(L)  (clave: tetl)  n=3
+  bases: {'ResFinder': 3}
+       3x  tet(L)
+======================================================================
+CATA  (clave: cata)  n=3
+  bases: {'MEGARes': 3}
+       3x  CATA
+======================================================================
+FOX  (clave: fox)  n=3
+  bases: {'MEGARes': 3}
+       3x  FOX
+======================================================================
+OXY  (clave: oxy)  n=3
+  bases: {'MEGARes': 3}
+       3x  OXY
+======================================================================
+SULI  (clave: suli)  n=3
+  bases: {'MEGARes': 3}
+       3x  SULI
+======================================================================
+VAND  (clave: vand)  n=3
+  bases: {'MEGARes': 3}
+       3x  VAND
+======================================================================
+VANHD  (clave: vanhd)  n=3
+  bases: {'MEGARes': 3}
+       3x  VANHD
+======================================================================
+VANRC  (clave: vanrc)  n=3
+  bases: {'MEGARes': 3}
+       3x  VANRC
+======================================================================
+VANXD  (clave: vanxd)  n=3
+  bases: {'MEGARes': 3}
+       3x  VANXD
+======================================================================
+VANYD  (clave: vanyd)  n=3
+  bases: {'MEGARes': 3}
+       3x  VANYD
+======================================================================
+VANZA  (clave: vanza)  n=3
+  bases: {'MEGARes': 3}
+       3x  VANZA
+======================================================================
+tbt  (clave: tbt)  n=3
+  bases: {'AMRFinderPlus': 3}
+       1x  tbtA
+       1x  tbtB
+       1x  tbtM
+======================================================================
+blaSPI  (clave: blaspi)  n=3
+  bases: {'AMRFinderPlus': 3}
+       1x  blaSPI-3
+       1x  blaSPI-5
+       1x  blaSPI-9
+======================================================================
+gad  (clave: gad)  n=2
+  bases: {'CARD': 2}
+       1x  gadX
+       1x  gadW
+======================================================================
+catB3  (clave: catb3)  n=2
+  bases: {'CARD': 1, 'AMRFinderPlus': 1}
+       2x  catB3
+======================================================================
+tet(E)  (clave: tete)  n=2
+  bases: {'CARD': 1, 'ResFinder': 1}
+       2x  tet(E)
+======================================================================
+SRT  (clave: srt)  n=2
+  bases: {'CARD': 2}
+       1x  SRT-1
+       1x  SRT-3
+======================================================================
+APH(4)  (clave: aph4)  n=2
+  bases: {'CARD': 2}
+       1x  APH(4)-Ia
+       1x  APH(4)-Ib
+======================================================================
+npm  (clave: npm)  n=2
+  bases: {'CARD': 1, 'AMRFinderPlus': 1}
+       1x  npmA
+       1x  npmC
+======================================================================
+ykk  (clave: ykk)  n=2
+  bases: {'CARD': 2}
+       1x  ykkD
+       1x  ykkC
+======================================================================
+mep  (clave: mep)  n=2
+  bases: {'CARD': 2}
+       1x  mepA
+       1x  mepR
+======================================================================
+catB8  (clave: catb8)  n=2
+  bases: {'CARD': 1, 'AMRFinderPlus': 1}
+       2x  catB8
+======================================================================
+amr  (clave: amr)  n=2
+  bases: {'CARD': 2}
+       1x  amrB
+       1x  amrA
+======================================================================
+mac  (clave: mac)  n=2
+  bases: {'CARD': 2}
+       1x  macB
+       1x  macA
+======================================================================
+ros  (clave: ros)  n=2
+  bases: {'CARD': 2}
+       1x  rosB
+       1x  rosA
+======================================================================
+abe  (clave: abe)  n=2
+  bases: {'CARD': 2}
+       1x  abeS
+       1x  abeM
+======================================================================
+CFE  (clave: cfe)  n=2
+  bases: {'CARD': 2}
+       1x  CFE-1
+       1x  CFE-2
+======================================================================
+ept  (clave: ept)  n=2
+  bases: {'CARD': 2}
+       1x  eptA
+       1x  eptB
+======================================================================
+tet(X)  (clave: tetx)  n=2
+  bases: {'CARD': 1, 'MEGARes': 1}
+       1x  tet(X)
+       1x  TETX
+======================================================================
+CRP  (clave: crp)  n=2
+  bases: {'CARD': 2}
+       1x  CRP
+       1x  CRP-1
+======================================================================
+fex  (clave: fex)  n=2
+  bases: {'CARD': 2}
+       1x  fexA
+       1x  fexB
+======================================================================
+car  (clave: car)  n=2
+  bases: {'CARD': 2}
+       1x  carA
+       1x  CAR-1
+======================================================================
+ErmX  (clave: ermx)  n=2
+  bases: {'CARD': 1, 'MEGARes': 1}
+       1x  ErmX
+       1x  ERMX
+======================================================================
+otr  (clave: otr)  n=2
+  bases: {'CARD': 2}
+       1x  otr(B)
+       1x  otr(C)
+======================================================================
+tet(C)  (clave: tetc)  n=2
+  bases: {'CARD': 1, 'MEGARes': 1}
+       1x  tet(C)
+       1x  TETC
+======================================================================
+tet(G)  (clave: tetg)  n=2
+  bases: {'CARD': 1, 'ResFinder': 1}
+       2x  tet(G)
+======================================================================
+ErmA  (clave: erma)  n=2
+  bases: {'CARD': 1, 'MEGARes': 1}
+       1x  ErmA
+       1x  ERMA
+======================================================================
+EreA  (clave: erea)  n=2
+  bases: {'CARD': 1, 'MEGARes': 1}
+       1x  EreA
+       1x  EREA
+======================================================================
+evg  (clave: evg)  n=2
+  bases: {'CARD': 2}
+       1x  evgA
+       1x  evgS
+======================================================================
+acr  (clave: acr)  n=2
+  bases: {'CARD': 2}
+       1x  acrB
+       1x  acrD
+======================================================================
+tet(39)  (clave: tet39)  n=2
+  bases: {'CARD': 1, 'MEGARes': 1}
+       1x  tet(39)
+       1x  TET39
+======================================================================
+ceo  (clave: ceo)  n=2
+  bases: {'CARD': 2}
+       1x  ceoB
+       1x  ceoA
+======================================================================
+tet(D)  (clave: tetd)  n=2
+  bases: {'CARD': 1, 'MEGARes': 1}
+       1x  tet(D)
+       1x  TETD
+======================================================================
+dfrA22  (clave: dfra22)  n=2
+  bases: {'CARD': 1, 'ResFinder': 1}
+       2x  dfrA22
+======================================================================
+tet(K)  (clave: tetk)  n=2
+  bases: {'CARD': 1, 'ResFinder': 1}
+       2x  tet(K)
+======================================================================
+MIR  (clave: mir)  n=2
+  bases: {'CARD': 1, 'MEGARes': 1}
+       1x  MIR-14
+       1x  MIR
+======================================================================
+cmr  (clave: cmr)  n=2
+  bases: {'CARD': 1, 'ResFinder': 1}
+       1x  cmrA
+       1x  cmr
+======================================================================
+aadA11  (clave: aada11)  n=2
+  bases: {'CARD': 1, 'ResFinder': 1}
+       2x  aadA11
+======================================================================
+lin  (clave: lin)  n=2
+  bases: {'CARD': 2}
+       1x  linG
+       1x  lin
+======================================================================
+dfrA1  (clave: dfra1)  n=2
+  bases: {'CARD': 1, 'ResFinder': 1}
+       2x  dfrA1
+======================================================================
+tlr  (clave: tlr)  n=2
+  bases: {'CARD': 2}
+       1x  tlrC
+       1x  tlrB
+======================================================================
+dfrA7  (clave: dfra7)  n=2
+  bases: {'CARD': 1, 'ResFinder': 1}
+       2x  dfrA7
+======================================================================
+pat  (clave: pat)  n=2
+  bases: {'CARD': 2}
+       1x  patA
+       1x  patB
+======================================================================
+pmr  (clave: pmr)  n=2
+  bases: {'CARD': 1, 'AMRFinderPlus': 1}
+       2x  pmrA
+======================================================================
+tet(35)  (clave: tet35)  n=2
+  bases: {'CARD': 1, 'MEGARes': 1}
+       1x  tet(35)
+       1x  TET35
+======================================================================
+tet(O)  (clave: teto)  n=2
+  bases: {'CARD': 1, 'MEGARes': 1}
+       1x  tet(O)
+       1x  TETO
+======================================================================
+MSI  (clave: msi)  n=2
+  bases: {'CARD': 1, 'MEGARes': 1}
+       1x  MSI-1
+       1x  MSI
+======================================================================
+FONA  (clave: fona)  n=2
+  bases: {'CARD': 2}
+       1x  FONA-2
+       1x  FONA-10
+======================================================================
+kdp  (clave: kdp)  n=2
+  bases: {'CARD': 2}
+       1x  kdpE
+       1x  kdpD
+======================================================================
+oqx  (clave: oqx)  n=2
+  bases: {'CARD': 2}
+       1x  oqxA
+       1x  oqxB
+======================================================================
+efr  (clave: efr)  n=2
+  bases: {'CARD': 2}
+       1x  efrA
+       1x  efrB
+======================================================================
+efm  (clave: efm)  n=2
+  bases: {'CARD': 2}
+       1x  efmA
+       1x  EFM-1
+======================================================================
+FusF  (clave: fusf)  n=2
+  bases: {'CARD': 1, 'MEGARes': 1}
+       1x  FusF
+       1x  FUSF
+======================================================================
+sta  (clave: sta)  n=2
+  bases: {'CARD': 2}
+       1x  sta
+       1x  STA-1
+======================================================================
+MCR-1.11  (clave: mcr111)  n=2
+  bases: {'CARD': 1, 'AMRFinderPlus': 1}
+       1x  MCR-1.11
+       1x  mcr-11.1
+======================================================================
+ICR  (clave: icr)  n=2
+  bases: {'CARD': 2}
+       1x  ICR-Mc
+       1x  ICR-Mo
+======================================================================
+CMH  (clave: cmh)  n=2
+  bases: {'CARD': 2}
+       1x  CMH-1
+       1x  CMH-5
+======================================================================
+NDM  (clave: ndm)  n=2
+  bases: {'CARD': 1, 'MEGARes': 1}
+       1x  NDM-18
+       1x  NDM
+======================================================================
+dfrB7  (clave: dfrb7)  n=2
+  bases: {'CARD': 1, 'ResFinder': 1}
+       2x  dfrB7
+======================================================================
+CAM  (clave: cam)  n=2
+  bases: {'CARD': 2}
+       1x  CAM-1
+       1x  CAM-2
+======================================================================
+cpr  (clave: cpr)  n=2
+  bases: {'CARD': 2}
+       1x  cprR
+       1x  cprS
+======================================================================
+AFM  (clave: afm)  n=2
+  bases: {'CARD': 2}
+       1x  AFM-1
+       1x  AFM-5
+======================================================================
+ALI  (clave: ali)  n=2
+  bases: {'CARD': 2}
+       1x  ALI-1
+       1x  ALI-2
+======================================================================
+AXC  (clave: axc)  n=2
+  bases: {'CARD': 2}
+       1x  AXC-1
+       1x  AXC-2
+======================================================================
+PFM  (clave: pfm)  n=2
+  bases: {'CARD': 2}
+       1x  PFM-1
+       1x  PFM-2
+======================================================================
+KHM  (clave: khm)  n=2
+  bases: {'CARD': 2}
+       1x  KHM-1
+       1x  KHM-2
+======================================================================
+HMB  (clave: hmb)  n=2
+  bases: {'CARD': 2}
+       1x  HMB-1
+       1x  HMB-2
+======================================================================
+cph  (clave: cph)  n=2
+  bases: {'CARD': 1, 'AMRFinderPlus': 1}
+       1x  cph
+       1x  cphA-18
+======================================================================
+mef(H)  (clave: mefh)  n=2
+  bases: {'CARD': 1, 'AMRFinderPlus': 1}
+       2x  mef(H)
+======================================================================
+tet(W/32/O)  (clave: tetw32o)  n=2
+  bases: {'CARD': 1, 'ResFinder': 1}
+       2x  tet(W/32/O)
+======================================================================
+PAM  (clave: pam)  n=2
+  bases: {'CARD': 2}
+       1x  PAM-1
+       1x  PAM-2
+======================================================================
+FosXCC  (clave: fosxcc)  n=2
+  bases: {'CARD': 1, 'ARGANNOT': 1}
+       1x  FosXCC
+       1x  FosX_CC
+======================================================================
+AAC(6')-I  (clave: aac6i)  n=2
+  bases: {'CARD': 2}
+       1x  AAC(6')-I-43
+       1x  AAC(6')-I-48
+======================================================================
+RATA  (clave: rata)  n=2
+  bases: {'CARD': 2}
+       1x  RATA-1
+       1x  RATA-2
+======================================================================
+SED  (clave: sed)  n=2
+  bases: {'CARD': 2}
+       1x  SED-2
+       1x  SED-1
+======================================================================
+str  (clave: str)  n=2
+  bases: {'ResFinder': 2}
+       2x  str
+======================================================================
+blaCTX-M  (clave: blactxm)  n=2
+  bases: {'ResFinder': 1, 'AMRFinderPlus': 1}
+       1x  blaCTX-M-74
+       1x  blaCTX-M-283
+======================================================================
+blaL1  (clave: blal1)  n=2
+  bases: {'ResFinder': 1, 'AMRFinderPlus': 1}
+       2x  blaL1
+======================================================================
+mecA1  (clave: meca1)  n=2
+  bases: {'ResFinder': 2}
+       2x  mecA1
+======================================================================
+ere  (clave: ere)  n=2
+  bases: {'ResFinder': 2}
+       2x  ere(A)
+======================================================================
+tet(M)  (clave: tetm)  n=2
+  bases: {'ResFinder': 2}
+       2x  tet(M)
+======================================================================
+tet(O/W/O)  (clave: tetowo)  n=2
+  bases: {'ResFinder': 2}
+       1x  tet(O/W/O)-3
+       1x  tet(O/W/O)-1
+======================================================================
+FloR  (clave: flor)  n=2
+  bases: {'ResFinder': 1, 'MEGARes': 1}
+       1x  FloR
+       1x  FLOR
+======================================================================
+AMPH  (clave: amph)  n=2
+  bases: {'MEGARes': 2}
+       2x  AMPH
+======================================================================
+ANT2-DPRIME  (clave: ant2d)  n=2
+  bases: {'MEGARes': 2}
+       2x  ANT2-DPRIME
+======================================================================
+ASMA  (clave: asma)  n=2
+  bases: {'MEGARes': 2}
+       2x  ASMA
+======================================================================
+BLAC  (clave: blac)  n=2
+  bases: {'MEGARes': 2}
+       2x  BLAC
+======================================================================
+BLAI  (clave: blai)  n=2
+  bases: {'MEGARes': 2}
+       2x  BLAI
+======================================================================
+BLAP  (clave: blap)  n=2
+  bases: {'MEGARes': 2}
+       2x  BLAP
+======================================================================
+BLAR  (clave: blar)  n=2
+  bases: {'MEGARes': 2}
+       2x  BLAR
+======================================================================
+BLM  (clave: blm)  n=2
+  bases: {'MEGARes': 2}
+       2x  BLM
+======================================================================
+CFIA  (clave: cfia)  n=2
+  bases: {'MEGARes': 2}
+       2x  CFIA
+======================================================================
+CMLA  (clave: cmla)  n=2
+  bases: {'MEGARes': 2}
+       2x  CMLA
+======================================================================
+CPT  (clave: cpt)  n=2
+  bases: {'MEGARes': 2}
+       2x  CPT
+======================================================================
+LNUA  (clave: lnua)  n=2
+  bases: {'MEGARes': 2}
+       2x  LNUA
+======================================================================
+MECA  (clave: meca)  n=2
+  bases: {'MEGARes': 2}
+       2x  MECA
+======================================================================
+MPHB  (clave: mphb)  n=2
+  bases: {'MEGARes': 2}
+       2x  MPHB
+======================================================================
+PBP2  (clave: pbp2)  n=2
+  bases: {'MEGARes': 2}
+       2x  PBP2
+======================================================================
+QEPA  (clave: qepa)  n=2
+  bases: {'MEGARes': 2}
+       2x  QEPA
+======================================================================
+TET33  (clave: tet33)  n=2
+  bases: {'MEGARes': 2}
+       2x  TET33
+======================================================================
+VANI  (clave: vani)  n=2
+  bases: {'MEGARes': 2}
+       2x  VANI
+======================================================================
+VANRA  (clave: vanra)  n=2
+  bases: {'MEGARes': 2}
+       2x  VANRA
+======================================================================
+VANRD  (clave: vanrd)  n=2
+  bases: {'MEGARes': 2}
+       2x  VANRD
+======================================================================
+VANSA  (clave: vansa)  n=2
+  bases: {'MEGARes': 2}
+       2x  VANSA
+======================================================================
+VANXM  (clave: vanxm)  n=2
+  bases: {'MEGARes': 2}
+       2x  VANXM
+======================================================================
+VANXYC  (clave: vanxyc)  n=2
+  bases: {'MEGARes': 2}
+       2x  VANXYC
+======================================================================
+QNRB  (clave: qnrb)  n=2
+  bases: {'MEGARes': 2}
+       2x  QNRB
+======================================================================
+POXT  (clave: poxt)  n=2
+  bases: {'MEGARes': 2}
+       2x  POXT
+======================================================================
+blaLEN  (clave: blalen)  n=2
+  bases: {'ARGANNOT': 2}
+       1x  blaLEN-3
+       1x  blaLEN-6
+======================================================================
+blaTEM  (clave: blatem)  n=2
+  bases: {'ARGANNOT': 2}
+       1x  blaTEM-191
+       1x  blaTEM-42
+======================================================================
+sde  (clave: sde)  n=2
+  bases: {'AMRFinderPlus': 2}
+       1x  sdeB
+       1x  sdeY
+======================================================================
+blaOCH  (clave: blaoch)  n=2
+  bases: {'AMRFinderPlus': 2}
+       1x  blaOCH-16
+       1x  blaOCH-11
+======================================================================
+vga(F)  (clave: vgaf)  n=2
+  bases: {'AMRFinderPlus': 2}
+       2x  vga(F)
+======================================================================
+blaOKP-B  (clave: blaokpb)  n=2
+  bases: {'AMRFinderPlus': 2}
+       1x  blaOKP-B-197
+       1x  blaOKP-B-75
+======================================================================
+blaPYX  (clave: blapyx)  n=2
+  bases: {'AMRFinderPlus': 2}
+       1x  blaPYX-1
+       1x  blaPYX-2
+======================================================================
+blaCMY  (clave: blacmy)  n=2
+  bases: {'AMRFinderPlus': 2}
+       1x  blaCMY-211
+       1x  blaCMY-217
+======================================================================
+blaKPC  (clave: blakpc)  n=2
+  bases: {'AMRFinderPlus': 2}
+       1x  blaKPC-258
+       1x  blaKPC-210
+======================================================================
+FosA2  (clave: fosa2)  n=1
+  bases: {'CARD': 1}
+       1x  FosA2
+======================================================================
+QnrB58  (clave: qnrb58)  n=1
+  bases: {'CARD': 1}
+       1x  QnrB58
+======================================================================
+gol  (clave: gol)  n=1
+  bases: {'CARD': 1}
+       1x  golS
+======================================================================
+QnrS6  (clave: qnrs6)  n=1
+  bases: {'CARD': 1}
+       1x  QnrS6
+======================================================================
+QnrB38  (clave: qnrb38)  n=1
+  bases: {'CARD': 1}
+       1x  QnrB38
+======================================================================
+catB9  (clave: catb9)  n=1
+  bases: {'CARD': 1}
+       1x  catB9
+======================================================================
+ErmE  (clave: erme)  n=1
+  bases: {'CARD': 1}
+       1x  ErmE
+======================================================================
+dfrA13  (clave: dfra13)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA13
+======================================================================
+aadA4  (clave: aada4)  n=1
+  bases: {'CARD': 1}
+       1x  aadA4
+======================================================================
+srm  (clave: srm)  n=1
+  bases: {'CARD': 1}
+       1x  srmB
+======================================================================
+FosX  (clave: fosx)  n=1
+  bases: {'CARD': 1}
+       1x  FosX
+======================================================================
+rgt  (clave: rgt)  n=1
+  bases: {'CARD': 1}
+       1x  rgt1438
+======================================================================
+QnrB10  (clave: qnrb10)  n=1
+  bases: {'CARD': 1}
+       1x  QnrB10
+======================================================================
+cphA7  (clave: cpha7)  n=1
+  bases: {'CARD': 1}
+       1x  cphA7
+======================================================================
+aadA12  (clave: aada12)  n=1
+  bases: {'CARD': 1}
+       1x  aadA12
+======================================================================
+cpx  (clave: cpx)  n=1
+  bases: {'CARD': 1}
+       1x  cpxA
+======================================================================
+mgr  (clave: mgr)  n=1
+  bases: {'CARD': 1}
+       1x  mgrA
+======================================================================
+myr  (clave: myr)  n=1
+  bases: {'CARD': 1}
+       1x  myrA
+======================================================================
+vgaALC  (clave: vgaalc)  n=1
+  bases: {'CARD': 1}
+       1x  vgaALC
+======================================================================
+tet(42)  (clave: tet42)  n=1
+  bases: {'CARD': 1}
+       1x  tet(42)
+======================================================================
+tet(45)  (clave: tet45)  n=1
+  bases: {'CARD': 1}
+       1x  tet(45)
+======================================================================
+tsn  (clave: tsn)  n=1
+  bases: {'CARD': 1}
+       1x  tsnR
+======================================================================
+Sliv_cmlR  (clave: slivcmlr)  n=1
+  bases: {'CARD': 1}
+       1x  Sliv_cmlR
+======================================================================
+vanR_in_vanB_cl  (clave: vanrinvanbcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanR_in_vanB_cl
+======================================================================
+CfxA2  (clave: cfxa2)  n=1
+  bases: {'CARD': 1}
+       1x  CfxA2
+======================================================================
+QnrA5  (clave: qnra5)  n=1
+  bases: {'CARD': 1}
+       1x  QnrA5
+======================================================================
+OCH  (clave: och)  n=1
+  bases: {'CARD': 1}
+       1x  OCH-1
+======================================================================
+FomA  (clave: foma)  n=1
+  bases: {'CARD': 1}
+       1x  FomA
+======================================================================
+sdi  (clave: sdi)  n=1
+  bases: {'CARD': 1}
+       1x  sdiA
+======================================================================
+QnrS8  (clave: qnrs8)  n=1
+  bases: {'CARD': 1}
+       1x  QnrS8
+======================================================================
+ErmN  (clave: ermn)  n=1
+  bases: {'CARD': 1}
+       1x  ErmN
+======================================================================
+dfrA24  (clave: dfra24)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA24
+======================================================================
+chr  (clave: chr)  n=1
+  bases: {'CARD': 1}
+       1x  chrB
+======================================================================
+aadA9  (clave: aada9)  n=1
+  bases: {'CARD': 1}
+       1x  aadA9
+======================================================================
+OprN  (clave: oprn)  n=1
+  bases: {'CARD': 1}
+       1x  OprN
+======================================================================
+Rfas_cmr  (clave: rfascmr)  n=1
+  bases: {'CARD': 1}
+       1x  Rfas_cmr
+======================================================================
+JOHN  (clave: john)  n=1
+  bases: {'CARD': 1}
+       1x  JOHN-1
+======================================================================
+vanR_in_vanF_cl  (clave: vanrinvanfcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanR_in_vanF_cl
+======================================================================
+CepS  (clave: ceps)  n=1
+  bases: {'CARD': 1}
+       1x  CepS
+======================================================================
+FEZ  (clave: fez)  n=1
+  bases: {'CARD': 1}
+       1x  FEZ-1
+======================================================================
+vanXY_in_vanG  (clave: vanxyinvang)  n=1
+  bases: {'CARD': 1}
+       1x  vanXY_in_vanG
+======================================================================
+dfrA8  (clave: dfra8)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA8
+======================================================================
+QnrB11  (clave: qnrb11)  n=1
+  bases: {'CARD': 1}
+       1x  QnrB11
+======================================================================
+SLB  (clave: slb)  n=1
+  bases: {'CARD': 1}
+       1x  SLB-1
+======================================================================
+AAC_6_IB_Su  (clave: aac6ibsu)  n=1
+  bases: {'CARD': 1}
+       1x  AAC_6_IB_Su
+======================================================================
+QnrVC4  (clave: qnrvc4)  n=1
+  bases: {'CARD': 1}
+       1x  QnrVC4
+======================================================================
+MexA  (clave: mexa)  n=1
+  bases: {'CARD': 1}
+       1x  MexA
+======================================================================
+tet(Y)  (clave: tety)  n=1
+  bases: {'CARD': 1}
+       1x  tet(Y)
+======================================================================
+TUS  (clave: tus)  n=1
+  bases: {'CARD': 1}
+       1x  TUS-1
+======================================================================
+OpmD  (clave: opmd)  n=1
+  bases: {'CARD': 1}
+       1x  OpmD
+======================================================================
+vanR_in_vanL_cl  (clave: vanrinvanlcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanR_in_vanL_cl
+======================================================================
+dfrA3  (clave: dfra3)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA3
+======================================================================
+QnrD2  (clave: qnrd2)  n=1
+  bases: {'CARD': 1}
+       1x  QnrD2
+======================================================================
+QnrB28  (clave: qnrb28)  n=1
+  bases: {'CARD': 1}
+       1x  QnrB28
+======================================================================
+dfrA16  (clave: dfra16)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA16
+======================================================================
+dfrA20  (clave: dfra20)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA20
+======================================================================
+SFB  (clave: sfb)  n=1
+  bases: {'CARD': 1}
+       1x  SFB-1
+======================================================================
+eme  (clave: eme)  n=1
+  bases: {'CARD': 1}
+       1x  emeA
+======================================================================
+QnrB46  (clave: qnrb46)  n=1
+  bases: {'CARD': 1}
+       1x  QnrB46
+======================================================================
+catB10  (clave: catb10)  n=1
+  bases: {'CARD': 1}
+       1x  catB10
+======================================================================
+mecR1  (clave: mecr1)  n=1
+  bases: {'CARD': 1}
+       1x  mecR1
+======================================================================
+tcr  (clave: tcr)  n=1
+  bases: {'CARD': 1}
+       1x  tcr3
+======================================================================
+tet(31)  (clave: tet31)  n=1
+  bases: {'CARD': 1}
+       1x  tet(31)
+======================================================================
+Cbut_catB  (clave: cbutcatb)  n=1
+  bases: {'CARD': 1}
+       1x  Cbut_catB
+======================================================================
+dfrA26  (clave: dfra26)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA26
+======================================================================
+AcrS  (clave: acrs)  n=1
+  bases: {'CARD': 1}
+       1x  AcrS
+======================================================================
+vanY_in_vanB_cl  (clave: vanyinvanbcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanY_in_vanB_cl
+======================================================================
+vanXY_in_vanE  (clave: vanxyinvane)  n=1
+  bases: {'CARD': 1}
+       1x  vanXY_in_vanE
+======================================================================
+vanV_in_vanB_cl  (clave: vanvinvanbcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanV_in_vanB_cl
+======================================================================
+cmlv  (clave: cmlv)  n=1
+  bases: {'CARD': 1}
+       1x  cmlv
+======================================================================
+APH(7'')  (clave: aph7)  n=1
+  bases: {'CARD': 1}
+       1x  APH(7'')-Ia
+======================================================================
+AIM  (clave: aim)  n=1
+  bases: {'CARD': 1}
+       1x  AIM-1
+======================================================================
+dfrB6  (clave: dfrb6)  n=1
+  bases: {'CARD': 1}
+       1x  dfrB6
+======================================================================
+catB2  (clave: catb2)  n=1
+  bases: {'CARD': 1}
+       1x  catB2
+======================================================================
+dfrB1  (clave: dfrb1)  n=1
+  bases: {'CARD': 1}
+       1x  dfrB1
+======================================================================
+BcI  (clave: bci)  n=1
+  bases: {'CARD': 1}
+       1x  BcI
+======================================================================
+ErmS  (clave: erms)  n=1
+  bases: {'CARD': 1}
+       1x  ErmS
+======================================================================
+AAC(6')-Iae  (clave: aac6iae)  n=1
+  bases: {'CARD': 1}
+       1x  AAC(6')-Iae
+======================================================================
+dfrA23  (clave: dfra23)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA23
+======================================================================
+iri  (clave: iri)  n=1
+  bases: {'CARD': 1}
+       1x  iri
+======================================================================
+mfp  (clave: mfp)  n=1
+  bases: {'CARD': 1}
+       1x  mfpA
+======================================================================
+cphA4  (clave: cpha4)  n=1
+  bases: {'CARD': 1}
+       1x  cphA4
+======================================================================
+MexC  (clave: mexc)  n=1
+  bases: {'CARD': 1}
+       1x  MexC
+======================================================================
+OprJ  (clave: oprj)  n=1
+  bases: {'CARD': 1}
+       1x  OprJ
+======================================================================
+vanR_in_vanA_cl  (clave: vanrinvanacl)  n=1
+  bases: {'CARD': 1}
+       1x  vanR_in_vanA_cl
+======================================================================
+SMB  (clave: smb)  n=1
+  bases: {'CARD': 1}
+       1x  SMB-1
+======================================================================
+vanH_in_vanO_cl  (clave: vanhinvanocl)  n=1
+  bases: {'CARD': 1}
+       1x  vanH_in_vanO_cl
+======================================================================
+tet(37)  (clave: tet37)  n=1
+  bases: {'CARD': 1}
+       1x  tet(37)
+======================================================================
+FosA3  (clave: fosa3)  n=1
+  bases: {'CARD': 1}
+       1x  FosA3
+======================================================================
+tet(56)  (clave: tet56)  n=1
+  bases: {'CARD': 1}
+       1x  tet(56)
+======================================================================
+ErmC  (clave: ermc)  n=1
+  bases: {'CARD': 1}
+       1x  ErmC
+======================================================================
+LCR  (clave: lcr)  n=1
+  bases: {'CARD': 1}
+       1x  LCR-1
+======================================================================
+AAC(6')-Isa  (clave: aac6isa)  n=1
+  bases: {'CARD': 1}
+       1x  AAC(6')-Isa
+======================================================================
+tet(40)  (clave: tet40)  n=1
+  bases: {'CARD': 1}
+       1x  tet(40)
+======================================================================
+ugd  (clave: ugd)  n=1
+  bases: {'CARD': 1}
+       1x  ugd
+======================================================================
+RCP  (clave: rcp)  n=1
+  bases: {'CARD': 1}
+       1x  RCP-1
+======================================================================
+CGB  (clave: cgb)  n=1
+  bases: {'CARD': 1}
+       1x  CGB-1
+======================================================================
+vanS_in_vanC_cl  (clave: vansinvanccl)  n=1
+  bases: {'CARD': 1}
+       1x  vanS_in_vanC_cl
+======================================================================
+Yent_y56  (clave: yenty56)  n=1
+  bases: {'CARD': 1}
+       1x  Yent_y56
+======================================================================
+ErmG  (clave: ermg)  n=1
+  bases: {'CARD': 1}
+       1x  ErmG
+======================================================================
+BEL  (clave: bel)  n=1
+  bases: {'CARD': 1}
+       1x  BEL-1
+======================================================================
+AAC(6')-Ib-SK  (clave: aac6ibsk)  n=1
+  bases: {'CARD': 1}
+       1x  AAC(6')-Ib-SK
+======================================================================
+cmlB1  (clave: cmlb1)  n=1
+  bases: {'CARD': 1}
+       1x  cmlB1
+======================================================================
+dfrB3  (clave: dfrb3)  n=1
+  bases: {'CARD': 1}
+       1x  dfrB3
+======================================================================
+ErmD  (clave: ermd)  n=1
+  bases: {'CARD': 1}
+       1x  ErmD
+======================================================================
+tet(H)  (clave: teth)  n=1
+  bases: {'CARD': 1}
+       1x  tet(H)
+======================================================================
+MexE  (clave: mexe)  n=1
+  bases: {'CARD': 1}
+       1x  MexE
+======================================================================
+tet(J)  (clave: tetj)  n=1
+  bases: {'CARD': 1}
+       1x  tet(J)
+======================================================================
+tet(V)  (clave: tetv)  n=1
+  bases: {'CARD': 1}
+       1x  tet(V)
+======================================================================
+dfrA12  (clave: dfra12)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA12
+======================================================================
+dfrA17  (clave: dfra17)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA17
+======================================================================
+vanR_in_vanD_cl  (clave: vanrinvandcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanR_in_vanD_cl
+======================================================================
+vanZ_in_vanA_cl  (clave: vanzinvanacl)  n=1
+  bases: {'CARD': 1}
+       1x  vanZ_in_vanA_cl
+======================================================================
+ErmO-srmA  (clave: ermosrma)  n=1
+  bases: {'CARD': 1}
+       1x  ErmO-srmA
+======================================================================
+CAU  (clave: cau)  n=1
+  bases: {'CARD': 1}
+       1x  CAU-1
+======================================================================
+QnrB22  (clave: qnrb22)  n=1
+  bases: {'CARD': 1}
+       1x  QnrB22
+======================================================================
+ErmH  (clave: ermh)  n=1
+  bases: {'CARD': 1}
+       1x  ErmH
+======================================================================
+nov  (clave: nov)  n=1
+  bases: {'CARD': 1}
+       1x  novA
+======================================================================
+FosC  (clave: fosc)  n=1
+  bases: {'CARD': 1}
+       1x  FosC
+======================================================================
+mel  (clave: mel)  n=1
+  bases: {'CARD': 1}
+       1x  mel
+======================================================================
+H-NS  (clave: hns)  n=1
+  bases: {'CARD': 1}
+       1x  H-NS
+======================================================================
+bmr  (clave: bmr)  n=1
+  bases: {'CARD': 1}
+       1x  bmr
+======================================================================
+ErmT  (clave: ermt)  n=1
+  bases: {'CARD': 1}
+       1x  ErmT
+======================================================================
+catII  (clave: catii)  n=1
+  bases: {'CARD': 1}
+       1x  catII
+======================================================================
+EreD  (clave: ered)  n=1
+  bases: {'CARD': 1}
+       1x  EreD
+======================================================================
+tet(44)  (clave: tet44)  n=1
+  bases: {'CARD': 1}
+       1x  tet(44)
+======================================================================
+mef(B)  (clave: mefb)  n=1
+  bases: {'CARD': 1}
+       1x  mef(B)
+======================================================================
+SIM  (clave: sim)  n=1
+  bases: {'CARD': 1}
+       1x  SIM-1
+======================================================================
+QnrVC1  (clave: qnrvc1)  n=1
+  bases: {'CARD': 1}
+       1x  QnrVC1
+======================================================================
+cmx  (clave: cmx)  n=1
+  bases: {'CARD': 1}
+       1x  cmx
+======================================================================
+ANT(2'')  (clave: ant2)  n=1
+  bases: {'CARD': 1}
+       1x  ANT(2'')-Ia
+======================================================================
+arm  (clave: arm)  n=1
+  bases: {'CARD': 1}
+       1x  armA
+======================================================================
+aadA5  (clave: aada5)  n=1
+  bases: {'CARD': 1}
+       1x  aadA5
+======================================================================
+RbpA  (clave: rbpa)  n=1
+  bases: {'CARD': 1}
+       1x  RbpA
+======================================================================
+FosB3  (clave: fosb3)  n=1
+  bases: {'CARD': 1}
+       1x  FosB3
+======================================================================
+aadA7  (clave: aada7)  n=1
+  bases: {'CARD': 1}
+       1x  aadA7
+======================================================================
+fac  (clave: fac)  n=1
+  bases: {'CARD': 1}
+       1x  facT
+======================================================================
+vanH_in_vanD_cl  (clave: vanhinvandcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanH_in_vanD_cl
+======================================================================
+Bla1  (clave: bla1)  n=1
+  bases: {'CARD': 1}
+       1x  Bla1
+======================================================================
+MexH  (clave: mexh)  n=1
+  bases: {'CARD': 1}
+       1x  MexH
+======================================================================
+THIN  (clave: thin)  n=1
+  bases: {'CARD': 1}
+       1x  THIN-B
+======================================================================
+AcrF  (clave: acrf)  n=1
+  bases: {'CARD': 1}
+       1x  AcrF
+======================================================================
+AcrE  (clave: acre)  n=1
+  bases: {'CARD': 1}
+       1x  AcrE
+======================================================================
+Paer_catB6  (clave: paercatb6)  n=1
+  bases: {'CARD': 1}
+       1x  Paer_catB6
+======================================================================
+dfrA10  (clave: dfra10)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA10
+======================================================================
+cphA8  (clave: cpha8)  n=1
+  bases: {'CARD': 1}
+       1x  cphA8
+======================================================================
+QnrA2  (clave: qnra2)  n=1
+  bases: {'CARD': 1}
+       1x  QnrA2
+======================================================================
+FosB  (clave: fosb)  n=1
+  bases: {'CARD': 1}
+       1x  FosB
+======================================================================
+catIII  (clave: catiii)  n=1
+  bases: {'CARD': 1}
+       1x  catIII
+======================================================================
+dfrA5  (clave: dfra5)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA5
+======================================================================
+cphA5  (clave: cpha5)  n=1
+  bases: {'CARD': 1}
+       1x  cphA5
+======================================================================
+QnrC  (clave: qnrc)  n=1
+  bases: {'CARD': 1}
+       1x  QnrC
+======================================================================
+ErmR  (clave: ermr)  n=1
+  bases: {'CARD': 1}
+       1x  ErmR
+======================================================================
+L1_BLA  (clave: l1bla)  n=1
+  bases: {'CARD': 1}
+       1x  L1_BLA
+======================================================================
+MexD  (clave: mexd)  n=1
+  bases: {'CARD': 1}
+       1x  MexD
+======================================================================
+tet(41)  (clave: tet41)  n=1
+  bases: {'CARD': 1}
+       1x  tet(41)
+======================================================================
+EXO  (clave: exo)  n=1
+  bases: {'CARD': 1}
+       1x  EXO-1
+======================================================================
+vanX_in_vanF_cl  (clave: vanxinvanfcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanX_in_vanF_cl
+======================================================================
+vanR_in_vanC_cl  (clave: vanrinvanccl)  n=1
+  bases: {'CARD': 1}
+       1x  vanR_in_vanC_cl
+======================================================================
+MUS  (clave: mus)  n=1
+  bases: {'CARD': 1}
+       1x  MUS-1
+======================================================================
+vanX_in_vanD_cl  (clave: vanxinvandcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanX_in_vanD_cl
+======================================================================
+OprA  (clave: opra)  n=1
+  bases: {'CARD': 1}
+       1x  OprA
+======================================================================
+vanS_in_vanE_cl  (clave: vansinvanecl)  n=1
+  bases: {'CARD': 1}
+       1x  vanS_in_vanE_cl
+======================================================================
+arn  (clave: arn)  n=1
+  bases: {'CARD': 1}
+       1x  arnA
+======================================================================
+vanT_in_vanG_cl  (clave: vantinvangcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanT_in_vanG_cl
+======================================================================
+vanR_in_vanG_cl  (clave: vanrinvangcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanR_in_vanG_cl
+======================================================================
+ram  (clave: ram)  n=1
+  bases: {'CARD': 1}
+       1x  ramA
+======================================================================
+FosK  (clave: fosk)  n=1
+  bases: {'CARD': 1}
+       1x  FosK
+======================================================================
+ErmW  (clave: ermw)  n=1
+  bases: {'CARD': 1}
+       1x  ErmW
+======================================================================
+tap  (clave: tap)  n=1
+  bases: {'CARD': 1}
+       1x  tap
+======================================================================
+aadA16  (clave: aada16)  n=1
+  bases: {'CARD': 1}
+       1x  aadA16
+======================================================================
+tet(43)  (clave: tet43)  n=1
+  bases: {'CARD': 1}
+       1x  tet(43)
+======================================================================
+vanX_in_vanB_cl  (clave: vanxinvanbcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanX_in_vanB_cl
+======================================================================
+cep  (clave: cep)  n=1
+  bases: {'CARD': 1}
+       1x  cepA
+======================================================================
+cphA3  (clave: cpha3)  n=1
+  bases: {'CARD': 1}
+       1x  cphA3
+======================================================================
+MdtK  (clave: mdtk)  n=1
+  bases: {'CARD': 1}
+       1x  MdtK
+======================================================================
+DIM  (clave: dim)  n=1
+  bases: {'CARD': 1}
+       1x  DIM-1
+======================================================================
+vanH_in_vanF_cl  (clave: vanhinvanfcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanH_in_vanF_cl
+======================================================================
+tmr  (clave: tmr)  n=1
+  bases: {'CARD': 1}
+       1x  tmrB
+======================================================================
+ErmY  (clave: ermy)  n=1
+  bases: {'CARD': 1}
+       1x  ErmY
+======================================================================
+vanX_in_vanO_cl  (clave: vanxinvanocl)  n=1
+  bases: {'CARD': 1}
+       1x  vanX_in_vanO_cl
+======================================================================
+vanY_in_vanM_cl  (clave: vanyinvanmcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanY_in_vanM_cl
+======================================================================
+tet(36)  (clave: tet36)  n=1
+  bases: {'CARD': 1}
+       1x  tet(36)
+======================================================================
+bac  (clave: bac)  n=1
+  bases: {'CARD': 1}
+       1x  bacA
+======================================================================
+aadA14  (clave: aada14)  n=1
+  bases: {'CARD': 1}
+       1x  aadA14
+======================================================================
+FomB  (clave: fomb)  n=1
+  bases: {'CARD': 1}
+       1x  FomB
+======================================================================
+AAC(6')-Iak  (clave: aac6iak)  n=1
+  bases: {'CARD': 1}
+       1x  AAC(6')-Iak
+======================================================================
+AAC(6')-Iad  (clave: aac6iad)  n=1
+  bases: {'CARD': 1}
+       1x  AAC(6')-Iad
+======================================================================
+spd  (clave: spd)  n=1
+  bases: {'CARD': 1}
+       1x  spd
+======================================================================
+EreB  (clave: ereb)  n=1
+  bases: {'CARD': 1}
+       1x  EreB
+======================================================================
+mar  (clave: mar)  n=1
+  bases: {'CARD': 1}
+       1x  marA
+======================================================================
+MexB  (clave: mexb)  n=1
+  bases: {'CARD': 1}
+       1x  MexB
+======================================================================
+tet(30)  (clave: tet30)  n=1
+  bases: {'CARD': 1}
+       1x  tet(30)
+======================================================================
+tet(38)  (clave: tet38)  n=1
+  bases: {'CARD': 1}
+       1x  tet(38)
+======================================================================
+tet(Z)  (clave: tetz)  n=1
+  bases: {'CARD': 1}
+       1x  tet(Z)
+======================================================================
+cphA6  (clave: cpha6)  n=1
+  bases: {'CARD': 1}
+       1x  cphA6
+======================================================================
+vanY_in_vanF_cl  (clave: vanyinvanfcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanY_in_vanF_cl
+======================================================================
+vanS_in_vanA_cl  (clave: vansinvanacl)  n=1
+  bases: {'CARD': 1}
+       1x  vanS_in_vanA_cl
+======================================================================
+dfrB2  (clave: dfrb2)  n=1
+  bases: {'CARD': 1}
+       1x  dfrB2
+======================================================================
+blt  (clave: blt)  n=1
+  bases: {'CARD': 1}
+       1x  blt
+======================================================================
+FosA4  (clave: fosa4)  n=1
+  bases: {'CARD': 1}
+       1x  FosA4
+======================================================================
+ACC  (clave: acc)  n=1
+  bases: {'CARD': 1}
+       1x  ACC-2
+======================================================================
+dfrA15  (clave: dfra15)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA15
+======================================================================
+FosC2  (clave: fosc2)  n=1
+  bases: {'CARD': 1}
+       1x  FosC2
+======================================================================
+blaR1  (clave: blar1)  n=1
+  bases: {'CARD': 1}
+       1x  blaR1
+======================================================================
+NmcR  (clave: nmcr)  n=1
+  bases: {'CARD': 1}
+       1x  NmcR
+======================================================================
+aadA13  (clave: aada13)  n=1
+  bases: {'CARD': 1}
+       1x  aadA13
+======================================================================
+opc  (clave: opc)  n=1
+  bases: {'CARD': 1}
+       1x  opcM
+======================================================================
+Bpum_cat86  (clave: bpumcat86)  n=1
+  bases: {'CARD': 1}
+       1x  Bpum_cat86
+======================================================================
+BJP  (clave: bjp)  n=1
+  bases: {'CARD': 1}
+       1x  BJP-1
+======================================================================
+PmrF  (clave: pmrf)  n=1
+  bases: {'CARD': 1}
+       1x  PmrF
+======================================================================
+vanX_in_vanM_cl  (clave: vanxinvanmcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanX_in_vanM_cl
+======================================================================
+tet(T)  (clave: tett)  n=1
+  bases: {'CARD': 1}
+       1x  tet(T)
+======================================================================
+LnuP  (clave: lnup)  n=1
+  bases: {'CARD': 1}
+       1x  LnuP
+======================================================================
+Bsub_mprF  (clave: bsubmprf)  n=1
+  bases: {'CARD': 1}
+       1x  Bsub_mprF
+======================================================================
+TriA  (clave: tria)  n=1
+  bases: {'CARD': 1}
+       1x  TriA
+======================================================================
+TriB  (clave: trib)  n=1
+  bases: {'CARD': 1}
+       1x  TriB
+======================================================================
+TriC  (clave: tric)  n=1
+  bases: {'CARD': 1}
+       1x  TriC
+======================================================================
+OpmH  (clave: opmh)  n=1
+  bases: {'CARD': 1}
+       1x  OpmH
+======================================================================
+MexJ  (clave: mexj)  n=1
+  bases: {'CARD': 1}
+       1x  MexJ
+======================================================================
+MexK  (clave: mexk)  n=1
+  bases: {'CARD': 1}
+       1x  MexK
+======================================================================
+MexV  (clave: mexv)  n=1
+  bases: {'CARD': 1}
+       1x  MexV
+======================================================================
+MexW  (clave: mexw)  n=1
+  bases: {'CARD': 1}
+       1x  MexW
+======================================================================
+opm  (clave: opm)  n=1
+  bases: {'CARD': 1}
+       1x  opmE
+======================================================================
+AAC(6')-Iaj  (clave: aac6iaj)  n=1
+  bases: {'CARD': 1}
+       1x  AAC(6')-Iaj
+======================================================================
+VCC  (clave: vcc)  n=1
+  bases: {'CARD': 1}
+       1x  VCC-1
+======================================================================
+CPS  (clave: cps)  n=1
+  bases: {'CARD': 1}
+       1x  CPS-1
+======================================================================
+ESP  (clave: esp)  n=1
+  bases: {'CARD': 1}
+       1x  ESP-1
+======================================================================
+MSI-OXA  (clave: msioxa)  n=1
+  bases: {'CARD': 1}
+       1x  MSI-OXA
+======================================================================
+SPG  (clave: spg)  n=1
+  bases: {'CARD': 1}
+       1x  SPG-1
+======================================================================
+RlmA  (clave: rlma)  n=1
+  bases: {'CARD': 1}
+       1x  RlmA(II)
+======================================================================
+vanS_in_vanD_cl  (clave: vansinvandcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanS_in_vanD_cl
+======================================================================
+Lmon_mprF  (clave: lmonmprf)  n=1
+  bases: {'CARD': 1}
+       1x  Lmon_mprF
+======================================================================
+Bsui_mprF  (clave: bsuimprf)  n=1
+  bases: {'CARD': 1}
+       1x  Bsui_mprF
+======================================================================
+Cper_mprF  (clave: cpermprf)  n=1
+  bases: {'CARD': 1}
+       1x  Cper_mprF
+======================================================================
+Saga_mprF  (clave: sagamprf)  n=1
+  bases: {'CARD': 1}
+       1x  Saga_mprF
+======================================================================
+vanR_in_vanI_cl  (clave: vanrinvanicl)  n=1
+  bases: {'CARD': 1}
+       1x  vanR_in_vanI_cl
+======================================================================
+vanX_in_vanI_cl  (clave: vanxinvanicl)  n=1
+  bases: {'CARD': 1}
+       1x  vanX_in_vanI_cl
+======================================================================
+optr  (clave: optr)  n=1
+  bases: {'CARD': 1}
+       1x  optrA
+======================================================================
+SPM  (clave: spm)  n=1
+  bases: {'CARD': 1}
+       1x  SPM-1
+======================================================================
+cde  (clave: cde)  n=1
+  bases: {'CARD': 1}
+       1x  cdeA
+======================================================================
+AAC(6')-Ian  (clave: aac6ian)  n=1
+  bases: {'CARD': 1}
+       1x  AAC(6')-Ian
+======================================================================
+qnrE1  (clave: qnre1)  n=1
+  bases: {'CARD': 1}
+       1x  qnrE1
+======================================================================
+Cstr_tetA  (clave: cstrteta)  n=1
+  bases: {'CARD': 1}
+       1x  Cstr_tetA
+======================================================================
+Pmir_dfrA6  (clave: pmirdfra6)  n=1
+  bases: {'CARD': 1}
+       1x  Pmir_dfrA6
+======================================================================
+dfrA3b  (clave: dfra3b)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA3b
+======================================================================
+AQU  (clave: aqu)  n=1
+  bases: {'CARD': 1}
+       1x  AQU-3
+======================================================================
+apm  (clave: apm)  n=1
+  bases: {'CARD': 1}
+       1x  apmA
+======================================================================
+abc  (clave: abc)  n=1
+  bases: {'CARD': 1}
+       1x  abcA
+======================================================================
+cip  (clave: cip)  n=1
+  bases: {'CARD': 1}
+       1x  cipA
+======================================================================
+FIM  (clave: fim)  n=1
+  bases: {'CARD': 1}
+       1x  FIM-1
+======================================================================
+FPH  (clave: fph)  n=1
+  bases: {'CARD': 1}
+       1x  FPH-1
+======================================================================
+Erm-lrm  (clave: ermlrm)  n=1
+  bases: {'CARD': 1}
+       1x  Erm(O)-lrm
+======================================================================
+msb  (clave: msb)  n=1
+  bases: {'CARD': 1}
+       1x  msbA
+======================================================================
+hmr  (clave: hmr)  n=1
+  bases: {'CARD': 1}
+       1x  hmrM
+======================================================================
+efp  (clave: efp)  n=1
+  bases: {'CARD': 1}
+       1x  efpA
+======================================================================
+hp1181  (clave: hp1181)  n=1
+  bases: {'CARD': 1}
+       1x  hp1181
+======================================================================
+lfr  (clave: lfr)  n=1
+  bases: {'CARD': 1}
+       1x  lfrA
+======================================================================
+Ecol_catII  (clave: ecolcatii)  n=1
+  bases: {'CARD': 1}
+       1x  Ecol_catII
+======================================================================
+catA4  (clave: cata4)  n=1
+  bases: {'CARD': 1}
+       1x  catA4
+======================================================================
+Mef(En2)  (clave: mefen2)  n=1
+  bases: {'CARD': 1}
+       1x  Mef(En2)
+======================================================================
+catB11  (clave: catb11)  n=1
+  bases: {'CARD': 1}
+       1x  catB11
+======================================================================
+Saur_FosB  (clave: saurfosb)  n=1
+  bases: {'CARD': 1}
+       1x  Saur_FosB
+======================================================================
+Saur_norA  (clave: saurnora)  n=1
+  bases: {'CARD': 1}
+       1x  Saur_norA
+======================================================================
+emt  (clave: emt)  n=1
+  bases: {'CARD': 1}
+       1x  emtA
+======================================================================
+pex  (clave: pex)  n=1
+  bases: {'CARD': 1}
+       1x  pexA
+======================================================================
+LlmA_23S_CLI  (clave: llma23scli)  n=1
+  bases: {'CARD': 1}
+       1x  LlmA_23S_CLI
+======================================================================
+CatU  (clave: catu)  n=1
+  bases: {'CARD': 1}
+       1x  CatU
+======================================================================
+BahA  (clave: baha)  n=1
+  bases: {'CARD': 1}
+       1x  BahA
+======================================================================
+TaeA  (clave: taea)  n=1
+  bases: {'CARD': 1}
+       1x  TaeA
+======================================================================
+VatI  (clave: vati)  n=1
+  bases: {'CARD': 1}
+       1x  VatI
+======================================================================
+cpa  (clave: cpa)  n=1
+  bases: {'CARD': 1}
+       1x  cpaA
+======================================================================
+aadA27  (clave: aada27)  n=1
+  bases: {'CARD': 1}
+       1x  aadA27
+======================================================================
+MuxA  (clave: muxa)  n=1
+  bases: {'CARD': 1}
+       1x  MuxA
+======================================================================
+Scoh_vga(E)  (clave: scohvgae)  n=1
+  bases: {'CARD': 1}
+       1x  Scoh_vga(E)
+======================================================================
+FosD  (clave: fosd)  n=1
+  bases: {'CARD': 1}
+       1x  FosD
+======================================================================
+MCR-4.2  (clave: mcr42)  n=1
+  bases: {'CARD': 1}
+       1x  MCR-4.2
+======================================================================
+tva  (clave: tva)  n=1
+  bases: {'CARD': 1}
+       1x  tva(A)
+======================================================================
+FTU  (clave: ftu)  n=1
+  bases: {'CARD': 1}
+       1x  FTU-1
+======================================================================
+mgt  (clave: mgt)  n=1
+  bases: {'CARD': 1}
+       1x  mgtA
+======================================================================
+Paer_CpxR  (clave: paercpxr)  n=1
+  bases: {'CARD': 1}
+       1x  Paer_CpxR
+======================================================================
+OpmB  (clave: opmb)  n=1
+  bases: {'CARD': 1}
+       1x  OpmB
+======================================================================
+Paer_emrE  (clave: paeremre)  n=1
+  bases: {'CARD': 1}
+       1x  Paer_emrE
+======================================================================
+Ecol_emrE  (clave: ecolemre)  n=1
+  bases: {'CARD': 1}
+       1x  Ecol_emrE
+======================================================================
+Kpne_acrA  (clave: kpneacra)  n=1
+  bases: {'CARD': 1}
+       1x  Kpne_acrA
+======================================================================
+Eclo_acrA  (clave: ecloacra)  n=1
+  bases: {'CARD': 1}
+       1x  Eclo_acrA
+======================================================================
+Ecol_acrA  (clave: ecolacra)  n=1
+  bases: {'CARD': 1}
+       1x  Ecol_acrA
+======================================================================
+ArmR  (clave: armr)  n=1
+  bases: {'CARD': 1}
+       1x  ArmR
+======================================================================
+EdeQ  (clave: edeq)  n=1
+  bases: {'CARD': 1}
+       1x  EdeQ
+======================================================================
+bas  (clave: bas)  n=1
+  bases: {'CARD': 1}
+       1x  basS
+======================================================================
+Ctra_murA_FOF  (clave: ctramurafof)  n=1
+  bases: {'CARD': 1}
+       1x  Ctra_murA_FOF
+======================================================================
+MexF  (clave: mexf)  n=1
+  bases: {'CARD': 1}
+       1x  MexF
+======================================================================
+OprM  (clave: oprm)  n=1
+  bases: {'CARD': 1}
+       1x  OprM
+======================================================================
+BRP  (clave: brp)  n=1
+  bases: {'CARD': 1}
+       1x  BRP(MBL)
+======================================================================
+MuxB  (clave: muxb)  n=1
+  bases: {'CARD': 1}
+       1x  MuxB
+======================================================================
+MuxC  (clave: muxc)  n=1
+  bases: {'CARD': 1}
+       1x  MuxC
+======================================================================
+BCL  (clave: bcl)  n=1
+  bases: {'CARD': 1}
+       1x  BCL-1
+======================================================================
+PmpM  (clave: pmpm)  n=1
+  bases: {'CARD': 1}
+       1x  PmpM
+======================================================================
+MrmA  (clave: mrma)  n=1
+  bases: {'CARD': 1}
+       1x  MrmA
+======================================================================
+LpeA  (clave: lpea)  n=1
+  bases: {'CARD': 1}
+       1x  LpeA
+======================================================================
+LpeB  (clave: lpeb)  n=1
+  bases: {'CARD': 1}
+       1x  LpeB
+======================================================================
+TMB  (clave: tmb)  n=1
+  bases: {'CARD': 1}
+       1x  TMB-1
+======================================================================
+Paer_soxR  (clave: paersoxr)  n=1
+  bases: {'CARD': 1}
+       1x  Paer_soxR
+======================================================================
+FosA7  (clave: fosa7)  n=1
+  bases: {'CARD': 1}
+       1x  FosA7
+======================================================================
+Bpse_Omp38  (clave: bpseomp38)  n=1
+  bases: {'CARD': 1}
+       1x  Bpse_Omp38
+======================================================================
+BAT  (clave: bat)  n=1
+  bases: {'CARD': 1}
+       1x  BAT-1
+======================================================================
+BES  (clave: bes)  n=1
+  bases: {'CARD': 1}
+       1x  BES-1
+======================================================================
+BRO  (clave: bro)  n=1
+  bases: {'CARD': 1}
+       1x  BRO-2
+======================================================================
+OprZ  (clave: oprz)  n=1
+  bases: {'CARD': 1}
+       1x  OprZ
+======================================================================
+AxyX  (clave: axyx)  n=1
+  bases: {'CARD': 1}
+       1x  AxyX
+======================================================================
+AxyY  (clave: axyy)  n=1
+  bases: {'CARD': 1}
+       1x  AxyY
+======================================================================
+Ecol_mdfA  (clave: ecolmdfa)  n=1
+  bases: {'CARD': 1}
+       1x  Ecol_mdfA
+======================================================================
+Bla2  (clave: bla2)  n=1
+  bases: {'CARD': 1}
+       1x  Bla2
+======================================================================
+Vcho_varG  (clave: vchovarg)  n=1
+  bases: {'CARD': 1}
+       1x  Vcho_varG
+======================================================================
+LAP  (clave: lap)  n=1
+  bases: {'CARD': 1}
+       1x  LAP-2
+======================================================================
+Rsph_ampC_BLA  (clave: rsphampcbla)  n=1
+  bases: {'CARD': 1}
+       1x  Rsph_ampC_BLA
+======================================================================
+rpoB2  (clave: rpob2)  n=1
+  bases: {'CARD': 1}
+       1x  rpoB2
+======================================================================
+mecA-type_mecI  (clave: mecatypemeci)  n=1
+  bases: {'CARD': 1}
+       1x  mecA-type_mecI
+======================================================================
+BUT  (clave: but)  n=1
+  bases: {'CARD': 1}
+       1x  BUT-1
+======================================================================
+ACI  (clave: aci)  n=1
+  bases: {'CARD': 1}
+       1x  ACI-1
+======================================================================
+tet(59)  (clave: tet59)  n=1
+  bases: {'CARD': 1}
+       1x  tet(59)
+======================================================================
+TRU  (clave: tru)  n=1
+  bases: {'CARD': 1}
+       1x  TRU-1
+======================================================================
+Cmen_BlaB  (clave: cmenblab)  n=1
+  bases: {'CARD': 1}
+       1x  Cmen_BlaB
+======================================================================
+Afab_ACT_CHL  (clave: afabactchl)  n=1
+  bases: {'CARD': 1}
+       1x  Afab_ACT_CHL
+======================================================================
+Efac_ACT_CHL  (clave: efacactchl)  n=1
+  bases: {'CARD': 1}
+       1x  Efac_ACT_CHL
+======================================================================
+Sint_ACT_CHL  (clave: sintactchl)  n=1
+  bases: {'CARD': 1}
+       1x  Sint_ACT_CHL
+======================================================================
+Vang_ACT_CHL  (clave: vangactchl)  n=1
+  bases: {'CARD': 1}
+       1x  Vang_ACT_CHL
+======================================================================
+Paer_catB7  (clave: paercatb7)  n=1
+  bases: {'CARD': 1}
+       1x  Paer_catB7
+======================================================================
+BIC  (clave: bic)  n=1
+  bases: {'CARD': 1}
+       1x  BIC-1
+======================================================================
+CBP  (clave: cbp)  n=1
+  bases: {'CARD': 1}
+       1x  CBP-1
+======================================================================
+CGA  (clave: cga)  n=1
+  bases: {'CARD': 1}
+       1x  CGA-1
+======================================================================
+BKC  (clave: bkc)  n=1
+  bases: {'CARD': 1}
+       1x  BKC-1
+======================================================================
+BPU  (clave: bpu)  n=1
+  bases: {'CARD': 1}
+       1x  BPU-1
+======================================================================
+CIA  (clave: cia)  n=1
+  bases: {'CARD': 1}
+       1x  CIA-1
+======================================================================
+AST  (clave: ast)  n=1
+  bases: {'CARD': 1}
+       1x  AST-1
+======================================================================
+vml  (clave: vml)  n=1
+  bases: {'CARD': 1}
+       1x  vmlR
+======================================================================
+DES  (clave: des)  n=1
+  bases: {'CARD': 1}
+       1x  DES-1
+======================================================================
+CKO  (clave: cko)  n=1
+  bases: {'CARD': 1}
+       1x  CKO-1
+======================================================================
+pgp  (clave: pgp)  n=1
+  bases: {'CARD': 1}
+       1x  pgpB
+======================================================================
+Kpne_OmpK37  (clave: kpneompk37)  n=1
+  bases: {'CARD': 1}
+       1x  Kpne_OmpK37
+======================================================================
+SCO  (clave: sco)  n=1
+  bases: {'CARD': 1}
+       1x  SCO-1
+======================================================================
+dfrB4  (clave: dfrb4)  n=1
+  bases: {'CARD': 1}
+       1x  dfrB4
+======================================================================
+MCR-6.1  (clave: mcr61)  n=1
+  bases: {'CARD': 1}
+       1x  MCR-6.1
+======================================================================
+MCR-2.2  (clave: mcr22)  n=1
+  bases: {'CARD': 1}
+       1x  MCR-2.2
+======================================================================
+MCR-3.6  (clave: mcr36)  n=1
+  bases: {'CARD': 1}
+       1x  MCR-3.6
+======================================================================
+MCR-7.1  (clave: mcr71)  n=1
+  bases: {'CARD': 1}
+       1x  MCR-7.1
+======================================================================
+dfrA9  (clave: dfra9)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA9
+======================================================================
+tet(49)  (clave: tet49)  n=1
+  bases: {'CARD': 1}
+       1x  tet(49)
+======================================================================
+dfrB5  (clave: dfrb5)  n=1
+  bases: {'CARD': 1}
+       1x  dfrB5
+======================================================================
+tet(52)  (clave: tet52)  n=1
+  bases: {'CARD': 1}
+       1x  tet(52)
+======================================================================
+dfrA6  (clave: dfra6)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA6
+======================================================================
+dfrA27  (clave: dfra27)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA27
+======================================================================
+dfrA30  (clave: dfra30)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA30
+======================================================================
+dfrA32  (clave: dfra32)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA32
+======================================================================
+dfrA18  (clave: dfra18)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA18
+======================================================================
+PNGM  (clave: pngm)  n=1
+  bases: {'CARD': 1}
+       1x  PNGM-1
+======================================================================
+Abau_AbaF  (clave: abauabaf)  n=1
+  bases: {'CARD': 1}
+       1x  Abau_AbaF
+======================================================================
+Abau_AbaQ  (clave: abauabaq)  n=1
+  bases: {'CARD': 1}
+       1x  Abau_AbaQ
+======================================================================
+Abau_AmvA  (clave: abauamva)  n=1
+  bases: {'CARD': 1}
+       1x  Abau_AmvA
+======================================================================
+Kpne_KpnE  (clave: kpnekpne)  n=1
+  bases: {'CARD': 1}
+       1x  Kpne_KpnE
+======================================================================
+tet(48)  (clave: tet48)  n=1
+  bases: {'CARD': 1}
+       1x  tet(48)
+======================================================================
+Kpne_KpnF  (clave: kpnekpnf)  n=1
+  bases: {'CARD': 1}
+       1x  Kpne_KpnF
+======================================================================
+tet(50)  (clave: tet50)  n=1
+  bases: {'CARD': 1}
+       1x  tet(50)
+======================================================================
+tet(51)  (clave: tet51)  n=1
+  bases: {'CARD': 1}
+       1x  tet(51)
+======================================================================
+tet(53)  (clave: tet53)  n=1
+  bases: {'CARD': 1}
+       1x  tet(53)
+======================================================================
+tet(54)  (clave: tet54)  n=1
+  bases: {'CARD': 1}
+       1x  tet(54)
+======================================================================
+tet(55)  (clave: tet55)  n=1
+  bases: {'CARD': 1}
+       1x  tet(55)
+======================================================================
+Kpne_KpnG  (clave: kpnekpng)  n=1
+  bases: {'CARD': 1}
+       1x  Kpne_KpnG
+======================================================================
+ERP  (clave: erp)  n=1
+  bases: {'CARD': 1}
+       1x  ERP-1
+======================================================================
+tet(57)  (clave: tet57)  n=1
+  bases: {'CARD': 1}
+       1x  tet(57)
+======================================================================
+qacEdelta1  (clave: qacedelta1)  n=1
+  bases: {'CARD': 1}
+       1x  qacEdelta1
+======================================================================
+IDC  (clave: idc)  n=1
+  bases: {'CARD': 1}
+       1x  IDC-1
+======================================================================
+LMB  (clave: lmb)  n=1
+  bases: {'CARD': 1}
+       1x  LMB-1
+======================================================================
+FosL1  (clave: fosl1)  n=1
+  bases: {'CARD': 1}
+       1x  FosL1
+======================================================================
+mecC-type_mecI  (clave: mecctypemeci)  n=1
+  bases: {'CARD': 1}
+       1x  mecC-type_mecI
+======================================================================
+cmlA9  (clave: cmla9)  n=1
+  bases: {'CARD': 1}
+       1x  cmlA9
+======================================================================
+OmpA  (clave: ompa)  n=1
+  bases: {'CARD': 1}
+       1x  OmpA
+======================================================================
+SatA  (clave: sata)  n=1
+  bases: {'CARD': 1}
+       1x  SatA
+======================================================================
+BLMT  (clave: blmt)  n=1
+  bases: {'CARD': 1}
+       1x  BLMT
+======================================================================
+CrcB  (clave: crcb)  n=1
+  bases: {'CARD': 1}
+       1x  CrcB
+======================================================================
+LpsB  (clave: lpsb)  n=1
+  bases: {'CARD': 1}
+       1x  LpsB
+======================================================================
+LpsA  (clave: lpsa)  n=1
+  bases: {'CARD': 1}
+       1x  LpsA
+======================================================================
+ArnT  (clave: arnt)  n=1
+  bases: {'CARD': 1}
+       1x  ArnT
+======================================================================
+LptD  (clave: lptd)  n=1
+  bases: {'CARD': 1}
+       1x  LptD
+======================================================================
+ParS  (clave: pars)  n=1
+  bases: {'CARD': 1}
+       1x  ParS
+======================================================================
+ParR  (clave: parr)  n=1
+  bases: {'CARD': 1}
+       1x  ParR
+======================================================================
+rsm  (clave: rsm)  n=1
+  bases: {'CARD': 1}
+       1x  rsmA
+======================================================================
+tet(X5)  (clave: tetx5)  n=1
+  bases: {'CARD': 1}
+       1x  tet(X5)
+======================================================================
+mef(D)  (clave: mefd)  n=1
+  bases: {'CARD': 1}
+       1x  mef(D)
+======================================================================
+RanB  (clave: ranb)  n=1
+  bases: {'CARD': 1}
+       1x  RanB
+======================================================================
+RanA  (clave: rana)  n=1
+  bases: {'CARD': 1}
+       1x  RanA
+======================================================================
+GPC  (clave: gpc)  n=1
+  bases: {'CARD': 1}
+       1x  GPC-1
+======================================================================
+mecC-type_BlaZ  (clave: mecctypeblaz)  n=1
+  bases: {'CARD': 1}
+       1x  mecC-type_BlaZ
+======================================================================
+Spyo_ErmA_MLSb  (clave: spyoermamlsb)  n=1
+  bases: {'CARD': 1}
+       1x  Spyo_ErmA_MLSb
+======================================================================
+FosB2  (clave: fosb2)  n=1
+  bases: {'CARD': 1}
+       1x  FosB2
+======================================================================
+blaS1  (clave: blas1)  n=1
+  bases: {'CARD': 1}
+       1x  blaS1
+======================================================================
+Saur_LmrS  (clave: saurlmrs)  n=1
+  bases: {'CARD': 1}
+       1x  Saur_LmrS
+======================================================================
+FosA7.5  (clave: fosa75)  n=1
+  bases: {'CARD': 1}
+       1x  FosA7.5
+======================================================================
+dfrA35  (clave: dfra35)  n=1
+  bases: {'CARD': 1}
+       1x  dfrA35
+======================================================================
+DfrA42_TMP  (clave: dfra42tmp)  n=1
+  bases: {'CARD': 1}
+       1x  DfrA42_TMP
+======================================================================
+DfrA43_TMP  (clave: dfra43tmp)  n=1
+  bases: {'CARD': 1}
+       1x  DfrA43_TMP
+======================================================================
+DfrA34  (clave: dfra34)  n=1
+  bases: {'CARD': 1}
+       1x  DfrA34
+======================================================================
+DfrA37  (clave: dfra37)  n=1
+  bases: {'CARD': 1}
+       1x  DfrA37
+======================================================================
+DfrA36  (clave: dfra36)  n=1
+  bases: {'CARD': 1}
+       1x  DfrA36
+======================================================================
+DfrA38  (clave: dfra38)  n=1
+  bases: {'CARD': 1}
+       1x  DfrA38
+======================================================================
+DfrB9  (clave: dfrb9)  n=1
+  bases: {'CARD': 1}
+       1x  DfrB9
+======================================================================
+DfrA39  (clave: dfra39)  n=1
+  bases: {'CARD': 1}
+       1x  DfrA39
+======================================================================
+ALG11  (clave: alg11)  n=1
+  bases: {'CARD': 1}
+       1x  ALG11-1
+======================================================================
+ALG6  (clave: alg6)  n=1
+  bases: {'CARD': 1}
+       1x  ALG6-1
+======================================================================
+ANA  (clave: ana)  n=1
+  bases: {'CARD': 1}
+       1x  ANA-1
+======================================================================
+BSU  (clave: bsu)  n=1
+  bases: {'CARD': 1}
+       1x  BSU-1
+======================================================================
+CDD  (clave: cdd)  n=1
+  bases: {'CARD': 1}
+       1x  CDD-1
+======================================================================
+CMA  (clave: cma)  n=1
+  bases: {'CARD': 1}
+       1x  CMA-1
+======================================================================
+CRD3  (clave: crd3)  n=1
+  bases: {'CARD': 1}
+       1x  CRD3-1
+======================================================================
+CRH  (clave: crh)  n=1
+  bases: {'CARD': 1}
+       1x  CRH-1
+======================================================================
+CSA  (clave: csa)  n=1
+  bases: {'CARD': 1}
+       1x  CSA-1
+======================================================================
+CSP  (clave: csp)  n=1
+  bases: {'CARD': 1}
+       1x  CSP-1
+======================================================================
+CVI  (clave: cvi)  n=1
+  bases: {'CARD': 1}
+       1x  CVI-1
+======================================================================
+DHT2  (clave: dht2)  n=1
+  bases: {'CARD': 1}
+       1x  DHT2-1
+======================================================================
+EAM  (clave: eam)  n=1
+  bases: {'CARD': 1}
+       1x  EAM-1
+======================================================================
+ECM  (clave: ecm)  n=1
+  bases: {'CARD': 1}
+       1x  ECM-1
+======================================================================
+ECV  (clave: ecv)  n=1
+  bases: {'CARD': 1}
+       1x  ECV-1
+======================================================================
+ELM  (clave: elm)  n=1
+  bases: {'CARD': 1}
+       1x  ELM-1
+======================================================================
+EVM  (clave: evm)  n=1
+  bases: {'CARD': 1}
+       1x  EVM-1
+======================================================================
+FIA  (clave: fia)  n=1
+  bases: {'CARD': 1}
+       1x  FIA-1
+======================================================================
+GIL  (clave: gil)  n=1
+  bases: {'CARD': 1}
+       1x  GIL-1
+======================================================================
+GMB  (clave: gmb)  n=1
+  bases: {'CARD': 1}
+       1x  GMB-1
+======================================================================
+GRD23  (clave: grd23)  n=1
+  bases: {'CARD': 1}
+       1x  GRD23-1
+======================================================================
+GRD33  (clave: grd33)  n=1
+  bases: {'CARD': 1}
+       1x  GRD33-1
+======================================================================
+KLUC  (clave: kluc)  n=1
+  bases: {'CARD': 1}
+       1x  KLUC-1
+======================================================================
+LHK  (clave: lhk)  n=1
+  bases: {'CARD': 1}
+       1x  LHK-3
+======================================================================
+LRG  (clave: lrg)  n=1
+  bases: {'CARD': 1}
+       1x  LRG-1
+======================================================================
+LUS  (clave: lus)  n=1
+  bases: {'CARD': 1}
+       1x  LUS-1
+======================================================================
+LUT  (clave: lut)  n=1
+  bases: {'CARD': 1}
+       1x  LUT-1
+======================================================================
+MOC  (clave: moc)  n=1
+  bases: {'CARD': 1}
+       1x  MOC-1
+======================================================================
+MYO  (clave: myo)  n=1
+  bases: {'CARD': 1}
+       1x  MYO-1
+======================================================================
+MYX  (clave: myx)  n=1
+  bases: {'CARD': 1}
+       1x  MYX-1
+======================================================================
+OKP-C  (clave: okpc)  n=1
+  bases: {'CARD': 1}
+       1x  OKP-C-1
+======================================================================
+OKP-D  (clave: okpd)  n=1
+  bases: {'CARD': 1}
+       1x  OKP-D-1
+======================================================================
+ORN  (clave: orn)  n=1
+  bases: {'CARD': 1}
+       1x  ORN-1
+======================================================================
+ORR  (clave: orr)  n=1
+  bases: {'CARD': 1}
+       1x  ORR-1
+======================================================================
+PAU  (clave: pau)  n=1
+  bases: {'CARD': 1}
+       1x  PAU-1
+======================================================================
+PLA  (clave: pla)  n=1
+  bases: {'CARD': 1}
+       1x  PLA-1
+======================================================================
+PLN  (clave: pln)  n=1
+  bases: {'CARD': 1}
+       1x  PLN-1
+======================================================================
+PME  (clave: pme)  n=1
+  bases: {'CARD': 1}
+       1x  PME-1
+======================================================================
+POM  (clave: pom)  n=1
+  bases: {'CARD': 1}
+       1x  POM-1
+======================================================================
+PST  (clave: pst)  n=1
+  bases: {'CARD': 1}
+       1x  PST-1
+======================================================================
+PSV  (clave: psv)  n=1
+  bases: {'CARD': 1}
+       1x  PSV-1
+======================================================================
+RSA2  (clave: rsa2)  n=1
+  bases: {'CARD': 1}
+       1x  RSA2-1
+======================================================================
+RSD2  (clave: rsd2)  n=1
+  bases: {'CARD': 1}
+       1x  RSD2-1
+======================================================================
+RUB  (clave: rub)  n=1
+  bases: {'CARD': 1}
+       1x  RUB-1
+======================================================================
+SFC  (clave: sfc)  n=1
+  bases: {'CARD': 1}
+       1x  SFC-1
+======================================================================
+SFO  (clave: sfo)  n=1
+  bases: {'CARD': 1}
+       1x  SFO-1
+======================================================================
+SHN  (clave: shn)  n=1
+  bases: {'CARD': 1}
+       1x  SHN-1
+======================================================================
+SPN79  (clave: spn79)  n=1
+  bases: {'CARD': 1}
+       1x  SPN79-1
+======================================================================
+SPR  (clave: spr)  n=1
+  bases: {'CARD': 1}
+       1x  SPR-1
+======================================================================
+SPS  (clave: sps)  n=1
+  bases: {'CARD': 1}
+       1x  SPS-1
+======================================================================
+TER  (clave: ter)  n=1
+  bases: {'CARD': 1}
+       1x  TER-1
+======================================================================
+TTU  (clave: ttu)  n=1
+  bases: {'CARD': 1}
+       1x  TTU-1
+======================================================================
+VHW  (clave: vhw)  n=1
+  bases: {'CARD': 1}
+       1x  VHW-1
+======================================================================
+YEM  (clave: yem)  n=1
+  bases: {'CARD': 1}
+       1x  YEM-1
+======================================================================
+ZOG  (clave: zog)  n=1
+  bases: {'CARD': 1}
+       1x  ZOG-1
+======================================================================
+MCR-10.5  (clave: mcr105)  n=1
+  bases: {'CARD': 1}
+       1x  MCR-10.5
+======================================================================
+mde  (clave: mde)  n=1
+  bases: {'CARD': 1}
+       1x  mdeA
+======================================================================
+sep  (clave: sep)  n=1
+  bases: {'CARD': 1}
+       1x  sepA
+======================================================================
+sdr  (clave: sdr)  n=1
+  bases: {'CARD': 1}
+       1x  sdrM
+======================================================================
+SHD  (clave: shd)  n=1
+  bases: {'CARD': 1}
+       1x  SHD-1
+======================================================================
+Acla_ACT_CHL  (clave: aclaactchl)  n=1
+  bases: {'CARD': 1}
+       1x  Acla_ACT_CHL
+======================================================================
+Lreu_cat-TC  (clave: lreucattc)  n=1
+  bases: {'CARD': 1}
+       1x  Lreu_cat-TC
+======================================================================
+vanY_in_vanA_cl  (clave: vanyinvanacl)  n=1
+  bases: {'CARD': 1}
+       1x  vanY_in_vanA_cl
+======================================================================
+vanXY_in_vanC  (clave: vanxyinvanc)  n=1
+  bases: {'CARD': 1}
+       1x  vanXY_in_vanC
+======================================================================
+vanH_in_vanA_cl  (clave: vanhinvanacl)  n=1
+  bases: {'CARD': 1}
+       1x  vanH_in_vanA_cl
+======================================================================
+vanX_in_vanA_cl  (clave: vanxinvanacl)  n=1
+  bases: {'CARD': 1}
+       1x  vanX_in_vanA_cl
+======================================================================
+R39  (clave: r39)  n=1
+  bases: {'CARD': 1}
+       1x  R39
+======================================================================
+vanS_in_vanB_cl  (clave: vansinvanbcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanS_in_vanB_cl
+======================================================================
+vanH_in_vanB_cl  (clave: vanhinvanbcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanH_in_vanB_cl
+======================================================================
+vanR_in_vanE_cl  (clave: vanrinvanecl)  n=1
+  bases: {'CARD': 1}
+       1x  vanR_in_vanE_cl
+======================================================================
+vanT_in_vanC_cl  (clave: vantinvanccl)  n=1
+  bases: {'CARD': 1}
+       1x  vanT_in_vanC_cl
+======================================================================
+TolC  (clave: tolc)  n=1
+  bases: {'CARD': 1}
+       1x  TolC
+======================================================================
+MexG  (clave: mexg)  n=1
+  bases: {'CARD': 1}
+       1x  MexG
+======================================================================
+vanW_in_vanB_cl  (clave: vanwinvanbcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanW_in_vanB_cl
+======================================================================
+vanT_in_vanE_cl  (clave: vantinvanecl)  n=1
+  bases: {'CARD': 1}
+       1x  vanT_in_vanE_cl
+======================================================================
+vanY_in_vanD_cl  (clave: vanyinvandcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanY_in_vanD_cl
+======================================================================
+MexI  (clave: mexi)  n=1
+  bases: {'CARD': 1}
+       1x  MexI
+======================================================================
+vanZ_in_vanF_cl  (clave: vanzinvanfcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanZ_in_vanF_cl
+======================================================================
+vanS_in_vanF_cl  (clave: vansinvanfcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanS_in_vanF_cl
+======================================================================
+Bbif_ileS_MUP  (clave: bbifilesmup)  n=1
+  bases: {'CARD': 1}
+       1x  Bbif_ileS_MUP
+======================================================================
+Saur_mupB_MUP  (clave: saurmupbmup)  n=1
+  bases: {'CARD': 1}
+       1x  Saur_mupB_MUP
+======================================================================
+Saur_mupA_MUP  (clave: saurmupamup)  n=1
+  bases: {'CARD': 1}
+       1x  Saur_mupA_MUP
+======================================================================
+Rm3  (clave: rm3)  n=1
+  bases: {'CARD': 1}
+       1x  Rm3
+======================================================================
+YojI  (clave: yoji)  n=1
+  bases: {'CARD': 1}
+       1x  YojI
+======================================================================
+MCR-5.1  (clave: mcr51)  n=1
+  bases: {'CARD': 1}
+       1x  MCR-5.1
+======================================================================
+Bado_rpoB_RIF  (clave: badorpobrif)  n=1
+  bases: {'CARD': 1}
+       1x  Bado_rpoB_RIF
+======================================================================
+MCR-3.17  (clave: mcr317)  n=1
+  bases: {'CARD': 1}
+       1x  MCR-3.17
+======================================================================
+TxR  (clave: txr)  n=1
+  bases: {'CARD': 1}
+       1x  TxR
+======================================================================
+vanTm_in_vanL  (clave: vantminvanl)  n=1
+  bases: {'CARD': 1}
+       1x  vanTm_in_vanL
+======================================================================
+vanY_in_vanG_cl  (clave: vanyinvangcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanY_in_vanG_cl
+======================================================================
+vanS_in_vanG_cl  (clave: vansinvangcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanS_in_vanG_cl
+======================================================================
+vanXY_in_vanN  (clave: vanxyinvann)  n=1
+  bases: {'CARD': 1}
+       1x  vanXY_in_vanN
+======================================================================
+vanS_in_vanL_cl  (clave: vansinvanlcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanS_in_vanL_cl
+======================================================================
+vanR_in_vanM_cl  (clave: vanrinvanmcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanR_in_vanM_cl
+======================================================================
+vanU_in_vanG_cl  (clave: vanuinvangcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanU_in_vanG_cl
+======================================================================
+vanS_in_vanN_cl  (clave: vansinvanncl)  n=1
+  bases: {'CARD': 1}
+       1x  vanS_in_vanN_cl
+======================================================================
+vanR_in_vanN_cl  (clave: vanrinvanncl)  n=1
+  bases: {'CARD': 1}
+       1x  vanR_in_vanN_cl
+======================================================================
+vanS_in_vanM_cl  (clave: vansinvanmcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanS_in_vanM_cl
+======================================================================
+vanTr_in_vanL  (clave: vantrinvanl)  n=1
+  bases: {'CARD': 1}
+       1x  vanTr_in_vanL
+======================================================================
+vanW_in_vanG_cl  (clave: vanwinvangcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanW_in_vanG_cl
+======================================================================
+vanR_in_vanO_cl  (clave: vanrinvanocl)  n=1
+  bases: {'CARD': 1}
+       1x  vanR_in_vanO_cl
+======================================================================
+vanH_in_vanM_cl  (clave: vanhinvanmcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanH_in_vanM_cl
+======================================================================
+vanXY_in_vanL  (clave: vanxyinvanl)  n=1
+  bases: {'CARD': 1}
+       1x  vanXY_in_vanL
+======================================================================
+vanT_in_vanN_cl  (clave: vantinvanncl)  n=1
+  bases: {'CARD': 1}
+       1x  vanT_in_vanN_cl
+======================================================================
+vanW_in_vanI_cl  (clave: vanwinvanicl)  n=1
+  bases: {'CARD': 1}
+       1x  vanW_in_vanI_cl
+======================================================================
+vanK_in_vanI_cl  (clave: vankinvanicl)  n=1
+  bases: {'CARD': 1}
+       1x  vanK_in_vanI_cl
+======================================================================
+msr(G)  (clave: msrg)  n=1
+  bases: {'CARD': 1}
+       1x  msr(G)
+======================================================================
+msr(I)  (clave: msri)  n=1
+  bases: {'CARD': 1}
+       1x  msr(I)
+======================================================================
+mre  (clave: mre)  n=1
+  bases: {'CARD': 1}
+       1x  mreA
+======================================================================
+VAM  (clave: vam)  n=1
+  bases: {'CARD': 1}
+       1x  VAM-1
+======================================================================
+FosY  (clave: fosy)  n=1
+  bases: {'CARD': 1}
+       1x  FosY
+======================================================================
+mef(J)  (clave: mefj)  n=1
+  bases: {'CARD': 1}
+       1x  mef(J)
+======================================================================
+PRC  (clave: prc)  n=1
+  bases: {'CARD': 1}
+       1x  PRC-1
+======================================================================
+FosM1  (clave: fosm1)  n=1
+  bases: {'CARD': 1}
+       1x  FosM1
+======================================================================
+FosM2  (clave: fosm2)  n=1
+  bases: {'CARD': 1}
+       1x  FosM2
+======================================================================
+FosM3  (clave: fosm3)  n=1
+  bases: {'CARD': 1}
+       1x  FosM3
+======================================================================
+BcIII  (clave: bciii)  n=1
+  bases: {'CARD': 1}
+       1x  BcIII
+======================================================================
+LnuH  (clave: lnuh)  n=1
+  bases: {'CARD': 1}
+       1x  LnuH
+======================================================================
+crx  (clave: crx)  n=1
+  bases: {'CARD': 1}
+       1x  crxA
+======================================================================
+tet(O/M/O)  (clave: tetomo)  n=1
+  bases: {'CARD': 1}
+       1x  tet(O/M/O)
+======================================================================
+tet(O/W)  (clave: tetow)  n=1
+  bases: {'CARD': 1}
+       1x  tet(O/W)
+======================================================================
+tet(O/W/32/O)  (clave: tetow32o)  n=1
+  bases: {'CARD': 1}
+       1x  tet(O/W/32/O)
+======================================================================
+tet(47)  (clave: tet47)  n=1
+  bases: {'CARD': 1}
+       1x  tet(47)
+======================================================================
+tet(X3)  (clave: tetx3)  n=1
+  bases: {'CARD': 1}
+       1x  tet(X3)
+======================================================================
+ROB  (clave: rob)  n=1
+  bases: {'CARD': 1}
+       1x  ROB-12
+======================================================================
+otrS.rim  (clave: otrsrim)  n=1
+  bases: {'CARD': 1}
+       1x  otr(A)S.rim
+======================================================================
+otrS.liv  (clave: otrsliv)  n=1
+  bases: {'CARD': 1}
+       1x  otr(A)S.liv
+======================================================================
+MAB  (clave: mab)  n=1
+  bases: {'CARD': 1}
+       1x  MAB
+======================================================================
+vanH_in_vanP_cl  (clave: vanhinvanpcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanH_in_vanP_cl
+======================================================================
+vanX_in_vanP_cl  (clave: vanxinvanpcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanX_in_vanP_cl
+======================================================================
+vanR_in_vanP_cl  (clave: vanrinvanpcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanR_in_vanP_cl
+======================================================================
+vanS_in_vanP_cl  (clave: vansinvanpcl)  n=1
+  bases: {'CARD': 1}
+       1x  vanS_in_vanP_cl
+======================================================================
+AAC(6')-Iap  (clave: aac6iap)  n=1
+  bases: {'CARD': 1}
+       1x  AAC(6')-Iap
+======================================================================
+KBL  (clave: kbl)  n=1
+  bases: {'CARD': 1}
+       1x  KBL-1
+======================================================================
+Sven_rox  (clave: svenrox)  n=1
+  bases: {'CARD': 1}
+       1x  Sven_rox
+======================================================================
+Nfar_rox  (clave: nfarrox)  n=1
+  bases: {'CARD': 1}
+       1x  Nfar_rox
+======================================================================
+HelR  (clave: helr)  n=1
+  bases: {'CARD': 1}
+       1x  HelR
+======================================================================
+MCR-3.20  (clave: mcr320)  n=1
+  bases: {'CARD': 1}
+       1x  MCR-3.20
+======================================================================
+MCR-2.4  (clave: mcr24)  n=1
+  bases: {'CARD': 1}
+       1x  MCR-2.4
+======================================================================
+FosG  (clave: fosg)  n=1
+  bases: {'CARD': 1}
+       1x  FosG
+======================================================================
+FosH  (clave: fosh)  n=1
+  bases: {'CARD': 1}
+       1x  FosH
+======================================================================
+FosI  (clave: fosi)  n=1
+  bases: {'CARD': 1}
+       1x  FosI
+======================================================================
+FosA8  (clave: fosa8)  n=1
+  bases: {'CARD': 1}
+       1x  FosA8
+======================================================================
+PJM  (clave: pjm)  n=1
+  bases: {'CARD': 1}
+       1x  PJM-1
+======================================================================
+QnrAS  (clave: qnras)  n=1
+  bases: {'CARD': 1}
+       1x  QnrAS
+======================================================================
+QnrB39  (clave: qnrb39)  n=1
+  bases: {'CARD': 1}
+       1x  QnrB39
+======================================================================
+Mrx  (clave: mrx)  n=1
+  bases: {'CARD': 1}
+       1x  Mrx
+======================================================================
+leu  (clave: leu)  n=1
+  bases: {'CARD': 1}
+       1x  leuO
+======================================================================
+AAC6_30_AAC6_Ib  (clave: aac630aac6ib)  n=1
+  bases: {'CARD': 1}
+       1x  AAC6_30_AAC6_Ib
+======================================================================
+ANT3II_ANT6II  (clave: ant3iiant6ii)  n=1
+  bases: {'CARD': 1}
+       1x  ANT3II_ANT6II
+======================================================================
+ThfT  (clave: thft)  n=1
+  bases: {'CARD': 1}
+       1x  ThfT
+======================================================================
+tet(62)  (clave: tet62)  n=1
+  bases: {'CARD': 1}
+       1x  tet(62)
+======================================================================
+tet(63)  (clave: tet63)  n=1
+  bases: {'CARD': 1}
+       1x  tet(63)
+======================================================================
+tet(64)  (clave: tet64)  n=1
+  bases: {'CARD': 1}
+       1x  tet(64)
+======================================================================
+LAQ  (clave: laq)  n=1
+  bases: {'CARD': 1}
+       1x  LAQ-1
+======================================================================
+WUS  (clave: wus)  n=1
+  bases: {'CARD': 1}
+       1x  WUS-1
+======================================================================
+SSA  (clave: ssa)  n=1
+  bases: {'CARD': 1}
+       1x  SSA
+======================================================================
+EstT  (clave: estt)  n=1
+  bases: {'CARD': 1}
+       1x  EstT
+======================================================================
+RAD  (clave: rad)  n=1
+  bases: {'CARD': 1}
+       1x  RAD-1
+======================================================================
+dfrB10  (clave: dfrb10)  n=1
+  bases: {'CARD': 1}
+       1x  dfrB10
+======================================================================
+dfrB11  (clave: dfrb11)  n=1
+  bases: {'CARD': 1}
+       1x  dfrB11
+======================================================================
+mef(C)  (clave: mefc)  n=1
+  bases: {'CARD': 1}
+       1x  mef(C)
+======================================================================
+mef(E)  (clave: mefe)  n=1
+  bases: {'CARD': 1}
+       1x  mef(E)
+======================================================================
+mef(F)  (clave: meff)  n=1
+  bases: {'CARD': 1}
+       1x  mef(F)
+======================================================================
+CAE  (clave: cae)  n=1
+  bases: {'CARD': 1}
+       1x  CAE-1
+======================================================================
+cpl  (clave: cpl)  n=1
+  bases: {'CARD': 1}
+       1x  cplR
+======================================================================
+Cper_cplR  (clave: cpercplr)  n=1
+  bases: {'CARD': 1}
+       1x  Cper_cplR
+======================================================================
+Cspo_cplR  (clave: cspocplr)  n=1
+  bases: {'CARD': 1}
+       1x  Cspo_cplR
+======================================================================
+PSZ  (clave: psz)  n=1
+  bases: {'CARD': 1}
+       1x  PSZ-1
+======================================================================
+CDA  (clave: cda)  n=1
+  bases: {'CARD': 1}
+       1x  CDA-1
+======================================================================
+SIE  (clave: sie)  n=1
+  bases: {'CARD': 1}
+       1x  SIE-1
+======================================================================
+Rv2856  (clave: rv2856)  n=1
+  bases: {'CARD': 1}
+       1x  Rv2856
+======================================================================
+Rv1877  (clave: rv1877)  n=1
+  bases: {'CARD': 1}
+       1x  Rv1877
+======================================================================
+CdnimB  (clave: cdnimb)  n=1
+  bases: {'CARD': 1}
+       1x  CdnimB
+======================================================================
+RSA1  (clave: rsa1)  n=1
+  bases: {'CARD': 1}
+       1x  RSA1-1
+======================================================================
+IreK  (clave: irek)  n=1
+  bases: {'CARD': 1}
+       1x  IreK
+======================================================================
+AMZ  (clave: amz)  n=1
+  bases: {'CARD': 1}
+       1x  AMZ-1
+======================================================================
+NWM  (clave: nwm)  n=1
+  bases: {'CARD': 1}
+       1x  NWM-1
+======================================================================
+MdtQ  (clave: mdtq)  n=1
+  bases: {'CARD': 1}
+       1x  MdtQ
+======================================================================
+tet(65)  (clave: tet65)  n=1
+  bases: {'CARD': 1}
+       1x  tet(65)
+======================================================================
+CIM  (clave: cim)  n=1
+  bases: {'CARD': 1}
+       1x  CIM-1
+======================================================================
+BIM  (clave: bim)  n=1
+  bases: {'CARD': 1}
+       1x  BIM-1
+======================================================================
+CHM  (clave: chm)  n=1
+  bases: {'CARD': 1}
+       1x  CHM-1
+======================================================================
+DYB  (clave: dyb)  n=1
+  bases: {'CARD': 1}
+       1x  DYB-1
+======================================================================
+ASU1  (clave: asu1)  n=1
+  bases: {'CARD': 1}
+       1x  ASU1-1
+======================================================================
+B3SU1  (clave: b3su1)  n=1
+  bases: {'CARD': 1}
+       1x  B3SU1-1
+======================================================================
+B3SU2  (clave: b3su2)  n=1
+  bases: {'CARD': 1}
+       1x  B3SU2-1
+======================================================================
+BMHC  (clave: bmhc)  n=1
+  bases: {'CARD': 1}
+       1x  BMHC-1
+======================================================================
+BOR  (clave: bor)  n=1
+  bases: {'CARD': 1}
+       1x  BOR-1
+======================================================================
+GMA  (clave: gma)  n=1
+  bases: {'CARD': 1}
+       1x  GMA-1
+======================================================================
+HBL  (clave: hbl)  n=1
+  bases: {'CARD': 1}
+       1x  HBL-1
+======================================================================
+HER  (clave: her)  n=1
+  bases: {'CARD': 1}
+       1x  HER-1
+======================================================================
+MUN  (clave: mun)  n=1
+  bases: {'CARD': 1}
+       1x  MUN-1
+======================================================================
+OXY-10  (clave: oxy10)  n=1
+  bases: {'CARD': 1}
+       1x  OXY-10-1
+======================================================================
+OXY-11  (clave: oxy11)  n=1
+  bases: {'CARD': 1}
+       1x  OXY-11-1
+======================================================================
+OXY-12  (clave: oxy12)  n=1
+  bases: {'CARD': 1}
+       1x  OXY-12-2
+======================================================================
+OXY-4  (clave: oxy4)  n=1
+  bases: {'CARD': 1}
+       1x  OXY-4-2
+======================================================================
+OXY-9  (clave: oxy9)  n=1
+  bases: {'CARD': 1}
+       1x  OXY-9-1
+======================================================================
+PAD  (clave: pad)  n=1
+  bases: {'CARD': 1}
+       1x  PAD-1
+======================================================================
+PNC  (clave: pnc)  n=1
+  bases: {'CARD': 1}
+       1x  PNC-1
+======================================================================
+RAA  (clave: raa)  n=1
+  bases: {'CARD': 1}
+       1x  RAA-1
+======================================================================
+RASA  (clave: rasa)  n=1
+  bases: {'CARD': 1}
+       1x  RASA-1
+======================================================================
+RSC1  (clave: rsc1)  n=1
+  bases: {'CARD': 1}
+       1x  RSC1-1
+======================================================================
+RSD1  (clave: rsd1)  n=1
+  bases: {'CARD': 1}
+       1x  RSD1-1
+======================================================================
+SFDC  (clave: sfdc)  n=1
+  bases: {'CARD': 1}
+       1x  SFDC-1
+======================================================================
+YOC  (clave: yoc)  n=1
+  bases: {'CARD': 1}
+       1x  YOC-1
+======================================================================
+YRC  (clave: yrc)  n=1
+  bases: {'CARD': 1}
+       1x  YRC-1
+======================================================================
+AAC_3Ib_AAC_6Ib  (clave: aac3ibaac6ib)  n=1
+  bases: {'CARD': 1}
+       1x  AAC_3Ib_AAC_6Ib
+======================================================================
+AMM  (clave: amm)  n=1
+  bases: {'CARD': 1}
+       1x  AMM-1
+======================================================================
+fmr  (clave: fmr)  n=1
+  bases: {'ResFinder': 1}
+       1x  fmrO
+======================================================================
+kgm  (clave: kgm)  n=1
+  bases: {'ResFinder': 1}
+       1x  kgmB
+======================================================================
+aadA2  (clave: aada2)  n=1
+  bases: {'ResFinder': 1}
+       1x  aadA2
+======================================================================
+aadA24  (clave: aada24)  n=1
+  bases: {'ResFinder': 1}
+       1x  aadA24
+======================================================================
+aac(3)-XI_1_CTEG01000046  (clave: aac3xi1cteg01000046)  n=1
+  bases: {'ResFinder': 1}
+       1x  aac(3)-XI_1_CTEG01000046
+======================================================================
+kmr  (clave: kmr)  n=1
+  bases: {'ResFinder': 1}
+       1x  kmr
+======================================================================
+grd  (clave: grd)  n=1
+  bases: {'ResFinder': 1}
+       1x  grdA
+======================================================================
+Gar  (clave: gar)  n=1
+  bases: {'ResFinder': 1}
+       1x  Gar
+======================================================================
+blaSGM  (clave: blasgm)  n=1
+  bases: {'ResFinder': 1}
+       1x  blaSGM-2
+======================================================================
+blaACC  (clave: blaacc)  n=1
+  bases: {'ResFinder': 1}
+       1x  blaACC-3
+======================================================================
+blaLEN3  (clave: blalen3)  n=1
+  bases: {'ResFinder': 1}
+       1x  blaLEN3
+======================================================================
+blaOXA-85_1_JANA01000064  (clave: blaoxa851jana01000064)  n=1
+  bases: {'ResFinder': 1}
+       1x  blaOXA-85_1_JANA01000064
+======================================================================
+hug  (clave: hug)  n=1
+  bases: {'ResFinder': 1}
+       1x  hugA
+======================================================================
+blaZEG  (clave: blazeg)  n=1
+  bases: {'ResFinder': 1}
+       1x  blaZEG-1
+======================================================================
+blaGES  (clave: blages)  n=1
+  bases: {'ResFinder': 1}
+       1x  blaGES-23
+======================================================================
+mecA2  (clave: meca2)  n=1
+  bases: {'ResFinder': 1}
+       1x  mecA2
+======================================================================
+mecC2  (clave: mecc2)  n=1
+  bases: {'ResFinder': 1}
+       1x  mecC2
+======================================================================
+blaZ_29_JDXN01000019  (clave: blaz29jdxn01000019)  n=1
+  bases: {'ResFinder': 1}
+       1x  blaZ_29_JDXN01000019
+======================================================================
+blaZ_133_AIDT01000014  (clave: blaz133aidt01000014)  n=1
+  bases: {'ResFinder': 1}
+       1x  blaZ_133_AIDT01000014
+======================================================================
+blaVMB  (clave: blavmb)  n=1
+  bases: {'ResFinder': 1}
+       1x  blaVMB-1
+======================================================================
+fos_1_ACCV01000052  (clave: fos1accv01000052)  n=1
+  bases: {'ResFinder': 1}
+       1x  fos_1_ACCV01000052
+======================================================================
+fosA_2_AGDM01000012  (clave: fosa2agdm01000012)  n=1
+  bases: {'ResFinder': 1}
+       1x  fosA_2_AGDM01000012
+======================================================================
+VanHAX  (clave: vanhax)  n=1
+  bases: {'ResFinder': 1}
+       1x  VanHAX
+======================================================================
+VanHAX_PT  (clave: vanhaxpt)  n=1
+  bases: {'ResFinder': 1}
+       1x  VanHAX_PT
+======================================================================
+VanHAX_PA  (clave: vanhaxpa)  n=1
+  bases: {'ResFinder': 1}
+       1x  VanHAX_PA
+======================================================================
+VanHAX_NC_1_NoAcc  (clave: vanhaxnc1noacc)  n=1
+  bases: {'ResFinder': 1}
+       1x  VanHAX_NC_1_NoAcc
+======================================================================
+VanHBX  (clave: vanhbx)  n=1
+  bases: {'ResFinder': 1}
+       1x  VanHBX
+======================================================================
+VanE  (clave: vane)  n=1
+  bases: {'ResFinder': 1}
+       1x  VanE
+======================================================================
+VanEXY  (clave: vanexy)  n=1
+  bases: {'ResFinder': 1}
+       1x  VanEXY
+======================================================================
+VanGXY  (clave: vangxy)  n=1
+  bases: {'ResFinder': 1}
+       1x  VanGXY
+======================================================================
+VanG2XY  (clave: vang2xy)  n=1
+  bases: {'ResFinder': 1}
+       1x  VanG2XY
+======================================================================
+VanLXY  (clave: vanlxy)  n=1
+  bases: {'ResFinder': 1}
+       1x  VanLXY
+======================================================================
+VanHMX  (clave: vanhmx)  n=1
+  bases: {'ResFinder': 1}
+       1x  VanHMX
+======================================================================
+VanNXY  (clave: vannxy)  n=1
+  bases: {'ResFinder': 1}
+       1x  VanNXY
+======================================================================
+VanHOX  (clave: vanhox)  n=1
+  bases: {'ResFinder': 1}
+       1x  VanHOX
+======================================================================
+msr(D)  (clave: msrd)  n=1
+  bases: {'ResFinder': 1}
+       1x  msr(D)
+======================================================================
+vat(D)  (clave: vatd)  n=1
+  bases: {'ResFinder': 1}
+       1x  vat(D)
+======================================================================
+vga(A)V  (clave: vgaav)  n=1
+  bases: {'ResFinder': 1}
+       1x  vga(A)V
+======================================================================
+NarA  (clave: nara)  n=1
+  bases: {'ResFinder': 1}
+       1x  NarA
+======================================================================
+NarB  (clave: narb)  n=1
+  bases: {'ResFinder': 1}
+       1x  NarB
+======================================================================
+cfr_2_CANB01000378  (clave: cfr2canb01000378)  n=1
+  bases: {'ResFinder': 1}
+       1x  cfr(C)_2_CANB01000378
+======================================================================
+EstDL136  (clave: estdl136)  n=1
+  bases: {'ResFinder': 1}
+       1x  EstDL136
+======================================================================
+qnrB89  (clave: qnrb89)  n=1
+  bases: {'ResFinder': 1}
+       1x  qnrB89
+======================================================================
+tet(O/32/O)_4_AIOQ01000025  (clave: teto32o4aioq01000025)  n=1
+  bases: {'ResFinder': 1}
+       1x  tet(O/32/O)_4_AIOQ01000025
+======================================================================
+tet(34)  (clave: tet34)  n=1
+  bases: {'ResFinder': 1}
+       1x  tet(34)
+======================================================================
+tet(S)  (clave: tets)  n=1
+  bases: {'ResFinder': 1}
+       1x  tet(S)
+======================================================================
+tet(S/M)  (clave: tetsm)  n=1
+  bases: {'ResFinder': 1}
+       1x  tet(S/M)
+======================================================================
+tmexC1  (clave: tmexc1)  n=1
+  bases: {'ResFinder': 1}
+       1x  tmexC1
+======================================================================
+tmexD1  (clave: tmexd1)  n=1
+  bases: {'ResFinder': 1}
+       1x  tmexD1
+======================================================================
+TOprJ1  (clave: toprj1)  n=1
+  bases: {'ResFinder': 1}
+       1x  TOprJ1
+======================================================================
+TOprJ4  (clave: toprj4)  n=1
+  bases: {'ResFinder': 1}
+       1x  TOprJ4
+======================================================================
+dfrA14  (clave: dfra14)  n=1
+  bases: {'ResFinder': 1}
+       1x  dfrA14
+======================================================================
+dfrA29  (clave: dfra29)  n=1
+  bases: {'ResFinder': 1}
+       1x  dfrA29
+======================================================================
+mcr-3.30  (clave: mcr330)  n=1
+  bases: {'ResFinder': 1}
+       1x  mcr-3.30
+======================================================================
+mcr-9.2  (clave: mcr92)  n=1
+  bases: {'ResFinder': 1}
+       1x  mcr-9.2
+======================================================================
+blaFLC  (clave: blaflc)  n=1
+  bases: {'ResFinder': 1}
+       1x  blaFLC-1
+======================================================================
+ABCA  (clave: abca)  n=1
+  bases: {'MEGARes': 1}
+       1x  ABCA
+======================================================================
+AER  (clave: aer)  n=1
+  bases: {'MEGARes': 1}
+       1x  AER
+======================================================================
+AMPC  (clave: ampc)  n=1
+  bases: {'MEGARes': 1}
+       1x  AMPC
+======================================================================
+BBI  (clave: bbi)  n=1
+  bases: {'MEGARes': 1}
+       1x  BBI
+======================================================================
+BJP1  (clave: bjp1)  n=1
+  bases: {'MEGARes': 1}
+       1x  BJP1
+======================================================================
+BLAE  (clave: blae)  n=1
+  bases: {'MEGARes': 1}
+       1x  BLAE
+======================================================================
+BLASME  (clave: blasme)  n=1
+  bases: {'MEGARes': 1}
+       1x  BLASME
+======================================================================
+CEPH  (clave: ceph)  n=1
+  bases: {'MEGARes': 1}
+       1x  CEPH
+======================================================================
+CRPP  (clave: crpp)  n=1
+  bases: {'MEGARes': 1}
+       1x  CRPP
+======================================================================
+DFRB  (clave: dfrb)  n=1
+  bases: {'MEGARes': 1}
+       1x  DFRB
+======================================================================
+DFRD  (clave: dfrd)  n=1
+  bases: {'MEGARes': 1}
+       1x  DFRD
+======================================================================
+DHAP  (clave: dhap)  n=1
+  bases: {'MEGARes': 1}
+       1x  DHAP
+======================================================================
+DRRA  (clave: drra)  n=1
+  bases: {'MEGARes': 1}
+       1x  DRRA
+======================================================================
+ERM41  (clave: erm41)  n=1
+  bases: {'MEGARes': 1}
+       1x  ERM41
+======================================================================
+ERMF  (clave: ermf)  n=1
+  bases: {'MEGARes': 1}
+       1x  ERMF
+======================================================================
+ERMQ  (clave: ermq)  n=1
+  bases: {'MEGARes': 1}
+       1x  ERMQ
+======================================================================
+ERMU  (clave: ermu)  n=1
+  bases: {'MEGARes': 1}
+       1x  ERMU
+======================================================================
+ESTD  (clave: estd)  n=1
+  bases: {'MEGARes': 1}
+       1x  ESTD
+======================================================================
+FAR1  (clave: far1)  n=1
+  bases: {'MEGARes': 1}
+       1x  FAR1
+======================================================================
+HLYD  (clave: hlyd)  n=1
+  bases: {'MEGARes': 1}
+       1x  HLYD
+======================================================================
+HUGA  (clave: huga)  n=1
+  bases: {'MEGARes': 1}
+       1x  HUGA
+======================================================================
+KAMB  (clave: kamb)  n=1
+  bases: {'MEGARes': 1}
+       1x  KAMB
+======================================================================
+LEN  (clave: len)  n=1
+  bases: {'MEGARes': 1}
+       1x  LEN
+======================================================================
+LNUF  (clave: lnuf)  n=1
+  bases: {'MEGARes': 1}
+       1x  LNUF
+======================================================================
+M1  (clave: m1)  n=1
+  bases: {'MEGARes': 1}
+       1x  M1
+======================================================================
+MCA  (clave: mca)  n=1
+  bases: {'MEGARes': 1}
+       1x  MCA
+======================================================================
+MECC  (clave: mecc)  n=1
+  bases: {'MEGARes': 1}
+       1x  MECC
+======================================================================
+MEPB  (clave: mepb)  n=1
+  bases: {'MEGARes': 1}
+       1x  MEPB
+======================================================================
+MPHD  (clave: mphd)  n=1
+  bases: {'MEGARes': 1}
+       1x  MPHD
+======================================================================
+MSRA  (clave: msra)  n=1
+  bases: {'MEGARes': 1}
+       1x  MSRA
+======================================================================
+MTRAD  (clave: mtrad)  n=1
+  bases: {'MEGARes': 1}
+       1x  MTRAD
+======================================================================
+MYRA  (clave: myra)  n=1
+  bases: {'MEGARes': 1}
+       1x  MYRA
+======================================================================
+NIME  (clave: nime)  n=1
+  bases: {'MEGARes': 1}
+       1x  NIME
+======================================================================
+NIMI  (clave: nimi)  n=1
+  bases: {'MEGARes': 1}
+       1x  NIMI
+======================================================================
+NORMD  (clave: normd)  n=1
+  bases: {'MEGARes': 1}
+       1x  NORMD
+======================================================================
+NSHR  (clave: nshr)  n=1
+  bases: {'MEGARes': 1}
+       1x  NSHR
+======================================================================
+OMPD  (clave: ompd)  n=1
+  bases: {'MEGARes': 1}
+       1x  OMPD
+======================================================================
+OMPR  (clave: ompr)  n=1
+  bases: {'MEGARes': 1}
+       1x  OMPR
+======================================================================
+PARY  (clave: pary)  n=1
+  bases: {'MEGARes': 1}
+       1x  PARY
+======================================================================
+PBP4B  (clave: pbp4b)  n=1
+  bases: {'MEGARes': 1}
+       1x  PBP4B
+======================================================================
+PENA  (clave: pena)  n=1
+  bases: {'MEGARes': 1}
+       1x  PENA
+======================================================================
+RLMH  (clave: rlmh)  n=1
+  bases: {'MEGARes': 1}
+       1x  RLMH
+======================================================================
+RMTB  (clave: rmtb)  n=1
+  bases: {'MEGARes': 1}
+       1x  RMTB
+======================================================================
+ROSA  (clave: rosa)  n=1
+  bases: {'MEGARes': 1}
+       1x  ROSA
+======================================================================
+RSA  (clave: rsa)  n=1
+  bases: {'MEGARes': 1}
+       1x  RSA
+======================================================================
+SULR  (clave: sulr)  n=1
+  bases: {'MEGARes': 1}
+       1x  SULR
+======================================================================
+SULX  (clave: sulx)  n=1
+  bases: {'MEGARes': 1}
+       1x  SULX
+======================================================================
+TCMA  (clave: tcma)  n=1
+  bases: {'MEGARes': 1}
+       1x  TCMA
+======================================================================
+TETB  (clave: tetb)  n=1
+  bases: {'MEGARes': 1}
+       1x  TETB
+======================================================================
+TETQ  (clave: tetq)  n=1
+  bases: {'MEGARes': 1}
+       1x  TETQ
+======================================================================
+TETU  (clave: tetu)  n=1
+  bases: {'MEGARes': 1}
+       1x  TETU
+======================================================================
+TETW  (clave: tetw)  n=1
+  bases: {'MEGARes': 1}
+       1x  TETW
+======================================================================
+TLMB  (clave: tlmb)  n=1
+  bases: {'MEGARes': 1}
+       1x  TLMB
+======================================================================
+TLRC  (clave: tlrc)  n=1
+  bases: {'MEGARes': 1}
+       1x  TLRC
+======================================================================
+VANB  (clave: vanb)  n=1
+  bases: {'MEGARes': 1}
+       1x  VANB
+======================================================================
+VANG  (clave: vang)  n=1
+  bases: {'MEGARes': 1}
+       1x  VANG
+======================================================================
+VANHB  (clave: vanhb)  n=1
+  bases: {'MEGARes': 1}
+       1x  VANHB
+======================================================================
+VANK  (clave: vank)  n=1
+  bases: {'MEGARes': 1}
+       1x  VANK
+======================================================================
+VANN  (clave: vann)  n=1
+  bases: {'MEGARes': 1}
+       1x  VANN
+======================================================================
+VANRB  (clave: vanrb)  n=1
+  bases: {'MEGARes': 1}
+       1x  VANRB
+======================================================================
+VANSB  (clave: vansb)  n=1
+  bases: {'MEGARes': 1}
+       1x  VANSB
+======================================================================
+VANSO  (clave: vanso)  n=1
+  bases: {'MEGARes': 1}
+       1x  VANSO
+======================================================================
+VANWA  (clave: vanwa)  n=1
+  bases: {'MEGARes': 1}
+       1x  VANWA
+======================================================================
+VANXB  (clave: vanxb)  n=1
+  bases: {'MEGARes': 1}
+       1x  VANXB
+======================================================================
+VANYB  (clave: vanyb)  n=1
+  bases: {'MEGARes': 1}
+       1x  VANYB
+======================================================================
+ZBMA  (clave: zbma)  n=1
+  bases: {'MEGARes': 1}
+       1x  ZBMA
+======================================================================
+RDXA  (clave: rdxa)  n=1
+  bases: {'MEGARes': 1}
+       1x  RDXA
+======================================================================
+QNRA  (clave: qnra)  n=1
+  bases: {'MEGARes': 1}
+       1x  QNRA
+======================================================================
+FOSU  (clave: fosu)  n=1
+  bases: {'MEGARes': 1}
+       1x  FOSU
+======================================================================
+NPMB  (clave: npmb)  n=1
+  bases: {'MEGARes': 1}
+       1x  NPMB
+======================================================================
+VANRS  (clave: vanrs)  n=1
+  bases: {'MEGARes': 1}
+       1x  VANRS
+======================================================================
+DFRE  (clave: dfre)  n=1
+  bases: {'MEGARes': 1}
+       1x  DFRE
+======================================================================
+TVAB  (clave: tvab)  n=1
+  bases: {'MEGARes': 1}
+       1x  TVAB
+======================================================================
+QNRE  (clave: qnre)  n=1
+  bases: {'MEGARes': 1}
+       1x  QNRE
+======================================================================
+aph  (clave: aph)  n=1
+  bases: {'ARGANNOT': 1}
+       1x  aph7
+======================================================================
+vph  (clave: vph)  n=1
+  bases: {'ARGANNOT': 1}
+       1x  vph
+======================================================================
+Mbl  (clave: mbl)  n=1
+  bases: {'ARGANNOT': 1}
+       1x  Mbl
+======================================================================
+PBP1a  (clave: pbp1a)  n=1
+  bases: {'ARGANNOT': 1}
+       1x  PBP1a
+======================================================================
+PBP1b  (clave: pbp1b)  n=1
+  bases: {'ARGANNOT': 1}
+       1x  PBP1b
+======================================================================
+Zn-dependent_hydrolase  (clave: zndependenthydrolase)  n=1
+  bases: {'ARGANNOT': 1}
+       1x  Zn-dependent_hydrolase
+======================================================================
+blaSFH  (clave: blasfh)  n=1
+  bases: {'ARGANNOT': 1}
+       1x  blaSFH-1
+======================================================================
+blaSFO  (clave: blasfo)  n=1
+  bases: {'ARGANNOT': 1}
+       1x  blaSFO-1
+======================================================================
+cphA2  (clave: cpha2)  n=1
+  bases: {'ARGANNOT': 1}
+       1x  cphA2
+======================================================================
+mcr  (clave: mcr)  n=1
+  bases: {'ARGANNOT': 1}
+       1x  mcr-3
+======================================================================
+FomC  (clave: fomc)  n=1
+  bases: {'ARGANNOT': 1}
+       1x  FomC
+======================================================================
+catB4  (clave: catb4)  n=1
+  bases: {'ARGANNOT': 1}
+       1x  catB4
+======================================================================
+catB6  (clave: catb6)  n=1
+  bases: {'ARGANNOT': 1}
+       1x  catB6
+======================================================================
+catB_variant1  (clave: catbvariant1)  n=1
+  bases: {'ARGANNOT': 1}
+       1x  catB_variant1
+======================================================================
+rif  (clave: rif)  n=1
+  bases: {'ARGANNOT': 1}
+       1x  rif
+======================================================================
+norM-Burk  (clave: normburk)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  norM-Burk
+======================================================================
+emrD3  (clave: emrd3)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  emrD3
+======================================================================
+kde  (clave: kde)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  kdeA
+======================================================================
+rdmCL  (clave: rdmcl)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  rdmCL
+======================================================================
+cxp  (clave: cxp)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  cxpE
+======================================================================
+bex  (clave: bex)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  bexA
+======================================================================
+smf  (clave: smf)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  smfY
+======================================================================
+qseB_rel  (clave: qsebrel)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  qseB_rel
+======================================================================
+qseC_rel  (clave: qsecrel)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  qseC_rel
+======================================================================
+emrA-sm  (clave: emrasm)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  emrA-sm
+======================================================================
+emrB-sm  (clave: emrbsm)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  emrB-sm
+======================================================================
+ampC_Yent  (clave: ampcyent)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  ampC_Yent
+======================================================================
+emrC_Lis  (clave: emrclis)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  emrC_Lis
+======================================================================
+mleBCA  (clave: mlebca)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  mleBCA
+======================================================================
+aac(6')_E606  (clave: aac6e606)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  aac(6')_E606
+======================================================================
+fosLL  (clave: fosll)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  fosLL
+======================================================================
+bcrA_Lm  (clave: bcralm)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  bcrA_Lm
+======================================================================
+dfrA41  (clave: dfra41)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  dfrA41
+======================================================================
+blaAHM  (clave: blaahm)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaAHM-1
+======================================================================
+blaSAM  (clave: blasam)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaSAM-1
+======================================================================
+blaEBR  (clave: blaebr)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaEBR-6
+======================================================================
+aac(6')_E657  (clave: aac6e657)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  aac(6')_E657
+======================================================================
+aac(2')-I(A267)  (clave: aac2ia267)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  aac(2')-I(A267)
+======================================================================
+aac(6')_E141  (clave: aac6e141)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  aac(6')_E141
+======================================================================
+cmlA_floR  (clave: cmlaflor)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  cmlA_floR
+======================================================================
+dfrA40  (clave: dfra40)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  dfrA40
+======================================================================
+blaMIM  (clave: blamim)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaMIM-1
+======================================================================
+dfrA49  (clave: dfra49)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  dfrA49
+======================================================================
+dfrA50  (clave: dfra50)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  dfrA50
+======================================================================
+mcr-3_set  (clave: mcr3set)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  mcr-3_set
+======================================================================
+fosA11  (clave: fosa11)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  fosA11
+======================================================================
+pbp2m  (clave: pbp2m)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  pbp2m
+======================================================================
+dfrA45  (clave: dfra45)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  dfrA45
+======================================================================
+aac(6')_E550  (clave: aac6e550)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  aac(6')_E550
+======================================================================
+blaCESS  (clave: blacess)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaCESS-1
+======================================================================
+blaCIM2  (clave: blacim2)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaCIM2-1
+======================================================================
+aac(6')_E111  (clave: aac6e111)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  aac(6')_E111
+======================================================================
+fosA7.9  (clave: fosa79)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  fosA7.9
+======================================================================
+aadA36  (clave: aada36)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  aadA36
+======================================================================
+fosA12  (clave: fosa12)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  fosA12
+======================================================================
+blaCJO  (clave: blacjo)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaCJO-1
+======================================================================
+mleBRB  (clave: mlebrb)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  mleBRB
+======================================================================
+blaAKO  (clave: blaako)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaAKO-1
+======================================================================
+aac(6')_E963  (clave: aac6e963)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  aac(6')_E963
+======================================================================
+fosA9  (clave: fosa9)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  fosA9
+======================================================================
+aac(6')_E526  (clave: aac6e526)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  aac(6')_E526
+======================================================================
+qnrB98  (clave: qnrb98)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  qnrB98
+======================================================================
+blaTEL  (clave: blatel)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaTEL-1
+======================================================================
+mlePBB  (clave: mlepbb)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  mlePBB
+======================================================================
+blaSIQ  (clave: blasiq)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaSIQ-1
+======================================================================
+war  (clave: war)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  warA
+======================================================================
+blaPAN  (clave: blapan)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaPAN-1
+======================================================================
+blaASDC  (clave: blaasdc)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaASDC-1
+======================================================================
+aph(3')-I(H957)  (clave: aph3ih957)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  aph(3')-I(H957)
+======================================================================
+mleCBF  (clave: mlecbf)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  mleCBF
+======================================================================
+blaELC  (clave: blaelc)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaELC-2
+======================================================================
+aadA33  (clave: aada33)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  aadA33
+======================================================================
+cmeB_RE  (clave: cmebre)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  cmeB_RE
+======================================================================
+aadA37  (clave: aada37)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  aadA37
+======================================================================
+aac(6')_E449  (clave: aac6e449)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  aac(6')_E449
+======================================================================
+aac(6')_E553  (clave: aac6e553)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  aac(6')_E553
+======================================================================
+aac(6')_E64  (clave: aac6e64)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  aac(6')_E64
+======================================================================
+dfrB13  (clave: dfrb13)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  dfrB13
+======================================================================
+mcr-12.1  (clave: mcr121)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  mcr-12.1
+======================================================================
+blaGUA  (clave: blagua)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaGUA-1
+======================================================================
+blaCOR  (clave: blacor)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaCOR-1
+======================================================================
+blaACES  (clave: blaaces)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaACES-1
+======================================================================
+blaACT  (clave: blaact)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaACT-126
+======================================================================
+blaADC  (clave: blaadc)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaADC-367
+======================================================================
+blaCEMC19  (clave: blacemc19)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaCEMC19-1
+======================================================================
+blaDHA  (clave: bladha)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaDHA-37
+======================================================================
+blaHMB  (clave: blahmb)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaHMB-3
+======================================================================
+blaPDC  (clave: blapdc)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaPDC-675
+======================================================================
+nms  (clave: nms)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  nms
+======================================================================
+blaAVDC  (clave: blaavdc)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaAVDC-1
+======================================================================
+blaOXY-13  (clave: blaoxy13)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaOXY-13-1
+======================================================================
+dfrA53  (clave: dfra53)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  dfrA53
+======================================================================
+dfrA52  (clave: dfra52)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  dfrA52
+======================================================================
+blaMYX  (clave: blamyx)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaMYX-2
+======================================================================
+est  (clave: est)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  estX
+======================================================================
+blaPFM  (clave: blapfm)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaPFM-5
+======================================================================
+mleBCB  (clave: mlebcb)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  mleBCB
+======================================================================
+mlePBA  (clave: mlepba)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  mlePBA
+======================================================================
+dfrB21  (clave: dfrb21)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  dfrB21
+======================================================================
+blaCHA  (clave: blacha)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaCHA-1
+======================================================================
+blaCHC  (clave: blachc)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaCHC-1
+======================================================================
+mcr-8.6  (clave: mcr86)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  mcr-8.6
+======================================================================
+mcr-13.1  (clave: mcr131)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  mcr-13.1
+======================================================================
+blaMOX  (clave: blamox)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaMOX-32
+======================================================================
+blaBAS  (clave: blabas)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaBAS-1
+======================================================================
+blaOXY-2  (clave: blaoxy2)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  blaOXY-2-31
+======================================================================
+qnrS16  (clave: qnrs16)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  qnrS16
+======================================================================
+fosA13  (clave: fosa13)  n=1
+  bases: {'AMRFinderPlus': 1}
+       1x  fosA13

@@ -70,3 +70,18 @@ __pycache__/
 *.nto
 *.njs
 data/models/dnabert2_emb/
+
+# --- añadido 10-nov ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# bases de BLAST (se regeneran con makeblastdb)
+*.ndb
+*.nhr
+*.nin
+*.njs
+*.not
+*.nsq
+*.ntf
+*.nto

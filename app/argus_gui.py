@@ -9,7 +9,8 @@ import pandas as pd
 from PySide6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
     QTableWidget, QTableWidgetItem, QPushButton, QTabWidget, QLabel,
-    QHeaderView, QComboBox, QFileDialog, QMessageBox, QToolButton, QDialog
+    QHeaderView, QComboBox, QFileDialog, QMessageBox, QToolButton, QDialog,
+    QLineEdit
 )
 from PySide6.QtGui import QFont, QColor, QBrush, QPixmap, QIcon
 from PySide6.QtCore import Qt, QThread, Signal, QSettings, QEvent
@@ -122,8 +123,29 @@ def leer_fasta(ruta):
 # ============================================================
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 IDENTIDAD_MODELO = 95
-RUTA_MODELO = os.path.join(RAIZ, "data", "models", f"argus_rf_k6_id{IDENTIDAD_MODELO}.joblib")
+VERSION_MODELO = "_v2"      # "" = modelo viejo (relleno con ceros) | "_v2" = fragmentación
+RUTA_MODELO = os.path.join(RAIZ, "data", "models",f"argus_rf_k6_id{IDENTIDAD_MODELO}{VERSION_MODELO}.joblib")
+UMBRAL_FAMILIA = 0.20    
 UMBRAL_DEFECTO = 0.5
+# ------------------------------------------------------------
+#  Etapa 2 (familia del gen)
+# ------------------------------------------------------------
+# "dnabert" -> DNABERT-6 (balanced accuracy 0.590 en el test por gen)
+# "rf"      -> RandomForest sobre k-meros (0.541, pero instantáneo)
+MODELO_FAMILIA = "dnabert"
+
+# Fragmentos por gen que ve DNABERT, tomando los de mayor probabilidad de la
+# etapa 1. DNABERT corre a ~2.3 fragmentos/segundo en CPU, así que este número
+# es el que controla cuánto tarda el análisis. Súbelo para más fidelidad
+# (el modelo se validó promediando TODOS los fragmentos), bájalo para ir rápido.
+FAMILIA_MAX_FRAGS = 3
+
+try:
+    import familias_dnabert_gui as fam_dnabert
+except Exception as _e_fam:
+    fam_dnabert = None
+    print("[familias] no se pudo importar familias_dnabert_gui:", _e_fam)
+
 
 def _fijar_k(k):
     """Reconstruye la tabla de k-mers si el modelo usa otra K."""
@@ -157,6 +179,7 @@ def cargar_modelo(ruta=RUTA_MODELO):
         pass
     return rf, umbral
 
+
 def predecir_mag(secuencias, callback_progreso=None, esta_detenido=None, nombre_defecto=None):
     """
     secuencias: lista de (id, secuencia) leídas del MAG.
@@ -168,8 +191,21 @@ def predecir_mag(secuencias, callback_progreso=None, esta_detenido=None, nombre_
     modelo_etapa1, umbral = cargar_modelo()
 
     base_dir = os.path.dirname(os.path.abspath(__file__))
+
+    # Etapa 2: se intenta DNABERT y, si no está disponible (falta torch, falta un
+    # archivo del modelo, sin internet la primera vez), se cae al RandomForest.
+    usar_dnabert = False
+    if MODELO_FAMILIA == "dnabert" and fam_dnabert is not None:
+        usar_dnabert = fam_dnabert.cargar(base_dir)
+        if usar_dnabert:
+            print("[familias]", fam_dnabert.info())
+        else:
+            print("[familias] DNABERT no disponible:", fam_dnabert.motivo_no_disponible())
+            print("[familias] se usa el RandomForest de k-meros")
+
     ruta_familias = os.path.join(base_dir, "modelo_familias.joblib")
-    modelo_etapa2 = joblib.load(ruta_familias) if os.path.exists(ruta_familias) else None
+    modelo_etapa2 = None if usar_dnabert else (
+        joblib.load(ruta_familias) if os.path.exists(ruta_familias) else None)
 
     datos = []
     total = len(secuencias)
@@ -193,10 +229,23 @@ def predecir_mag(secuencias, callback_progreso=None, esta_detenido=None, nombre_
             nombre_mag = nombre_defecto if nombre_defecto else sid[:15]
             nombre_gen = sid[:25]
 
+        
+
         if es_resistente:
-            if modelo_etapa2 is not None:
-                i_max = int(np.argmax(probs_frags))
-                familia_pred = str(modelo_etapa2.predict(X_frags[i_max:i_max + 1])[0])
+            if usar_dnabert:
+                # los FAMILIA_MAX_FRAGS fragmentos más "ARG" según la etapa 1
+                orden = np.argsort(probs_frags)[::-1][:FAMILIA_MAX_FRAGS]
+                familia_pred, p_fam = fam_dnabert.predecir(
+                    [frags[i] for i in orden], umbral=UMBRAL_FAMILIA)
+                if familia_pred not in ("Sin determinar", "Sin clasificar"):
+                    familia_pred = f"{familia_pred} ({p_fam:.0%})"
+            elif modelo_etapa2 is not None:
+                pr = modelo_etapa2.predict_proba(X_frags).mean(axis=0)
+                j = int(np.argmax(pr))
+                if pr[j] >= UMBRAL_FAMILIA:
+                    familia_pred = f"{modelo_etapa2.classes_[j]} ({pr[j]:.0%})"
+                else:
+                    familia_pred = "Sin determinar"
             else:
                 familia_pred = "Sin clasificar"
             presencia = "Sí"
@@ -730,9 +779,12 @@ class VentanaPrincipal(QMainWindow):
             self.setMenuWidget(self.barra_titulo)
 
         self.datos = generar_datos_falsos()
+        self.datos_mostrados = list(self.datos)
         self.secuencias_cargadas = []
         self.ruta_actual = ""
         self.hilo = None
+        self._col_orden_activa = -1
+        self._orden_ascendente = True
 
         self.setStyleSheet(generar_estilo(PALETAS[self.tema]))
 
@@ -1077,7 +1129,8 @@ class VentanaPrincipal(QMainWindow):
         self._msg(QMessageBox.Critical, "Error en la predicción", f"Ocurrió un fallo al ejecutar el modelo:\n{mensaje_error}")
 
     def refrescar_vistas(self):
-        self._llenar_tabla()
+        self._actualizar_opciones_familia()
+        self.aplicar_filtros_y_orden()
         self.actualizar_grafica_barras()
         self.actualizar_mapa_calor()
 
@@ -1090,8 +1143,12 @@ class VentanaPrincipal(QMainWindow):
             if not self._ok_sobrescribir(ruta):
                 return
             try:
-                df = pd.DataFrame(self.datos)
-                df.columns = ["MAG", "Gen", "Presencia", "Familia", "Probabilidad"]
+                fuente = self.datos_mostrados if hasattr(self, "datos_mostrados") else self.datos
+                df = pd.DataFrame(fuente)
+                if not df.empty:
+                    df.columns = ["MAG", "Gen", "Presencia", "Familia", "Probabilidad"]
+                else:
+                    df = pd.DataFrame(columns=["MAG", "Gen", "Presencia", "Familia", "Probabilidad"])
                 df.to_csv(ruta, index=False)
                 self._msg(QMessageBox.Information, "Éxito", "Tabla guardada correctamente.")
             except Exception as e:
@@ -1105,7 +1162,8 @@ class VentanaPrincipal(QMainWindow):
             if not self._ok_sobrescribir(ruta):
                 return
             try:
-                exportar_tabla_con_marca_pdf(self.datos, ruta)
+                fuente = self.datos_mostrados if hasattr(self, "datos_mostrados") else self.datos
+                exportar_tabla_con_marca_pdf(fuente, ruta)
                 self._msg(QMessageBox.Information, "Éxito", f"Reporte PDF con marca de agua guardado (300 DPI):\n{ruta}")
             except Exception as e:
                 self._msg(QMessageBox.Critical, "Error", f"No se pudo guardar el PDF:\n{str(e)}")
@@ -1250,6 +1308,51 @@ class VentanaPrincipal(QMainWindow):
         pestana = QWidget()
         layout = QVBoxLayout(pestana)
         barra_controles = QHBoxLayout()
+        barra_controles.setSpacing(8)
+
+        # Mini barra de búsqueda arriba de la columna MAG
+        self.input_busqueda = QLineEdit()
+        self.input_busqueda.setPlaceholderText("🔍 Buscar MAG, gen o familia...")
+        self.input_busqueda.setClearButtonEnabled(True)
+        self.input_busqueda.setFixedWidth(220)
+        self.input_busqueda.textChanged.connect(self.aplicar_filtros_y_orden)
+        barra_controles.addWidget(self.input_busqueda)
+
+        # Filtro por presencia de resistencia
+        lbl_pres = QLabel("Presencia:")
+        lbl_pres.setObjectName("etiquetaControl")
+        self.combo_filtro_presencia = QComboBox()
+        self.combo_filtro_presencia.addItems(["Todos", "Solo Sí", "Solo No"])
+        self.combo_filtro_presencia.currentIndexChanged.connect(self.aplicar_filtros_y_orden)
+        barra_controles.addWidget(lbl_pres)
+        barra_controles.addWidget(self.combo_filtro_presencia)
+
+        # Filtro por familia
+        lbl_fam = QLabel("Familia:")
+        lbl_fam.setObjectName("etiquetaControl")
+        self.combo_filtro_familia = QComboBox()
+        self.combo_filtro_familia.setMinimumWidth(140)
+        self.combo_filtro_familia.currentIndexChanged.connect(self.aplicar_filtros_y_orden)
+        barra_controles.addWidget(lbl_fam)
+        barra_controles.addWidget(self.combo_filtro_familia)
+
+        # Selector para ordenar (presencia, probabilidad mayor/menor, familia)
+        lbl_orden = QLabel("Ordenar:")
+        lbl_orden.setObjectName("etiquetaControl")
+        self.combo_orden_tabla = QComboBox()
+        self.combo_orden_tabla.addItems([
+            "Orden original",
+            "Probabilidad: Mayor a menor",
+            "Probabilidad: Menor a mayor",
+            "Presencia: Sí → No",
+            "Presencia: No → Sí",
+            "Familia: A → Z",
+            "Familia: Z → A",
+        ])
+        self.combo_orden_tabla.currentIndexChanged.connect(self._al_cambiar_combo_orden)
+        barra_controles.addWidget(lbl_orden)
+        barra_controles.addWidget(self.combo_orden_tabla)
+
         barra_controles.addStretch()
 
         boton_exportar_pdf = QPushButton("Exportar Tabla (PDF)")
@@ -1270,16 +1373,112 @@ class VentanaPrincipal(QMainWindow):
         self.tabla.setHorizontalHeaderLabels(columnas)
         self.tabla.setAlternatingRowColors(True)
         self.tabla.verticalHeader().setVisible(False)
-        self.tabla.horizontalHeader().setSectionResizeMode(QHeaderView.Stretch)
+        header = self.tabla.horizontalHeader()
+        header.setSectionResizeMode(QHeaderView.Stretch)
+        header.setSectionsClickable(True)
+        header.setSortIndicatorShown(True)
+        header.sectionClicked.connect(self._ordenar_por_clic_encabezado)
         self.tabla.setSelectionBehavior(QTableWidget.SelectRows)
         self.tabla.setShowGrid(False)
         layout.addWidget(self.tabla)
-        self._llenar_tabla()
+
+        self._actualizar_opciones_familia()
+        self.aplicar_filtros_y_orden()
         return pestana
 
-    def _llenar_tabla(self):
-        self.tabla.setRowCount(len(self.datos))
-        for fila, d in enumerate(self.datos):
+    def _actualizar_opciones_familia(self):
+        if not hasattr(self, "combo_filtro_familia"):
+            return
+        actual = self.combo_filtro_familia.currentText()
+        # Extrae el nombre base de la familia (sin el porcentaje entre paréntesis) para agrupar limpio
+        familias = sorted({str(d["familia"]).split(" (")[0] for d in self.datos if d.get("familia")})
+        self.combo_filtro_familia.blockSignals(True)
+        self.combo_filtro_familia.clear()
+        self.combo_filtro_familia.addItem("Todas")
+        self.combo_filtro_familia.addItems(familias)
+        idx = self.combo_filtro_familia.findText(actual)
+        self.combo_filtro_familia.setCurrentIndex(idx if idx >= 0 else 0)
+        self.combo_filtro_familia.blockSignals(False)
+
+    def _al_cambiar_combo_orden(self):
+        self._col_orden_activa = -1
+        self.tabla.horizontalHeader().setSortIndicator(-1, Qt.AscendingOrder)
+        self.aplicar_filtros_y_orden()
+
+    def _ordenar_por_clic_encabezado(self, col_idx):
+        if self._col_orden_activa == col_idx:
+            self._orden_ascendente = not self._orden_ascendente
+        else:
+            self._col_orden_activa = col_idx
+            self._orden_ascendente = col_idx not in (2, 4)
+
+        orden_qt = Qt.AscendingOrder if self._orden_ascendente else Qt.DescendingOrder
+        self.tabla.horizontalHeader().setSortIndicator(col_idx, orden_qt)
+
+        self.combo_orden_tabla.blockSignals(True)
+        self.combo_orden_tabla.setCurrentIndex(0)
+        self.combo_orden_tabla.blockSignals(False)
+        self.aplicar_filtros_y_orden()
+
+    def aplicar_filtros_y_orden(self, *_):
+        if not hasattr(self, "tabla"):
+            return
+
+        texto = self.input_busqueda.text().strip().lower()
+        idx_pres = self.combo_filtro_presencia.currentIndex()
+        fam_sel = self.combo_filtro_familia.currentText()
+
+        filtrados = []
+        for d in self.datos:
+            if texto:
+                if not (texto in str(d["mag"]).lower() or
+                        texto in str(d["gen"]).lower() or
+                        texto in str(d["familia"]).lower()):
+                    continue
+            if idx_pres == 1 and d["presencia"] != "Sí":
+                continue
+            if idx_pres == 2 and d["presencia"] != "No":
+                continue
+            if fam_sel and fam_sel != "Todas":
+                fam_base = str(d["familia"]).split(" (")[0]
+                if fam_base != fam_sel:
+                    continue
+            filtrados.append(d)
+
+        modo = self.combo_orden_tabla.currentIndex()
+        if modo == 1:    # Probabilidad: Mayor a menor
+            filtrados.sort(key=lambda x: x["probabilidad"], reverse=True)
+        elif modo == 2:  # Probabilidad: Menor a mayor
+            filtrados.sort(key=lambda x: x["probabilidad"])
+        elif modo == 3:  # Presencia: Sí -> No
+            filtrados.sort(key=lambda x: (0 if x["presencia"] == "Sí" else 1, -x["probabilidad"]))
+        elif modo == 4:  # Presencia: No -> Sí
+            filtrados.sort(key=lambda x: (0 if x["presencia"] == "No" else 1, x["probabilidad"]))
+        elif modo == 5:  # Familia: A -> Z
+            filtrados.sort(key=lambda x: (str(x["familia"]).lower(), -x["probabilidad"]))
+        elif modo == 6:  # Familia: Z -> A
+            filtrados.sort(key=lambda x: str(x["familia"]).lower(), reverse=True)
+        elif self._col_orden_activa >= 0:
+            col = self._col_orden_activa
+            rev = not self._orden_ascendente
+            if col == 0:
+                filtrados.sort(key=lambda x: str(x["mag"]).lower(), reverse=rev)
+            elif col == 1:
+                filtrados.sort(key=lambda x: str(x["gen"]).lower(), reverse=rev)
+            elif col == 2:
+                filtrados.sort(key=lambda x: (1 if x["presencia"] == "Sí" else 0, x["probabilidad"]), reverse=rev)
+            elif col == 3:
+                filtrados.sort(key=lambda x: str(x["familia"]).lower(), reverse=rev)
+            elif col == 4:
+                filtrados.sort(key=lambda x: x["probabilidad"], reverse=rev)
+
+        self.datos_mostrados = filtrados
+        self._llenar_tabla(filtrados)
+
+    def _llenar_tabla(self, lista_datos=None):
+        datos_a_mostrar = self.datos_mostrados if lista_datos is None else lista_datos
+        self.tabla.setRowCount(len(datos_a_mostrar))
+        for fila, d in enumerate(datos_a_mostrar):
             self.tabla.setItem(fila, 0, QTableWidgetItem(d["mag"]))
             self.tabla.setItem(fila, 1, QTableWidgetItem(d["gen"]))
             texto_presencia = f"🔴 {d['presencia']}" if d["presencia"] == "Sí" else f"🟢 {d['presencia']}"

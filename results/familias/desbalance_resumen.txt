@@ -1,0 +1,111 @@
+============================================================================================
+DESBALANCE DE FAMILIAS: sobremuestreo vs class_weight vs ambos
+============================================================================================
+K=6 | ventana=500 | min_pb=150 | semillas=5 | grupo=sin_las_2_grandes
+
+1,011 genes -> 2,281 fragmentos | 12 familias
+
+familia                                      genes    frags
+otras beta-lactamasas                          291      602
+OXA beta-lactamasa                             152      304
+eflujo MFS                                      93      273
+eflujo RND                                      80      334
+van / glucopéptidos                             77      148
+AAC acetiltransferasa                           61       75
+Erm metiltransferasa 23S                        57      113
+cefalosporinasa AmpC (ADC/ACT/CMY)              55      141
+dfr dihidrofolato reductasa                     49       49
+ABC-F protección ribosomal                      35      114
+regulador de eflujo                             31       67
+APH fosfotransferasa                            30       61
+
+--------------------------------------------------------------------------------------------
+SOBREMUESTREO: se tocan 10 de 12 familias (sin_las_2_grandes)
+--------------------------------------------------------------------------------------------
+  se sobremuestrean : eflujo MFS, eflujo RND, van / glucopéptidos, AAC acetiltransferasa, ... (+6)
+  quedan intactas   : otras beta-lactamasas, OXA beta-lactamasa
+
+train 1,459 frag (646 genes) | val 366 (163) | test 456 (202)
+
+Cargando zhihan1996/DNA_bert_6 ...
+  listo en 1s | capas 12 | hidden 768
+
+Calculando embeddings (se reusa la cache de familias_dnabert.py si coincide):
+  guardados en /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/familias/desbalance_embeddings.npz (pasalos con --embeddings)
+
+============================================================================================
+ENTRENANDO: 4 configuraciones x 5 semillas = 20 cabezas
+============================================================================================
+  nada (control)     bal.acc 0.6257 | train 1,459 frag
+  sobremuestreo      bal.acc 0.6851 | train 2,711 frag (objetivo 213/clase)
+  class_weight       bal.acc 0.6988 | train 1,459 frag
+  ambos              bal.acc 0.6864 | train 2,711 frag (objetivo 213/clase)
+
+  tiempo: 19s
+
+============================================================================================
+RESULTADOS (test por gen, 202 genes, media +- error estandar de 5 semillas)
+============================================================================================
+
+  configuracion              balanced acc             F1 macro    exactitud
+  nada (control)           0.6257 +-0.0116       0.6234 +-0.0116       0.7406
+  sobremuestreo            0.6851 +-0.0158       0.6708 +-0.0142       0.7584
+  class_weight             0.6988 +-0.0122       0.6616 +-0.0141       0.7158
+  ambos                    0.6864 +-0.0132       0.6526 +-0.0162       0.7228
+
+--------------------------------------------------------------------------------------------
+COMPARACION CONTRA EL CONTROL (diferencias emparejadas por semilla)
+--------------------------------------------------------------------------------------------
+
+  configuracion        dif. media       sem        t  veredicto
+  sobremuestreo           +0.0593    0.0212    +2.80  consistente (t critico 2.776)
+  class_weight            +0.0731    0.0220    +3.32  consistente (t critico 2.776)
+  ambos                   +0.0607    0.0203    +2.99  consistente (t critico 2.776)
+
+--------------------------------------------------------------------------------------------
+F1 POR FAMILIA (media entre semillas) -- aqui es donde se ve si sirvio
+--------------------------------------------------------------------------------------------
+
+  familia                                   nada (contr  sobremuestr  class_weigh        ambos          mejor
+  otras beta-lactamasas                           0.774        0.798        0.682        0.738  sobremuestreo 
+  OXA beta-lactamasa                              0.914        0.917        0.897        0.885  sobremuestreo 
+  eflujo MFS                                      0.858        0.874        0.845        0.830  sobremuestreo*
+  eflujo RND                                      0.792        0.782        0.744        0.716  nada (control*
+  van / glucopéptidos                             0.533        0.595        0.575        0.557  sobremuestreo*
+  AAC acetiltransferasa                           0.499        0.654        0.667        0.674          ambos*
+  Erm metiltransferasa 23S                        0.532        0.514        0.527        0.573          ambos*
+  cefalosporinasa AmpC (ADC/ACT/CMY)              0.957        0.895        0.866        0.853  nada (control*
+  dfr dihidrofolato reductasa                     0.559        0.717        0.722        0.729          ambos*
+  ABC-F protección ribosomal                      0.675        0.695        0.724        0.691   class_weight*
+  regulador de eflujo                             0.000        0.183        0.182        0.144  sobremuestreo*
+  APH fosfotransferasa                            0.386        0.427        0.507        0.441   class_weight*
+
+  (* = familia sobremuestreada)
+
+resultados: /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/familias/desbalance_resultados.csv
+por clase : /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/familias/desbalance_por_clase.csv
+figura   : /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/familias/fig_desbalance.png
+
+============================================================================================
+COMO LEER ESTO
+============================================================================================
+
+  balanced accuracy, y entre parentesis la diferencia contra el control:
+    control        0.6257
+    sobremuestreo  0.6851  (+0.0593)
+    class_weight   0.6988  (+0.0731)
+    ambos          0.6864  (+0.0607)
+
+  Las dos tecnicas NO se suman. Es lo esperable: duplicar ejemplos de una clase y
+  subirle el peso en la perdida le dicen al modelo exactamente lo mismo por dos
+  vias distintas. Si una ya corrigio el desbalance, la otra no tiene que corregir.
+
+  Lo que de verdad importa mirar es la tabla POR FAMILIA: el agregado puede moverse
+  poco mientras las familias chicas mejoran mucho y las grandes empeoran un poco.
+  Ese intercambio es justo el objetivo de tratar el desbalance.
+
+  Y el limite de fondo: el sobremuestreo no crea informacion. APH tiene 30 genes;
+  duplicarlos hasta 93 no le da al modelo ni un gen mas que aprender. Lo que puede
+  dar es que el modelo deje de ignorarla. Para mejorar de verdad hacen falta mas
+  genes de esas familias, que es lo que menciona el punto 12 de 'lo que falta' en
+  la bitacora (ampliar mas alla de CARD).

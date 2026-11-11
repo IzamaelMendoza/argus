@@ -1,0 +1,1381 @@
+gen	cruda	grupo	etiqueta	n_crudas
+CARD|gb|AF028812.1|+|392-887|ARO:3002867|dfrF	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|AY234334.1|+|0-846|ARO:3000600|Erm(34)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|EU408351.1|+|16572-17454|ARO:3002511|LRA-12	subclass B3 LRA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AJ243491.1|+|0-741|ARO:3002193|IMP-2	IMP beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|KF203103.1|+|0-822|ARO:3001517|OXA-329	OXA-213-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|JN848330.1|+|0-1146|ARO:3001832|ACT-10	ACT beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|AY047358.1|+|1710-2352|ARO:3003552|fusB	Target protecting FusB-type protein conferring resistance to Fusidic acid			1
+CARD|gb|AY536519.1|+|37-937|ARO:3002372|VEB-3	VEB beta-lactamase	beta-lactamasa de espectro extendido		1
+CARD|gb|M14039.1|+|412-898|ARO:3002835|lnuA	lincosamide nucleotidyltransferase (LNU)	LNU nucleotidiltransferasa		1
+CARD|gb|AJ519683.1|+|281-1076|ARO:3001794|OXA-45	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|KM087853.1|+|0-1140|ARO:3002146|DHA-15	DHA beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|EU294228.1|+|21241-22717|ARO:3003109|msrE	msr-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|EU487198.1|+|216-642|ARO:3002804|FosA2	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|K00432.1|+|306-1113|ARO:3002649|APH(3')-Va	APH(3')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|U12338.3|+|5055-5520|ARO:3002528|AAC(3)-Ia	AAC(3)	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|JX259319.1|+|0-681|ARO:3002771|QnrB58	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|KC544262.1|+|665-1424|ARO:3003198|rmtH	16S rRNA methyltransferase (G1405)	metiltransferasa 16S rRNA		1
+CARD|gb|AE006468.2|+|400860-401325|ARO:3000504|golS	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|AP009048.1|-|4303042-4304509|ARO:3003550|mdtP	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AF525303.2|+|2770-3586|ARO:3001808|OXA-60	OXA-60-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AF275256.1|+|0-885|ARO:3002380|SME-2	SME beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|L06161.1|+|105-945|ARO:3002538|AAC(3)-IIIc	AAC(3)	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|GQ152600.1|+|0-1152|ARO:3002188|MOX-5	MOX beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|HQ631376.1|+|0-657|ARO:3002795|QnrS6	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|Z50108.1|+|238-1768|ARO:3003026|fusH	fusidic acid inactivation enzyme			1
+CARD|gb|JX982636.1|+|0-801|ARO:3002307|VIM-37	VIM beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|EU748544.1|+|0-927|ARO:3002366|PER-4	PER beta-lactamase	beta-lactamasa de espectro extendido		1
+CARD|gb|AJ620678.1|+|0-753|ARO:3000845|GIM-1	GIM beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|AB753456.1|+|0-741|ARO:3002233|IMP-42	IMP beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|AP009048.1|+|3974604-3975429|ARO:3000508|gadX	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|JN173060.2|+|2306-2951|ARO:3002753|QnrB38	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|AJ698325.1|-|14502-15417|ARO:3003203|TLA-2	TLA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|U14749.1|+|690-1557|ARO:3002243|CARB-4	CARB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AF462019.1|+|26-656|ARO:3002681|catB9	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|X51891.1|+|189-1335|ARO:3000326|ErmE	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AF031329.1|+|0-441|ARO:3002565|AAC(6')-Iu	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|Z50802.3|+|717-1215|ARO:3003012|dfrA13	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|EU408350.1|-|11679-12585|ARO:3002488|LRA-9	subclass B3 LRA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AY138986.1|+|0-789|ARO:3002604|aadA4	ANT(3'')	ANT nucleotidiltransferasa		1
+CARD|gb|U00096.1|+|3660413-3663527|ARO:3000796|mdtF	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AB529520.1|+|0-720|ARO:3002263|IND-7	IND beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AP008955.1|-|4758175-4759207|ARO:3002815|clbB	Cfr-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|X63451.1|+|0-1653|ARO:3002828|srmB	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|FFFO01000009.1|+|81760-82162|ARO:3000198|FosX	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|KC199968.1|+|0-453|ARO:3002853|arr-8	rifampin ADP-ribosyltransferase (Arr)	rifampicina (arr)		1
+CARD|gb|JX028276.1|-|35585-36821|ARO:3002883|rgt1438	rifampin glycosyltransferase	rifampicina (arr)		1
+CARD|gb|AY939911.1|+|3535-4441|ARO:3002634|APH(2'')-Ie	APH(2'')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|DQ631414.1|+|0-681|ARO:3002724|QnrB10	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|AY227053.1|+|0-765|ARO:3003103|cphA7	CphA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AJ420864.1|+|155-896|ARO:3002203|IMP-12	IMP beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|JQ422052.1|+|1099-1930|ARO:3001692|OXA-229	OXA-229-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|FJ381668.1|+|56-848|ARO:3002612|aadA12	ANT(3'')	ANT nucleotidiltransferasa		1
+CARD|gb|JX101693.1|+|58200-58833|ARO:3002676|catB3	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|BA000007.3|-|4903688-4905062|ARO:3000830|cpxA	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|CT025801.2|+|0-3180|ARO:3000777|adeF	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|BA000018.3|-|735416-735860|ARO:3000815|mgrA	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		3
+CARD|gb|D16099.1|+|409-1297|ARO:3001300|myrA	TlrA-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|DQ823382.1|+|0-1569|ARO:3002830|vgaALC	vga-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|JQ820242.1|+|0-831|ARO:3001677|OXA-236	OXA-134-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|JF802084.1|+|559-1591|ARO:3002912|vanN	Van ligase	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|EU523697.1|+|686-1973|ARO:3000572|tet(42)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|JF837330.1|-|1966-3343|ARO:3003196|tet(45)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|L06940.1|+|0-1218|ARO:3000173|tet(E)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|L39157.1|+|345-1158|ARO:3003060|tsnR	tsnR 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|X59968.1|+|507-1686|ARO:3002690|Sliv_cmlR	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|U35369.1|+|177-840|ARO:3002921|vanR_in_vanB_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|EF660562.1|+|1671-2124|ARO:3002849|arr-4	rifampin ADP-ribosyltransferase (Arr)	rifampicina (arr)		1
+CARD|gb|AF118110.1|-|71-1037|ARO:3003002|CfxA2	CfxA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|LC031883.1|+|5071-5812|ARO:3003659|IMP-51	IMP beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|DQ058663.1|+|0-657|ARO:3002711|QnrA5	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|CP000253.1|-|1360280-1361636|ARO:3000839|arlS	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|HM440348.1|+|775-1861|ARO:3000549|adeS	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|AJ401618.1|+|1971-3144|ARO:3002514|OCH-1	OCH beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|JX423831.1|+|2676-3474|ARO:3001778|OXA-232	OXA-48-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|U10251.1|+|180-975|ARO:3001407|OXA-12	OXA-12-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|JN704570.1|+|4038-4836|ARO:3001814|OXA-199	OXA-48-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AB008454.1|+|153-1290|ARO:3002493|SRT-1	SRT beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|V01499.1|+|230-1256|ARO:3002655|APH(4)-Ia	APH(4)	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|AB016934.1|+|6575-7376|ARO:3000423|FomA	Fom phosphotransferase family			1
+CARD|gb|L20573.1|+|2064-2676|ARO:3003250|bcrC	undecaprenyl pyrophosphate related proteins			1
+CARD|gb|AB261016.2|-|91163-91823|ARO:3002665|npmA	16S rRNA methyltransferase (A1408)	metiltransferasa 16S rRNA		1
+CARD|gb|AE006468.2|-|2039654-2040377|ARO:3000826|sdiA	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|AJ548797.1|+|923-1688|ARO:3003094|imiH	CphA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KF730652.1|+|0-657|ARO:3002797|QnrS8	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|AM709783.1|-|2816-3665|ARO:3004605|ermZ	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|M29953.1|+|295-1048|ARO:3002654|APH(3')-VIIa	APH(3')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|U94857.1|+|0-996|ARO:3002662|APH(9)-Ia	APH(9)	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|X97721.2|+|159-1035|ARO:3000592|ErmN	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AJ972619.1|+|82-640|ARO:3002856|dfrA24	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|AF408195.1|+|7908-9393|ARO:3003206|lsaE	lsa-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|AJ488303.1|+|0-810|ARO:3001770|OXA-43	OXA-42-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|Y10415.1|+|125-893|ARO:3003095|imiS	CphA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AY005110.1|+|0-846|ARO:3001874|CTX-M-11	CTX-M beta-lactamase	beta-lactamasa de espectro extendido		1
+CARD|gb|AJ252200.1|+|81-1266|ARO:3003055|smeD	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|BX664015.1|-|103017-103833|ARO:3002641|APH(3')-Ia	APH(3')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|HM245379.1|+|56-788|ARO:3002267|IND-11	IND beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AY509120.1|-|22652-23495|ARO:3001302|chrB	TlrA-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|GQ861437.1|+|2913-3741|ARO:3001654|OXA-143	OXA-143-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|DQ390458.1|-|3095-3995|ARO:3002609|aadA9	ANT(3'')	ANT nucleotidiltransferasa		1
+CARD|gb|AE004091.2|+|2813193-2814612|ARO:3000805|OprN	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|Z12001.1|+|992-2168|ARO:3002701|Rfas_cmr	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AY028464.1|+|442-1189|ARO:3000840|JOHN-1	JOHN beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AF155139.1|+|1511-2207|ARO:3002925|vanR_in_vanF_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|X80277.1|+|0-1149|ARO:3003553|CepS	CepS beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|Y17896.1|+|0-849|ARO:3000606|FEZ-1	FEZ beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|DQ212986.1|+|7030-7795|ARO:3003069|vanXY_in_vanG	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|CP007005.1|+|1250264-1251203|ARO:3003186|CARB-23	CARB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP013924.1|+|2063742-2065140|ARO:3003811|adeC	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AF173226.1|-|1037-2441|ARO:3003067|smeS	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|L20573.1|+|297-1218|ARO:3002987|bcrA	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|EU250284.1|+|954-2004|ARO:3002910|vanL	Van ligase	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AL009126.1|+|1376854-1377172|ARO:3003064|ykkD	small multidrug resistance (SMR) antibiotic efflux pump	eflujo SMR		1
+CARD|gb|AF144880.1|+|3541-3979|ARO:3002569|AAC(6')-Iy	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|KC771279.1|+|0-831|ARO:3001681|OXA-278	OXA-134-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AB916359.1|+|793-1708|ARO:3002008|CTX-M-151	CTX-M beta-lactamase	beta-lactamasa de espectro extendido		1
+CARD|gb|AB566411.1|+|0-1545|ARO:3003046|qacA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AF117745.1|+|0-780|ARO:3001079|SHV-21	SHV beta-lactamase	beta-lactamasa de espectro extendido		1
+CARD|gb|U00096.1|-|1124117-1125326|ARO:3001216|mdtH	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AY928180.1|+|0-495|ARO:3002837|lnuC	lincosamide nucleotidyltransferase (LNU)	LNU nucleotidiltransferasa		1
+CARD|gb|AY661734.1|+|839-2195|ARO:3000026|mepA	multidrug and toxic compound extrusion (MATE) transporter	eflujo MATE		1
+CARD|gb|JX131372.1|+|1478-2279|ARO:3001797|OXA-46	OXA-46-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|U00096.1|+|2154015-2155263|ARO:3000792|mdtA	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|FJ196385.1|-|8531-9323|ARO:3000413|sul3	sulfonamide resistant sul	sulfonamidas (sul)		1
+CARD|gb|KF421160.1|+|0-822|ARO:3001544|OXA-357	OXA-213-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|KJ174469.1|+|710-1220|ARO:3002863|dfrA8	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|LLLC01000048.1|-|352-1171|ARO:3002537|AAC(3)-IIIb	AAC(3)	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|EF653270.1|+|0-648|ARO:3002725|QnrB11	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|AY590118.1|+|0-750|ARO:3003556|SLB-1	SHW beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KM087852.1|+|0-1140|ARO:3002147|DHA-16	DHA beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|AL009126.1|-|2735681-2736536|ARO:3002627|aadK	ANT(6)	ANT nucleotidiltransferasa		1
+CARD|gb|AE006468.2|-|397057-398284|ARO:3000789|mdsA	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AY500137.1|+|0-798|ARO:3001812|OXA-54	OXA-48-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|EU085533.1|+|0-519|ARO:3002591|AAC_6_IB_Su	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AY123251.1|+|811-1444|ARO:3002680|catB8	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|AB205645.1|+|1012-1510|ARO:3002868|dfrG	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|EU408358.1|-|27458-28439|ARO:3002483|LRA-5	class A LRA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|GQ891757.1|+|2004-2661|ARO:3002801|QnrVC4	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|X95635.1|+|259-1663|ARO:3000812|mtrE	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AF162694.1|+|1410-2442|ARO:3000368|vanC	Van ligase	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|HM440348.1|+|0-744|ARO:3000553|adeR	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|AL123456.1|+|2231679-2232219|ARO:3000392|Erm(37)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|BX571965.1|-|2147817-2150949|ARO:3002983|amrB	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|X13543.1|+|185-1046|ARO:3002533|AAC(3)-IIa	AAC(3)	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|JQ041634.1|+|1122-1863|ARO:3002220|IMP-29	IMP beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|AE004091.2|+|472023-473175|ARO:3000377|MexA	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AF070999.1|+|1679-2855|ARO:3000182|tet(Y)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|L25634.1|+|1273-2158|ARO:3003562|blaF	blaF family beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AM260957.1|+|4186-5086|ARO:3003071|mphF	macrolide phosphotransferase (MPH)	MPH fosfotransferasa de macrólidos		1
+CARD|gb|AF034958.3|+|2641-3871|ARO:3002698|cmlB	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AY768532.1|+|0-1935|ARO:3000535|macB	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|AF441287.1|+|260-1007|ARO:3000844|TUS-1	TUS beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AE004091.2|+|4710620-4712084|ARO:3000809|OpmD	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|X93314.1|+|0-927|ARO:3002364|PER-2	PER beta-lactamase	beta-lactamasa de espectro extendido		1
+CARD|gb|EU250284.1|+|4730-5426|ARO:3002927|vanR_in_vanL_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AF290912.1|+|0-741|ARO:3002196|IMP-5	IMP beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|DANNBB010000192.1|-|2642-4334|ARO:3003049|rosB	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|L20800.1|+|1062-2325|ARO:3000180|tetA(P)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|J03306.1|+|0-489|ARO:3003105|dfrA3	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|KJ158441.1|+|2732-3377|ARO:3002789|QnrD2	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|D78168.1|+|1591-3130|ARO:3000254|emrY	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|CT025802.2|+|0-1452|ARO:3000779|adeH	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AF031327.1|+|0-441|ARO:3002562|AAC(6')-Is	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AF148067.1|+|213-1158|ARO:3003202|TLA-1	TLA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|EF660563.1|+|392-845|ARO:3002850|arr-5	rifampin ADP-ribosyltransferase (Arr)	rifampicina (arr)		1
+CARD|gb|HM439643.1|+|0-645|ARO:3002743|QnrB28	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|DQ361087.2|+|356-1097|ARO:3002213|IMP-22	IMP beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|CP006845.1|+|539695-540745|ARO:3002814|clbA	Cfr-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|EU086834.1|+|88-898|ARO:3001767|OXA-137	OXA-63-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|M18967.1|+|756-1314|ARO:3002545|AAC(6')-Ia	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|L06157.1|+|554-1085|ARO:3002530|AAC(3)-Ib	AAC(3)	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AM941846.1|+|0-900|ARO:3001338|SHV-100	SHV beta-lactamase	beta-lactamasa de espectro extendido		1
+CARD|gb|AM087455.2|+|291-1011|ARO:3002262|IND-6	IND beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP001172.1|-|1249018-1249348|ARO:3000768|abeS	small multidrug resistance (SMR) antibiotic efflux pump	eflujo SMR		1
+CARD|gb|AF174129.3|+|1351-1825|ARO:3003014|dfrA16	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|AJ605332.1|+|1303-1813|ARO:3003016|dfrA20	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|CP000800.1|-|1191727-1192954|ARO:3001329|mdtG	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|DQ173429.1|+|0-879|ARO:3001859|IMI-2	IMI beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KF460531.1|+|0-831|ARO:3001548|OXA-361	OXA-134-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|D78168.1|+|536-1592|ARO:3000206|emrK	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AY590119.1|+|0-735|ARO:3003557|SFB-1	SHW beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AB091338.1|+|173-1355|ARO:3003551|emeA	multidrug and toxic compound extrusion (MATE) transporter	eflujo MATE		1
+CARD|gb|HQ704413.2|+|0-681|ARO:3002761|QnrB46	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|FJ495083.1|+|732-1365|ARO:3003110|catB10	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|AY769962.1|+|2434-5611|ARO:3000781|adeJ	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AJ252200.1|+|4493-5894|ARO:3003057|smeF	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AB107899.1|+|1007-2153|ARO:3001856|CFE-1	CMY beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|AF030945.1|+|95-962|ARO:3002245|CARB-6	CARB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP000703.1|+|40848-42606|ARO:3000215|mecR1	PBP2-like beta-lactam resistant peptidoglycan transpeptidase			2
+CARD|gb|D38215.1|+|0-1539|ARO:3002893|tcr3	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|Z48231.1|+|220-763|ARO:3002898|SAT-3	streptothricin acetyltransferase (SAT)			1
+CARD|gb|AJ250203.1|+|1650-2883|ARO:3000476|tet(31)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AP009048.1|-|4338624-4340268|ARO:3003576|eptA	pmr phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|M93113.1|+|0-660|ARO:3002674|Cbut_catB	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|M22999.1|+|492-1359|ARO:3002541|AAC(3)-VIIa	AAC(3)	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AM403715.1|+|302-854|ARO:3002857|dfrA26	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|JX206446.1|+|0-828|ARO:3001610|OXA-243	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|U00096.1|-|3412802-3413465|ARO:3000656|AcrS	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|U35369.1|+|2358-3165|ARO:3002956|vanY_in_vanB_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|FJ872411.1|+|40765-41347|ARO:3002967|vanXY_in_vanE	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AE016830.1|-|2211932-2212277|ARO:3004254|vanV_in_vanB_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AF219131.2|+|0-720|ARO:3002259|IND-3	IND beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AB900900.1|+|0-876|ARO:3001994|CTX-M-137	CTX-M beta-lactamase	beta-lactamasa de espectro extendido		1
+CARD|gb|KM087857.1|+|0-741|ARO:3002239|IMP-48	IMP beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|AF201826.1|+|21-849|ARO:3001420|OXA-25	OXA-24-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|L29044.1|+|351-792|ARO:3002555|AAC(6')-Ih	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|S81599.1|+|281-1076|ARO:3002651|APH(3')-Vc	APH(3')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|JN790864.1|+|238-1114|ARO:3001982|CTX-M-123	CTX-M beta-lactamase	beta-lactamasa de espectro extendido		1
+CARD|gb|JN086160.1|-|1582-2407|ARO:3001777|OXA-347	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AF064820.3|+|951-1776|ARO:3001417|OXA-22	OXA-22-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AM408573.1|-|10027-11077|ARO:3003441|cfrA	Cfr-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|U09991.1|+|27-1338|ARO:3002700|cmlv	chloramphenicol phosphotransferase			1
+CARD|gb|X03615.1|+|231-1230|ARO:3002661|APH(7'')-Ia	APH(7'')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|AM998375.1|+|1172-2084|ARO:3000853|AIM-1	AIM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|GU060319.1|+|624-861|ARO:3003023|dfrB6	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|AY232670.1|-|3524-4157|ARO:3002675|catB2	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|U36276.1|+|716-953|ARO:3002864|dfrB1	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|EU408349.1|+|107-1025|ARO:3002487|LRA-8	subclass B3 LRA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|X06599.1|+|272-1193|ARO:3002877|BcI	class A Bacillus cereus Bc beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|L29045.1|+|259-700|ARO:3002557|AAC(6')-Ij	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|M19269.1|+|459-1419|ARO:3001304|ErmS	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AF189721.1|+|273-1149|ARO:3001871|CTX-M-8	CTX-M beta-lactamase	beta-lactamasa de espectro extendido		1
+CARD|gb|AB074436.1|+|16-754|ARO:3002202|IMP-11	IMP beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|FN397623.1|+|1188-1641|ARO:3002852|arr-7	rifampin ADP-ribosyltransferase (Arr)	rifampicina (arr)		1
+CARD|gb|AB104852.1|+|1934-2486|ARO:3002573|AAC(6')-Iae	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|EU408355.1|+|24321-25482|ARO:3002492|LRA-18	class C LRA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AY458224.1|+|706-1183|ARO:3002529|AAC(3)-Id	AAC(3)	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|EU675686.1|+|1956-2409|ARO:3002848|arr-3	rifampin ADP-ribosyltransferase (Arr)	rifampicina (arr)		1
+CARD|gb|U41471.1|+|264-852|ARO:3002524|AAC(2')-Ib	AAC(2')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|CP000768.1|+|1406494-1409617|ARO:3000784|cmeB	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|HQ634775.2|+|3012-3801|ARO:3001805|OXA-198	OXA-198-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AF031330.1|+|0-441|ARO:3002566|AAC(6')-Iv	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AJ746361.2|-|6742-7303|ARO:3003019|dfrA23	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|KF203098.1|+|0-822|ARO:3001512|OXA-324	OXA-213-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|U56415.1|+|279-1719|ARO:3002884|iri	rifampin monooxygenase	rifampicina (arr)		1
+CARD|gb|AB894099.1|+|4218-5697|ARO:3000785|cmeC	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AL123456.1|-|3773015-3773567|ARO:3003035|mfpA	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|AY227050.1|+|130-895|ARO:3003100|cphA4	CphA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|L20800.1|+|2308-4267|ARO:3000195|tetB(P)	tetracycline-resistant ribosomal protection protein	protección ribosomal (tet)		1
+CARD|gb|AJ238249.1|+|126-930|ARO:3002836|lnuB	lincosamide nucleotidyltransferase (LNU)	LNU nucleotidiltransferasa		1
+CARD|gb|NG_047955.1|+|100-2098|ARO:3001209|mecC	PBP2-like beta-lactam resistant peptidoglycan transpeptidase			1
+CARD|gb|U57969.1|+|294-1458|ARO:3000800|MexC	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|U57969.1|+|4622-6062|ARO:3000802|OprJ	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|M97297.1|+|3975-4671|ARO:3002919|vanR_in_vanA_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AB636283.1|+|0-843|ARO:3000854|SMB-1	SMB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AF090141.1|+|242-1115|ARO:3000850|GOB-1	GOB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|U00096.1|+|2155262-2158385|ARO:3000793|mdtB	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AY082011.1|+|5900-6932|ARO:3000005|vanD	Van ligase	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|KF478993.1|+|490-1543|ARO:3002948|vanH_in_vanO_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AF540889.1|+|0-327|ARO:3002871|tet(37)	tetracycline inactivation enzyme	inactivación de tetraciclina		1
+CARD|gb|M37699.1|+|585-1752|ARO:3000205|tet(X)	tetracycline inactivation enzyme	inactivación de tetraciclina		1
+CARD|gb|JF411006.1|+|951-1368|ARO:3002872|FosA3	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|M20305.1|+|778-1594|ARO:3002642|APH(3')-Ib	APH(3')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|GQ205627.2|+|3036-3687|ARO:3002845|vatH	streptogramin vat acetyltransferase			1
+CARD|gb|HG798963.1|+|0-1140|ARO:3002143|DHA-12	DHA beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|BA000017.4|+|379931-380351|ARO:3000746|mepR	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|CP020412.2|-|3537848-3539018|ARO:3004603|tet(56)	tetracycline inactivation enzyme	inactivación de tetraciclina		1
+CARD|gb|JN861783.1|+|0-828|ARO:3001714|OXA-215	OXA-214-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AF370885.1|+|4628-7736|ARO:3000775|adeB	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AP009048.1|-|4153663-4154296|ARO:3000518|CRP	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|AF015628.1|+|1306-1945|ARO:3002842|vatC	streptogramin vat acetyltransferase			1
+CARD|gb|AJ252200.1|+|1278-4401|ARO:3003056|smeE	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|X05648.1|+|381-1305|ARO:3002658|APH(6)-Ib	APH(6)	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|M12730.1|+|779-1514|ARO:3000250|ErmC	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|EU408354.1|-|3570-4455|ARO:3002512|LRA-17	subclass B3 LRA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AF462611.1|+|0-846|ARO:3000605|Erm(36)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|X56809.1|+|111-894|ARO:3002997|LCR-1	LCR beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP004067.1|-|43007-43928|ARO:3002669|APH(2'')-Ig	APH(2'')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|AJ549214.1|+|176-1604|ARO:3002704|fexA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|X58272.1|+|79-883|ARO:3001400|OXA-5	OXA-5-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|KF648874.1|-|60996-61860|ARO:3002626|ANT(6)-Ia	ANT(6)	ANT nucleotidiltransferasa		1
+CARD|gb|M97172.1|+|655-1465|ARO:3002534|AAC(3)-IIb	AAC(3)	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|M80346.1|+|0-1656|ARO:3002817|carA	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|L20573.1|+|1317-1944|ARO:3002988|bcrB	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|M36726.1|+|295-1150|ARO:3000596|ErmX	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|X90856.1|+|387-1194|ARO:3002645|APH(3')-IIb	APH(3')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|AM932669.1|+|698-1502|ARO:3001811|OXA-129	OXA-5-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AB116646.1|+|429-903|ARO:3002563|AAC(6')-Isa	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AF079900.1|+|39-1731|ARO:3002892|otr(B)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|KJ151292.1|+|294-2892|ARO:3000444|rphA	rifampin phosphotransferase	rifampicina (arr)		1
+CARD|gb|AM419751.1|+|14210-15431|ARO:3000567|tet(40)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AY043299.1|-|3984-5175|ARO:3000167|tet(C)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AF133139.1|+|0-1176|ARO:3000174|tet(G)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|U00096.1|-|2098446-2099613|ARO:3003577|ugd	pmr phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|X15791.1|+|1375-2257|ARO:3003563|RCP-1	RCP beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|EU124663.1|-|32695-34348|ARO:3002881|lmrC	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|EF672680.1|+|0-729|ARO:3000841|CGB-1	CGB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AF162694.1|+|5877-6963|ARO:3002933|vanS_in_vanC_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AY954728.1|+|11-896|ARO:3003558|Yent_y56	BlaA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|X03216.1|-|4550-5282|ARO:3000347|ErmA	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|L42817.1|+|201-936|ARO:3000522|ErmG	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AY183453.1|+|2729-3950|ARO:3000361|EreA	macrolide esterase			1
+CARD|gb|U85514.1|+|149-977|ARO:3001413|OXA-18	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|DQ089809.1|+|1005-1857|ARO:3002385|BEL-1	BEL beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|U51479.1|+|0-921|ARO:3002636|APH(2'')-IIIa	APH(2'')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|BA000007.3|+|3212025-3212640|ARO:3000832|evgA	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	3
+CARD|gb|KC479325.2|+|668-1496|ARO:3001690|OXA-255	OXA-143-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|HQ424460.1|+|1-805|ARO:3002646|APH(3')-IIc	APH(3')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|AB164230.1|+|35-566|ARO:3002593|AAC(6')-Ib-SK	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AF024602.1|+|3155-3992|ARO:3002660|APH(6)-Id	APH(6)	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|AM296481.1|+|775-2041|ARO:3002699|cmlB1	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|GQ150744.1|+|122-359|ARO:3003022|dfrB3	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|GQ205627.1|+|1393-2971|ARO:3002832|vgaD	vga-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|X74948.1|+|0-492|ARO:3002688|catS	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|U70376.2|-|7525-8518|ARO:3002663|APH(9)-Ib	APH(9)	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|JF816544.1|+|0-741|ARO:3002226|IMP-35	IMP beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|AY007784.1|+|1122-1923|ARO:3001431|OXA-37	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|JX131372.1|+|96-843|ARO:3002228|IMP-37	IMP beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|AY154657.2|+|62-1223|ARO:3000601|Erm(38)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|U00096.3|-|481253-484403|ARO:3000216|acrB	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|L09246.1|+|543-981|ARO:3002554|AAC(6')-Ig	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|FN594949.1|+|27481-28339|ARO:3002629|ANT(6)-Ib	ANT(6)	ANT nucleotidiltransferasa		1
+CARD|gb|L08389.1|+|390-1254|ARO:3000495|ErmD	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|X07753.1|+|102-882|ARO:3002652|APH(3')-VIa	APH(3')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|JQ396378.1|+|0-747|ARO:3001476|OXA-184	OXA-184-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AB284167.2|+|225-1101|ARO:3001925|CTX-M-64	CTX-M beta-lactamase	beta-lactamasa de espectro extendido		1
+CARD|gb|AJ511268.1|+|1294-1765|ARO:3002531|AAC(3)-Ic	AAC(3)	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|Y15510.1|+|0-1203|ARO:3000175|tet(H)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AY743590.1|+|0-1188|ARO:3000566|tet(39)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AE004091.2|+|2808742-2809987|ARO:3000803|MexE	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AF038993.1|+|0-1197|ARO:3000177|tet(J)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AF030344.1|-|461-1721|ARO:3000181|tet(V)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|L12710.1|+|0-549|ARO:3002556|AAC(6')-Ii	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|GU585907.1|-|21605-22103|ARO:3002858|dfrA12	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|DQ838665.1|+|0-474|ARO:3002860|dfrA17	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|AY082011.1|+|0-699|ARO:3002923|vanR_in_vanD_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|M97297.1|+|10115-10601|ARO:3002962|vanZ_in_vanA_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AJ223970.1|+|20-800|ARO:3001303|ErmO-srmA	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AJ308331.1|+|0-870|ARO:3000855|CAU-1	CAU beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AF416700.1|+|56-764|ARO:3000842|EBR-1	EBR beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KF460533.1|+|0-831|ARO:3001550|OXA-363	OXA-134-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AF079138.1|+|153-1122|ARO:3000598|Erm(31)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|DQ212986.1|+|5984-7034|ARO:3002909|vanG	Van ligase	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AJ579365.1|+|4149-5628|ARO:3003111|lsaB	lsa-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|HE999704.1|-|2734780-2736181|ARO:3000421|norB	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|KF421163.1|+|0-831|ARO:3001547|OXA-360	OXA-134-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|FJ981621.1|+|0-648|ARO:3002737|QnrB22	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|AE006468.2|-|392419-393931|ARO:3000791|mdsC	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|CP000768.1|+|1405391-1406495|ARO:3000783|cmeA	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|HM640278.2|+|0-828|ARO:3001709|OXA-182	OXA-143-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|U19459.1|+|66-705|ARO:3002841|vatB	streptogramin vat acetyltransferase			1
+CARD|gb|U00096.3|-|4567286-4568519|ARO:3001214|mdtM	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|M16503.1|+|243-1143|ARO:3002823|ErmH	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|X52085.1|+|342-1809|ARO:3000251|msrA	msr-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|AF170880.4|+|0-1848|ARO:3002522|novA	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|AY570506.1|+|2034-2790|ARO:3004606|erm(40)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|Z33413.1|+|386-935|ARO:3000380|FosC	fosC phosphotransferase family			1
+CARD|gb|AF079138.1|-|1282-2293|ARO:3001265|Erm(30)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|CT025800.2|+|0-1221|ARO:3000778|adeG	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AF227521.1|+|3269-4487|ARO:3000616|mel	msr-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|AL111168.1|-|336915-337548|ARO:3000526|cmeR	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|AL123456.3|-|314308-314854|ARO:3002525|AAC(2')-Ic	AAC(2')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|BA000007.3|-|1737690-1738104|ARO:3000676|H-NS	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	3
+CARD|gb|U97042.1|+|1263-4347|ARO:3003010|ceoB	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AY139598.1|+|1486-2287|ARO:3001775|OXA-119	OXA-46-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|M33768.1|+|194-1364|ARO:3003007|bmr	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AY343493.1|+|76-946|ARO:3001813|OXA-55	OXA-55-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|X03364.1|+|0-789|ARO:3002648|APH(3')-IVa	APH(3')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|DBHZIT010000030.1|-|8250-9483|ARO:3003048|rosA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AF173226.1|+|6913-8329|ARO:3003053|smeC	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|M98270.1|+|0-759|ARO:3002624|ANT(4')-IIa	ANT(4')	ANT nucleotidiltransferasa		1
+CARD|gb|AF031331.1|+|0-441|ARO:3002567|AAC(6')-Iw	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|M64090.1|+|0-735|ARO:3000595|ErmT	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AF467077.1|+|163-1348|ARO:3000168|tet(D)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|X53797.1|+|133-775|ARO:3002684|catII	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|AY225127.1|+|40-1537|ARO:3000300|lsaA	lsa-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|M94066.1|+|1553-1994|ARO:3002549|AAC(6')-Ic	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|KP265721.1|+|331-1558|ARO:3004608|EreD	macrolide esterase			1
+CARD|gb|AY504627.1|+|0-720|ARO:3002261|IND-5	IND beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|FN594949.1|+|25244-27167|ARO:3000556|tet(44)	tetracycline-resistant ribosomal protection protein	protección ribosomal (tet)		1
+CARD|gb|FJ196385.1|-|11083-12313|ARO:3003107|mef(B)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|GQ288397.1|+|0-741|ARO:3000846|SIM-1	SIM beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|AB211124.1|+|0-525|ARO:3002895|SAT-2	streptothricin acetyltransferase (SAT)			1
+CARD|gb|AE004091.2|+|1221690-1222098|ARO:3000149|FosA	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|AF370885.1|+|3438-4629|ARO:3000774|adeA	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|U00096.1|+|2158385-2161463|ARO:3000794|mdtC	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|U00096.1|+|2484373-2487967|ARO:3000833|evgS	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	3
+CARD|gb|EU408347.1|-|10174-11083|ARO:3002485|LRA-2	subclass B3 LRA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AY114142.1|+|1060-1816|ARO:3002625|ANT(4')-IIb	ANT(4')	ANT nucleotidiltransferasa		1
+CARD|gb|U00096.3|+|2810769-2811300|ARO:3000516|emrR	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|CP004067.1|+|52914-53709|ARO:3002647|APH(3')-IIIa	APH(3')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|M19530.1|+|415-1186|ARO:3002878|BcII	subclass B1 Bacillus cereus Bc beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AE002098.2|-|1795181-1796420|ARO:3000810|mtrC	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AY289608.1|+|616-1444|ARO:3001810|OXA-53	OXA-2-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|EU436855.2|+|1401-2058|ARO:3002799|QnrVC1	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|KF525301.1|+|105-603|ARO:3003018|dfrA22	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|JX313020.1|+|0-876|ARO:3001991|CTX-M-132	CTX-M beta-lactamase	beta-lactamasa de espectro extendido		1
+CARD|gb|AY289608.1|+|1523-2078|ARO:3002588|AAC(6')-I30	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AF024666.2|+|35934-37110|ARO:3002703|cmx	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|DQ195536.2|+|0-1248|ARO:3000865|oleD	ole glycosyltransferase			1
+CARD|gb|AB204810.2|+|186-1533|ARO:3000753|abeM	multidrug and toxic compound extrusion (MATE) transporter	eflujo MATE		1
+CARD|gb|AF078527.1|+|3769-4303|ARO:3000230|ANT(2'')-Ia	ANT(2'')	ANT nucleotidiltransferasa		1
+CARD|gb|JX486113.1|+|0-795|ARO:3002668|rmtG	16S rRNA methyltransferase (G1405)	metiltransferasa 16S rRNA		1
+CARD|gb|AE006468.2|-|393893-397061|ARO:3000790|mdsB	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|X02588.1|+|330-1113|ARO:3002630|ANT(9)-Ia	ANT(9)	ANT nucleotidiltransferasa		1
+CARD|gb|L36601.1|+|1420-3130|ARO:3003036|oleB	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|CP023390.1|-|1461588-1462248|ARO:3000838|arlR	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|AE015929.1|-|1128933-1129419|ARO:3002865|dfrC	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|GU437214.1|+|0-774|ARO:3000858|armA	16S rRNA methyltransferase (G1405)	metiltransferasa 16S rRNA		1
+CARD|gb|AY423074.1|+|0-858|ARO:3001792|OXA-62	OXA-62-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|U72743.1|+|385-1018|ARO:3002526|AAC(2')-Id	AAC(2')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AF137361.1|+|63-852|ARO:3002605|aadA5	ANT(3'')	ANT nucleotidiltransferasa		1
+CARD|gb|HQ203032.1|+|0-345|ARO:3000245|RbpA	RbpA bacterial RNA polymerase-binding protein			1
+CARD|gb|AP009048.1|+|2586250-2589364|ARO:3000491|acrD	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AF319779.2|+|32-833|ARO:3000604|Erm(35)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AP009048.1|-|4306556-4307588|ARO:3003548|mdtN	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|GU186045.1|+|34-754|ARO:3002265|IND-9	IND beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|HQ219726.1|+|385-805|ARO:3002873|FosB3	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|S67449.1|+|0-1380|ARO:3000178|tet(K)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|EU408359.1|+|3791-4694|ARO:3002513|LRA-19	subclass B3 LRA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AB114632.1|+|655-1453|ARO:3002607|aadA7	ANT(3'')	ANT nucleotidiltransferasa		1
+CARD|gb|JQ768046.1|+|7760-9440|ARO:3001313|facT	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|CP001182.2|+|3283426-3284677|ARO:3000780|adeI	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AY082011.1|+|4936-5908|ARO:3002944|vanH_in_vanD_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AY453161.1|+|500-1430|ARO:3000090|Bla1	class A Bacillus anthracis Bla beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AE004091.2|+|4706409-4707522|ARO:3000807|MexH	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AJ250876.1|+|36-987|ARO:3000851|THIN-B	THIN-B beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|U00096.1|+|3415032-3418137|ARO:3000502|AcrF	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|U00096.1|+|3413863-3415021|ARO:3000499|AcrE	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AJ223604.1|+|3017-3650|ARO:3002678|Paer_catB6	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|AB028210.1|-|2710-3565|ARO:3002544|AAC(3)-Xa	AAC(3)	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|JX173956.1|+|0-1152|ARO:3002190|MOX-8	MOX beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|GQ396303.1|+|0-927|ARO:3002368|PER-6	PER beta-lactamase	beta-lactamasa de espectro extendido		1
+CARD|gb|KF976462.2|+|111558-112122|ARO:3003011|dfrA10	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|AY261375.1|+|0-765|ARO:3003104|cphA8	CphA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|Y00459.1|+|2824-3748|ARO:3002657|APH(6)-Ia	APH(6)	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|JF268688.1|-|5407-6232|ARO:3001809|OXA-209	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AF173226.1|+|2558-3755|ARO:3003051|smeA	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|HQ449669.1|+|0-657|ARO:3002708|QnrA2	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|AF242872.1|+|3579-4224|ARO:3002844|vatE	streptogramin vat acetyltransferase			1
+CARD|gb|KM401566.1|-|1211-2033|ARO:3003117|OXA-421	OXA-213-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|KJ476816.1|+|79-925|ARO:3000861|rmtC	16S rRNA methyltransferase (G1405)	metiltransferasa 16S rRNA		1
+CARD|gb|BX571965.1|-|2150965-2152165|ARO:3002982|amrA	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AIIS01000002.1|-|233812-234307|ARO:3002875|dfrE	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|HE650138.1|+|2186-2918|ARO:3003205|Erm(43)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AF173226.1|-|351-1041|ARO:3003066|smeR	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|AY566250.1|+|391-1555|ARO:3000391|norA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|DQ365886.1|+|0-801|ARO:3002283|VIM-13	VIM beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|AF128627.1|+|0-906|ARO:3000816|mtrA	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|AE016877.1|+|1972251-1972668|ARO:3000172|FosB	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|EF614235.1|+|2246-2801|ARO:3002586|AAC(6')-32	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|X07848.1|+|271-913|ARO:3002685|catIII	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|DQ278190.1|+|0-474|ARO:3002861|dfrA5	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|NG_047953.1|+|100-2125|ARO:3003440|mecB	PBP2-like beta-lactam resistant peptidoglycan transpeptidase			1
+CARD|gb|EU408346.1|-|4825-5713|ARO:3002482|LRA-1	class A LRA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AY227051.1|+|0-765|ARO:3003101|cphA5	CphA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|EU917444.1|+|1716-2382|ARO:3002787|QnrC	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|AY623658.2|+|12449-13472|ARO:3000594|ErmR	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AF337947.1|+|271-1171|ARO:3002635|APH(2'')-IIa	APH(2'')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|FJ872411.1|+|39735-40794|ARO:3002907|vanE	Van ligase	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AJ272109.1|+|0-888|ARO:3000582|L1_BLA	L1 family beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|U01945.1|+|373-916|ARO:3002897|SAT-4	streptothricin acetyltransferase (SAT)			1
+CARD|gb|U57969.1|+|1485-4617|ARO:3000801|MexD	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AY264780.2|-|1824-3006|ARO:3000569|tet(41)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|CP033607.1|+|310893-312888|ARO:3002882|lmrD	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|FR772051.1|+|8740-10315|ARO:3002833|vgaE	vga-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|M55620.1|+|0-660|ARO:3002687|catQ	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|M28303.1|+|242-1187|ARO:3003564|EXO-1	EXO beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AF155139.2|+|6976-7648|ARO:3002952|vanX_in_vanF_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AF162694.1|+|5192-5888|ARO:3002922|vanR_in_vanC_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AF441286.1|+|224-965|ARO:3000843|MUS-1	MUS beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AY082011.1|+|6937-7546|ARO:3003070|vanX_in_vanD_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AB639410.1|+|0-1404|ARO:3003039|OprA	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|FJ872411.1|+|44192-45266|ARO:3002935|vanS_in_vanE_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|KM087864.1|+|0-1146|ARO:3002179|MIR-14	MIR beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|AP006627.1|+|1162417-1163470|ARO:3002816|clbC	Cfr-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AE004091.2|+|3982020-3984009|ARO:3002985|arnA	pmr phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|DQ212986.1|+|7787-9926|ARO:3002972|vanT_in_vanG_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|DQ212986.1|+|2258-2966|ARO:3002926|vanR_in_vanG_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|Z54241.1|+|529-1051|ARO:3002559|AAC(6')-Ip	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AY123251.1|+|2950-3505|ARO:3002594|AAC(6')-IIa	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|HE614014.2|+|0-825|ARO:3001503|OXA-258	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AY769962.1|+|5610-7065|ARO:3000782|adeK	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|JQ727668.1|+|0-375|ARO:3000823|ramA	General Bacterial Porin with reduced permeability to beta-lactams			3
+CARD|gb|AF031328.1|+|0-441|ARO:3002564|AAC(6')-It	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AY768531.1|+|0-1179|ARO:3000533|macA	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|X74325.1|+|645-1908|ARO:3002656|APH(4)-Ib	APH(4)	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|AY487229.1|+|2152-2893|ARO:3000602|Erm(39)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AB917040.2|+|736-1135|ARO:3003207|FosK	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|D14532.1|+|1038-1974|ARO:3001306|ErmW	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|U97042.1|+|0-1218|ARO:3003009|ceoA	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AJ000283.1|+|619-1849|ARO:3000343|tap	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|D85892.1|+|1158-2067|ARO:3000318|mphB	macrolide phosphotransferase (MPH)	MPH fosfotransferasa de macrólidos		1
+CARD|gb|AF219135.2|+|0-729|ARO:3002260|IND-4	IND beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|L07778.1|+|0-660|ARO:3002840|vatA	streptogramin vat acetyltransferase			1
+CARD|gb|KF421162.1|+|0-822|ARO:3001546|OXA-359	OXA-213-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AF015087.1|+|435-1611|ARO:3002702|cmrA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|HM990671.1|+|5192-6671|ARO:3003112|lsaC	lsa-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|JN596991.1|+|482-1223|ARO:3002209|IMP-18	IMP beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|AJ313523.1|+|162-894|ARO:3000599|Erm(33)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|KF478993.1|+|1539-2580|ARO:3002913|vanO	Van ligase	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AP009048.1|+|2810082-2811255|ARO:3000027|emrA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AF155139.1|+|5939-6971|ARO:3002908|vanF	Van ligase	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|EU675686.2|+|3196-4042|ARO:3002616|aadA16	ANT(3'')	ANT nucleotidiltransferasa		1
+CARD|gb|AY758206.1|+|2743-3589|ARO:3002611|aadA11	ANT(3'')	ANT nucleotidiltransferasa		1
+CARD|gb|GQ244501.1|-|59-1619|ARO:3000573|tet(43)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|L06156.2|+|263-800|ARO:3002523|AAC(2')-Ia	AAC(2')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AB015853.1|+|1330-4471|ARO:3003033|mexY	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|U35369.1|+|6004-6613|ARO:3002950|vanX_in_vanB_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|U05883.1|+|555-1458|ARO:3003559|cepA	CepA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AY112998.1|+|196-961|ARO:3003093|cphA3	CphA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP014358.1|-|2161325-2162750|ARO:3001327|MdtK	multidrug and toxic compound extrusion (MATE) transporter	eflujo MATE		1
+CARD|gb|KC004136.2|+|40-796|ARO:3000848|DIM-1	DIM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AF155139.1|+|4978-5947|ARO:3002945|vanH_in_vanF_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AL009126.3|-|339155-339749|ARO:3003059|tmrB	tunicamycin resistance protein			1
+CARD|gb|AB014481.1|+|0-735|ARO:3002825|ErmY	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|KF478993.1|+|2576-3185|ARO:3002954|vanX_in_vanO_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|FJ349556.1|+|3056-3758|ARO:3002961|vanY_in_vanM_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AJ514254.1|+|0-1923|ARO:3000197|tet(36)	tetracycline-resistant ribosomal protection protein	protección ribosomal (tet)		1
+CARD|gb|U82085.2|+|628-2287|ARO:3000118|vgaB	vga-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|U00096.3|-|3203309-3204131|ARO:3002986|bacA	undecaprenyl pyrophosphate related proteins			1
+CARD|gb|AF031326.1|+|0-441|ARO:3002561|AAC(6')-Ir	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|DQ195535.2|+|0-1275|ARO:3000866|oleI	ole glycosyltransferase			1
+CARD|gb|AL009126.1|+|1376516-1376855|ARO:3003063|ykkC	small multidrug resistance (SMR) antibiotic efflux pump	eflujo SMR		1
+CARD|gb|AJ584700.2|+|33-582|ARO:3002589|AAC(6')-Iid	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AJ884726.1|-|539-1325|ARO:3002614|aadA14	ANT(3'')	ANT nucleotidiltransferasa		1
+CARD|gb|EU269034.2|-|1479-2223|ARO:3002667|rmtD	16S rRNA methyltransferase (G1405)	metiltransferasa 16S rRNA		1
+CARD|gb|U00096.1|+|2812615-2814154|ARO:3000074|emrB	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AB016934.1|+|7388-8381|ARO:3000449|FomB	Fom phosphotransferase family			1
+CARD|gb|JQ808129.1|+|1598-2378|ARO:3002666|rmtF	16S rRNA methyltransferase (G1405)	metiltransferasa 16S rRNA		1
+CARD|gb|AB083212.2|+|5481-6237|ARO:3000859|rmtA	16S rRNA methyltransferase (G1405)	metiltransferasa 16S rRNA		1
+CARD|gb|DQ836009.1|+|1309-2131|ARO:3002879|linG	lincosamide nucleotidyltransferase (LNU)	LNU nucleotidiltransferasa		1
+CARD|gb|X55652.1|+|1123-1939|ARO:3002536|AAC(3)-IIIa	AAC(3)	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|KF147862.1|+|0-654|ARO:3000559|adeN	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|AJ584701.2|+|10-562|ARO:3002590|AAC(6')-Iih	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|EU188842.1|+|0-828|ARO:3001609|OXA-114a	OXA-114-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AP009048.1|-|3980025-3981183|ARO:3000795|mdtE	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AB894482.1|-|35038-35500|ARO:3003199|AAC(6')-Iak	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AB119105.1|+|0-435|ARO:3002572|AAC(6')-Iad	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|EU408352.1|-|35394-37224|ARO:3002484|LRA-13	class C LRA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	2
+CARD|gb|FN812951.1|+|0-492|ARO:3002869|dfrK	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|KC895984.1|+|1081-1855|ARO:3002631|spd	ANT(9)	ANT nucleotidiltransferasa		1
+CARD|gb|X03988.1|+|382-1642|ARO:3000363|EreB	macrolide esterase			1
+CARD|gb|AP009048.1|+|1621287-1621671|ARO:3000263|marA	General Bacterial Porin with reduced permeability to beta-lactams			3
+CARD|gb|X53527.1|+|0-819|ARO:3002638|APH(3'')-Ia	APH(3'')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|FJ349556.1|+|4856-5888|ARO:3002911|vanM	Van ligase	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|EF452177.1|+|0-495|ARO:3002838|lnuD	lincosamide nucleotidyltransferase (LNU)	LNU nucleotidiltransferasa		1
+CARD|gb|AE002098.2|-|1791966-1795170|ARO:3000811|mtrD	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AF031332.1|+|0-441|ARO:3002568|AAC(6')-Ix	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|L11616.1|+|1569-4710|ARO:3000378|MexB	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AF090987.1|+|0-1185|ARO:3000561|tet(30)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AY825285.1|+|0-1353|ARO:3000565|tet(38)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AF534183.1|+|2970-4245|ARO:3000165|tet(A)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|NG_048311.1|+|100-1351|ARO:3000183|tet(Z)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AY227052.1|+|0-765|ARO:3003102|cphA6	CphA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AF001493.1|+|0-432|ARO:3002846|arr-1	rifampin ADP-ribosyltransferase (Arr)	rifampicina (arr)		1
+CARD|gb|AJ400619.1|+|33-834|ARO:3001424|OXA-29	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AF155139.1|+|3396-4278|ARO:3002958|vanY_in_vanF_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|M97297.1|+|4648-5803|ARO:3002931|vanS_in_vanA_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AF173226.1|+|3767-6917|ARO:3003052|smeB	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|KJ510410.1|+|5740-6478|ARO:3002236|IMP-45	IMP beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|DQ839391.1|+|38018-38255|ARO:3003021|dfrB2	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|L32599.1|+|1236-2439|ARO:3003006|blt	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|L29510.1|+|368-806|ARO:3002558|AAC(6')-Ik	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AB908992.1|+|0-417|ARO:3003210|FosA4	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|M97297.1|+|6978-8010|ARO:3000010|vanA	Van ligase	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|KJ541681.1|+|19526-20000|ARO:3002854|dfrA1	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|AF140221.1|+|389-851|ARO:3002570|AAC(6')-Iz	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|M57437.1|+|0-1647|ARO:3002827|tlrC	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|JF894248.1|+|0-741|ARO:3002218|IMP-27	IMP beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|EU177504.3|+|3052-3469|ARO:3000603|Erm(41)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AF180952.1|+|1564-2737|ARO:3001816|ACC-2	ACC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|M55427.1|+|273-1119|ARO:3002543|AAC(3)-IXa	AAC(3)	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|KF534911.1|+|39-513|ARO:3003013|dfrA15	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|DQ336355.1|+|602-1367|ARO:3002640|APH(3'')-Ic	APH(3'')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|FJ854362.1|+|2338-2812|ARO:3002862|dfrA7	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|AF313494.1|+|0-1479|ARO:3002819|msrC	msr-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|EU408348.1|+|1243-2152|ARO:3002510|LRA-3	subclass B3 LRA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AP009048.1|-|4304505-4306557|ARO:3003549|mdtO	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AB522969.1|+|0-399|ARO:3002874|FosC2	fosC phosphotransferase family			1
+CARD|gb|AB013298.1|+|2295-3195|ARO:3000319|mphC	macrolide phosphotransferase (MPH)	MPH fosfotransferasa de macrólidos		1
+CARD|gb|EF540343.1|-|1463-3230|ARO:3000217|blaR1	BlaZ beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	2
+CARD|gb|KF998105.1|+|4171-4849|ARO:3002579|AAC(6')-Ib8	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|Z21956.1|-|191-1079|ARO:3003665|NmcR	IMI beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	2
+CARD|gb|NG_050600.1|+|100-925|ARO:3000862|sgm	16S rRNA methyltransferase (G1405)	metiltransferasa 16S rRNA		1
+CARD|gb|AE005672.3|-|1983115-1984810|ARO:3000024|patA	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|EU746499.1|+|639-1437|ARO:3002613|aadA13	ANT(3'')	ANT nucleotidiltransferasa		1
+CARD|gb|AE005672.3|-|1980557-1982324|ARO:3000025|patB	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|V00618.1|+|150-945|ARO:3002644|APH(3')-IIa	APH(3')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|KR091911.1|-|74564-75350|ARO:3002578|AAC(6')-Ib7	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|EU408357.1|-|52-1180|ARO:3002489|LRA-10	class C LRA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|EU408356.1|+|7570-8479|ARO:3002486|LRA-7	subclass B3 LRA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|FN806792.1|+|100-1669|ARO:3002831|vgaC	vga-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|U38944.1|+|0-1536|ARO:3003037|opcM	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AJ223970.1|+|796-2050|ARO:3000463|gimA	gimA family macrolide glycosyltransferase			1
+CARD|gb|AE007317.1|+|866210-867410|ARO:3000822|pmrA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AF353562.1|-|2212-3322|ARO:3000481|tet(35)	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|K00544.1|+|0-663|ARO:3002672|Bpum_cat86	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|CP011360.1|+|6169922-6170807|ARO:3000856|BJP-1	BJP beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|U00096.1|+|2367070-2368039|ARO:3003578|PmrF	pmr phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|FJ349556.1|+|5893-6502|ARO:3002953|vanX_in_vanM_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AY509111.1|+|0-1056|ARO:3002894|otr(C)	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|M18896.2|+|206-2126|ARO:3000190|tet(O)	tetracycline-resistant ribosomal protection protein	protección ribosomal (tet)		1
+CARD|gb|L42544.1|+|0-1956|ARO:3000193|tet(T)	tetracycline-resistant ribosomal protection protein	protección ribosomal (tet)		1
+CARD|gb|FJ589781.1|+|1302-1803|ARO:3004601|LnuP	lincosamide nucleotidyltransferase (LNU)	LNU nucleotidiltransferasa		1
+CARD|gb|AL009126.3|+|916777-919348|ARO:3003324|Bsub_mprF	defensin resistant mprF			1
+CARD|gb|AE004091.2|+|177306-178458|ARO:3003679|TriA	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AE004091.2|+|178454-179525|ARO:3003680|TriB	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AE004091.2|+|179521-182569|ARO:3003681|TriC	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AE004091.2|+|5584100-5585549|ARO:3003682|OpmH	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AB219524.1|+|22-1180|ARO:3003698|mexP	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AB219524.1|+|1176-4338|ARO:3003699|mexQ	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AE004091.2|-|4119269-4120373|ARO:3003692|MexJ	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AE004091.2|-|4116187-4119265|ARO:3003693|MexK	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AE004091.2|+|4903465-4904596|ARO:3003030|MexV	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|NC_002516.2|+|4904646-4907703|ARO:3003031|MexW	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AB219524.1|+|4334-5810|ARO:3003700|opmE	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AB219523.1|+|21-1179|ARO:3003704|mexM	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AB219523.1|+|1175-4286|ARO:3003705|mexN	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AB709942.1|+|1194-1749|ARO:3003677|AAC(6')-Iaj	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|KT818596.1|+|10010-10865|ARO:3003713|VCC-1	VCC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KP109677.1|+|4318-5179|ARO:3003670|PEDO-1	subclass B3 PEDO beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KP109678.1|+|5817-6675|ARO:3003714|PEDO-2	subclass B3 PEDO beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KP109679.1|-|2260-2974|ARO:3003715|PEDO-3	subclass B1 PEDO beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KP109675.1|+|1328-2201|ARO:3003716|CPS-1	CPS beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KP109681.1|+|1642-2515|ARO:3003717|ESP-1	ESP beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KP109676.1|+|0-1026|ARO:3003718|MSI-1	MSI beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KP109676.1|+|1022-1841|ARO:3003719|MSI-OXA	MSI-OXA family beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KP109680.1|-|1254-2112|ARO:3003720|SPG-1	SPG beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|APRN01000033.1|-|307089-307932|ARO:3001743|OXA-288	OXA-286-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AJ251240.1|+|1053-1941|ARO:3004789|FONA-2	FONA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AL939117.1|+|50871-51864|ARO:3002914|vanJ	vanJ membrane protein	van / glucopéptidos	van / glucopéptidos	1
+CARD|gb|CP022056.2|+|166813-167455|ARO:3003731|fusD	Target protecting FusB-type protein conferring resistance to Fusidic acid			1
+CARD|gb|AB571865.1|-|143423-144308|ARO:3003742|mphG	macrolide phosphotransferase (MPH)	MPH fosfotransferasa de macrólidos		1
+CARD|gb|LOCK01000072.1|-|166343-167390|ARO:3003723|vanI	Van ligase	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AF170730.1|+|69-735|ARO:3003744|vatF	streptogramin vat acetyltransferase			1
+CARD|gb|KF287643.1|+|0-522|ARO:3003762|lnuE	lincosamide nucleotidyltransferase (LNU)	LNU nucleotidiltransferasa		1
+CARD|gb|L06249.1|+|1527-2505|ARO:3003748|oleC	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|KC693025.1|+|0-1626|ARO:3003749|salA	sal-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|CP007593.1|+|2148923-2149772|ARO:3001301|RlmA(II)	TlrA-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|EU999036.1|+|688-1390|ARO:3002934|vanS_in_vanD_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AL591981.1|-|5693-8291|ARO:3003770|Lmon_mprF	defensin resistant mprF			1
+CARD|gb|AE014292.2|+|568280-570923|ARO:3003772|Bsui_mprF	defensin resistant mprF			1
+CARD|gb|CP000312.1|-|1756064-1757774|ARO:3003773|Cper_mprF	defensin resistant mprF			1
+CARD|gb|AE009948.1|-|2111276-2113820|ARO:3003774|Saga_mprF	defensin resistant mprF			1
+CARD|gb|CP014284.1|-|189532-190432|ARO:3003767|mphM	macrolide phosphotransferase (MPH)	MPH fosfotransferasa de macrólidos		1
+CARD|gb|AP008230.1|-|4201992-4202691|ARO:3003728|vanR_in_vanI_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|CP001336.1|+|1776504-1777113|ARO:3003725|vanX_in_vanI_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|BX571857.1|+|52819-53458|ARO:3003733|fusC	Target protecting FusB-type protein conferring resistance to Fusidic acid			1
+CARD|gb|KP399637.1|+|31476-33444|ARO:3003746|optrA	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|AJ492820.1|+|404-1235|ARO:3003793|SPM-1	SPM beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|CP015085.1|-|2551711-2552440|ARO:3003838|gadW	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|AJ574887.1|-|370-1696|ARO:3003835|cdeA	multidrug and toxic compound extrusion (MATE) transporter	eflujo MATE		1
+CARD|gb|JX306689.2|+|0-828|ARO:3001551|OXA-364	OXA-364-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|PQ507915.1|+|0-774|ARO:3009648|OXA-1054	OXA-372-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AP014611.1|-|149223-150153|ARO:3003204|TLA-3	TLA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KJ746495.1|+|1420-2572|ARO:3002191|MOX-9	MOX beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|AP014611.1|-|26117-26690|ARO:3003200|AAC(6')-Ian	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|KT192551.1|-|3491-4376|ARO:3004797|FRI-1	FRI beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|U00096.3|-|721055-721733|ARO:3003841|kdpE	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|MWVR01000009.1|-|34384-35299|ARO:3004626|Erm(49)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AF337947.1|+|1214-1751|ARO:3004629|AAC(6')-Im	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|U13880.2|+|308-767|ARO:3004635|AAC(6')-Il	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|KY073238.1|+|1678-2323|ARO:3004636|qnrE1	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|NC_004939.1|+|4565-6107|ARO:3004639|Cstr_tetA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|NG_047831.1|+|100-955|ARO:3004643|Erm(K)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|Z86002.1|+|335-809|ARO:3004644|Pmir_dfrA6	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|CP000602.1|-|93826-94402|ARO:3004645|dfrI	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|HG002396.1|+|5272-6322|ARO:3004649|cfr(B)	Cfr-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AM293332.3|+|0-1194|ARO:3003854|ADC-8	ADC beta-lactamase without carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|EF540343.1|+|214-985|ARO:3003905|ANT(4')-Ib	ANT(4')	ANT nucleotidiltransferasa		1
+CARD|gb|KU612222.1|+|80337-81078|ARO:3003908|Erm(47)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AY162283.2|+|5615-6095|ARO:3004642|dfrA3b	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|KF730244.1|+|0-1149|ARO:3004648|AQU-3	AQU beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|EU370913.1|+|46651-47827|ARO:3003922|oqxA	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|EU370913.1|+|47850-51003|ARO:3003923|oqxB	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|APRL01000010.1|-|279443-280280|ARO:3001746|OXA-291	OXA-286-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|FN806789.3|+|2693-3518|ARO:3003918|apmA	AAC(2')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|XM_748018.1|+|0-4359|ARO:3003942|abcA	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|KJ746496.1|+|0-774|ARO:3001558|OXA-372	OXA-372-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|CP001793.1|-|3931126-3932167|ARO:3003907|cipA	Cfr-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|JX570731.1|+|1936-2725|ARO:3004786|FIM-1	FIM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP010019.1|-|78318-79185|ARO:3004795|FPH-1	FPH beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|M74717.1|+|39-822|ARO:3004652|Erm(O)-lrm	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|NZ_PTWF01000025.1|+|35858-37586|ARO:3003948|efrA	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|HG970103.1|+|0-1086|ARO:3003949|efrB	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|U00096.3|+|966620-968369|ARO:3003950|msbA	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|CP002276.1|-|1144673-1146068|ARO:3003953|hmrM	multidrug and toxic compound extrusion (MATE) transporter	eflujo MATE		1
+CARD|gb|AB467372.1|+|284-1571|ARO:3003954|efmA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AL123456.3|-|3153038-3154631|ARO:3003955|efpA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AE002098.2|+|329612-330767|ARO:3003961|farA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AE002098.2|+|330790-332317|ARO:3003962|farB	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AE000511.1|+|1249487-1250819|ARO:3003964|hp1181	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|CP000259.1|-|1769089-1770310|ARO:3003969|lmrP	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|U40487.1|+|170-1685|ARO:3003967|lfrA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|X53796.1|+|186-828|ARO:3004656|Ecol_catII	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|M11587.1|+|879-1533|ARO:3004657|catA4	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|AF251288.1|-|794-2000|ARO:3004659|Mef(En2)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|CP008790.1|+|144510-145143|ARO:3004660|catB11	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|CP002003.1|+|954744-956316|ARO:3004651|lin	lincosamide nucleotidyltransferase (LNU)	LNU nucleotidiltransferasa		1
+CARD|gb|AHLO01000073.1|+|63138-63558|ARO:3004661|Saur_FosB	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|CP027422.1|+|410229-410874|ARO:3004663|FusF	Target protecting FusB-type protein conferring resistance to Fusidic acid			1
+CARD|gb|D90119.1|+|477-1644|ARO:3004667|Saur_norA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AB669090.1|+|12438-13221|ARO:3004628|AAC(2')-IIa	AAC(2')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|APOH01000009.1|-|220588-221443|ARO:3001751|OXA-296	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AF403298.1|+|659-1685|ARO:3004669|emtA	TlrA-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|M16183.1|+|529-1099|ARO:3004699|sta	streptothricin acetyltransferase (SAT)			1
+CARD|gb|NG_050610.1|+|100-937|ARO:3001748|OXA-293	OXA-286-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|HM537013.1|-|24054-25302|ARO:3004666|pexA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AF182845.2|+|0-804|ARO:3004680|APH(3')-VIIIa	APH(3')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|KX531046.1|+|0-864|ARO:3003982|LlmA_23S_CLI	Llm 23S ribosomal RNA methyltransferase			1
+CARD|gb|KX531047.1|+|0-654|ARO:3003983|CatU	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|KX531048.1|+|0-2259|ARO:3003984|BahA	Bah amidohydrolase			1
+CARD|gb|KX531049.1|+|0-1947|ARO:3003986|TaeA	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|KX531050.1|+|0-633|ARO:3003987|VatI	streptogramin vat acetyltransferase			1
+CARD|gb|KX531051.1|+|0-723|ARO:3003988|AAC(2')-IIb	AAC(2')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|KX531053.1|+|0-594|ARO:3003989|AAC(6')-34	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|KX531056.1|+|0-927|ARO:3003991|mphI	macrolide phosphotransferase (MPH)	MPH fosfotransferasa de macrólidos		1
+CARD|gb|KX531052.1|+|0-2655|ARO:3003992|rphB	rifampin phosphotransferase	rifampicina (arr)		1
+CARD|gb|KX531054.1|+|0-486|ARO:3003994|cpaA	cpa acetyltransferase			1
+CARD|gb|M72415.1|+|1120-1984|ARO:3004683|aadS	ANT(6)	ANT nucleotidiltransferasa		1
+CARD|gb|KY853650.2|+|51583-53212|ARO:3004688|MCR-1.11	MCR phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|LN873256.1|-|3238-4027|ARO:3004682|aadA27	ANT(3'')	ANT nucleotidiltransferasa		1
+CARD|gb|AE004091.2|-|2854010-2855291|ARO:3004073|MuxA	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|KX531044.1|+|0-1032|ARO:3003980|tetA(58)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|KX531055.1|+|0-891|ARO:3003990|vgbC	streptogramin vgb lyase			1
+CARD|gb|KF540226.1|-|3569-5144|ARO:3004715|Scoh_vga(E)	vga-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|AB304512.1|+|17042-17462|ARO:3004674|FosD	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|GU201947.1|+|54-876|ARO:3004678|rmtE	16S rRNA methyltransferase (G1405)	metiltransferasa 16S rRNA		1
+CARD|gb|MG822663.1|+|0-1626|ARO:3004694|MCR-4.2	MCR phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|APPC01000015.1|-|269861-270698|ARO:3001749|OXA-294	OXA-294-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|LT970863.1|+|0-1518|ARO:3004730|tva(A)	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|CM009147.1|+|669855-670683|ARO:3003599|OXA-443	OXA-22-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|LC030179.1|+|0-816|ARO:3003600|OXA-444	OXA-60-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|CP001633.1|-|630303-631167|ARO:3004801|FTU-1	FTU beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|APRR01000006.1|-|288118-288976|ARO:3001752|OXA-297	OXA-294-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|DQ185434.2|+|0-1257|ARO:3000462|mgtA	mgt macrolide glycotransferase			1
+CARD|gb|LT673656.1|-|1884344-1885022|ARO:3004054|Paer_CpxR	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|KX000273.1|+|0-1740|ARO:3004036|tetB(60)	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|HQ652506.1|+|373-2098|ARO:3004032|tetA(46)	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|HQ652506.1|+|2099-3836|ARO:3004033|tetB(46)	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|KX000272.1|+|0-1740|ARO:3004035|tetA(60)	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|OQ685298.1|+|0-459|ARO:3009655|AAC(6')-Va	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AE004091.2|-|2846282-2847779|ARO:3004072|OpmB	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|KR297239.1|-|414-1428|ARO:3000620|adeL	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|AE004091.2|+|5606102-5606435|ARO:3004038|Paer_emrE	small multidrug resistance (SMR) antibiotic efflux pump	eflujo SMR		1
+CARD|gb|Z11877.1|+|485-818|ARO:3004039|Ecol_emrE	small multidrug resistance (SMR) antibiotic efflux pump	eflujo SMR		1
+CARD|gb|AJ318073.1|+|793-1990|ARO:3004041|Kpne_acrA	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|DQ679966.1|+|299-1493|ARO:3004042|Eclo_acrA	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|U00096.3|-|484425-485619|ARO:3004043|Ecol_acrA	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|APQD01000016.1|+|31095-31929|ARO:3001754|OXA-299	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|KR061496.1|+|0-774|ARO:3003603|OXA-447	OXA-184-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|CP012901.1|-|5979156-5980365|ARO:3003801|bcr-1	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AM283523.1|+|0-1152|ARO:3003862|ADC-18	ADC beta-lactamase without carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|ACMJ01000036.1|-|72074-72986|ARO:3003072|mphL	macrolide phosphotransferase (MPH)	MPH fosfotransferasa de macrólidos		1
+CARD|gb|AE004091.2|-|4165718-4165880|ARO:3004056|ArmR	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|KC771276.1|+|44894-45332|ARO:3004063|EdeQ	Edeine acetyltransferase			1
+CARD|gb|JQ340365.1|+|0-1434|ARO:3003583|basS	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|AY152390.1|+|0-1335|ARO:3003785|Ctra_murA_FOF	antibiotic-resistant murA transferase			1
+CARD|gb|AE004091.2|+|2810008-2813197|ARO:3000804|MexF	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AE004091.2|+|476332-477790|ARO:3000379|OprM	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AF055922.1|+|1787-2630|ARO:3001299|tlrB	TlrA-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|KC503911.1|+|9883-10249|ARO:3001205|BRP(MBL)	Bleomycin resistant protein			1
+CARD|gb|AM283522.1|+|0-1152|ARO:3003863|ADC-19	ADC beta-lactamase without carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|AE004091.2|-|2850882-2854014|ARO:3004074|MuxB	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AE004091.2|-|2847775-2850886|ARO:3004075|MuxC	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|KR061498.1|+|0-750|ARO:3003605|OXA-449	OXA-184-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|KY363215.1|+|79488-80337|ARO:3004734|ARL-1	ARL Beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|EF540343.1|+|3312-4236|ARO:3004749|BCL-1	BCL Beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AE004091.2|-|1472546-1473980|ARO:3004077|PmpM	multidrug and toxic compound extrusion (MATE) transporter	eflujo MATE		1
+CARD|gb|CP160824.1|-|58137-59121|ARO:3009654|MrmA	Cfr-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|ATGI01000028.1|-|7477-8257|ARO:3004086|APH(3')-VIIIb	APH(3')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|KX470419.1|+|3811-4615|ARO:3004085|lnuG	lincosamide nucleotidyltransferase (LNU)	LNU nucleotidiltransferasa		1
+CARD|gb|GG704579.1|-|34580-35369|ARO:3004089|ANT(3'')-IIa	ANT(3'')	ANT nucleotidiltransferasa		1
+CARD|gb|APPC01000022.1|-|55968-56760|ARO:3004090|ANT(3'')-IIb	ANT(3'')	ANT nucleotidiltransferasa		1
+CARD|gb|CR628336.1|+|3280793-3281861|ARO:3004099|LpeA	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|CR628336.1|+|3281865-3284910|ARO:3004100|LpeB	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|MF543129.1|-|2483-3629|ARO:3004464|CFE-2	CMY beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_050561.1|+|100-748|ARO:3004102|kamB	16S rRNA methyltransferase (A1408)	metiltransferasa 16S rRNA		1
+CARD|gb|APRT01000004.1|+|76527-77370|ARO:3001757|OXA-302	OXA-286-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|FR771847.1|+|15-753|ARO:3004105|TMB-1	TMB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AE004091.2|-|2503424-2503895|ARO:3004107|Paer_soxR	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		4
+CARD|gb|LAPJ01000014.1|+|36822-37245|ARO:3004113|FosA7	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|AY312416.1|+|0-1122|ARO:3004123|Bpse_Omp38	General Bacterial Porin with reduced permeability to beta-lactams			1
+CARD|gb|KY363207.1|+|2236-3085|ARO:3004735|ARL-2	ARL Beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AJRJ01000061.1|+|17603-18410|ARO:3004747|BAT-1	BAT Beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AF234999.1|+|189-1068|ARO:3004751|BES-1	BES Beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|Z54181.1|+|62-1007|ARO:3004762|BRO-2	BRO Beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AFRQ01000061.1|-|22598-23990|ARO:3004142|OprZ	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AFRQ01000061.1|-|27130-28306|ARO:3004143|AxyX	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AFRQ01000061.1|-|23986-27124|ARO:3004144|AxyY	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AM412317.1|-|3035492-3036527|ARO:3004146|cfrC	Cfr-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|NG_064716.1|+|100-1252|ARO:3006362|ADC-193	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_054960.1|+|100-2137|ARO:3004185|mecD	PBP2-like beta-lactam resistant peptidoglycan transpeptidase			1
+CARD|gb|JQ394987.1|+|0-1233|ARO:3001328|Ecol_mdfA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AL583926.1|+|40191-40740|ARO:3002527|AAC(2')-Ie	AAC(2')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AY453162.1|+|500-1271|ARO:3004189|Bla2	subclass B1 Bacillus anthracis Bla beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AY701528.1|+|9695-10589|ARO:3004191|APH(2'')-If	APH(2'')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|AE003852.1|+|1674272-1675445|ARO:3004289|Vcho_varG	Subclass B1 Vibrio cholerae varG beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|EU159120.1|+|0-858|ARO:3004826|LAP-2	LAP beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP000144.2|+|874560-875703|ARO:3004291|Rsph_ampC_BLA	ampC-type beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AP006618.1|+|4835199-4838688|ARO:3000501|rpoB2	rifamycin-resistant beta-subunit of RNA polymerase (rpoB)			1
+CARD|gb|NG_047956.1|+|100-472|ARO:3000124|mecA-type_mecI	PBP2-like beta-lactam resistant peptidoglycan transpeptidase			2
+CARD|gb|AF440406.1|+|959-2153|ARO:3004294|BUT-1	BUT beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AM283528.2|+|0-1152|ARO:3003857|ADC-13	ADC beta-lactamase without carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|AM283526.1|+|0-1152|ARO:3003859|ADC-15	ADC beta-lactamase without carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|AM283525.1|+|0-1152|ARO:3003860|ADC-16	ADC beta-lactamase without carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|FJ744162.1|+|0-1152|ARO:3003874|ADC-43	ADC beta-lactamase without carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|FJ744163.1|+|0-1152|ARO:3003876|ADC-44	ADC beta-lactamase without carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|KY753886.1|+|0-660|ARO:3004357|catV	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|AJ007350.1|+|239-1094|ARO:3004359|ACI-1	ACI beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_056174.1|+|100-964|ARO:3004361|sul4	sulfonamide resistant sul	sulfonamidas (sul)		1
+CARD|gb|NG_066693.1|+|0-1152|ARO:3006363|ADC-194	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|KY863418.1|+|140925-141723|ARO:3003128|OXA-436	OXA-48-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AE003852.1|-|1687437-1688259|ARO:3004364|almG	lipid A acyltransferase			2
+CARD|gb|KU736879.1|+|22312-23515|ARO:3004441|tet(59)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|APQJ01000007.1|+|349333-350155|ARO:3001725|OXA-269	OXA-213-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|EU046614.1|+|0-1149|ARO:3004450|TRU-1	TRU beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP007547.1|-|3053571-3054321|ARO:3000579|Cmen_BlaB	BlaB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|M58472.1|+|147-777|ARO:3004451|Afab_ACT_CHL	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|AF507977.1|+|17463-18111|ARO:3004456|Efac_ACT_CHL	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|M64281.1|+|207-855|ARO:3004457|Sint_ACT_CHL	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|S48276.1|+|478-1129|ARO:3004460|Vang_ACT_CHL	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|NC_002516.2|-|779462-780101|ARO:3002679|Paer_catB7	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|AERH01000018.1|-|16203-17940|ARO:3004466|ICR-Mc	intrinsic colistin resistant phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|APSD01000035.1|+|194492-195335|ARO:3001758|OXA-303	OXA-286-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|GQ260093.1|+|0-885|ARO:3004753|BIC-1	BIC Beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KP718480.1|+|0-927|ARO:3004764|CBP-1	CBP beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|APQM01000006.1|+|256342-257164|ARO:3001726|OXA-270	OXA-213-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|APSC01000007.1|-|142138-142960|ARO:3001759|OXA-304	OXA-213-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AF339733.1|+|436-1315|ARO:3004766|CGA-1	CGA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AY899331.1|+|0-873|ARO:3004808|GOB-16	GOB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KP689347.1|-|8602-9544|ARO:3004757|BKC-1	BKC Beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AF189296.1|+|0-756|ARO:3004809|GOB-2	GOB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CEWL01000009.1|-|23801-24671|ARO:3001458|OXA-153	OXA-62-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|APQP01000003.1|+|306251-307073|ARO:3001728|OXA-272	OXA-213-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|APSB01000022.1|-|299955-300792|ARO:3001761|OXA-306	OXA-286-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|CP000813.4|-|2349398-2350187|ARO:3004759|BPU-1	BPU Beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AB639753.1|+|0-879|ARO:3004768|CIA-1	CIA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|LT906435.1|-|4449571-4450450|ARO:3001459|OXA-154	OXA-62-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AF279904.1|+|159-1092|ARO:3004740|AST-1	AST Beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KP081315.1|+|0-879|ARO:3003142|IMI-8	IMI beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|APPJ01000001.1|+|17227-18073|ARO:3001731|OXA-275	OXA-274-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|APPN01000080.1|-|348498-349338|ARO:3001763|OXA-308	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|KU721146.1|+|0-762|ARO:3003620|OXA-464	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|UGSJ01000001.1|+|4174490-4175342|ARO:3001461|OXA-156	OXA-62-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|CP001643.1|+|2516712-2517609|ARO:3004539|mphH	macrolide phosphotransferase (MPH)	MPH fosfotransferasa de macrólidos		1
+CARD|gb|NC_000964.3|-|604735-606379|ARO:3004476|vmlR	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|AF426161.1|+|118-1093|ARO:3004780|DES-1	DES beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AQFM01000048.1|-|191231-191927|ARO:3004479|OXA-664	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|ATGI01000038.1|-|274631-275453|ARO:3004478|OXA-665	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|KP771985.1|+|172-1030|ARO:3001462|OXA-157	OXA-62-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|APOI01000030.1|+|189485-190328|ARO:3001741|OXA-286	OXA-286-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|KX827604.1|+|0-795|ARO:3003115|OXA-427	OXA-427-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|KP771986.1|+|1028-1880|ARO:3001463|OXA-158	OXA-62-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|APOM01000058.1|-|54862-55702|ARO:3001734|OXA-279	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AF477396.1|+|0-903|ARO:3004773|CKO-1	CKO beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AF189297.1|+|0-756|ARO:3004814|GOB-7	GOB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AP009380.1|-|573191-573902|ARO:3003920|pgpB	lipid A phosphatase			1
+CARD|gb|AJ276031.1|+|111-906|ARO:3004837|OXA-724	OXA-12-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|APPZ01000001.1|+|7525-8353|ARO:3001735|OXA-280	OXA-211-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|CP010314.1|+|275837-276758|ARO:3004541|mphK	macrolide phosphotransferase (MPH)	MPH fosfotransferasa de macrólidos		1
+CARD|gb|AJ011502.1|+|300-1425|ARO:3004122|Kpne_OmpK37	General Bacterial Porin with reduced permeability to beta-lactams			1
+CARD|gb|EF063111.1|+|1121-1988|ARO:3004856|SCO-1	SCO beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|JQ673557.1|+|0-1146|ARO:3004777|CMH-1	CMH beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KY503030.1|+|0-828|ARO:3004861|NDM-18	NDM beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|EU339233.1|+|164-401|ARO:3004498|dfrB4	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|MF176240.1|+|0-1617|ARO:3004501|MCR-6.1	MCR phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|MF176239.1|+|0-1617|ARO:3004502|MCR-2.2	MCR phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|MF598076.1|+|0-1623|ARO:3004503|MCR-3.6	MCR phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|MG267386.1|+|23609-25229|ARO:3004517|MCR-7.1	MCR phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|DQ839391.1|-|12872-13757|ARO:3003741|mphE	macrolide phosphotransferase (MPH)	MPH fosfotransferasa de macrólidos		1
+CARD|gb|KF648874.1|+|4289-5180|ARO:3004542|mphN	macrolide phosphotransferase (MPH)	MPH fosfotransferasa de macrólidos		1
+CARD|gb|NZ_AGSO01000004.1|+|76478-77432|ARO:3004543|mphO	macrolide phosphotransferase (MPH)	MPH fosfotransferasa de macrólidos		1
+CARD|gb|KY753883.1|+|0-927|ARO:3004544|mphJ	macrolide phosphotransferase (MPH)	MPH fosfotransferasa de macrólidos		1
+CARD|gb|X57730.1|+|725-1259|ARO:3004548|dfrA9	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|KR857683.1|+|0-1164|ARO:3004582|tet(49)	tetracycline inactivation enzyme	inactivación de tetraciclina		1
+CARD|gb|AY943084.1|+|2855-3092|ARO:3004549|dfrB5	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|KR857686.1|+|0-1173|ARO:3004587|tet(52)	tetracycline inactivation enzyme	inactivación de tetraciclina		1
+CARD|gb|FJ905898.1|+|328-802|ARO:3004547|dfrA6	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|KP076293.1|+|2347-2821|ARO:3004550|dfrA27	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|AM997279.2|+|704-1178|ARO:3004552|dfrA30	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|GU067642.1|+|534-1008|ARO:3004555|dfrA32	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|GU295656.1|+|1047-1296|ARO:3004556|dfrB7	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|MG430339.1|+|67103-67829|ARO:3004559|CAM-1	CAM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AY034138.1|-|7412-7967|ARO:3004568|dfrA18	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|NZ_CP014234.1|+|1701629-1703306|ARO:3004569|ICR-Mo	intrinsic colistin resistant phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|MF445022.1|+|0-1161|ARO:3004571|PNGM-1	PNGM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP000521.1|-|1557233-1558523|ARO:3004573|Abau_AbaF	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|CP001182.2|-|2255584-2256889|ARO:3004574|Abau_AbaQ	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|FJ911554.1|+|176-1655|ARO:3004577|Abau_AmvA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AP006725.1|+|2483889-2484252|ARO:3004580|Kpne_KpnE	small multidrug resistance (SMR) antibiotic efflux pump	eflujo SMR		1
+CARD|gb|KR857682.1|+|0-1200|ARO:3004581|tet(48)	tetracycline inactivation enzyme	inactivación de tetraciclina		1
+CARD|gb|AP006725.1|+|2484238-2484568|ARO:3004583|Kpne_KpnF	small multidrug resistance (SMR) antibiotic efflux pump	eflujo SMR		1
+CARD|gb|KR857684.1|+|0-1167|ARO:3004584|tet(50)	tetracycline inactivation enzyme	inactivación de tetraciclina		1
+CARD|gb|KR857685.1|+|0-1164|ARO:3004586|tet(51)	tetracycline inactivation enzyme	inactivación de tetraciclina		1
+CARD|gb|KR857687.1|+|0-1164|ARO:3004589|tet(53)	tetracycline inactivation enzyme	inactivación de tetraciclina		1
+CARD|gb|LT223129.1|+|47369-48101|ARO:3004094|Erm(48)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|KR857688.1|+|0-1167|ARO:3004590|tet(54)	tetracycline inactivation enzyme	inactivación de tetraciclina		1
+CARD|gb|KR857689.1|+|0-1158|ARO:3004591|tet(55)	tetracycline inactivation enzyme	inactivación de tetraciclina		1
+CARD|gb|KM679362.1|+|0-813|ARO:3004596|erm(46)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|ACWO01000051.1|+|22092-23265|ARO:3004588|Kpne_KpnG	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AY077733.1|+|0-882|ARO:3004782|ERP-1	ERP beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KP137702.1|+|0-1197|ARO:3005006|tet(57)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|HQ730118.1|+|5174-5507|ARO:3005009|qacE	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|U49101.1|+|1490-1838|ARO:3005010|qacEdelta1	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|MN985649.1|+|102-1290|ARO:3005012|IDC-1	IDC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|MH475146.1|+|158348-159263|ARO:3005018|LMB-1	LMB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|MN464149.1|+|528-939|ARO:3005024|FosL1	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|MG707078.1|+|0-1074|ARO:3005021|cfr(D)	Cfr-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AP019635.1|-|146862-147759|ARO:3005031|FRI-8	FRI beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|FR821779.1|+|39529-39904|ARO:3005046|mecC-type_mecI	PBP2-like beta-lactam resistant peptidoglycan transpeptidase			2
+CARD|gb|KJ949070.1|+|0-1215|ARO:3005039|PDC-55	PDC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AY963803.6|+|24823-26038|ARO:3005043|cmlA9	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|FO834906.1|-|2173974-2175099|ARO:3005044|OmpA	General Bacterial Porin with reduced permeability to peptide antibiotics			1
+CARD|gb|AE016879.1|+|2933334-2933889|ARO:3005045|SatA	streptothricin acetyltransferase (SAT)			1
+CARD|gb|AB255435.1|+|117276-117657|ARO:3005036|BLMT	Bleomycin resistant protein			1
+CARD|gb|FO203501.1|+|5123640-5125365|ARO:3005047|eptB	pmr phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|HF536482.1|+|4176809-4177223|ARO:3005049|CrcB	multidrug and toxic compound extrusion (MATE) transporter	eflujo MATE		1
+CARD|gb|CP045110.1|-|521271-522372|ARO:3005051|LpsB	Intrinsic peptide antibiotic resistant Lps			1
+CARD|gb|DQ647421.1|+|0-771|ARO:3005052|LpsA	Intrinsic peptide antibiotic resistant Lps			1
+CARD|gb|FO834906.1|+|304977-306633|ARO:3005053|ArnT	pmr phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|CP007727.1|-|807206-809555|ARO:3005059|LptD	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|MN313890.1|+|0-906|ARO:3005060|OXA-837	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|MN366379.1|+|0-801|ARO:3005062|ANT(3'')-Ib	ANT(3'')	ANT nucleotidiltransferasa		1
+CARD|gb|AE004091.2|+|3450837-3451509|ARO:3005063|cprR	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|AE004091.2|+|3451505-3452801|ARO:3005064|cprS	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|AE004091.2|-|1950438-1951725|ARO:3005067|ParS	Outer Membrane Porin (Opr)			3
+CARD|gb|AE004091.2|-|1951725-1952433|ARO:3005068|ParR	Outer Membrane Porin (Opr)			3
+CARD|gb|AF061757.1|+|834-1020|ARO:3005069|rsmA	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|MT090547.1|+|0-810|ARO:3005085|AAC(3)-IIg	AAC(3)	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|NZ_CP040912.1|+|84797-85964|ARO:3005057|tet(X5)	tetracycline inactivation enzyme	inactivación de tetraciclina		1
+CARD|gb|MN728682.1|+|17386-18847|ARO:3005087|msrF	msr-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|BK011995.1|+|25516-26977|ARO:3005088|msrH	msr-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|MN728681.1|+|17458-18658|ARO:3005089|mef(D)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|CP002562.1|-|1618244-1619006|ARO:3005090|RanB	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|CP002562.1|-|1617468-1618245|ARO:3005091|RanA	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|MN968729.1|+|0-828|ARO:3005093|OXA-899	OXA-22-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|MN968728.1|+|0-816|ARO:3005094|OXA-898	OXA-60-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|MH211206.1|+|0-894|ARO:3005096|GPC-1	GPC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|FR823292.1|-|795-1647|ARO:3005097|mecC-type_BlaZ	BlaZ beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|Y16945.1|+|1861-2185|ARO:3003836|qacH	small multidrug resistance (SMR) antibiotic efflux pump	eflujo SMR		1
+CARD|gb|DQ149925.1|+|188-521|ARO:3005098|qacL	small multidrug resistance (SMR) antibiotic efflux pump	eflujo SMR		1
+CARD|gb|AF002716.1|+|210-942|ARO:3005099|Spyo_ErmA_MLSb	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|AE016879.1|+|3778398-3778818|ARO:3005100|FosB2	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|AY332268.1|+|926-1808|ARO:3005111|blaS1	blaS			1
+CARD|gb|NG_056109.1|+|0-1152|ARO:3006339|ADC-167	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|CP000046.1|-|2235374-2236817|ARO:3004572|Saur_LmrS	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|CP015912.1|+|3480172-3480595|ARO:3005162|FosA7.5	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|KY887596.1|+|137134-137647|ARO:3005164|dfrA35	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|NG_055587.1|+|0-1146|ARO:3005198|CMY-157	CMY beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_060562.1|+|0-1173|ARO:3005307|PDC-292	PDC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_070748.1|+|0-807|ARO:3005323|OXA-926	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_056179.1|+|0-816|ARO:3005324|OXA-570	OXA-60-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_056182.1|+|0-816|ARO:3005325|OXA-573	OXA-60-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_062218.2|+|100-943|ARO:3005328|OXA-671	OXA-286-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|HQ386845.2|+|7728-8262|ARO:3005334|DfrA42_TMP	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|NG_050781.1|+|0-840|ARO:3005335|OXA-496	OXA-134-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|LC537318.1|+|7282-8116|ARO:3005336|OXA-915	OXA-134-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_065434.1|+|0-840|ARO:3005338|OXA-648	OXA-134-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_065432.1|+|0-840|ARO:3005339|OXA-646	OXA-134-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_070721.1|+|100-688|ARO:3005345|DfrA43_TMP	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|NG_062229.1|+|100-688|ARO:3005346|DfrA34	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|NG_070720.1|+|100-574|ARO:3005347|DfrA37	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|NG_065842.1|+|100-688|ARO:3005348|DfrA36	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|NG_071175.1|+|100-601|ARO:3005349|DfrA38	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|NG_052167.1|+|100-337|ARO:3005350|DfrB9	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|NG_070722.1|+|100-598|ARO:3005351|DfrA39	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|NG_050711.1|+|0-1146|ARO:3006243|ACT-48	ACT beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_050712.1|+|0-1146|ARO:3006244|ACT-49	ACT beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_050713.1|+|0-1146|ARO:3006245|ACT-50	ACT beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_055522.1|+|0-1146|ARO:3006248|ACT-53	ACT beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_061401.1|+|0-1146|ARO:3006254|ACT-59	ACT beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_061388.1|+|0-1146|ARO:3006257|ACT-62	ACT beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_067977.1|+|0-1146|ARO:3006277|ACT-83	ACT beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_064678.1|+|100-1252|ARO:3006297|ADC-120	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_064683.1|+|100-1252|ARO:3006302|ADC-127	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_064689.1|+|100-1252|ARO:3006308|ADC-133	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_064694.1|+|100-1252|ARO:3006313|ADC-138	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_066485.1|+|0-1152|ARO:3006374|ADC-205	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_066487.1|+|0-1152|ARO:3006376|ADC-207	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_066489.1|+|0-1152|ARO:3006378|ADC-209	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_071200.1|+|100-1252|ARO:3006424|ADC-254	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_051447.1|+|0-1152|ARO:3006440|ADC-83	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_051448.1|+|0-1152|ARO:3006441|ADC-84	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_051449.1|+|0-1152|ARO:3006442|ADC-85	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_051451.1|+|0-1152|ARO:3006444|ADC-87	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|NG_063835.1|+|0-804|ARO:3006890|AFM-1	AFM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_062237.1|+|0-888|ARO:3006892|ALG11-1	ALG11 beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_062236.1|+|0-957|ARO:3006893|ALG6-1	ALG6 beta-lactamases	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_057427.1|+|100-838|ARO:3006894|ALI-1	ALI beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_059328.1|+|100-838|ARO:3006895|ALI-2	ALI beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_057424.1|+|100-868|ARO:3006896|ANA-1	ANA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_061617.1|+|100-997|ARO:3006897|AXC-1	AXC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_066501.1|+|0-897|ARO:3006898|AXC-2	AXC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_048694.1|+|0-750|ARO:3005525|BlaB-12	BlaB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_065421.1|+|0-750|ARO:3005528|BlaB-15	BlaB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_067205.1|+|0-750|ARO:3005529|BlaB-16	BlaB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_067209.1|+|100-850|ARO:3005534|BlaB-20	BlaB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_067215.1|+|100-850|ARO:3005539|BlaB-26	BlaB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_067980.2|+|100-850|ARO:3005540|BlaB-27	BlaB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_067981.1|+|100-850|ARO:3005541|BlaB-28	BlaB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_050942.1|+|100-904|ARO:3006902|BSU-1	BSU beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_048712.1|+|100-1129|ARO:3006903|CAR-1	CAR beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_048745.1|+|0-852|ARO:3005576|CARB-42	CARB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_065860.1|+|100-1039|ARO:3006904|CDD-1	CDD beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_062222.1|+|100-1228|ARO:3006922|CMA-1	CMA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_061417.1|+|0-1146|ARO:3006857|CMH-5	CMH beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_062235.1|+|0-912|ARO:3006864|CRD3-1	CRD3 beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_054656.1|+|100-973|ARO:3006865|CRH-1	CRH beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_054657.1|+|100-982|ARO:3006868|CRP-1	CRP beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_062223.1|+|100-1228|ARO:3006869|CSA-1	CSA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_048896.1|+|100-1018|ARO:3006871|CSP-1	CSP beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_067986.1|+|72-840|ARO:3006924|CVI-1	CVI beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_062233.1|+|0-909|ARO:3006872|DHT2-1	DHT2 beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_062208.1|+|0-957|ARO:3006873|EAM-1	EAM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_073461.1|+|0-708|ARO:3005462|EBR-4	EBR beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_062207.1|+|18-930|ARO:3006882|ECM-1	ECM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_059320.1|+|100-874|ARO:3006883|ECV-1	ECV beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_062204.1|+|0-909|ARO:3006884|EFM-1	EFM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_062206.1|+|0-942|ARO:3006885|ELM-1	ELM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_062205.1|+|0-918|ARO:3006886|EVM-1	EVM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_057437.1|+|100-850|ARO:3006887|FIA-1	FIA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_065870.1|+|0-873|ARO:3006171|GES-42	GES beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|NG_049142.1|+|100-961|ARO:3006888|GIL-1	GIL beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_073463.1|+|0-813|ARO:3006889|GMB-1	GMB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_067992.1|+|100-985|ARO:3005674|GOB-25	GOB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_067995.1|+|100-973|ARO:3005678|GOB-29	GOB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_067999.1|+|100-973|ARO:3005682|GOB-33	GOB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_068000.1|+|100-973|ARO:3005683|GOB-34	GOB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_062239.1|+|0-726|ARO:3006925|GRD23-1	GRD23 beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_062238.1|+|0-870|ARO:3006926|GRD33-1	GRD33 beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_055491.1|+|0-879|ARO:3006177|IMI-13	IMI beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_054695.1|+|100-979|ARO:3001862|IMI-5	IMI beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_064725.1|+|0-726|ARO:3002237|IMP-46	IMP beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|NG_049241.1|+|100-976|ARO:3006927|KLUC-1	KLUC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_056484.1|+|0-1173|ARO:3006937|LHK-3	LHK beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_049283.1|+|100-1000|ARO:3006941|LRG-1	LRG beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_055472.1|+|100-1012|ARO:3006942|LUS-1	LUS beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_049284.1|+|0-891|ARO:3006943|LUT-1	LUT beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_051495.1|+|0-747|ARO:3006952|MOC-1	MOC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_059325.1|+|100-901|ARO:3006954|MYO-1	MYO beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_057453.1|+|100-886|ARO:3006955|MYX-1	MYX beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_067155.1|+|0-861|ARO:3006152|OKP-C-1	OKP beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_067156.1|+|0-861|ARO:3006153|OKP-D-1	OKP beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_049386.1|+|100-976|ARO:3006957|ORN-1	ORN beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_059317.1|+|100-868|ARO:3006963|ORR-1	ORR beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_050611.1|+|100-937|ARO:3001762|OXA-307	OXA-286-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_049772.1|+|100-847|ARO:3005726|OXA-493	OXA-493-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_049778.1|+|0-822|ARO:3005730|OXA-500	OXA-213-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_049782.1|+|0-795|ARO:3005734|OXA-504	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_051477.1|+|0-825|ARO:3005757|OXA-527	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_057454.1|+|0-828|ARO:3005768|OXA-542	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_054958.1|+|0-888|ARO:3005777|OXA-553	OXA-548-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_055785.1|+|100-931|ARO:3005792|OXA-568	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_056178.1|+|0-840|ARO:3005793|OXA-569	OXA-22-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_066510.1|+|0-747|ARO:3005797|OXA-576	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_065435.1|+|0-825|ARO:3005866|OXA-650	OXA-211-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_061400.1|+|0-828|ARO:3005874|OXA-659	OXA-61-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_061397.1|+|0-834|ARO:3005876|OXA-661	OXA-266-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_062232.1|+|100-955|ARO:3005878|OXA-666	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_062355.1|+|0-831|ARO:3005887|OXA-679	OXA-679-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_061621.1|+|0-852|ARO:3005932|OXA-727	OXA-727-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_061613.1|+|0-798|ARO:3005936|OXA-731	OXA-48-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_063884.1|+|0-750|ARO:3005986|OXA-783	OXA-184-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_063887.1|+|0-744|ARO:3005989|OXA-786	OXA-61-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_064759.1|+|0-822|ARO:3006001|OXA-801	OXA-213-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_066713.1|+|0-801|ARO:3006027|OXA-830	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_070745.1|+|0-813|ARO:3006088|OXA-900	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_068021.1|+|0-792|ARO:3006090|OXA-902	OXA-50-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_068183.1|+|0-795|ARO:3006099|OXA-912	OXA-12-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_070746.1|+|100-928|ARO:3006105|OXA-919	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_073475.1|+|0-828|ARO:3006126|OXA-947	OXA-679-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_073476.1|+|0-831|ARO:3006127|OXA-948	OXA-679-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_073477.1|+|0-828|ARO:3006128|OXA-949	OXA-679-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|NG_065882.1|+|30-912|ARO:3006964|PAU-1	PAU beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_056057.1|+|0-1137|ARO:3006603|PDC-223	PDC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_056398.1|+|0-1215|ARO:3006621|PDC-243	PDC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_059335.1|+|100-1027|ARO:3006133|PER-12	PER beta-lactamase	beta-lactamasa de espectro extendido		1
+CARD|gb|NG_065936.1|+|0-762|ARO:3006965|PFM-1	PFM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_067160.1|+|0-762|ARO:3006966|PFM-2	PFM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_049969.1|+|100-976|ARO:3006968|PLA-1	PLA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_055471.1|+|100-970|ARO:3006972|PLN-1	PLN beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_049973.1|+|100-1030|ARO:3006973|PME-1	PME beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_049974.1|+|100-961|ARO:3006974|POM-1	POM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_057439.1|+|100-829|ARO:3006976|PST-1	PST beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_052626.1|+|100-988|ARO:3006978|PSV-1	PSV beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_049975.1|+|100-988|ARO:3006979|RAHN-1	RAHN beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_049976.1|+|100-988|ARO:3006980|RAHN-2	RAHN beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_063889.1|+|0-933|ARO:3006981|RSA2-1	RSA2 beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_063892.1|+|0-774|ARO:3006982|RSD2-1	RSD2 beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_054671.1|+|0-855|ARO:3006984|RUB-1	RUB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_049980.1|+|81-1011|ARO:3006985|SFC-1	SFC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_049982.1|+|100-988|ARO:3006986|SFO-1	SFO beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_049983.1|+|100-1066|ARO:3006987|SGM-1	SGM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_049986.1|+|100-1030|ARO:3006990|SGM-4	SGM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_049987.1|+|100-1081|ARO:3006991|SGM-5	SGM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_049988.1|+|100-1081|ARO:3006992|SGM-6	SGM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_050614.1|+|100-1081|ARO:3006993|SGM-7	SGM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_059313.1|+|100-814|ARO:3006994|SHN-1	SHN beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_062234.1|+|0-837|ARO:3006995|SPN79-1	SPN79 beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_052102.1|+|100-997|ARO:3006996|SPR-1	SPR beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_059316.1|+|100-931|ARO:3006997|SPS-1	SPS beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_070754.1|+|0-1137|ARO:3006853|SRT-3	SRT beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_057419.1|+|100-886|ARO:3007000|STA-1	STA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_050309.1|+|100-955|ARO:3007001|TER-1	TER beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_059314.1|+|100-832|ARO:3007002|TTU-1	TTU beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_050335.1|+|100-973|ARO:3007004|VHW-1	VHW beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_070759.1|+|100-841|ARO:3007005|YEM-1	YEM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NG_057434.1|+|100-844|ARO:3007006|ZOG-1	ZOG beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP005288.1|+|116946-118335|ARO:3007010|norC	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|OM638112.1|-|0-1620|ARO:3007274|MCR-10.5	MCR phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|NZ_CP044221.1|-|1355942-1357304|ARO:3007011|mdeA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|NC_016941.1|-|2187139-2187613|ARO:3007012|sepA	small multidrug resistance (SMR) antibiotic efflux pump	eflujo SMR		1
+CARD|gb|BA000018.3|-|2239879-2241223|ARO:3007013|sdrM	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AJ512814.1|+|1427-1751|ARO:3007014|qacJ	small multidrug resistance (SMR) antibiotic efflux pump	eflujo SMR		1
+CARD|gb|NG_051904.1|+|100-424|ARO:3007015|qacG	small multidrug resistance (SMR) antibiotic efflux pump	eflujo SMR		1
+CARD|gb|NG_077967.1|+|100-910|ARO:3007017|SHD-1	SHD beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|JN201336.1|-|10636-12046|ARO:3007019|fexB	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AY238971.1|+|1054-1741|ARO:3004452|Acla_ACT_CHL	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|U75299.1|+|0-717|ARO:3002671|Lreu_cat-TC	chloramphenicol acetyltransferase (CAT)	CAT cloranfenicol acetiltransferasa		1
+CARD|gb|M97297.1|+|9051-9963|ARO:3002955|vanY_in_vanA_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AF162694.1|+|2438-3011|ARO:3002966|vanXY_in_vanC	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|M97297.1|+|6017-6986|ARO:3002942|vanH_in_vanA_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|M97297.1|+|8015-8624|ARO:3002949|vanX_in_vanA_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|X53650.1|+|320-1235|ARO:3003565|R39	R39 beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|U35369.1|+|839-2183|ARO:3002932|vanS_in_vanB_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|U35369.1|+|4006-4978|ARO:3002943|vanH_in_vanB_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|FJ872411.1|+|43513-44203|ARO:3002924|vanR_in_vanE_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AF162694.1|+|3007-5104|ARO:3002970|vanT_in_vanC_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|FJ768952.1|+|0-1488|ARO:3000237|TolC	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		3
+CARD|gb|AE004091.2|+|4705955-4706402|ARO:3000806|MexG	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|U35369.1|+|3182-4010|ARO:3002964|vanW_in_vanB_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AF015628.1|+|398-1286|ARO:3001308|vgbB	streptogramin vgb lyase			1
+CARD|gb|FJ872411.1|+|41336-43445|ARO:3002971|vanT_in_vanE_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AY082011.1|+|3848-4265|ARO:3002957|vanY_in_vanD_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|M20129.1|+|640-1540|ARO:3001307|vgbA	streptogramin vgb lyase			1
+CARD|gb|AE004091.2|+|4707534-4710624|ARO:3000808|MexI	resistance-nodulation-cell division (RND) antibiotic efflux pump	eflujo RND	eflujo RND	1
+CARD|gb|AF155139.1|+|4338-4959|ARO:3002963|vanZ_in_vanF_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AB364006.1|+|61-787|ARO:3000847|KHM-1	KHM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AF155139.1|+|2199-3297|ARO:3002936|vanS_in_vanF_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|APRM01000005.1|-|282563-283403|ARO:3001744|OXA-289	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|CP001840.1|-|1610636-1613960|ARO:3003730|Bbif_ileS_MUP	antibiotic-resistant isoleucyl-tRNA synthetase (ileS)			1
+CARD|gb|JQ231224.1|+|90-3192|ARO:3000510|Saur_mupB_MUP	antibiotic-resistant isoleucyl-tRNA synthetase (ileS)			1
+CARD|gb|X75439.1|+|476-3551|ARO:3000521|Saur_mupA_MUP	antibiotic-resistant isoleucyl-tRNA synthetase (ileS)			1
+CARD|gb|KF485393.2|+|6723-7632|ARO:3003894|Rm3	Rm3 family beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|HG796218.2|+|48616-49348|ARO:3003971|Erm(44)v	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|U00096.3|-|2306971-2308615|ARO:3003952|YojI	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		1
+CARD|gb|KX531045.1|+|0-816|ARO:3003981|tetB(58)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|KU961660.2|+|2031-2757|ARO:3004092|HMB-1	HMB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KY807920.1|-|9895-11539|ARO:3004332|MCR-5.1	MCR phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|NC_008618.1|-|1667063-1670624|ARO:3004480|Bado_rpoB_RIF	rifamycin-resistant beta-subunit of RNA polymerase (rpoB)			1
+CARD|gb|LN680996.1|+|12073-12811|ARO:3004595|erm(45)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|MH332767.1|+|0-1623|ARO:3007278|MCR-3.17	MCR phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|AF353562.1|+|963-1920|ARO:3005008|TxR	ATP-binding cassette (ABC) antibiotic efflux pump	eflujo ABC		2
+CARD|gb|JAHWBZ010000013.1|-|187616-189242|ARO:3007026|salB	sal-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|JAAQPD010000007.1|-|115792-117418|ARO:3007027|salC	sal-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|NZ_JAIEXG010000001.1|+|252896-254531|ARO:3007028|salD	sal-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|NZ_CP017459.1|+|1364720-1366352|ARO:3007029|salE	sal-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|EU250284.1|+|2574-3564|ARO:3002973|vanTm_in_vanL	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|DQ212986.1|+|4222-5062|ARO:3002959|vanY_in_vanG_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|DQ212986.1|+|2979-4086|ARO:3002937|vanS_in_vanG_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|JF802084.2|+|1592-2165|ARO:3002969|vanXY_in_vanN	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|EU250284.1|+|5415-6510|ARO:3002938|vanS_in_vanL_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|FJ349556.1|+|981-1680|ARO:3002928|vanR_in_vanM_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|DQ212986.1|+|2029-2257|ARO:3004253|vanU_in_vanG_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|JF802084.1|+|5019-6114|ARO:3002940|vanS_in_vanN_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|JF802084.1|+|4337-5030|ARO:3002929|vanR_in_vanN_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|FJ349556.1|+|1672-2785|ARO:3002939|vanS_in_vanM_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|EU250284.1|+|3557-4658|ARO:3002974|vanTr_in_vanL	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|DQ212986.1|+|5137-5983|ARO:3002965|vanW_in_vanG_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|KF478993.1|-|6002-6704|ARO:3002930|vanR_in_vanO_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|FJ349556.1|+|3883-4864|ARO:3002947|vanH_in_vanM_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|EU250284.1|+|1996-2578|ARO:3002968|vanXY_in_vanL	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|JF802084.1|+|2161-4264|ARO:3002975|vanT_in_vanN_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AP008230.1|-|2195400-2196522|ARO:3003724|vanW_in_vanI_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AP008230.1|-|4204949-4206077|ARO:3003727|vanK_in_vanI_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|MW269959.1|+|0-930|ARO:3007041|Erm(52)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|CP046364.1|+|33122-34580|ARO:3007042|msr(G)	msr-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|CP065927.1|-|1658157-1659615|ARO:3007043|msr(I)	msr-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|MN928789.1|+|0-792|ARO:3007033|Erm(51)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|U92073.1|+|118-1054|ARO:3007050|mreA	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|X76949.1|+|1548-2043|ARO:3007106|nimD	nitroimidazole reductase			1
+CARD|gb|MW827739.1|+|0-741|ARO:3007062|VAM-1	VAM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|LC473083.1|-|20056-20848|ARO:3007032|Erm(50)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|MN961674.1|+|0-423|ARO:3007069|FosY	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|U13078.1|+|205-1051|ARO:3007075|cph	capreomycin phosphotransferase			1
+CARD|gb|CP065927.1|-|1659728-1660922|ARO:3007049|mef(J)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|MW269960.1|+|0-330|ARO:3007047|mef(H)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|MH473150.1|+|0-1494|ARO:3005121|lsaD	lsa-type ABC-F protein	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|MW854031.1|+|0-1140|ARO:3007085|PRC-1	PRC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|BK012111.1|+|0-423|ARO:3007097|FosM1	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|BK012112.1|+|0-420|ARO:3007098|FosM2	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|BK012113.1|+|0-429|ARO:3007099|FosM3	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|AHFI01000047.1|-|24003-24954|ARO:3007101|BcIII	class A Bacillus cereus Bc beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|X71444.1|+|1613-2144|ARO:3007104|nimA	nitroimidazole reductase			1
+CARD|gb|X76948.1|+|1638-2130|ARO:3007105|nimC	nitroimidazole reductase			1
+CARD|gb|CP036548.1|+|4326-4839|ARO:3007107|nimE	nitroimidazole reductase			1
+CARD|gb|NC_020125.1|-|1861440-1862223|ARO:3004600|LnuH	lincosamide nucleotidyltransferase (LNU)	LNU nucleotidiltransferasa		1
+CARD|gb|NFLR01000029.1|-|2830-3325|ARO:3007109|nimG	nitroimidazole reductase			1
+CARD|gb|AWEY01000007.1|-|190961-191480|ARO:3007111|nimI	nitroimidazole reductase			1
+CARD|gb|KJ816753.1|-|19294-19792|ARO:3007112|nimJ	nitroimidazole reductase			1
+CARD|gb|MG827401.1|-|3868-4375|ARO:3007113|nimK	nitroimidazole reductase			1
+CARD|gb|X71443.1|+|793-1288|ARO:3004655|nimB	nitroimidazole reductase			1
+CARD|gb|JAGZKL010000021.1|+|2570-3623|ARO:3007118|crxA	subclass B1 Bacteroides xylanisolvens crx beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AY394560.1|+|0-1920|ARO:3007120|tet(O/M/O)	tetracycline-resistant ribosomal protection protein	protección ribosomal (tet)		1
+CARD|gb|AY485122.1|+|0-1920|ARO:3007121|tet(O/W)	tetracycline-resistant ribosomal protection protein	protección ribosomal (tet)		1
+CARD|gb|DQ525023.1|+|28-1948|ARO:3007122|tet(O/W/32/O)	tetracycline-resistant ribosomal protection protein	protección ribosomal (tet)		1
+CARD|gb|AY049983.2|+|8308-10228|ARO:3007124|tet(W/32/O)	tetracycline-resistant ribosomal protection protein	protección ribosomal (tet)		1
+CARD|gb|KR857681.1|+|0-1248|ARO:3004613|tet(47)	tetracycline inactivation enzyme	inactivación de tetraciclina		1
+CARD|gb|MK134375.1|+|6173-7340|ARO:3004719|tet(X3)	tetracycline inactivation enzyme	inactivación de tetraciclina		1
+CARD|gb|MW735842.1|+|0-933|ARO:3007126|ROB-12	ROB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|X53401.1|+|0-1992|ARO:3002891|otr(A)S.rim	tetracycline-resistant ribosomal protection protein	protección ribosomal (tet)		1
+CARD|gb|M74049.1|+|342-2262|ARO:3007127|otr(A)S.liv	tetracycline-resistant ribosomal protection protein	protección ribosomal (tet)		1
+CARD|gb|KT159981.2|+|248-1118|ARO:3007180|MAB	class A Mycobacterium abscessus beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AL123456.3|-|2325885-2326809|ARO:3007182|blaC	class A Mycobacterium tuberculosis bla beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|JAINTN010000010.1|-|17893-18838|ARO:3007188|vanH_in_vanP_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|JAINTN010000010.1|-|16872-17901|ARO:3007189|vanP	Van ligase	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|JAINTN010000010.1|-|16154-16763|ARO:3007190|vanX_in_vanP_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|JAINTN010000010.1|-|15360-16080|ARO:3007191|vanR_in_vanP_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|JAINTN010000010.1|-|14253-15333|ARO:3007192|vanS_in_vanP_cl	glycopeptide resistance gene cluster	van / glucopéptidos	van / glucopéptidos	2
+CARD|gb|AB858498.1|+|0-864|ARO:3007199|PAM-1	PAM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|BQKM01000003.1|+|545052-545916|ARO:3007200|PAM-2	PAM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|LC536747.1|+|0-468|ARO:3007204|AAC(6')-Iap	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|LC579778.1|+|0-861|ARO:3007206|KBL-1	KBL beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP018074.1|+|518413-519844|ARO:3007209|Sven_rox	rifampin monooxygenase	rifampicina (arr)		1
+CARD|gb|AP006618.1|+|3747376-3748798|ARO:3007210|Nfar_rox	rifampin monooxygenase	rifampicina (arr)		1
+CARD|gb|FR845719.1|-|6559170-6561339|ARO:3007208|HelR	helicase-like RNA polymerase protection protein			1
+CARD|gb|LC549806.1|+|4172-5516|ARO:3007266|MCR-3.20	MCR phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|MT757845.1|+|0-1617|ARO:3007283|MCR-2.4	MCR phosphoethanolamine transferase	MCR fosfoetanolamina transferasa		1
+CARD|gb|KC876749.1|+|4708-5134|ARO:3003208|FosXCC	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|RWWU01000174.1|-|102811-103210|ARO:3007368|FosG	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|GU966683.1|+|970-1372|ARO:3007369|FosH	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|CP003505.2|-|17007-17412|ARO:3007370|FosI	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|MN150127.1|+|0-426|ARO:3007371|FosA8	fosfomycin thiol transferase	fosfomicina tiol transferasa		1
+CARD|gb|NG_080789.1|+|100-1006|ARO:3007374|PJM-1	PJM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|M69221.1|+|270-1038|ARO:3007401|ANT(9)-Ib	ANT(9)	ANT nucleotidiltransferasa		1
+CARD|gb|FM178379.1|-|1699483-1700140|ARO:3004668|QnrAS	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|ABWL02000005.1|-|133565-134210|ARO:3002754|QnrB39	quinolone resistance protein (qnr)	qnr quinolonas		1
+CARD|gb|AY522923.1|-|7744-8983|ARO:3003839|Mrx	macrolide phosphotransferase (MPH)	MPH fosfotransferasa de macrólidos		1
+CARD|gb|FHDU01000010.1|-|53978-56636|ARO:3004047|kdpD	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|LR730402.1|+|740042-740987|ARO:3003843|leuO	antibiotic efflux regulatory protein	regulador de eflujo	regulador de eflujo	2
+CARD|gb|AJ584652.2|+|1926-2913|ARO:3002599|AAC6_30_AAC6_Ib	aminoglycoside bifunctional resistance protein	otros aminoglucósidos		1
+CARD|gb|JN596280.1|+|1202-1757|ARO:3002587|AAC(6')-I33	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|AF453998.2|+|3554-4946|ARO:3002598|ANT3II_ANT6II	aminoglycoside bifunctional resistance protein	otros aminoglucósidos		1
+CARD|gb|APPN01000061.1|+|80497-81298|ARO:3004087|APH(3')-IXa	APH(3')	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|CP035438.1|-|631752-632310|ARO:3007427|ThfT	ECF transporter S component			1
+CARD|gb|LOSL02000001.1|-|267459-267696|ARO:3007431|almF	alm glycyl carrier protein			2
+CARD|gb|JAKJWK010000010.1|-|102683-104354|ARO:3007433|almE	alm glycyltransferase			2
+CARD|gb|QUDP01000003.1|-|16034-17069|ARO:3005023|cfrE	Cfr-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|ON693243.1|+|0-1041|ARO:3007539|APH(9)-Ic	APH(9)	APH fosfotransferasa	APH fosfotransferasa	1
+CARD|gb|MN340018.1|+|32306-33527|ARO:3007492|tet(62)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|HQ247816.1|+|638-1202|ARO:3004641|AAC(6')-I-43	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|CP053076.1|-|16644-18024|ARO:3007493|tet(63)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|NG_071182.1|+|100-1291|ARO:3007494|tet(64)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|CP104209.1|-|786782-787487|ARO:3007437|EBR-5	EBR beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|MZ497396.1|+|2000-3143|ARO:3007438|LAQ-1	LAQ beta lactamase			1
+CARD|gb|OL872181.1|+|0-741|ARO:3007435|WUS-1	WUS beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|FN640464.1|-|1522-2482|ARO:3007442|SSA	SSA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CAIIKR010000012.1|+|2869-3451|ARO:3007456|dfrL	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|CP094932.1|+|14993-15914|ARO:3007459|EstT	macrolide esterase			1
+CARD|gb|MK401904.1|+|0-729|ARO:3007470|IND-17	IND beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AB472901.2|+|1185-1689|ARO:3004638|AAC(6')-I-48	AAC(6')	AAC acetiltransferasa	AAC acetiltransferasa	1
+CARD|gb|CP104076.1|-|214174-214951|ARO:3007483|RAD-1	RAD beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KU130294.1|-|208177-208414|ARO:3007489|dfrB10	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|PHCQ01000010.1|-|114139-114376|ARO:3007490|dfrB11	trimethoprim resistant dihydrofolate reductase dfr	dfr dihidrofolato reductasa	dfr dihidrofolato reductasa	1
+CARD|gb|MZ241296.1|+|267-1047|ARO:3007515|ANT(9)-Ic	ANT(9)	ANT nucleotidiltransferasa		1
+CARD|gb|AB571865.1|-|144312-145536|ARO:3003745|mef(C)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|AE007317.1|+|953382-954594|ARO:3000614|mef(E)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|CP046364.1|+|31811-33005|ARO:3007044|mef(F)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|CP079746.1|+|15693-16602|ARO:3007635|CAE-1	CAE beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP010905.2|-|2984766-2986419|ARO:3007637|cplR	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|BA000016.3|-|967228-968935|ARO:3007644|Cper_cplR	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|CP009225.1|-|653878-655537|ARO:3007645|Cspo_cplR	Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins	ABC-F protección ribosomal	ABC-F protección ribosomal	1
+CARD|gb|OQ725878.1|+|202-1342|ARO:3007648|PSZ-1	PSZ beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|KJ650399.1|+|0-1149|ARO:3007650|CDA-1	CDA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|OQ326498.1|+|486-1287|ARO:3007654|erm(56)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1
+CARD|gb|CP013070.1|-|2379245-2380169|ARO:3007846|SIE-1	SIE beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|NC_000962.3|+|3166683-3167802|ARO:3007659|Rv2856	metal transporters with antibiotic efflux			1
+CARD|gb|NC_000962.3|+|2125903-2127967|ARO:3007662|Rv1877	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|KT852971.1|+|29104-30619|ARO:3007669|aadT	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|FN545816.1|-|1547473-1547941|ARO:3007671|CdnimB	nitroimidazole reductase			1
+CARD|gb|MG739510.1|+|0-858|ARO:3004444|RSA1-1	RSA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP124778.1|+|2492204-2494361|ARO:3007678|IreK	Serine/threonine kinases			1
+CARD|gb|OQ948417.1|+|0-1191|ARO:3007694|AMZ-1	AMZ beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|MZ497415.1|+|0-933|ARO:3007848|NWM-1	NWM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP133868.1|-|5051597-5053037|ARO:3007682|MdtQ	Outer Membrane Porin (Opr)			1
+CARD|gb|CP121209.1|+|1982452-1983367|ARO:3007801|RATA-1	RATA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP121210.1|+|1997284-1998199|ARO:3007802|RATA-2	RATA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|MZ092820.1|+|0-852|ARO:3007836|CARB-57	CARB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|MT990446.1|+|54-1044|ARO:3007837|CARB-58	CARB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP123906.1|-|34168-35320|ARO:3007838|tet(65)	major facilitator superfamily (MFS) antibiotic efflux pump	eflujo MFS	eflujo MFS	1
+CARD|gb|NZ_CP033828.1|+|721258-722014|ARO:3007840|CIM-1	CIM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP016446.1|-|14508-15246|ARO:3007859|BIM-1	BIM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|MK401906.1|+|0-759|ARO:3007855|CHM-1	CHM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AP028867.1|-|3823966-3824719|ARO:3007861|DYB-1	DYB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|OM967044.1|+|2-1148|ARO:3007890|ACT-107	ACT beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|OQ642078.1|+|0-1146|ARO:3007900|ACT-118	ACT beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|OQ642080.1|+|0-1146|ARO:3007901|ACT-119	ACT beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|OR398187.1|+|0-1146|ARO:3007902|ACT-120	ACT beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|OR398191.1|+|0-1146|ARO:3007906|ACT-124	ACT beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|JAJSXK010000010.1|-|18801-19947|ARO:3007924|ACT-159	ACT beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|PP740475.1|+|0-1146|ARO:3007930|ACT-167	ACT beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|ON651469.1|+|0-1170|ARO:3007993|ADC-277	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|OP745007.1|+|0-1152|ARO:3008004|ADC-288	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|JARCHN010000001.1|-|691817-692969|ARO:3008008|ADC-292	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|AMSS01000044.1|+|132747-133899|ARO:3008011|ADC-295	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|PP328949.1|+|0-1155|ARO:3008061|ADC-351	ADC beta-lactamases pending classification for carbapenemase activity	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|AP035765.1|-|4610545-4611349|ARO:3008072|AFM-5	AFM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|MZ126682.1|+|0-960|ARO:3008074|ASU1-1	ASU1 beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|MZ126683.1|+|0-912|ARO:3008078|B3SU1-1	B3SU1 beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|MZ126684.1|+|0-882|ARO:3008079|B3SU2-1	B3SU2 beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP110126.1|+|1785411-1786173|ARO:3008081|BMHC-1	BMHC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|BX640443.1|+|107141-108059|ARO:3008082|BOR-1	BOR beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|JAJQRF010000001.1|+|996229-996970|ARO:3008083|CAM-2	CAM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|OL542677.1|+|0-900|ARO:3008084|CME-3	CME beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|OL606718.1|+|0-1146|ARO:3008116|CMY-179	CMY beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|OR896917.1|+|0-1146|ARO:3008125|CMY-190	CMY beta-lactamase	cefalosporinasa AmpC (ADC/ACT/CMY)	cefalosporinasa AmpC (ADC/ACT/CMY)	1
+CARD|gb|ON713462.1|+|0-888|ARO:3008173|FONA-10	FONA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|OP142442.1|+|0-894|ARO:3008184|FRI-12	FRI beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|LC727552.1|+|0-753|ARO:3008192|GIM-3	GIM beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|CP007004.1|+|2973951-2974800|ARO:3008193|GMA-1	GMA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|OM212391.1|+|0-915|ARO:3008199|HBL-1	HBL beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AF311385.1|+|0-873|ARO:3008200|HER-1	HER beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|LOHH01000059.1|-|823-1543|ARO:3008207|HMB-2	HMB beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP074169.1|-|25551-26430|ARO:3008209|IMI-22	IMI beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|PP296988.1|+|0-879|ARO:3008214|IMI-27	IMI beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|OR004774.1|+|0-741|ARO:3008215|IMP-100	IMP beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|ON650755.1|+|0-729|ARO:3008226|IND-18	IND beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|OQ646729.1|+|0-720|ARO:3008228|KHM-2	KHM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|OL445425.1|+|0-966|ARO:3008237|KPC-107	KPC beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|OL445427.1|+|0-957|ARO:3008238|KPC-108	KPC beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|ON751738.1|+|0-906|ARO:3008257|KPC-129	KPC beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|PP723735.1|+|0-867|ARO:3008343|KPC-225	KPC beta-lactamase	carbapenemasa (IMP/VIM/NDM/KPC)		1
+CARD|gb|PP229523.1|+|0-909|ARO:3008394|MUN-1	MUN beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|MZ265758.1|+|0-831|ARO:3008426|OXA-1005	OXA-134-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|MZ265759.1|+|0-828|ARO:3008427|OXA-1006	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|MZ265762.1|+|0-822|ARO:3008430|OXA-1009	OXA-213-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|CP026412.1|+|1625490-1626330|ARO:3008457|OXA-1036	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|OK576522.1|+|0-795|ARO:3008460|OXA-1041	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|CP073669.1|+|2245541-2246348|ARO:3008462|OXA-1043	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|OM460738.1|+|0-777|ARO:3008474|OXA-1056	OXA-198-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|DF967972.1|+|292413-293283|ARO:3008507|OXA-1089	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AWFF01000032.1|-|200409-201234|ARO:3008508|OXA-1090	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|CP000494.1|-|5256874-5257693|ARO:3008509|OXA-1091	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|OM977011.1|+|0-810|ARO:3008520|OXA-1102	OXA-63-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|ON101848.1|+|0-831|ARO:3008529|OXA-1111	OXA-134-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|CP102780.1|-|4595946-4596825|ARO:3008567|OXA-1149	OXA-62-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|LC732273.1|+|0-795|ARO:3008571|OXA-1153	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|OP806895.1|+|0-813|ARO:3008586|OXA-1168	OXA-10-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|OP806894.1|+|0-828|ARO:3008593|OXA-1175	OXA-10-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|OP966823.1|+|0-828|ARO:3008598|OXA-1182	OXA-143-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|AMSS01000032.1|+|8646-9468|ARO:3008605|OXA-1189	OXA-213-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|OR062596.1|+|0-840|ARO:3008618|OXA-1206	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|LC771429.1|+|0-825|ARO:3008620|OXA-1208	OXA-211-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|PP446293.1|+|0-831|ARO:3008648|OXA-1238	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|ABHGGG010000117.1|+|3369-4179|ARO:3008649|OXA-1239	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|CP121303.1|-|2452347-2453187|ARO:3008668|OXA-1258	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|JAXHPD010000006.1|+|108551-109391|ARO:3008673|OXA-1263	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|PQ203864.1|+|0-789|ARO:3008685|OXA-1275	OXA-50-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|X80276.1|+|0-795|ARO:3008720|OXA-725	OXA-12-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|JAGUQQ010000007.1|+|11387-12182|ARO:3008733|OXA-956	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|MZ126685.1|+|0-789|ARO:3008734|OXA-957	OXA beta-lactamase without subfamily	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|MZ092816.1|+|0-795|ARO:3008735|OXA-958	OXA-12-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|MZ092827.1|+|0-870|ARO:3008737|OXA-960	OXA-55-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|MZ092829.1|+|0-870|ARO:3008739|OXA-962	OXA-55-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|MZ265721.1|+|0-822|ARO:3008746|OXA-969	OXA-23-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|MZ265739.1|+|0-822|ARO:3008764|OXA-987	OXA-213-like beta-lactamase	OXA beta-lactamasa	OXA beta-lactamasa	1
+CARD|gb|QJJG01000004.1|-|70930-71803|ARO:3008784|OXY-10-1	OXY beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP046115.1|-|1479410-1480286|ARO:3008785|OXY-11-1	OXY beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|JABXQS010000001.1|+|3280378-3281251|ARO:3008787|OXY-12-2	OXY beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CABGHC010000001.1|+|1048283-1049156|ARO:3008803|OXY-4-2	OXY beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CABGGU010000083.1|-|240-1116|ARO:3008820|OXY-9-1	OXY beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|LNTU01000040.1|+|32461-33355|ARO:3008821|PAD-1	PAD beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|JAHPOU010000001.1|-|179001-179928|ARO:3009008|PEN-A2	PEN-A beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP090776.1|-|1705594-1706503|ARO:3009015|PEN-A37	PEN-A beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|EU872211.1|+|0-939|ARO:3009023|PEN-B1	PEN-B beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|LC795949.1|+|0-1227|ARO:3009032|PNC-1	PNC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|MZ424297.1|+|0-873|ARO:3009035|RAA-1	RAA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|ON698183.1|+|0-888|ARO:3009037|RAHN-4	RAHN beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP007504.1|+|2031238-2032126|ARO:3009040|RASA-1	RASA beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|MG739508.1|+|0-1191|ARO:3009041|RSC1-1	RSC1 beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|MG739505.1|+|0-816|ARO:3009042|RSD1-1	RSD1			1
+CARD|gb|PP336699.1|+|0-885|ARO:3009044|SED-2	SED beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|MW896115.1|+|0-1149|ARO:3009046|SFDC-1	SFDC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|CP050811.1|-|4073465-4074623|ARO:3009096|YOC-1	YOC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|DQ185144.1|+|380-1532|ARO:3005035|YRC-1	YRC beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AF321608.1|+|0-888|ARO:3003561|SED-1	SED beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|AF355189.1|+|1434-2439|ARO:3002600|AAC_3Ib_AAC_6Ib	aminoglycoside bifunctional resistance protein	otros aminoglucósidos		1
+CARD|gb|JBLBUE010000039.1|-|8598-9330|ARO:3009645|AMM-1	AMM beta-lactamase	otras beta-lactamasas	otras beta-lactamasas	1
+CARD|gb|OQ656455.1|+|319-1132|ARO:3009647|erm(55)	Erm-like 23S rRNA methyltransferase	Erm metiltransferasa 23S	Erm metiltransferasa 23S	1

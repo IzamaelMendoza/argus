@@ -1,0 +1,13 @@
+modelo,umbral,conjunto,recall,precision,f1,fp,fn
+RF,0.50 (por defecto),TEST interno (natural),0.867,0.284,0.428,705,43
+RF,0.50 (por defecto),1k+1k (50/50),0.861,0.784,0.821,237,139
+RF,0.52 (elegido 1:1),TEST interno (natural),0.827,0.331,0.473,539,56
+RF,0.52 (elegido 1:1),1k+1k (50/50),0.817,0.829,0.823,169,183
+RF,0.59 (elegido dataset),TEST interno (natural),0.672,0.478,0.559,237,106
+RF,0.59 (elegido dataset),1k+1k (50/50),0.583,0.92,0.714,51,417
+XGB,0.50 (por defecto),TEST interno (natural),0.913,0.239,0.379,940,28
+XGB,0.50 (por defecto),1k+1k (50/50),0.908,0.754,0.824,297,92
+XGB,0.61 (elegido 1:1),TEST interno (natural),0.858,0.312,0.458,610,46
+XGB,0.61 (elegido 1:1),1k+1k (50/50),0.82,0.82,0.82,180,180
+XGB,0.80 (elegido dataset),TEST interno (natural),0.622,0.618,0.62,124,122
+XGB,0.80 (elegido dataset),1k+1k (50/50),0.582,0.931,0.716,43,418

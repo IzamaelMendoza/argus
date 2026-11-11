@@ -1,0 +1,3 @@
+,recall,precision,f1,auc,FP
+Random Forest (k=6),0.861,0.784,0.821,0.902,237
+XGBoost (k=6),0.908,0.754,0.824,0.909,297

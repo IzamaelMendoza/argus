@@ -1,0 +1,116 @@
+========================================================================================
+EL CONJUNTO NEGATIVO COMPLETO CONTRA EL MODELO
+========================================================================================
+modelo : argus_rf_k6_id95_v2.joblib
+         K=6 | ventana=500 | min_pb=150 | umbral=0.5
+
+negativos en el archivo: 26,513
+genes del 1k+1k conocidos: 2,000 (se marcan aparte: el modelo no los vio)
+
+Prediciendo (lotes de 4,000 fragmentos)...
+  2,000/26,513  (4311 genes/s, faltan ~0.1 min)
+  4,000/26,513  (4816 genes/s, faltan ~0.1 min)
+  6,000/26,513  (5112 genes/s, faltan ~0.1 min)
+  8,000/26,513  (5276 genes/s, faltan ~0.1 min)
+  10,000/26,513  (5365 genes/s, faltan ~0.1 min)
+  12,000/26,513  (5465 genes/s, faltan ~0.0 min)
+  14,000/26,513  (5501 genes/s, faltan ~0.0 min)
+  16,000/26,513  (5457 genes/s, faltan ~0.0 min)
+  18,000/26,513  (5430 genes/s, faltan ~0.0 min)
+  20,000/26,513  (5431 genes/s, faltan ~0.0 min)
+  22,000/26,513  (5429 genes/s, faltan ~0.0 min)
+  26,000/26,513  (5463 genes/s, faltan ~0.0 min)
+  listo en 5s
+
+genes sin ningun fragmento (< 150 pb, no evaluables): 445
+
+========================================================================================
+RESULTADO GLOBAL
+========================================================================================
+
+genes evaluados    : 26,068
+salen POSITIVOS    : 6,296  (24.2%)
+salen negativos    : 19,772  (75.8%)
+
+----------------------------------------------------------------------------------------
+SEPARANDO LO QUE EL MODELO YA HABIA VISTO
+----------------------------------------------------------------------------------------
+
+  negativos del pool (entrenamiento + test interno) :  25,091   tasa de FP  24.0%
+  negativos del 1k+1k (apartados desde el inicio)   :     977   tasa de FP  27.3%
+  diferencia: +3.3 puntos porcentuales
+
+  La cifra que vale es la SEGUNDA: esos 1,000 genes se apartaron antes de
+  entrenar y el modelo no los vio nunca.
+  La primera mezcla dos cosas y hay que leerla con cuidado: la mayoria de
+  esos genes se usaron para entrenar (el bosque ya los conoce), pero un ~10%
+  cayo en el test interno y tampoco se vio. No se pueden separar sin el
+  corte exacto del cuaderno, asi que esta tasa no estima nada por si sola.
+
+----------------------------------------------------------------------------------------
+POR GENOMA DE ORIGEN
+----------------------------------------------------------------------------------------
+
+  genoma                         genes      FP    tasa  %GC medio
+  GCF_000025985.1                4,229   1,958   46.3%      43.4%
+  GCF_000009045.1                4,123   1,785   43.3%      43.3%
+  GCF_000412675.1                5,375   1,078   20.1%      62.6%
+  GCF_009913655.1                2,917     548   18.8%      45.2%
+  GCF_000008865.2                5,230     575   11.0%      50.7%
+  GCF_000005845.2                4,194     352    8.4%      51.1%
+
+  correlacion %GC del genoma vs tasa de FP: -0.545
+  (en la FASE 7 dio -0.883 sobre los cinco genomas de GC < 60: los organismos
+   de GC bajo, los mas parecidos a ResFinderFG, son los que mas FP generan)
+
+----------------------------------------------------------------------------------------
+SIMILITUD COMPOSICIONAL: QUE TAN 'POSITIVO' SE VE CADA UNO
+----------------------------------------------------------------------------------------
+
+  centroides calculados con 1500 positivos y 1500 negativos (primer fragmento de cada uno)
+  coseno entre los dos centroides: 0.9691
+  (cerca de 1 = los dos grupos se ven casi iguales en composicion de 6-meros)
+
+  margen = coseno(gen, centroide positivo) - coseno(gen, centroide negativo)
+  un margen > 0 significa que el gen se parece mas a los positivos
+
+  grupo                                   n   margen medio   % con margen>0
+  negativos que salen POSITIVOS        4000       +0.00746            77.0%
+  negativos que salen negativos        4000       -0.01698             5.1%
+
+  diferencia: +0.02443
+  -> los que fallan si estan composicionalmente corridos hacia los positivos.
+
+----------------------------------------------------------------------------------------
+PERFIL DE LOS 6,296 FALSOS POSITIVOS
+----------------------------------------------------------------------------------------
+
+  por confianza:  p>=0.90      0   0.70-0.90    195   <0.70  6,101
+  (los de p cercana al umbral se corrigen subiendolo; los de p>=0.9 son
+   errores de fondo del modelo y son los que vale la pena mirar)
+
+  con TODOS sus fragmentos positivos y 3 o mas fragmentos: 153
+  (estos son los candidatos limpios: el error no viene de un solo fragmento raro)
+
+  los 15 peores (mayor probabilidad):
+      p_max    frags    largo    %GC  gen
+     0.8800   6/7       3,402  31.7  GCF_000008865.2|NC_002695.2_1509
+     0.8550   5/6       2,703  28.8  GCF_000009045.1|NC_000964.3_3676
+     0.8500   4/6       3,003  27.1  GCF_000025985.1|NC_003228.3_3233
+     0.8450   1/1         492  27.6  GCF_009913655.1|NZ_CP028221.1_2230
+     0.8300   4/4       1,761  26.4  GCF_000009045.1|NC_000964.3_4136
+     0.8250   3/3       1,161  28.1  GCF_000025985.1|NC_003228.3_967
+     0.8200   2/2         843  28.7  GCF_000009045.1|NC_000964.3_1966
+     0.8150   2/2       1,143  29.0  GCF_000025985.1|NC_003228.3_2527
+     0.8100   1/1         516  28.7  GCF_009913655.1|NZ_CP028221.1_2223
+     0.8050   1/1         483  32.3  GCF_000009045.1|NC_000964.3_2240
+     0.8000   5/6       3,051  27.7  GCF_000025985.1|NC_003228.3_1182
+     0.7950   3/3       1,446  28.8  GCF_000009045.1|NC_000964.3_4138
+     0.7950   2/2         987  30.3  GCF_000025985.1|NC_003228.3_3626
+     0.7900   2/3       1,572  32.5  GCF_000008865.2|NC_002695.2_456
+     0.7900   2/3       1,527  35.6  GCF_000008865.2|NC_002695.2_1555
+
+  FASTA para BLAST: /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/negativos/negativos_falsos_positivos.fasta
+
+tabla completa: /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/negativos/negativos_predicciones.csv
+figura: /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/negativos/fig_negativos.png
