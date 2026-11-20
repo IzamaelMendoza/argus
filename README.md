@@ -26,8 +26,8 @@ Modelo supervisado que predice la presencia de genes de resistencia a antibiotic
 1. Clonar y bajar los archivos grandes (Git LFS):
 
    ```bash
-   git clone https://github.com/<usuario>/<repositorio>.git
-   cd <repositorio>
+   git clone https://github.com/IzamaelMendoza/argus.git
+   cd argus
    git lfs pull
    ```
 
