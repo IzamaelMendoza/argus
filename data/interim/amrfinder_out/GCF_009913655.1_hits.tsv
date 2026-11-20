@@ -1,2 +1,0 @@
-Protein identifier	Contig id	Start	Stop	Strand	Gene symbol	Sequence name	Scope	Element type	Element subtype	Class	Subclass	Method	Target length	Reference sequence length	% Coverage of reference sequence	% Identity to reference sequence	Alignment length	Accession of closest sequence	Name of closest sequence	HMM id	HMM description
-NA	GCF_009913655.1|NZ_CP028221.1_1144	1	2112	+	clpL	ATP-dependent protease ClpL	plus	STRESS	HEAT	NA	NA	BLASTX	704	704	100.00	97.44	704	ADB69780.1	ATP-dependent protease ClpL	NA	NA

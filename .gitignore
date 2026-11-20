@@ -80,3 +80,12 @@ data/models/argus_rf_k6_id90.joblib
 data/models/argus_rf_k6_id90_v2.joblib
 data/models/argus_rf_k6_id95.joblib
 data/models/argus_xgb_k6_id95.joblib
+
+# --- Datos intermedios y crudos (se reconstruyen con el protocolo) ---
+data/interim/*
+!data/interim/muestra_genes_completos.fasta
+!data/interim/muestra_genes_labels.tsv
+data/raw/*
+
+# --- Figuras en TIFF (se regeneran con los scripts) ---
+*.tiff
