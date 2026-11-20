@@ -107,8 +107,8 @@ import numpy as np
 ap = argparse.ArgumentParser()
 ap.add_argument("--raiz", default=None,
                 help="raiz del proyecto; si no se da, se detecta subiendo carpetas")
-ap.add_argument("--completo", action="store_true",
-                help="corrida completa (sin esto, prueba rapida con muestra reducida)")
+ap.add_argument("--prueba", action="store_true",
+                help="prueba rapida con muestra reducida (sin esto, corrida completa)")
 ap.add_argument("--modelo", default="zhihan1996/DNA_bert_6",
                 help="el DNABERT original con tokenizacion de 6-meros")
 ap.add_argument("--k", type=int, default=6)              # k = 6
@@ -124,7 +124,7 @@ ap.add_argument("--seed", type=int, default=42)
 args = ap.parse_args()
 
 K, VENTANA, MIN_PB, SEED = args.k, args.ventana, args.min_pb, args.seed
-PRUEBA = not args.completo
+PRUEBA = args.prueba
 
 # =============================================================================
 #  SECCION 2: rutas
@@ -460,7 +460,12 @@ cabeza = nn.Sequential(nn.Linear(DIM, 256), nn.ReLU(), nn.Dropout(0.3),
 opt = torch.optim.Adam(cabeza.parameters(), lr=args.lr, weight_decay=1e-4)
 perdida = nn.CrossEntropyLoss(weight=pesos)
 
-CKPT = RAIZ / "data" / "models" / "dnabert6_familias_cabeza.pt"
+# En modo PRUEBA el checkpoint va a un archivo aparte: si no, una corrida rapida
+# de 200 fragmentos pisa el modelo bueno que usa la GUI.
+CKPT = RAIZ / "data" / "models" / (
+    "dnabert6_familias_cabeza_PRUEBA.pt" if PRUEBA else "dnabert6_familias_cabeza.pt")
+if PRUEBA:
+    print(f"\n[prueba] el checkpoint va a {CKPT.name}, NO se toca el modelo de la GUI")
 mejor, mejor_ep, sin_mejora, estado = -1.0, -1, 0, None
 print(f"\nEntrenando la cabeza (checkpoint por BALANCED ACCURACY de val, "
       f"no por val_loss):")
@@ -513,7 +518,7 @@ pred_te = prob_te.argmax(1)
 real_te = y_idx[te]
 nombres = [clases[i] for i in range(len(clases))]
 
-print(f"\n{'='*92}\nRESULTADOS -- DNABERT-6 (embeddings congelados + cabeza MLP)\n{'='*92}")
+print(f"\n{'='*92}\nRESULTADOS -- DNABERT\n{'='*92}")
 
 # 7a. nivel fragmento. Util para diagnostico, pero NO es la metrica que importa:
 #     lo que se entrega es la familia del GEN.

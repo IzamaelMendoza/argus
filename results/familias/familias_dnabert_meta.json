@@ -6,6 +6,10 @@
   "K": 6,
   "ventana": 500,
   "max_len": 512,
+  "min_pb": 150,
+  "relleno": "ninguno",
+  "fragmentacion": "bloques de 500 pb; el resto final se conserva con su largo real sin rellenar si tiene >= 150 pb, y se descarta si no",
+  "genes_descartados_cortos": 0,
   "clases": [
     "AAC acetiltransferasa",
     "ABC-F protección ribosomal",
@@ -21,12 +25,13 @@
     "van / glucopéptidos"
   ],
   "semilla": 42,
-  "checkpoint_por": "balanced accuracy de validación",
-  "mejor_epoca": 10,
-  "val_balanced_acc": 0.6345133811418011,
-  "test_gen_balanced_acc": 0.589947488099662,
-  "test_gen_f1_macro": 0.5704243021331298,
+  "checkpoint_por": "balanced accuracy de validacion",
+  "mejor_epoca": 19,
+  "val_balanced_acc": 0.6038339094592994,
+  "test_gen_balanced_acc": 0.7019919590643274,
+  "test_gen_f1_macro": 0.6558087926566187,
+  "test_n_genes": 202,
   "regla_gen": "promedio de probabilidades entre fragmentos",
   "n_genes": 1011,
-  "n_fragmentos": 2485
+  "n_fragmentos": 2281
 }

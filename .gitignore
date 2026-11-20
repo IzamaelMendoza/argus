@@ -1,3 +1,7 @@
+# ============================================================
+#  ARGus — qué NO va al repositorio
+# ============================================================
+
 # --- Python / Jupyter ---
 __pycache__/
 *.pyc
@@ -7,81 +11,72 @@ venv/
 .env
 *.log
 
-# --- Editor / sistema ---
+# --- Editor y sistema ---
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 desktop.ini
 
-# --- Cache reconstruible (se regenera al correr los cuadernos) ---
-data/models/dnabert2_emb/
+# --- Historial de análisis del usuario ---
+historial_analisis/
 
-# --- Archivos temporales de CD-HIT / BLAST (reconstruibles) ---
+# --- Cachés de embeddings (se regeneran solas) ---
+data/models/dnabert2_emb/
+data/models/dnabert6_emb_familias/
+
+# --- Modelos de prueba ---
+*_PRUEBA.pt
+
+# --- Datos crudos y pesados (documentados en el protocolo) ---
+data/raw/genomas/
+data/raw/2_ResFinder/resfinder_db/
+data/raw/7_ResFinderFG/ResFinder_FG_Construction/
+data/interim/features_*.csv
+/models/
+
+# --- Temporales de CD-HIT y BLAST ---
 *.clstr
 *.bak
 *.tmp
-
-# --- Salidas intermedias pesadas (reconstruibles) ---
 *.daa
-data/interim/features_*.csv
-data/raw/7_ResFinderFG/ResFinder_FG_Construction/
-
-# --- Genomas crudos y bases de BLAST (pesados; se documentan, no se versionan) ---
-data/raw/genomas/
 *.zip
 *.gz
+
+# --- Bases de BLAST (se regeneran con makeblastdb) ---
+results/**/args_db.*
+*.ndb
 *.nhr
 *.nin
-*.nsq
-*.ndb
-*.ntf
-*.nto
 *.njs
 *.nog
 *.nos
 *.not
-
-# Modelos antiguos de la raiz y bases clonadas (no se versionan)
-/models/
-data/raw/2_ResFinder/resfinder_db/
-
-
-#Historial de analisis (pesado, reconstruible)
-historial_analisis/.# Salida de la GUI (historial local de analisis)
-historial_analisis/
-
-# BLAST: bases regenerables
-results/**/args_db.*
-*.nin
-*.nhr
-*.nsq
-
-# Python
-__pycache__/
-*.pyc
-
-*.nin
-*.nhr
-*.nsq
-*.ndb
-*.not
-*.ntf
-*.nto
-*.njs
-data/models/dnabert2_emb/
-
-# --- añadido 10-nov ---
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-
-# bases de BLAST (se regeneran con makeblastdb)
-*.ndb
-*.nhr
-*.nin
-*.njs
-*.not
 *.nsq
 *.ntf
 *.nto
+
+# --- Salidas de análisis (se regeneran con los scripts) ---
+results/tarea1/
+results/tarea3/
+results/conteos/
+results/exploracion/
+results/blast*/
+results/familias/*.csv
+results/familias/*.png
+results/familias/*.txt
+
+# EXCEPCIÓN: estos tres son necesarios para que el modelo corra
+!results/familias/familias_dnabert_meta.json
+!results/familias/dnabert6_norm.npy
+!results/familias/etiquetas_finales.tsv
+
+# --- Modelos de versiones anteriores (se conservan solo en local) ---
+app/modelo_familias.joblib
+app/modelo_rf_k4.joblib
+data/models/argus_familias_k6_card.joblib
+data/models/argus_rf_k6_id85.joblib
+data/models/argus_rf_k6_id90.joblib
+data/models/argus_rf_k6_id90_v2.joblib
+data/models/argus_rf_k6_id95.joblib
+data/models/argus_xgb_k6_id95.joblib
