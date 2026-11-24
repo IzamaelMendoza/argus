@@ -89,3 +89,12 @@ data/raw/*
 
 # --- Figuras en TIFF (se regeneran con los scripts) ---
 *.tiff
+
+# --- Respaldos locales de la migración al 99 % (no van al repositorio) ---
+respaldo_id95/
+data/models/respaldo/
+*.antes_del_*
+
+# --- Modelos experimentales de la etapa 1 (el de producción es el _v2) ---
+data/models/argus_rf_k6_id99_completo.joblib
+data/models/argus_rf_k6_id99_sinparientes.joblib
