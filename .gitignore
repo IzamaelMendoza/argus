@@ -91,7 +91,10 @@ data/raw/*
 *.tiff
 
 # --- Respaldos locales de la migración al 99 % (no van al repositorio) ---
-respaldo_id95/
+respaldo_id95/*
+!respaldo_id95/modelo_familias_meta.json
+!respaldo_id95/familias_dnabert_meta.json
+!respaldo_id95/argdb_POSITIVO_final.fasta
 data/models/respaldo/
 *.antes_del_*
 
