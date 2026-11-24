@@ -10,7 +10,7 @@ from PySide6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
     QTableWidget, QTableWidgetItem, QPushButton, QTabWidget, QLabel,
     QHeaderView, QComboBox, QFileDialog, QMessageBox, QToolButton, QDialog,
-    QLineEdit
+    QLineEdit, QProgressBar
 )
 from PySide6.QtGui import QFont, QColor, QBrush, QPixmap, QIcon
 from PySide6.QtCore import Qt, QThread, Signal, QSettings, QEvent
@@ -30,26 +30,35 @@ MARGEN_VENTANA = 6          # grosor (px) de la zona para redimensionar la venta
 #  1. FEATURIZACIÓN Y FRAGMENTACIÓN (Idéntico al Notebook)
 # ============================================================
 VENTANA = 500
+MIN_PB = 150            # bases reales minimas de un fragmento (regla de la asesora)
+NO_EVALUABLE = "No evaluable"   # gen demasiado corto: no se pudo medir
 K = 6   # se ajusta solo al cargar el modelo (ver cargar_modelo)
 KMERS = ["".join(p) for p in product("ACGT", repeat=K)]
 KMER_IDX = {km: i for i, km in enumerate(KMERS)}
 
-def fragmentar(seq, ventana=VENTANA):
-    """Divide la secuencia en bloques de 500 pb.
-    El último bloque se corre hacia atrás en vez de rellenarse con ceros:
-    se solapa con el anterior, pero no pierde ninguna base y el vector
-    de k-meros sale completo."""
+def fragmentar(seq, ventana=VENTANA, min_pb=MIN_PB):
+    """Parte la secuencia en bloques de `ventana` pb.
+
+    El resto final se conserva con su largo REAL si alcanza `min_pb` bases, y
+    se descarta si no llega. Nunca rellena con ceros y nunca solapa bloques,
+    asi que cada fragmento es un trozo real y distinto de la secuencia.
+
+    Un gen mas corto que `min_pb` devuelve lista vacia: no es evaluable. Quien
+    llame a esta funcion tiene que tratar ese caso aparte, no como negativo.
+
+    Es la misma regla con la que se entrenaron los dos modelos (ver
+    reentrenar_fragmentacion.py y modelo_familias.py). Si se cambia aqui, hay
+    que reentrenar.
+    """
     seq = seq.upper()
     L = len(seq)
-    frags = []
     if L < ventana:
-        frags.append(seq + "0" * (ventana - L))   # genes cortos: aquí el relleno es inevitable
-    else:
-        n = L // ventana
-        for i in range(n):
-            frags.append(seq[i*ventana:(i+1)*ventana])
-        if L % ventana:
-            frags.append(seq[-ventana:])
+        return [seq] if L >= min_pb else []
+    n = L // ventana
+    frags = [seq[i * ventana:(i + 1) * ventana] for i in range(n)]
+    r = L - n * ventana
+    if r >= min_pb:
+        frags.append(seq[n * ventana:])
     return frags
 
 """ //ANTERIOR
@@ -122,16 +131,18 @@ def leer_fasta(ruta):
 #  3. CONEXIÓN REAL CON EL MODELO ENTRENADO (.joblib)
 # ============================================================
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-IDENTIDAD_MODELO = 95
+IDENTIDAD_MODELO = 99
 VERSION_MODELO = "_v2"      # "" = modelo viejo (relleno con ceros) | "_v2" = fragmentación
 RUTA_MODELO = os.path.join(RAIZ, "data", "models",f"argus_rf_k6_id{IDENTIDAD_MODELO}{VERSION_MODELO}.joblib")
 UMBRAL_FAMILIA = 0.20    
-UMBRAL_DEFECTO = 0.5
+UMBRAL_DEFECTO = 0.465
 # ------------------------------------------------------------
 #  Etapa 2 (familia del gen)
 # ------------------------------------------------------------
-# "dnabert" -> DNABERT-6 (balanced accuracy 0.590 en el test por gen)
-# "rf"      -> RandomForest sobre k-meros (0.541, pero instantáneo)
+# Conjunto al 99 % de identidad, 17 familias, misma particion por gen:
+#   "dnabert" -> DNABERT-6, balanced accuracy 0.736 (necesita el .pt y GPU)
+#   "rf"      -> RandomForest sobre k-meros, 0.722 (instantaneo, sin GPU)
+# La diferencia es de 0.014, asi que la dependencia de DNABERT no se paga.
 MODELO_FAMILIA = "dnabert"
 
 # Fragmentos por gen que ve DNABERT, tomando los de mayor probabilidad de la
@@ -215,6 +226,29 @@ def predecir_mag(secuencias, callback_progreso=None, esta_detenido=None, nombre_
             break
 
         frags = fragmentar(seq, ventana=VENTANA)
+
+        # Con la regla de MIN_PB un gen demasiado corto no deja ningun
+        # fragmento. No se puede evaluar, y reportarlo como "No" seria afirmar
+        # que esta limpio cuando en realidad nunca se midio: un error que el
+        # usuario no tendria forma de notar. Se marca aparte.
+        if not frags:
+            if "|" in sid:
+                _mag = sid.split("|")[0]
+                _gen = sid.split("|")[-1][:25]
+            else:
+                _mag = nombre_defecto if nombre_defecto else sid[:15]
+                _gen = sid[:25]
+            datos.append({
+                "mag": _mag,
+                "gen": _gen,
+                "presencia": NO_EVALUABLE,
+                "familia": f"gen < {MIN_PB} pb",
+                "probabilidad": 0.0,
+            })
+            if callback_progreso:
+                callback_progreso(idx, total)
+            continue
+
         X_frags = np.array([vector_kmer(f) for f in frags], dtype=np.float32)
         probs_frags = modelo_etapa1.predict_proba(X_frags)[:, 1]
 
@@ -269,6 +303,18 @@ def predecir_mag(secuencias, callback_progreso=None, esta_detenido=None, nombre_
 # ============================================================
 #  HILO EN SEGUNDO PLANO (Para no congelar la interfaz)
 # ============================================================
+def _formato_tiempo(segundos):
+    """Segundos -> '1 h 04 min', '3 min 20 s' o '45 s'."""
+    segundos = max(0, int(round(segundos)))
+    h, resto = divmod(segundos, 3600)
+    m, s = divmod(resto, 60)
+    if h:
+        return f"{h} h {m:02d} min"
+    if m:
+        return f"{m} min {s:02d} s"
+    return f"{s} s"
+
+
 class HiloPrediccion(QThread):
     progreso = Signal(int, int)       # (procesadas, total)
     finalizado = Signal(list, bool)   # (datos_resultado, fue_cancelado)
@@ -443,6 +489,8 @@ QLabel#textoBarraTitulo { color: $suave_ui; font-size: 9pt; }
 QToolButton#botonVentana, QToolButton#botonCerrarVentana { background: transparent; color: $texto_ui; border: none; border-radius: 0px; min-width: 44px; min-height: 30px; font-size: 11pt; }
 QToolButton#botonVentana:hover { background-color: $tab; }
 QToolButton#botonCerrarVentana:hover { background-color: #E81123; color: white; }
+QProgressBar#barraProgreso { background-color: $tab; border: 1px solid $borde; border-radius: 7px; min-height: 16px; max-height: 16px; text-align: center; color: $texto_ui; font-size: 8pt; font-weight: bold; }
+QProgressBar#barraProgreso::chunk { background-color: $acento; border-radius: 6px; margin: 1px; }
 """)
 
 def generar_estilo(p):
@@ -851,6 +899,21 @@ class VentanaPrincipal(QMainWindow):
 
         layout.addLayout(barra)
 
+        # Barra de avance: oculta mientras no haya un analisis corriendo, para
+        # no dejar un cero permanente en pantalla cuando no hay nada que medir.
+        self.barra_progreso = QProgressBar()
+        self.barra_progreso.setObjectName("barraProgreso")
+        self.barra_progreso.setMinimum(0)
+        self.barra_progreso.setMaximum(100)
+        self.barra_progreso.setValue(0)
+        self.barra_progreso.setTextVisible(True)
+        self.barra_progreso.setFormat("%p %")
+        self.barra_progreso.hide()
+        layout.addWidget(self.barra_progreso)
+
+        self._t_inicio = None          # cuando arranco el analisis en curso
+        self._t_ultimo_texto = 0.0     # para no redibujar el texto en cada secuencia
+
         # ---------- PESTAÑAS ----------
         self.pestañas = QTabWidget()
         self.pestañas.addTab(self.crear_pestana_tabla(), "Tabla de resultados")
@@ -1062,6 +1125,12 @@ class VentanaPrincipal(QMainWindow):
         self.label_estado.setText("⏳ Iniciando predicción...")
         self.label_estado.setStyleSheet("color: #FD7E14; font-weight: bold;")
 
+        self._t_inicio = time.time()
+        self._t_ultimo_texto = 0.0
+        self.barra_progreso.setMaximum(max(1, len(self.secuencias_cargadas)))
+        self.barra_progreso.setValue(0)
+        self.barra_progreso.show()
+
         nombre_mag = os.path.splitext(os.path.basename(self.ruta_actual))[0]
         self.hilo = HiloPrediccion(self.secuencias_cargadas, nombre_mag=nombre_mag)
         self.hilo.progreso.connect(self.actualizar_progreso)
@@ -1078,10 +1147,41 @@ class VentanaPrincipal(QMainWindow):
             self.hilo.solicitar_parada()
 
     def actualizar_progreso(self, actual, total):
-        porcentaje = int((actual / total) * 100)
-        self.label_estado.setText(f"⏳ Analizando: {actual} de {total} secuencias ({porcentaje}%)...")
+        """Mueve la barra y escribe avance, tiempo corrido y lo que falta.
+
+        La estimacion usa el promedio de TODO lo corrido y no el de los ultimos
+        segundos. Aqui el costo por secuencia es muy desigual: solo las que dan
+        positivo en la etapa 1 pasan por la etapa 2, y esas tardan ordenes de
+        magnitud mas. Un promedio corto brincaria segun la racha de positivos
+        que toque; el global se corrige solo conforme avanza.
+
+        Por eso mismo no se muestra hasta llevar 20 secuencias: antes de eso
+        seria una adivinanza con cara de dato.
+        """
+        if total <= 0:
+            return
+
+        self.barra_progreso.setMaximum(total)
+        self.barra_progreso.setValue(actual)
+
+        ahora = time.time()
+        if actual < total and (ahora - self._t_ultimo_texto) < 0.2:
+            return          # 5 refrescos por segundo bastan para el texto
+        self._t_ultimo_texto = ahora
+
+        transcurrido = (ahora - self._t_inicio) if self._t_inicio else 0.0
+        porcentaje = int(actual / total * 100)
+        partes = [f"Analizando {actual:,} de {total:,} ({porcentaje} %)",
+                  f"transcurrido {_formato_tiempo(transcurrido)}"]
+        if actual >= 20 and transcurrido > 0:
+            falta = transcurrido / actual * (total - actual)
+            partes.append(f"falta ~{_formato_tiempo(falta)}")
+        self.label_estado.setText("   ·   ".join(partes))
+        self.label_estado.setStyleSheet("color: #FD7E14; font-weight: bold;")
 
     def analisis_terminado(self, resultados, fue_cancelado):
+        self.barra_progreso.setValue(self.barra_progreso.maximum())
+        self.barra_progreso.hide()
         self.boton_cargar.setEnabled(True)
         self.boton_iniciar.setEnabled(True)
         self.boton_detener.setEnabled(False)
@@ -1120,7 +1220,15 @@ class VentanaPrincipal(QMainWindow):
             )
             self.label_estado.setStyleSheet("color: #198754; font-weight: bold;")
 
+        if self._t_inicio is not None:
+            self.label_estado.setText(
+                self.label_estado.text()
+                + f"\nTiempo total: {_formato_tiempo(time.time() - self._t_inicio)}")
+            self._t_inicio = None
+
     def analisis_error(self, mensaje_error):
+        self.barra_progreso.hide()
+        self._t_inicio = None
         self.boton_cargar.setEnabled(True)
         self.boton_iniciar.setEnabled(True)
         self.boton_detener.setEnabled(False)
@@ -1482,13 +1590,19 @@ class VentanaPrincipal(QMainWindow):
             self.tabla.setItem(fila, 0, QTableWidgetItem(d["mag"]))
             self.tabla.setItem(fila, 1, QTableWidgetItem(d["gen"]))
             texto_presencia = f"🔴 {d['presencia']}" if d["presencia"] == "Sí" else f"🟢 {d['presencia']}"
+            if d["presencia"] == NO_EVALUABLE:
+                texto_presencia = f"⚪ {d['presencia']}"
             item_presencia = QTableWidgetItem(texto_presencia)
             item_presencia.setTextAlignment(Qt.AlignCenter)
             item_presencia.setForeground(QBrush(QColor("#D9534F")) if d["presencia"] == "Sí" else QBrush(QColor("#6C757D")))
+            if d["presencia"] == NO_EVALUABLE:
+                item_presencia.setForeground(QBrush(QColor("#ADB5BD")))
             self.tabla.setItem(fila, 2, item_presencia)
             self.tabla.setItem(fila, 3, QTableWidgetItem(d["familia"]))
             item_prob = QTableWidgetItem(f"{d['probabilidad']:.2f}")
             item_prob.setTextAlignment(Qt.AlignCenter)
+            if d["presencia"] == NO_EVALUABLE:
+                item_prob.setText("—")
             if d["probabilidad"] > 0.90:
                 fnt = item_prob.font(); fnt.setBold(True); item_prob.setFont(fnt)
                 item_prob.setForeground(QBrush(QColor("#198754")))

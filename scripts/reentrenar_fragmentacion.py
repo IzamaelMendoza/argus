@@ -41,7 +41,9 @@ from sklearn.model_selection import StratifiedGroupKFold
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--raiz", default=None)
-ap.add_argument("--identidad", default="95", choices=["95", "90", "85"])
+ap.add_argument("--identidad", default="95", choices=["95", "90", "85", "99"])
+ap.add_argument("--filtro", default=None,
+                help="FASTA que restringe el pool de positivos; sustituye al que se deduce de --identidad")
 ap.add_argument("--min-pb", type=int, default=150, help="bases reales mínimas (asesora: 150)")
 ap.add_argument("--ventana", type=int, default=500)
 ap.add_argument("--k", type=int, default=6)
@@ -70,7 +72,15 @@ POS = PROC / "argdb_POSITIVO_final.fasta"
 NEG = PROC / "argdb_NEGATIVO_final.fasta"
 SET_1K1K = INTER / "muestra_genes_labels.tsv"
 FASTA_1K1K = INTER / "muestra_genes_completos.fasta"
-FILTRO = None if args.identidad == "95" else INTER / f"positivo_id{args.identidad}_limpio.fasta"
+# El filtro solo puede QUITAR positivos del pool, nunca agregar. 90 y 85 son
+# subconjuntos del 95 %, asi que ahi un filtro alcanza. Para 95 y 99 el FASTA de
+# POS ya contiene exactamente el conjunto de ese nivel, asi que no se filtra.
+if args.filtro:
+    FILTRO = Path(args.filtro).expanduser()
+elif args.identidad in ("95", "99"):
+    FILTRO = None
+else:
+    FILTRO = INTER / f"positivo_id{args.identidad}_limpio.fasta"
 
 for p, q in [(POS, POS.name), (NEG, NEG.name), (SET_1K1K, SET_1K1K.name),
              (FASTA_1K1K, FASTA_1K1K.name)]:

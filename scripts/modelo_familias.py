@@ -48,11 +48,14 @@ ap.add_argument("--sin-otras", action="store_true",
 ap.add_argument("--solo-censo", action="store_true", help="mide el agrupamiento y no entrena")
 ap.add_argument("--k", type=int, default=6)
 ap.add_argument("--ventana", type=int, default=500)
+ap.add_argument("--min-pb", type=int, default=150,
+                help="minimo de bases reales del bloque final; por debajo se descarta")
 ap.add_argument("--arboles", type=int, default=400)
 ap.add_argument("--seed", type=int, default=42)
 args = ap.parse_args()
 
 K, VENTANA, SEED = args.k, args.ventana, args.seed
+MIN_PB = args.min_pb
 
 # ===========================================================================
 # TABLA DE AGRUPACIÓN  --  REVISAR CON LA ASESORA
@@ -235,17 +238,24 @@ def vector_kmer(seq):
     return out / out.sum()
 
 
-def fragmentar(seq, ventana=VENTANA):
-    # misma fragmentación CORREGIDA de la etapa 1: el último bloque se corre
-    # hacia atrás en vez de rellenarse con ceros.
+def fragmentar(seq, ventana=VENTANA, min_pb=MIN_PB):
+    """Parte la secuencia en bloques de `ventana` pb.
+
+    El bloque final se conserva CON SU LARGO REAL si tiene al menos `min_pb`
+    bases, y se descarta si no llega. Nunca se rellena con ceros y los bloques
+    nunca se solapan: es la misma regla del modelo binario y de DNABERT.
+
+    Un gen de menos de `min_pb` no produce ningun fragmento (lista vacia).
+    """
     seq = seq.upper()
     L = len(seq)
     if L < ventana:
-        return [seq + "0" * (ventana - L)]
+        return [seq] if L >= min_pb else []
     n = L // ventana
     fr = [seq[i * ventana:(i + 1) * ventana] for i in range(n)]
-    if L % ventana:
-        fr.append(seq[-ventana:])
+    r = L - n * ventana
+    if r >= min_pb:
+        fr.append(seq[n * ventana:])
     return fr
 
 
@@ -363,7 +373,7 @@ print(f"Guardado para la GUI: {destino}  ({destino.stat().st_size/1e6:.0f} MB)")
 # copia con metadatos, para el expediente (la GUI NO lee esta)
 meta = {
     "algoritmo": "RandomForestClassifier", "n_estimators": args.arboles,
-    "K": K, "ventana": VENTANA, "class_weight": "balanced", "semilla": SEED,
+    "K": K, "ventana": VENTANA, "min_pb": MIN_PB, "relleno": "ninguno", "class_weight": "balanced", "semilla": SEED,
     "regla_gen": "promedio de probabilidades entre fragmentos",
     "etiqueta": "AMR Gene Family de CARD, agrupada (ver tabla GRUPOS)",
     "universo": "solo CARD (único con ontología curada)",
