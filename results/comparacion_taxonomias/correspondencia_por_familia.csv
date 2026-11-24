@@ -1,0 +1,13 @@
+familia_argus,genes,familias_deeparg_distintas,deeparg_mas_frecuente,pureza
+OXA beta-lactamasa,40,1,OXA,1.0
+ABC-F protección ribosomal,3,3,MSRA,0.333
+van / glucopéptidos,9,7,VANR,0.333
+APH fosfotransferasa,6,5,APH(3')-V,0.333
+AAC acetiltransferasa,16,10,AAC(6')-I,0.312
+Erm metiltransferasa 23S,12,9,CLBA,0.25
+cefalosporinasa AmpC (ADC/ACT/CMY),9,7,ADC-16,0.222
+regulador de eflujo,5,5,GOLS,0.2
+eflujo MFS,13,12,CHLORAMPHENICOL_EXPORTER,0.154
+dfr dihidrofolato reductasa,13,12,DFRB2,0.154
+otras beta-lactamasas,58,30,CLASS_A,0.121
+eflujo RND,20,20,AMRB,0.05

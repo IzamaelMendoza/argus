@@ -1,0 +1,44 @@
+==============================================================================================
+REENTRENAMIENTO con la fragmentación de la asesora (descartar < 150 pb, sin padding)
+identidad 99 % | K=6 | ventana=500 | semilla 42
+==============================================================================================
+
+positivos 6,257 | negativos 26,513  (1s)
+genes del 1k+1k encontrados: 1,999 de 2,000
+  AVISO: 1 no aparecen en los FASTA; se omiten
+pool de entrenamiento: 30,771 genes (pos 5,258)
+
+fragmentos: 64,756 de 30,349 genes  (0s)
+  pos 10,424 | neg 54,332
+  genes descartados por medir < 150 pb: 422  (pos 0)
+  largo de fragmento: min 150 | mediana 500 | max 500 | de 500 pb: 42,129 (65.1 %)
+  dataset escrito: dataset_fragmentado_v2_min150.tsv
+
+train 58,280 frag (27,314 genes) | test 6,476 (3,035) con proporción natural
+submuestreo 1:1 -> 18,764 fragmentos (razón original neg:pos 5.2)
+
+X_train (18764, 4096) 307 MB (1s)
+RandomForest entrenado en 14s
+
+TEST interno, fragmento: recall=0.788  precision=0.721  f1=0.753  auc=0.940
+TEST interno, gen       : recall=0.829  precision=0.640  f1=0.722  auc=0.944
+
+==============================================================================================
+1k+1k (nivel gen, regla: algún fragmento >= 0.5)
+==============================================================================================
+  recall=0.754  precision=0.899  f1=0.820  auc=0.911
+
+                  Predijo NO ARG   Predijo ARG
+  Real NO ARG (0)           892            85   <- falsos positivos
+  Real ARG (1)              246           754
+  marcados resistentes: 839
+
+  23 gen(es) sin ningún fragmento (miden < 150 pb): NO EVALUABLES.
+  Quedan fuera de estas métricas. En la GUI hay que marcarlos aparte,
+  no contarlos como 'No resistente'.
+
+Guardado: /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/data/models/argus_rf_k6_id99_v2.joblib  (14 MB)
+
+Para usarlo en la GUI, cambia en app/argus_gui.py:
+    RUTA_MODELO = os.path.join(RAIZ, "data", "models", "argus_rf_k6_id99_v2.joblib")
+y pon MIN_PB_FRAGMENTO = 150 con la fragmentación nueva (ver el parche aparte).

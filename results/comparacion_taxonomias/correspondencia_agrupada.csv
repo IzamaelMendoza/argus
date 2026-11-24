@@ -1,0 +1,13 @@
+familia_argus,genes,pureza_sin_agrupar,pureza_agrupada,grupos,grupo_principal,mejora
+OXA beta-lactamasa,40,1.0,1.0,1,OXA,0.0
+van / glucopéptidos,9,0.333,1.0,1,VAN,0.667
+dfr dihidrofolato reductasa,13,0.154,1.0,1,DFR,0.846
+AAC acetiltransferasa,16,0.312,1.0,1,AAC,0.688
+APH fosfotransferasa,6,0.333,0.833,2,APH,0.5
+ABC-F protección ribosomal,3,0.333,0.667,2,VGA,0.334
+cefalosporinasa AmpC (ADC/ACT/CMY),9,0.222,0.667,3,ADC,0.445
+Erm metiltransferasa 23S,12,0.25,0.667,3,ERM,0.417
+eflujo RND,20,0.05,0.35,11,MEX,0.3
+eflujo MFS,13,0.154,0.308,8,TET,0.154
+regulador de eflujo,5,0.2,0.2,5,GOLS,0.0
+otras beta-lactamasas,58,0.121,0.121,29,CLASS_A,0.0
