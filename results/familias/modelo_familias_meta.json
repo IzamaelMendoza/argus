@@ -3,6 +3,8 @@
   "n_estimators": 400,
   "K": 6,
   "ventana": 500,
+  "min_pb": 150,
+  "relleno": "ninguno",
   "class_weight": "balanced",
   "semilla": 42,
   "regla_gen": "promedio de probabilidades entre fragmentos",
@@ -12,19 +14,24 @@
   "clases": [
     "AAC acetiltransferasa",
     "ABC-F protección ribosomal",
+    "ANT nucleotidiltransferasa",
     "APH fosfotransferasa",
     "Erm metiltransferasa 23S",
+    "MCR fosfoetanolamina transferasa",
     "OXA beta-lactamasa",
+    "beta-lactamasa de espectro extendido",
+    "carbapenemasa (IMP/VIM/NDM/KPC)",
     "cefalosporinasa AmpC (ADC/ACT/CMY)",
     "dfr dihidrofolato reductasa",
     "eflujo MFS",
     "eflujo RND",
     "otras beta-lactamasas",
+    "qnr quinolonas",
     "regulador de eflujo",
     "van / glucopéptidos"
   ],
-  "n_genes": 1011,
-  "n_fragmentos": 2485,
-  "test_gen_balanced_acc": 0.5414210137621212,
-  "test_gen_f1_macro": 0.5352564094174196
+  "n_genes": 1932,
+  "n_fragmentos": 4293,
+  "test_gen_balanced_acc": 0.7218338435162271,
+  "test_gen_f1_macro": 0.7138185043968933
 }
