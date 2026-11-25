@@ -1,0 +1,21 @@
+{
+  "identidad": "99",
+  "umbral": 0.465,
+  "umbral_calibracion": "calibrado sobre el conjunto 1k+1k con scripts/umbral_99.py: maximiza F1 (0.836) con recall 0.841 y precision 0.832. El 0.5 de fabrica daba recall 0.754.",
+  "min_pb": 150,
+  "relleno": "ninguno",
+  "metricas_1k1k_gen": {
+    "recall": 0.754,
+    "precision": 0.8986889153754469,
+    "f1": 0.8200108754758021,
+    "auc": 0.9108986693961105
+  },
+  "metricas_test_gen": {
+    "recall": 0.8285714285714286,
+    "precision": 0.6397058823529411,
+    "f1": 0.7219917012448133,
+    "auc": 0.9436330867008158
+  },
+  "n_arboles": 200,
+  "semilla": 42
+}

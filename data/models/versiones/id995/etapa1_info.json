@@ -1,0 +1,21 @@
+{
+  "identidad": "995",
+  "umbral": 0.44,
+  "umbral_calibracion": "calibrado sobre el conjunto 1k+1k: maximiza F1 (0.831) con recall 0.797 y precisión 0.867. CD-HIT -c 0.995 -aS 0.95 -aL 0.95.",
+  "min_pb": 150,
+  "relleno": "ninguno",
+  "metricas_1k1k_gen": {
+    "recall": 0.625,
+    "precision": 0.946969696969697,
+    "f1": 0.7530120481927711,
+    "auc": 0.9118607983623336
+  },
+  "metricas_test_gen": {
+    "recall": 0.8170028818443804,
+    "precision": 0.8475336322869955,
+    "f1": 0.8319882611885546,
+    "auc": 0.9557246518249768
+  },
+  "n_arboles": 200,
+  "semilla": 42
+}
