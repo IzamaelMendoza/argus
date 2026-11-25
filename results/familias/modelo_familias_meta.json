@@ -30,8 +30,8 @@
     "regulador de eflujo",
     "van / glucopéptidos"
   ],
-  "n_genes": 1932,
-  "n_fragmentos": 4293,
-  "test_gen_balanced_acc": 0.7218338435162271,
-  "test_gen_f1_macro": 0.7138185043968933
+  "n_genes": 2727,
+  "n_fragmentos": 6012,
+  "test_gen_balanced_acc": 0.6642161697076296,
+  "test_gen_f1_macro": 0.6573795656691973
 }

@@ -2,7 +2,7 @@ FAMILIAS CURADAS DE CARD, con los genes que caen en cada una.
 Son las etiquetas oficiales de CARD, no reglas nuestras.
 
 ==========================================================================
-ADC beta-lactamases pending classification for carbapenemase activity   n=118
+ADC beta-lactamases pending classification for carbapenemase activity   n=155
        1x  ADC-104
        1x  ADC-105
        1x  ADC-106
@@ -13,6 +13,7 @@ ADC beta-lactamases pending classification for carbapenemase activity   n=118
        1x  ADC-107
        1x  ADC-193
        1x  ADC-194
+       1x  ADC-163
        1x  ADC-164
        1x  ADC-116
        1x  ADC-117
@@ -21,21 +22,86 @@ ADC beta-lactamases pending classification for carbapenemase activity   n=118
        1x  ADC-196
        1x  ADC-167
        1x  ADC-101
+       1x  ADC-168
        1x  ADC-169
        1x  ADC-170
+       1x  ADC-199
+       1x  ADC-102
        1x  ADC-103
        1x  ADC-201
        1x  ADC-100
        1x  ADC-120
        1x  ADC-121
        1x  ADC-122
-       1x  ADC-123
-       1x  ADC-125
-       1x  ADC-127
-       1x  ADC-128
-    ... y 88 nombres más
+    ... y 125 nombres más
 ==========================================================================
-major facilitator superfamily (MFS) antibiotic efflux pump   n=109
+PDC beta-lactamase   n=128
+       1x  PDC-118
+       1x  PDC-384
+       1x  PDC-79
+       1x  PDC-81
+       1x  PDC-73
+       1x  PDC-76
+       1x  PDC-86
+       1x  PDC-87
+       1x  PDC-89
+       1x  PDC-90
+       1x  PDC-93
+       1x  PDC-438
+       1x  PDC-284
+       1x  PDC-55
+       1x  PDC-63
+       1x  PDC-57
+       1x  PDC-70
+       1x  PDC-14
+       1x  PDC-47
+       1x  PDC-62
+       1x  PDC-59
+       1x  PDC-49
+       1x  PDC-48
+       1x  PDC-28
+       1x  PDC-41
+       1x  PDC-352
+       1x  PDC-464
+       1x  PDC-231
+       1x  PDC-104
+       1x  PDC-173
+    ... y 98 nombres más
+==========================================================================
+OXA-51-like beta-lactamase   n=116
+       1x  OXA-371
+       1x  OXA-90
+       1x  OXA-426
+       1x  OXA-376
+       1x  OXA-113
+       1x  OXA-178
+       1x  OXA-150
+       1x  OXA-208
+       1x  OXA-380
+       1x  OXA-87
+       1x  OXA-93
+       1x  OXA-75
+       1x  OXA-77
+       1x  OXA-216
+       1x  OXA-138
+       1x  OXA-383
+       1x  OXA-381
+       1x  OXA-314
+       1x  OXA-242
+       1x  OXA-100
+       1x  OXA-64
+       1x  OXA-378
+       1x  OXA-241
+       1x  OXA-365
+       1x  OXA-111
+       1x  OXA-223
+       1x  OXA-382
+       1x  OXA-108
+       1x  OXA-89
+       1x  OXA-179
+    ... y 86 nombres más
+==========================================================================
+major facilitator superfamily (MFS) antibiotic efflux pump   n=112
        1x  mdtP
        1x  mgrA
        1x  tet(42)
@@ -52,6 +118,7 @@ major facilitator superfamily (MFS) antibiotic efflux pump   n=109
        1x  rosB
        1x  tetA(P)
        1x  emrY
+       1x  qacB
        1x  mdtG
        1x  emrK
        1x  tcr3
@@ -63,12 +130,11 @@ major facilitator superfamily (MFS) antibiotic efflux pump   n=109
        1x  tet(G)
        1x  cmlA4
        1x  evgA
-       1x  cmlA1
        1x  cmlB1
        1x  tet(H)
-    ... y 79 nombres más
+    ... y 82 nombres más
 ==========================================================================
-resistance-nodulation-cell division (RND) antibiotic efflux pump   n=107
+resistance-nodulation-cell division (RND) antibiotic efflux pump   n=109
        1x  golS
        1x  gadX
        1x  mdtF
@@ -78,6 +144,7 @@ resistance-nodulation-cell division (RND) antibiotic efflux pump   n=107
        1x  sdiA
        1x  smeD
        1x  OprN
+       1x  mexX
        1x  adeC
        1x  smeS
        1x  mdtA
@@ -98,10 +165,42 @@ resistance-nodulation-cell division (RND) antibiotic efflux pump   n=107
        1x  mdtB
        1x  adeB
        1x  CRP
-       1x  smeE
+    ... y 79 nombres más
+==========================================================================
+ACT beta-lactamase   n=107
+       1x  ACT-35
+       1x  ACT-10
+       1x  ACT-29
+       1x  ACT-19
+       1x  ACT-30
+       1x  ACT-37
+       1x  ACT-22
+       1x  ACT-25
+       1x  ACT-2
+       1x  ACT-36
+       1x  ACT-31
+       1x  ACT-15
+       1x  ACT-17
+       1x  ACT-20
+       1x  ACT-12
+       1x  ACT-14
+       1x  ACT-3
+       1x  ACT-23
+       1x  ACT-28
+       1x  ACT-6
+       1x  ACT-5
+       1x  ACT-13
+       1x  ACT-33
+       1x  ACT-41
+       1x  ACT-42
+       1x  ACT-38
+       1x  ACT-8
+       1x  ACT-44
+       1x  ACT-45
+       1x  ACT-48
     ... y 77 nombres más
 ==========================================================================
-OXA-213-like beta-lactamase   n=87
+OXA-213-like beta-lactamase   n=95
        1x  OXA-329
        1x  OXA-330
        1x  OXA-348
@@ -132,9 +231,42 @@ OXA-213-like beta-lactamase   n=87
        1x  OXA-271
        1x  OXA-305
        1x  OXA-272
-    ... y 57 nombres más
+    ... y 65 nombres más
 ==========================================================================
-glycopeptide resistance gene cluster   n=76
+quinolone resistance protein (qnr)   n=77
+       1x  QnrB58
+       1x  QnrS6
+       1x  QnrB66
+       1x  QnrB38
+       1x  QnrB18
+       1x  QnrB10
+       1x  QnrA5
+       1x  QnrS8
+       1x  QnrB13
+       1x  QnrB36
+       1x  QnrB54
+       1x  QnrB23
+       1x  QnrB2
+       1x  QnrB24
+       1x  QnrB42
+       1x  QnrS5
+       1x  QnrB11
+       1x  QnrB6
+       1x  QnrVC4
+       1x  QnrB49
+       1x  QnrD2
+       1x  QnrB59
+       1x  QnrB28
+       1x  QnrB65
+       1x  QnrB19
+       1x  QnrB41
+       1x  QnrB46
+       1x  QnrB32
+       1x  QnrB21
+       1x  QnrA4
+    ... y 47 nombres más
+==========================================================================
+glycopeptide resistance gene cluster   n=77
        1x  vanN
        1x  vanR gene in vanB cluster
        1x  vanR gene in vanF cluster
@@ -165,21 +297,55 @@ glycopeptide resistance gene cluster   n=76
        1x  vanX gene in vanB cluster
        1x  vanH gene in vanF cluster
        1x  vanX gene in vanO cluster
-    ... y 46 nombres más
+    ... y 47 nombres más
 ==========================================================================
-OXA beta-lactamase without subfamily   n=58
+CMY beta-lactamase   n=69
+       1x  CMY-1
+       1x  CMY-114
+       1x  CMY-70
+       1x  CMY-79
+       1x  CMY-9
+       1x  CMY-39
+       1x  CMY-105
+       1x  CMY-100
+       1x  CMY-65
+       1x  CMY-110
+       1x  CMY-85
+       1x  CMY-98
+       1x  CMY-35
+       1x  CMY-51
+       1x  CMY-83
+       1x  CMY-13
+       1x  CMY-71
+       1x  CFE-1
+       1x  CMY-104
+       1x  CMY-54
+       1x  CMY-40
+       1x  CMY-80
+       1x  CMY-44
+       1x  CMY-20
+       1x  CMY-117
+       1x  CMY-74
+       1x  CMY-90
+       1x  CMY-50
+       1x  CMY-77
+       1x  CMY-41
+    ... y 39 nombres más
+==========================================================================
+OXA beta-lactamase without subfamily   n=64
        1x  OXA-45
        1x  OXA-243
        1x  OXA-347
        1x  OXA-18
        1x  OXA-37
        1x  OXA-209
+       1x  OXA-33
        1x  OXA-258
        1x  OXA-34
        1x  OXA-29
-       1x  OXA-116
        1x  OXA-296
        1x  OXA-299
+       1x  OXA-457
        1x  OXA-458
        1x  OXA-459
        1x  OXA-308
@@ -189,6 +355,7 @@ OXA beta-lactamase without subfamily   n=58
        1x  OXA-279
        1x  OXA-837
        1x  OXA-926
+       1x  OXA-491
        1x  OXA-504
        1x  OXA-527
        1x  OXA-542
@@ -196,17 +363,16 @@ OXA beta-lactamase without subfamily   n=58
        1x  OXA-576
        1x  OXA-666
        1x  OXA-780
-       1x  OXA-830
-       1x  OXA-900
-    ... y 28 nombres más
+    ... y 34 nombres más
 ==========================================================================
-trimethoprim resistant dihydrofolate reductase dfr   n=53
+trimethoprim resistant dihydrofolate reductase dfr   n=56
        1x  dfrF
        1x  dfrA13
        1x  dfrA21
        1x  dfrA24
        1x  dfrA8
        1x  dfrG
+       1x  dfrD
        1x  dfrA3
        1x  dfrA16
        1x  dfrA20
@@ -214,6 +380,7 @@ trimethoprim resistant dihydrofolate reductase dfr   n=53
        1x  dfrB6
        1x  dfrB1
        1x  dfrA23
+       1x  dfrA19
        1x  dfrB3
        1x  dfrA12
        1x  dfrA17
@@ -227,77 +394,42 @@ trimethoprim resistant dihydrofolate reductase dfr   n=53
        1x  dfrA1
        1x  dfrA15
        1x  dfrA7
+       1x  dfrA15b
        1x  dfrA6 from Proteus mirabilis
-       1x  dfrI
-       1x  dfrA3b
-       1x  dfrB4
-    ... y 23 nombres más
+    ... y 26 nombres más
 ==========================================================================
-quinolone resistance protein (qnr)   n=52
-       1x  QnrB58
-       1x  QnrS6
-       1x  QnrB38
-       1x  QnrB10
-       1x  QnrA5
-       1x  QnrS8
-       1x  QnrB13
-       1x  QnrB36
-       1x  QnrB24
-       1x  QnrB42
-       1x  QnrS5
-       1x  QnrB11
-       1x  QnrB6
-       1x  QnrVC4
-       1x  QnrB49
-       1x  QnrD2
-       1x  QnrB59
-       1x  QnrB28
-       1x  QnrB65
-       1x  QnrB41
-       1x  QnrB46
-       1x  mfpA
-       1x  QnrB62
-       1x  QnrB37
-       1x  QnrB48
-       1x  QnrA7
-       1x  QnrB73
-       1x  QnrB34
-       1x  QnrB22
-       1x  QnrB56
+AAC(6')   n=52
+       1x  AAC(6')-Ib
+       1x  AAC(6')-Iu
+       1x  AAC(6')-Iaf
+       1x  AAC(6')-29a
+       1x  AAC(6')-Iy
+       1x  AAC(6')-Ib-Suzhou
+       1x  AAC(6')-Is
+       1x  AAC(6')-Ia
+       1x  AAC(6')-29b
+       1x  AAC(6')-Ih
+       1x  AAC(6')-Ij
+       1x  AAC(6')-Iae
+       1x  AAC(6')-Iv
+       1x  AAC(6')-Isa
+       1x  AAC(6')-Ib9
+       1x  AAC(6')-Ib-Hangzhou
+       1x  AAC(6')-Ib-SK
+       1x  AAC(6')-31
+       1x  AAC(6')-Ig
+       1x  AAC(6')-Ii
+       1x  AAC(6')-Iw
+       1x  AAC(6')-Ic
+       1x  AAC(6')-I30
+       1x  AAC(6')-32
+       1x  AAC(6')-Ip
+       1x  AAC(6')-IIa
+       1x  AAC(6')-It
+       1x  AAC(6')-Ib11
+       1x  AAC(6')-Ir
+       1x  AAC(6')-Iid
     ... y 22 nombres más
-==========================================================================
-ACT beta-lactamase   n=47
-       1x  ACT-10
-       1x  ACT-29
-       1x  ACT-30
-       1x  ACT-37
-       1x  ACT-2
-       1x  ACT-20
-       1x  ACT-6
-       1x  ACT-13
-       1x  ACT-21
-       1x  ACT-8
-       1x  ACT-48
-       1x  ACT-49
-       1x  ACT-50
-       1x  ACT-53
-       1x  ACT-54
-       1x  ACT-55
-       1x  ACT-57
-       1x  ACT-58
-       1x  ACT-59
-       1x  ACT-62
-       1x  ACT-64
-       1x  ACT-83
-       1x  ACT-107
-       1x  ACT-109
-       1x  ACT-110
-       1x  ACT-111
-       1x  ACT-116
-       1x  ACT-117
-       1x  ACT-118
-       1x  ACT-119
-    ... y 17 nombres más
 ==========================================================================
 Erm-like 23S rRNA methyltransferase   n=44
        1x  Erm(34)
@@ -332,38 +464,71 @@ Erm-like 23S rRNA methyltransferase   n=44
        1x  Erm(41)
     ... y 14 nombres más
 ==========================================================================
-AAC(6')   n=44
-       1x  AAC(6')-Iu
-       1x  AAC(6')-Iaf
-       1x  AAC(6')-29a
-       1x  AAC(6')-Iy
-       1x  AAC(6')-Is
-       1x  AAC(6')-Ia
-       1x  AAC(6')-Ih
-       1x  AAC(6')-Ij
-       1x  AAC(6')-Iae
-       1x  AAC(6')-Iv
-       1x  AAC(6')-Isa
-       1x  AAC(6')-Ib9
-       1x  AAC(6')-Ib-SK
-       1x  AAC(6')-Ig
-       1x  AAC(6')-Ii
-       1x  AAC(6')-Iw
-       1x  AAC(6')-Ic
-       1x  AAC(6')-I30
-       1x  AAC(6')-32
-       1x  AAC(6')-Ip
-       1x  AAC(6')-IIa
-       1x  AAC(6')-It
-       1x  AAC(6')-Ib11
-       1x  AAC(6')-Ir
-       1x  AAC(6')-Iid
-       1x  AAC(6')-Iih
-       1x  AAC(6')-Iak
-       1x  AAC(6')-Iad
-       1x  AAC(6')-Ix
-       1x  AAC(6')-Ik
-    ... y 14 nombres más
+CTX-M beta-lactamase   n=43
+       1x  CTX-M-155
+       1x  CTX-M-42
+       1x  CTX-M-11
+       1x  CTX-M-151
+       1x  CTX-M-25
+       1x  CTX-M-30
+       1x  CTX-M-76
+       1x  CTX-M-69
+       1x  CTX-M-9
+       1x  CTX-M-34
+       1x  CTX-M-137
+       1x  CTX-M-123
+       1x  CTX-M-81
+       1x  CTX-M-8
+       1x  CTX-M-77
+       1x  CTX-M-21
+       1x  CTX-M-64
+       1x  CTX-M-124
+       1x  CTX-M-132
+       1x  CTX-M-78
+       1x  CTX-M-95
+       1x  CTX-M-53
+       1x  CTX-M-45
+       1x  CTX-M-23
+       1x  CTX-M-29
+       1x  CTX-M-37
+       1x  CTX-M-62
+       1x  CTX-M-150
+       1x  CTX-M-169
+       1x  CTX-M-177
+    ... y 13 nombres más
+==========================================================================
+OXA-50-like beta-lactamase   n=41
+       1x  OXA-50
+       1x  OXA-485
+       1x  OXA-488
+       1x  OXA-846
+       1x  OXA-906
+       1x  OXA-395
+       1x  OXA-396
+       1x  OXA-851
+       1x  OXA-902
+       1x  OXA-903
+       1x  OXA-908
+       1x  OXA-914
+       1x  OXA-1014
+       1x  OXA-1019
+       1x  OXA-1022
+       1x  OXA-1023
+       1x  OXA-1025
+       1x  OXA-1026
+       1x  OXA-1027
+       1x  OXA-1029
+       1x  OXA-1032
+       1x  OXA-1033
+       1x  OXA-1127
+       1x  OXA-1129
+       1x  OXA-1140
+       1x  OXA-1174
+       1x  OXA-1244
+       1x  OXA-1246
+       1x  OXA-1253
+       1x  OXA-1271
+    ... y 11 nombres más
 ==========================================================================
 antibiotic efflux regulatory protein   n=38
        1x  golS
@@ -398,40 +563,106 @@ antibiotic efflux regulatory protein   n=38
        1x  Pseudomonas aeruginosa soxR
     ... y 8 nombres más
 ==========================================================================
-OXA-51-like beta-lactamase   n=33
-       1x  OXA-380
-       1x  OXA-87
-       1x  OXA-75
-       1x  OXA-382
-       1x  OXA-89
-       1x  OXA-203
-       1x  OXA-338
-       1x  OXA-200
-       1x  OXA-424
-       1x  OXA-263
-       1x  OXA-406
-       1x  OXA-412
-       1x  OXA-341
-       1x  OXA-529
-       1x  OXA-562
-       1x  OXA-707
-       1x  OXA-718
-       1x  OXA-741
-       1x  OXA-745
-       1x  OXA-763
-       1x  OXA-766
-       1x  OXA-769
-       1x  OXA-772
-       1x  OXA-773
-       1x  OXA-798
-       1x  OXA-829
-       1x  OXA-871
-       1x  OXA-885
-       1x  OXA-927
-       1x  OXA-1060
-    ... y 3 nombres más
+CARB beta-lactamase   n=38
+       1x  CARB-4
+       1x  CARB-23
+       1x  CARB-3
+       1x  CARB-19
+       1x  CARB-6
+       1x  CARB-9
+       1x  CARB-21
+       1x  CARB-17
+       1x  CARB-22
+       1x  CARB-7
+       1x  CARB-10
+       1x  CARB-12
+       1x  CARB-18
+       1x  CARB-20
+       1x  CARB-24
+       1x  CARB-25
+       1x  CARB-26
+       1x  CARB-27
+       1x  CARB-28
+       1x  CARB-29
+       1x  CARB-30
+       1x  CARB-31
+       1x  CARB-32
+       1x  CARB-33
+       1x  CARB-34
+       1x  CARB-35
+       1x  CARB-36
+       1x  CARB-40
+       1x  CARB-42
+       1x  CARB-43
+    ... y 8 nombres más
 ==========================================================================
-IMP beta-lactamase   n=28
+GOB beta-lactamase   n=38
+       1x  GOB-1
+       1x  GOB-10
+       1x  GOB-11
+       1x  GOB-12
+       1x  GOB-13
+       1x  GOB-18
+       1x  GOB-16
+       1x  GOB-2
+       1x  GOB-3
+       1x  GOB-4
+       1x  GOB-5
+       1x  GOB-6
+       1x  GOB-7
+       1x  GOB-19
+       1x  GOB-21
+       1x  GOB-22
+       1x  GOB-23
+       1x  GOB-24
+       1x  GOB-25
+       1x  GOB-26
+       1x  GOB-27
+       1x  GOB-28
+       1x  GOB-29
+       1x  GOB-31
+       1x  GOB-32
+       1x  GOB-33
+       1x  GOB-34
+       1x  GOB-35
+       1x  GOB-36
+       1x  GOB-37
+    ... y 8 nombres más
+==========================================================================
+KPC beta-lactamase   n=38
+       1x  KPC-15
+       1x  KPC-25
+       1x  KPC-29
+       1x  KPC-34
+       1x  KPC-50
+       1x  KPC-52
+       1x  KPC-58
+       1x  KPC-65
+       1x  KPC-66
+       1x  KPC-73
+       1x  KPC-123
+       1x  KPC-135
+       1x  KPC-103
+       1x  KPC-106
+       1x  KPC-107
+       1x  KPC-108
+       1x  KPC-109
+       1x  KPC-112
+       1x  KPC-117
+       1x  KPC-129
+       1x  KPC-138
+       1x  KPC-152
+       1x  KPC-154
+       1x  KPC-155
+       1x  KPC-169
+       1x  KPC-171
+       1x  KPC-177
+       1x  KPC-191
+       1x  KPC-192
+       1x  KPC-197
+    ... y 8 nombres más
+==========================================================================
+IMP beta-lactamase   n=36
        1x  IMP-2
        1x  IMP-42
        1x  IMP-12
@@ -443,23 +674,251 @@ IMP beta-lactamase   n=28
        1x  IMP-22
        1x  IMP-48
        1x  IMP-11
+       1x  IMP-34
+       1x  IMP-8
        1x  IMP-35
        1x  IMP-37
-       1x  IMP-3
+       1x  IMP-15
        1x  IMP-28
+       1x  IMP-13
        1x  IMP-18
        1x  IMP-45
        1x  IMP-27
+       1x  IMP-55
        1x  IMP-39
        1x  IMP-46
        1x  IMP-70
+       1x  IMP-75
+       1x  IMP-80
        1x  IMP-81
        1x  IMP-82
-       1x  IMP-95
-       1x  IMP-100
-       1x  IMP-105
-       1x  IMP-90
-       1x  OXA-1262
+       1x  IMP-92
+    ... y 6 nombres más
+==========================================================================
+SHV beta-lactamase   n=35
+       1x  SHV-52
+       1x  SHV-41
+       1x  SHV-42
+       1x  SHV-182
+       1x  SHV-121
+       1x  SHV-164
+       1x  SHV-128
+       1x  SHV-32
+       1x  SHV-188
+       1x  SHV-9
+       1x  SHV-100
+       1x  SHV-62
+       1x  SHV-97
+       1x  SHV-124
+       1x  SHV-122
+       1x  SHV-106
+       1x  SHV-125
+       1x  SHV-63
+       1x  SHV-123
+       1x  SHV-16
+       1x  SHV-183
+       1x  SHV-127
+       1x  SHV-3
+       1x  SHV-222
+       1x  SHV-201
+       1x  SHV-204
+       1x  SHV-220
+       1x  SHV-223
+       1x  SHV-193
+       1x  SHV-225
+    ... y 5 nombres más
+==========================================================================
+MCR phosphoethanolamine transferase   n=35
+       1x  MCR-3.3
+       1x  MCR-3.12
+       1x  MCR-1.11
+       1x  MCR-4.2
+       1x  MCR-6.1
+       1x  MCR-2.2
+       1x  MCR-3.6
+       1x  MCR-3.10
+       1x  MCR-1.10
+       1x  MCR-3.9
+       1x  MCR-3.8
+       1x  MCR-3.7
+       1x  MCR-7.1
+       1x  MCR-10.5
+       1x  MCR-10.2
+       1x  MCR-2.1
+       1x  MCR-5.1
+       1x  MCR-8.1
+       1x  MCR-3.17
+       1x  MCR-1.23
+       1x  MCR-1.24
+       1x  MCR-3.33
+       1x  MCR-3.14
+       1x  MCR-3.37
+       1x  MCR-3.38
+       1x  MCR-3.32
+       1x  MCR-3.36
+       1x  MCR-3.20
+       1x  MCR-3.35
+       1x  MCR-3.34
+    ... y 5 nombres más
+==========================================================================
+TEM beta-lactamase   n=33
+       1x  TEM-47
+       1x  TEM-102
+       1x  TEM-116
+       1x  TEM-87
+       1x  TEM-195
+       1x  TEM-91
+       1x  TEM-67
+       1x  TEM-17
+       1x  TEM-151
+       1x  TEM-52
+       1x  TEM-145
+       1x  TEM-162
+       1x  TEM-120
+       1x  TEM-213
+       1x  TEM-63
+       1x  TEM-125
+       1x  TEM-137
+       1x  TEM-136
+       1x  TEM-178
+       1x  TEM-193
+       1x  TEM-124
+       1x  TEM-130
+       1x  TEM-194
+       1x  TEM-80
+       1x  TEM-211
+       1x  TEM-101
+       1x  TEM-111
+       1x  TEM-123
+       1x  TEM-60
+       1x  TEM-233
+    ... y 3 nombres más
+==========================================================================
+OKP beta-lactamase   n=31
+       1x  OKP-A-15
+       1x  OKP-A-12
+       1x  OKP-B-3
+       1x  OKP-B-9
+       1x  OKP-B-2
+       1x  OKP-A-9
+       1x  OKP-B-10
+       1x  OKP-B-8
+       1x  OKP-A-7
+       1x  OKP-A-2
+       1x  OKP-A-11
+       1x  OKP-A-14
+       1x  OKP-B-18
+       1x  OKP-B-19
+       1x  OKP-B-11
+       1x  OKP-B-7
+       1x  OKP-B-12
+       1x  OKP-A-10
+       1x  OKP-B-20
+       1x  OKP-B-4
+       1x  OKP-A-16
+       1x  OKP-A-5
+       1x  OKP-A-6
+       1x  OKP-A-1
+       1x  OKP-A-17
+       1x  OKP-B-21
+       1x  OKP-B-24
+       1x  OKP-B-36
+       1x  OKP-B-40
+       1x  OKP-C-1
+    ... y 1 nombres más
+==========================================================================
+OXY beta-lactamase   n=29
+       1x  OXY-6-3
+       1x  OXY-2-2
+       1x  OXY-2-8
+       1x  OXY-1-2
+       1x  OXY-3-1
+       1x  OXY-4-1
+       1x  OXY-6-4
+       1x  OXY-5-1
+       1x  OXY-1-6
+       1x  OXY-2-15
+       1x  OXY-1-16
+       1x  OXY-10-1
+       1x  OXY-11-1
+       1x  OXY-12-1
+       1x  OXY-12-2
+       1x  OXY-2-17
+       1x  OXY-2-22
+       1x  OXY-2-24
+       1x  OXY-2-25
+       1x  OXY-2-26
+       1x  OXY-3-2
+       1x  OXY-5-10
+       1x  OXY-5-7
+       1x  OXY-5-8
+       1x  OXY-7-1
+       1x  OXY-8-1
+       1x  OXY-8-2
+       1x  OXY-8-3
+       1x  OXY-9-1
+==========================================================================
+ADC beta-lactamase without carbapenemase activity   n=29
+       1x  ADC-10
+       1x  ADC-58
+       1x  ADC-2
+       1x  ADC-3
+       1x  ADC-4
+       1x  ADC-6
+       1x  ADC-7
+       1x  ADC-8
+       1x  ADC-5
+       1x  ADC-12
+       1x  ADC-18
+       1x  ADC-19
+       1x  ADC-20
+       1x  ADC-21
+       1x  ADC-22
+       1x  ADC-23
+       1x  ADC-13
+       1x  ADC-15
+       1x  ADC-17
+       1x  ADC-16
+       1x  ADC-41
+       1x  ADC-42
+       1x  ADC-43
+       1x  ADC-44
+       1x  ADC-76
+       1x  ADC-79
+       1x  ADC-81
+       1x  ADC-159
+       1x  ADC-80
+==========================================================================
+PEN-A beta-lactamase   n=29
+       1x  PEN-A10
+       1x  PEN-A11
+       1x  PEN-A12
+       1x  PEN-A13
+       1x  PEN-A15
+       1x  PEN-A16
+       1x  PEN-A17
+       1x  PEN-A18
+       1x  PEN-A19
+       1x  PEN-A1
+       1x  PEN-A20
+       1x  PEN-A21
+       1x  PEN-A22
+       1x  PEN-A23
+       1x  PEN-A24
+       1x  PEN-A25
+       1x  PEN-A26
+       1x  PEN-A28
+       1x  PEN-A29
+       1x  PEN-A2
+       1x  PEN-A31
+       1x  PEN-A34
+       1x  PEN-A35
+       1x  PEN-A38
+       1x  PEN-A3
+       1x  PEN-A5
+       1x  PEN-A6
+       1x  PEN-A7
+       1x  PEN-A9
 ==========================================================================
 chloramphenicol acetyltransferase (CAT)   n=28
        1x  catB9
@@ -521,92 +980,7 @@ ATP-binding cassette (ABC) antibiotic efflux pump   n=28
        1x  YojI
        1x  TxR
 ==========================================================================
-MCR phosphoethanolamine transferase   n=28
-       1x  MCR-3.3
-       1x  MCR-3.12
-       1x  MCR-1.11
-       1x  MCR-4.2
-       1x  MCR-6.1
-       1x  MCR-2.2
-       1x  MCR-3.6
-       1x  MCR-3.10
-       1x  MCR-1.10
-       1x  MCR-3.8
-       1x  MCR-7.1
-       1x  MCR-10.5
-       1x  MCR-2.1
-       1x  MCR-5.1
-       1x  MCR-8.1
-       1x  MCR-3.17
-       1x  MCR-3.33
-       1x  MCR-3.14
-       1x  MCR-3.38
-       1x  MCR-3.32
-       1x  MCR-3.36
-       1x  MCR-3.20
-       1x  MCR-3.35
-       1x  MCR-2.4
-       1x  MCR-2.3
-       1x  MCR-2.5
-       1x  MCR-2.7
-       1x  MCR-2.6
-==========================================================================
-ADC beta-lactamase without carbapenemase activity   n=26
-       1x  ADC-10
-       1x  ADC-58
-       1x  ADC-2
-       1x  ADC-3
-       1x  ADC-4
-       1x  ADC-6
-       1x  ADC-7
-       1x  ADC-8
-       1x  ADC-12
-       1x  ADC-18
-       1x  ADC-19
-       1x  ADC-20
-       1x  ADC-21
-       1x  ADC-22
-       1x  ADC-23
-       1x  ADC-13
-       1x  ADC-15
-       1x  ADC-16
-       1x  ADC-41
-       1x  ADC-42
-       1x  ADC-43
-       1x  ADC-44
-       1x  ADC-76
-       1x  ADC-79
-       1x  ADC-81
-       1x  ADC-159
-==========================================================================
-GOB beta-lactamase   n=25
-       1x  GOB-1
-       1x  GOB-10
-       1x  GOB-11
-       1x  GOB-12
-       1x  GOB-13
-       1x  GOB-16
-       1x  GOB-2
-       1x  GOB-3
-       1x  GOB-5
-       1x  GOB-7
-       1x  GOB-19
-       1x  GOB-21
-       1x  GOB-23
-       1x  GOB-25
-       1x  GOB-26
-       1x  GOB-29
-       1x  GOB-31
-       1x  GOB-32
-       1x  GOB-33
-       1x  GOB-34
-       1x  GOB-35
-       1x  GOB-36
-       1x  GOB-37
-       1x  GOB-50
-       1x  GOB-51
-==========================================================================
-fosfomycin thiol transferase   n=24
+fosfomycin thiol transferase   n=26
        1x  FosA2
        1x  FosX
        1x  fosA5
@@ -617,6 +991,8 @@ fosfomycin thiol transferase   n=24
        1x  FosK
        1x  FosA4
        1x  Staphylococcus aureus FosB
+       1x  FosB4
+       1x  FosB6
        1x  FosD
        1x  FosA7
        1x  FosL1
@@ -632,32 +1008,7 @@ fosfomycin thiol transferase   n=24
        1x  FosI
        1x  FosA8
 ==========================================================================
-CARB beta-lactamase   n=23
-       1x  CARB-4
-       1x  CARB-23
-       1x  CARB-3
-       1x  CARB-19
-       1x  CARB-6
-       1x  CARB-21
-       1x  CARB-17
-       1x  CARB-22
-       1x  CARB-12
-       1x  CARB-24
-       1x  CARB-26
-       1x  CARB-28
-       1x  CARB-29
-       1x  CARB-30
-       1x  CARB-31
-       1x  CARB-34
-       1x  CARB-36
-       1x  CARB-40
-       1x  CARB-42
-       1x  CARB-43
-       1x  CARB-48
-       1x  CARB-56
-       1x  CARB-57
-==========================================================================
-OXA-134-like beta-lactamase   n=23
+OXA-134-like beta-lactamase   n=26
        1x  OXA-236
        1x  OXA-278
        1x  OXA-361
@@ -665,6 +1016,7 @@ OXA-134-like beta-lactamase   n=23
        1x  OXA-363
        1x  OXA-360
        1x  OXA-362
+       1x  OXA-335
        1x  OXA-276
        1x  OXA-277
        1x  OXA-282
@@ -676,87 +1028,70 @@ OXA-134-like beta-lactamase   n=23
        1x  OXA-648
        1x  OXA-646
        1x  OXA-537
+       1x  OXA-647
        1x  OXA-1005
+       1x  OXA-1110
        1x  OXA-1111
        1x  OXA-1112
        1x  OXA-1116
        1x  OXA-991
 ==========================================================================
-PDC beta-lactamase   n=23
-       1x  PDC-55
-       1x  PDC-63
-       1x  PDC-464
-       1x  PDC-292
-       1x  PDC-393
-       1x  PDC-110
-       1x  PDC-13
-       1x  PDC-133
-       1x  PDC-165
-       1x  PDC-170
-       1x  PDC-223
-       1x  PDC-243
-       1x  PDC-265
-       1x  PDC-318
-       1x  PDC-320
-       1x  PDC-331
-       1x  PDC-356
-       1x  PDC-361
-       1x  PDC-379
-       1x  PDC-399
-       1x  PDC-401
-       1x  PDC-441
-       1x  PDC-64
+BlaB beta-lactamase   n=26
+       1x  Chryseobacterium meningosepticum BlaB
+       1x  BlaB-11
+       1x  BlaB-12
+       1x  BlaB-15
+       1x  BlaB-16
+       1x  BlaB-17
+       1x  BlaB-18
+       1x  BlaB-19
+       1x  BlaB-2
+       1x  BlaB-20
+       1x  BlaB-22
+       1x  BlaB-23
+       1x  BlaB-24
+       1x  BlaB-25
+       1x  BlaB-26
+       1x  BlaB-27
+       1x  BlaB-28
+       1x  BlaB-30
+       1x  BlaB-34
+       1x  BlaB-35
+       1x  BlaB-36
+       1x  BlaB-38
+       1x  BlaB-39
+       1x  BlaB-5
+       1x  BlaB-6
+       1x  BlaB-8
 ==========================================================================
-PEN-A beta-lactamase   n=23
-       1x  PEN-A10
-       1x  PEN-A11
-       1x  PEN-A12
-       1x  PEN-A13
-       1x  PEN-A15
-       1x  PEN-A16
-       1x  PEN-A17
-       1x  PEN-A18
-       1x  PEN-A19
-       1x  PEN-A1
-       1x  PEN-A21
-       1x  PEN-A22
-       1x  PEN-A23
-       1x  PEN-A25
-       1x  PEN-A26
-       1x  PEN-A2
-       1x  PEN-A31
-       1x  PEN-A34
-       1x  PEN-A35
-       1x  PEN-A3
-       1x  PEN-A6
-       1x  PEN-A7
-       1x  PEN-A9
+CMH beta-lactamase   n=25
+       1x  CMH-1
+       1x  CMH-2
+       1x  CMH-3
+       1x  CMH-4
+       1x  CMH-5
+       1x  CMH-6
+       1x  CMH-10
+       1x  CMH-11
+       1x  CMH-12
+       1x  CMH-13
+       1x  CMH-14
+       1x  CMH-15
+       1x  CMH-16
+       1x  CMH-17
+       1x  CMH-19
+       1x  CMH-20
+       1x  CMH-21
+       1x  CMH-25
+       1x  CMH-29
+       1x  CMH-31
+       1x  CMH-32
+       1x  CMH-33
+       1x  CMH-34
+       1x  CMH-8
+       1x  CMH-9
 ==========================================================================
-CMY beta-lactamase   n=22
-       1x  CMY-1
-       1x  CMY-100
-       1x  CMY-98
-       1x  CMY-35
-       1x  CMY-13
-       1x  CFE-1
-       1x  CMY-104
-       1x  CMY-40
-       1x  CMY-115
-       1x  CMY-26
-       1x  CMY-37
-       1x  CMY-73
-       1x  CMY-119
-       1x  CFE-2
-       1x  CMY-122
-       1x  CMY-157
-       1x  CMY-144
-       1x  CMY-159
-       1x  CMY-169
-       1x  CMY-179
-       1x  CMY-190
-       1x  CMY-192
-==========================================================================
-ANT(3'')   n=22
+ANT(3'')   n=24
        1x  aadA4
        1x  aadA12
        1x  aadA9
@@ -771,80 +1106,68 @@ ANT(3'')   n=22
        1x  aadA16
        1x  aadA11
        1x  aadA14
+       1x  aadA6
        1x  aadA8
        1x  aadA13
        1x  aadA10
        1x  aadA27
+       1x  aadA8b
        1x  ANT(3'')-IIc
        1x  ANT(3'')-IIa
        1x  ANT(3'')-IIb
        1x  ANT(3'')-Ib
 ==========================================================================
-BlaB beta-lactamase   n=21
-       1x  Chryseobacterium meningosepticum BlaB
-       1x  BlaB-12
-       1x  BlaB-15
-       1x  BlaB-16
-       1x  BlaB-17
-       1x  BlaB-18
-       1x  BlaB-19
-       1x  BlaB-22
-       1x  BlaB-23
-       1x  BlaB-24
-       1x  BlaB-26
-       1x  BlaB-27
-       1x  BlaB-28
-       1x  BlaB-31
-       1x  BlaB-34
-       1x  BlaB-36
-       1x  BlaB-38
-       1x  BlaB-39
-       1x  BlaB-5
-       1x  BlaB-6
-       1x  BlaB-8
+OXA-184-like beta-lactamase   n=24
+       1x  OXA-184
+       1x  OXA-446
+       1x  OXA-447
+       1x  OXA-448
+       1x  OXA-449
+       1x  OXA-465
+       1x  OXA-614
+       1x  OXA-616
+       1x  OXA-617
+       1x  OXA-618
+       1x  OXA-620
+       1x  OXA-621
+       1x  OXA-622
+       1x  OXA-623
+       1x  OXA-625
+       1x  OXA-626
+       1x  OXA-631
+       1x  OXA-633
+       1x  OXA-636
+       1x  OXA-637
+       1x  OXA-638
+       1x  OXA-639
+       1x  OXA-658
+       1x  OXA-783
 ==========================================================================
-CMH beta-lactamase   n=19
-       1x  CMH-1
-       1x  CMH-2
-       1x  CMH-3
-       1x  CMH-4
-       1x  CMH-5
-       1x  CMH-6
-       1x  CMH-10
-       1x  CMH-11
-       1x  CMH-12
-       1x  CMH-16
-       1x  CMH-17
-       1x  CMH-19
-       1x  CMH-20
-       1x  CMH-21
-       1x  CMH-25
-       1x  CMH-29
-       1x  CMH-32
-       1x  CMH-33
-       1x  CMH-9
+OXA-48-like beta-lactamase   n=22
+       1x  OXA-232
+       1x  OXA-199
+       1x  OXA-204
+       1x  OXA-54
+       1x  OXA-163
+       1x  OXA-162
+       1x  OXA-370
+       1x  OXA-405
+       1x  OXA-436
+       1x  OXA-535
+       1x  OXA-416
+       1x  OXA-438
+       1x  OXA-514
+       1x  OXA-515
+       1x  OXA-517
+       1x  OXA-538
+       1x  OXA-546
+       1x  OXA-547
+       1x  OXA-567
+       1x  OXA-731
+       1x  OXA-1038
+       1x  OXA-1039
 ==========================================================================
-CTX-M beta-lactamase   n=18
-       1x  CTX-M-151
-       1x  CTX-M-30
-       1x  CTX-M-34
-       1x  CTX-M-137
-       1x  CTX-M-123
-       1x  CTX-M-8
-       1x  CTX-M-77
-       1x  CTX-M-21
-       1x  CTX-M-64
-       1x  CTX-M-132
-       1x  CTX-M-78
-       1x  CTX-M-37
-       1x  CTX-M-205
-       1x  CTX-M-211
-       1x  CTX-M-234
-       1x  CTX-M-246
-       1x  CTX-M-264
-       1x  KLUG-1
-==========================================================================
-OXA-211-like beta-lactamase   n=17
+OXA-211-like beta-lactamase   n=18
        1x  OXA-212
        1x  OXA-211
        1x  OXA-333
@@ -858,12 +1181,13 @@ OXA-211-like beta-lactamase   n=17
        1x  OXA-644
        1x  OXA-645
        1x  OXA-650
+       1x  OXA-651
        1x  OXA-652
        1x  OXA-662
        1x  OXA-1044
        1x  OXA-1208
 ==========================================================================
-AAC(3)   n=17
+AAC(3)   n=18
        1x  AAC(3)-Ia
        1x  AAC(3)-IIIc
        1x  AAC(3)-IIIb
@@ -880,7 +1204,83 @@ AAC(3)   n=17
        1x  AAC(3)-IXa
        1x  AAC(3)-IIe
        1x  AAC(3)-IId
+       1x  AAC(3)-IVb
        1x  AAC(3)-IIg
+==========================================================================
+MOX beta-lactamase   n=17
+       1x  MOX-5
+       1x  MOX-2
+       1x  MOX-6
+       1x  MOX-8
+       1x  MOX-3
+       1x  MOX-7
+       1x  MOX-4
+       1x  MOX-9
+       1x  MOX-12
+       1x  MOX-13
+       1x  MOX-15
+       1x  MOX-17
+       1x  MOX-19
+       1x  MOX-21
+       1x  MOX-23
+       1x  MOX-24
+       1x  MOX-25
+==========================================================================
+IMI beta-lactamase   n=17
+       1x  IMI-2
+       1x  IMI-7
+       1x  IMI-3
+       1x  NmcR
+       1x  NmcA
+       1x  IMI-8
+       1x  IMI-12
+       1x  IMI-13
+       1x  IMI-15
+       1x  IMI-16
+       1x  IMI-21
+       1x  IMI-5
+       1x  IMI-22
+       1x  IMI-23
+       1x  IMI-24
+       1x  IMI-25
+       1x  IMI-27
+==========================================================================
+tetracycline inactivation enzyme   n=17
+       1x  tet(37)
+       1x  tet(X)
+       1x  tet(56)
+       1x  tet(X4)
+       1x  tet(49)
+       1x  tet(52)
+       1x  tet(48)
+       1x  tet(50)
+       1x  tet(51)
+       1x  tet(53)
+       1x  tet(54)
+       1x  tet(55)
+       1x  tet(X5)
+       1x  tet(47)
+       1x  tet(X3)
+       1x  tet(X6)
+       1x  tet(X1)
+==========================================================================
+DHA beta-lactamase   n=16
+       1x  DHA-15
+       1x  DHA-19
+       1x  DHA-2
+       1x  DHA-16
+       1x  DHA-17
+       1x  DHA-12
+       1x  DHA-18
+       1x  DHA-21
+       1x  DHA-5
+       1x  DHA-20
+       1x  DHA-10
+       1x  DHA-3
+       1x  DHA-9
+       1x  DHA-28
+       1x  DHA-4
+       1x  DHA-30
 ==========================================================================
 APH(3')   n=16
        1x  APH(3')-Va
@@ -900,23 +1300,77 @@ APH(3')   n=16
        1x  APH(3')-VIb
        1x  APH(3')-IXa
 ==========================================================================
-tetracycline inactivation enzyme   n=16
-       1x  tet(37)
-       1x  tet(X)
-       1x  tet(56)
-       1x  tet(X4)
-       1x  tet(49)
-       1x  tet(52)
-       1x  tet(48)
-       1x  tet(50)
-       1x  tet(51)
-       1x  tet(53)
-       1x  tet(54)
-       1x  tet(55)
-       1x  tet(X5)
-       1x  tet(47)
-       1x  tet(X3)
-       1x  tet(X6)
+MIR beta-lactamase   n=16
+       1x  MIR-2
+       1x  MIR-16
+       1x  MIR-5
+       1x  MIR-12
+       1x  MIR-15
+       1x  MIR-9
+       1x  MIR-13
+       1x  MIR-17
+       1x  MIR-14
+       1x  MIR-11
+       1x  MIR-23
+       1x  MIR-22
+       1x  MIR-27
+       1x  MIR-28
+       1x  MIR-31
+       1x  MIR-32
+==========================================================================
+LEN beta-lactamase   n=16
+       1x  LEN-21
+       1x  LEN-20
+       1x  LEN-23
+       1x  LEN-8
+       1x  LEN-5
+       1x  LEN-15
+       1x  LEN-7
+       1x  LEN-41
+       1x  LEN-26
+       1x  LEN-17
+       1x  LEN-42
+       1x  LEN-43
+       1x  LEN-37
+       1x  LEN-35
+       1x  LEN-39
+       1x  LEN-40
+==========================================================================
+tetracycline-resistant ribosomal protection protein   n=16
+       1x  tetB(P)
+       1x  tet(44)
+       1x  tet(32)
+       1x  tet(M)
+       1x  tet(36)
+       1x  tet(O)
+       1x  tet(T)
+       1x  tet(W/N/W)
+       1x  tet(O/32/O)
+       1x  tet(O/M/O)
+       1x  tet(O/W)
+       1x  tet(O/W/32/O)
+       1x  tet(O/W/O)
+       1x  tet(W/32/O)
+       1x  Streptomyces rimosus otr(A)
+       1x  Streptomyces lividans otr(A)
+==========================================================================
+CfiA beta-lactamase   n=16
+       1x  CcrA
+       1x  CfiA10
+       1x  CfiA11
+       1x  CfiA14
+       1x  CfiA17
+       1x  CfiA18
+       1x  CfiA19
+       1x  CfiA21
+       1x  CfiA23
+       1x  CfiA24
+       1x  CfiA26
+       1x  CfiA27
+       1x  CfiA8
+       1x  CfiA28
+       1x  CfiA29
+       1x  CfiA31
 ==========================================================================
 OXA-286-like beta-lactamase   n=16
        1x  OXA-287
@@ -936,55 +1390,55 @@ OXA-286-like beta-lactamase   n=16
        1x  OXA-674
        1x  OXA-1145
 ==========================================================================
-tetracycline-resistant ribosomal protection protein   n=15
-       1x  tetB(P)
-       1x  tet(44)
-       1x  tet(32)
-       1x  tet(M)
-       1x  tet(36)
-       1x  tet(O)
-       1x  tet(T)
-       1x  tet(W/N/W)
-       1x  tet(O/M/O)
-       1x  tet(O/W)
-       1x  tet(O/W/32/O)
-       1x  tet(O/W/O)
-       1x  tet(W/32/O)
-       1x  Streptomyces rimosus otr(A)
-       1x  Streptomyces lividans otr(A)
+OXA-23-like beta-lactamase   n=15
+       1x  OXA-133
+       1x  OXA-49
+       1x  OXA-103
+       1x  OXA-818
+       1x  OXA-812
+       1x  OXA-806
+       1x  OXA-809
+       1x  OXA-810
+       1x  OXA-811
+       1x  OXA-813
+       1x  OXA-1221
+       1x  OXA-966
+       1x  OXA-967
+       1x  OXA-968
+       1x  OXA-969
 ==========================================================================
-OXA-184-like beta-lactamase   n=15
-       1x  OXA-184
-       1x  OXA-446
-       1x  OXA-447
-       1x  OXA-448
-       1x  OXA-449
-       1x  OXA-614
-       1x  OXA-616
-       1x  OXA-617
-       1x  OXA-621
-       1x  OXA-622
-       1x  OXA-633
-       1x  OXA-638
-       1x  OXA-639
-       1x  OXA-783
-       1x  OXA-785
+OXA-114-like beta-lactamase   n=15
+       1x  OXA-114a
+       1x  OXA-114c
+       1x  OXA-114d
+       1x  OXA-114g
+       1x  OXA-114h
+       1x  OXA-114m
+       1x  OXA-114n
+       1x  OXA-114p
+       1x  OXA-114r
+       1x  OXA-114s
+       1x  OXA-114t
+       1x  OXA-114u
+       1x  OXA-114v
+       1x  OXA-114w
+       1x  OXA-839
 ==========================================================================
-OKP beta-lactamase   n=14
-       1x  OKP-A-15
-       1x  OKP-A-12
-       1x  OKP-A-9
-       1x  OKP-B-10
-       1x  OKP-A-7
-       1x  OKP-A-2
-       1x  OKP-A-14
-       1x  OKP-B-18
-       1x  OKP-B-19
-       1x  OKP-B-11
-       1x  OKP-A-6
-       1x  OKP-A-1
-       1x  OKP-C-1
-       1x  OKP-D-1
+IND beta-lactamase   n=14
+       1x  IND-7
+       1x  IND-11
+       1x  IND-2
+       1x  IND-6
+       1x  IND-3
+       1x  IND-14
+       1x  IND-1
+       1x  IND-15
+       1x  IND-5
+       1x  IND-9
+       1x  IND-4
+       1x  IND-17
+       1x  IND-18
+       1x  IND-19
 ==========================================================================
 macrolide phosphotransferase (MPH)   n=14
        1x  mphF
@@ -1002,21 +1456,35 @@ macrolide phosphotransferase (MPH)   n=14
        1x  mphJ
        1x  Mrx
 ==========================================================================
-OXA-50-like beta-lactamase   n=14
-       1x  OXA-50
-       1x  OXA-485
-       1x  OXA-906
-       1x  OXA-848
-       1x  OXA-851
-       1x  OXA-902
-       1x  OXA-913
-       1x  OXA-1014
-       1x  OXA-1019
-       1x  OXA-1022
-       1x  OXA-1023
-       1x  OXA-1273
-       1x  OXA-1275
-       1x  OXA-1282
+VIM beta-lactamase   n=13
+       1x  VIM-37
+       1x  VIM-12
+       1x  VIM-8
+       1x  VIM-38
+       1x  VIM-25
+       1x  VIM-13
+       1x  VIM-18
+       1x  VIM-49
+       1x  VIM-53
+       1x  VIM-56
+       1x  VIM-66
+       1x  VIM-69
+       1x  VIM-71
+==========================================================================
+OXA-229-like beta-lactamase   n=13
+       1x  OXA-229
+       1x  OXA-228
+       1x  OXA-355
+       1x  OXA-418
+       1x  OXA-356
+       1x  OXA-257
+       1x  OXA-230
+       1x  OXA-300
+       1x  OXA-930
+       1x  OXA-1144
+       1x  OXA-1190
+       1x  OXA-1191
+       1x  OXA-1193
 ==========================================================================
 vanR   n=13
        1x  vanR gene in vanB cluster
@@ -1033,78 +1501,34 @@ vanR   n=13
        1x  vanR gene in vanO cluster
        1x  vanR gene in vanP cluster
 ==========================================================================
-OXA-48-like beta-lactamase   n=13
-       1x  OXA-232
-       1x  OXA-199
-       1x  OXA-204
-       1x  OXA-54
-       1x  OXA-163
-       1x  OXA-436
-       1x  OXA-535
-       1x  OXA-416
-       1x  OXA-514
-       1x  OXA-538
-       1x  OXA-546
-       1x  OXA-567
-       1x  OXA-731
+OXA-62-like beta-lactamase   n=13
+       1x  OXA-62
+       1x  OXA-151
+       1x  OXA-152
+       1x  OXA-153
+       1x  OXA-154
+       1x  OXA-155
+       1x  OXA-156
+       1x  OXA-157
+       1x  OXA-158
+       1x  OXA-1149
+       1x  OXA-1152
+       1x  OXA-1227
+       1x  OXA-1228
 ==========================================================================
-IMI beta-lactamase   n=13
-       1x  IMI-2
-       1x  IMI-7
-       1x  IMI-3
-       1x  NmcR
-       1x  NmcA
-       1x  IMI-8
-       1x  IMI-13
-       1x  IMI-16
-       1x  IMI-5
-       1x  IMI-22
-       1x  IMI-23
-       1x  IMI-24
-       1x  IMI-27
-==========================================================================
-KPC beta-lactamase   n=13
-       1x  KPC-44
-       1x  KPC-107
-       1x  KPC-108
-       1x  KPC-112
-       1x  KPC-117
-       1x  KPC-154
-       1x  KPC-161
-       1x  KPC-177
-       1x  KPC-192
-       1x  KPC-209
-       1x  KPC-211
-       1x  KPC-233
-       1x  KPC-67
-==========================================================================
-DHA beta-lactamase   n=12
-       1x  DHA-15
-       1x  DHA-19
-       1x  DHA-2
-       1x  DHA-16
-       1x  DHA-12
-       1x  DHA-18
-       1x  DHA-21
-       1x  DHA-5
-       1x  DHA-10
-       1x  DHA-9
-       1x  DHA-28
-       1x  DHA-4
-==========================================================================
-OXY beta-lactamase   n=12
-       1x  OXY-6-3
-       1x  OXY-5-1
-       1x  OXY-10-1
-       1x  OXY-11-1
-       1x  OXY-12-1
-       1x  OXY-12-2
-       1x  OXY-5-7
-       1x  OXY-7-1
-       1x  OXY-8-1
-       1x  OXY-8-2
-       1x  OXY-8-3
-       1x  OXY-9-1
+Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins   n=12
+       1x  srmB
+       1x  carA
+       1x  lmrC
+       1x  oleB
+       1x  tlrC
+       1x  optrA
+       1x  tva(A)
+       1x  poxtA
+       1x  vmlR
+       1x  Clostridioides difficile cplR
+       1x  Clostridium perfringes cplR
+       1x  Clostridium sporogenes cplR
 ==========================================================================
 Van ligase   n=12
        1x  vanN
@@ -1134,44 +1558,59 @@ small multidrug resistance (SMR) antibiotic efflux pump   n=12
        1x  qacJ
        1x  qacG
 ==========================================================================
-MOX beta-lactamase   n=11
-       1x  MOX-5
-       1x  MOX-2
-       1x  MOX-6
-       1x  MOX-8
-       1x  MOX-7
-       1x  MOX-9
-       1x  MOX-12
-       1x  MOX-13
-       1x  MOX-17
-       1x  MOX-21
-       1x  MOX-23
+vanS   n=12
+       1x  vanS gene in vanC cluster
+       1x  vanS gene in vanE cluster
+       1x  vanS gene in vanA cluster
+       1x  vanS gene in vanD cluster
+       1x  vanS gene in vanB cluster
+       1x  vanS gene in vanF cluster
+       1x  vanS gene in vanG cluster
+       1x  vanS gene in vanO cluster
+       1x  vanS gene in vanL cluster
+       1x  vanS gene in vanN cluster
+       1x  vanS gene in vanM cluster
+       1x  vanS gene in vanP cluster
 ==========================================================================
-IND beta-lactamase   n=11
-       1x  IND-7
-       1x  IND-11
-       1x  IND-6
-       1x  IND-3
-       1x  IND-14
-       1x  IND-15
-       1x  IND-5
-       1x  IND-9
-       1x  IND-4
-       1x  IND-17
-       1x  IND-18
+OXA-294-like beta-lactamase   n=12
+       1x  OXA-294
+       1x  OXA-295
+       1x  OXA-297
+       1x  OXA-298
+       1x  OXA-1004
+       1x  OXA-982
+       1x  OXA-984
+       1x  OXA-993
+       1x  OXA-995
+       1x  OXA-996
+       1x  OXA-997
+       1x  OXA-998
 ==========================================================================
-Miscellaneous ABC-F subfamily ATP-binding cassette ribosomal protection proteins   n=11
-       1x  srmB
-       1x  carA
-       1x  lmrC
-       1x  oleB
-       1x  tlrC
-       1x  optrA
-       1x  tva(A)
-       1x  vmlR
-       1x  Clostridioides difficile cplR
-       1x  Clostridium perfringes cplR
-       1x  Clostridium sporogenes cplR
+lincosamide nucleotidyltransferase (LNU)   n=11
+       1x  lnuA
+       1x  lnuC
+       1x  lnuB
+       1x  lnuF
+       1x  linG
+       1x  lnuD
+       1x  LnuP
+       1x  lnuE
+       1x  lin
+       1x  lnuG
+       1x  LnuH
+==========================================================================
+16S rRNA methyltransferase (G1405)   n=11
+       1x  rmtH
+       1x  rmtB
+       1x  rmtG
+       1x  armA
+       1x  rmtC
+       1x  rmtD
+       1x  rmtF
+       1x  rmtA
+       1x  sgm
+       1x  rmtD2
+       1x  rmtE
 ==========================================================================
 OXA-12-like beta-lactamase   n=11
        1x  OXA-12
@@ -1186,55 +1625,44 @@ OXA-12-like beta-lactamase   n=11
        1x  OXA-958
        1x  OXA-959
 ==========================================================================
-vanS   n=11
-       1x  vanS gene in vanC cluster
-       1x  vanS gene in vanE cluster
-       1x  vanS gene in vanA cluster
-       1x  vanS gene in vanD cluster
-       1x  vanS gene in vanB cluster
-       1x  vanS gene in vanF cluster
-       1x  vanS gene in vanG cluster
-       1x  vanS gene in vanL cluster
-       1x  vanS gene in vanN cluster
-       1x  vanS gene in vanM cluster
-       1x  vanS gene in vanP cluster
+OXA-63-like beta-lactamase   n=11
+       1x  OXA-137
+       1x  OXA-63
+       1x  OXA-192
+       1x  OXA-477
+       1x  OXA-478
+       1x  OXA-471
+       1x  OXA-475
+       1x  OXA-1101
+       1x  OXA-1102
+       1x  OXA-1103
+       1x  OXA-1104
 ==========================================================================
-OXA-294-like beta-lactamase   n=11
-       1x  OXA-294
-       1x  OXA-295
-       1x  OXA-297
-       1x  OXA-298
-       1x  OXA-1004
-       1x  OXA-982
-       1x  OXA-984
-       1x  OXA-993
-       1x  OXA-995
-       1x  OXA-996
-       1x  OXA-997
+FONA beta-lactamase   n=11
+       1x  FONA-2
+       1x  FONA-1
+       1x  FONA-3
+       1x  FONA-4
+       1x  FONA-5
+       1x  FONA-6
+       1x  FONA-10
+       1x  FONA-11
+       1x  FONA-12
+       1x  FONA-7
+       1x  FONA-9
 ==========================================================================
-lincosamide nucleotidyltransferase (LNU)   n=10
-       1x  lnuA
-       1x  lnuC
-       1x  lnuB
-       1x  linG
-       1x  lnuD
-       1x  LnuP
-       1x  lnuE
-       1x  lin
-       1x  lnuG
-       1x  LnuH
-==========================================================================
-16S rRNA methyltransferase (G1405)   n=10
-       1x  rmtH
-       1x  rmtG
-       1x  armA
-       1x  rmtC
-       1x  rmtD
-       1x  rmtF
-       1x  rmtA
-       1x  sgm
-       1x  rmtD2
-       1x  rmtE
+FRI beta-lactamase   n=11
+       1x  FRI-1
+       1x  FRI-2
+       1x  FRI-3
+       1x  FRI-4
+       1x  FRI-5
+       1x  FRI-6
+       1x  FRI-8
+       1x  FRI-9
+       1x  FRI-10
+       1x  FRI-11
+       1x  FRI-12
 ==========================================================================
 Cfr-like 23S rRNA methyltransferase   n=10
        1x  clbB
@@ -1248,18 +1676,6 @@ Cfr-like 23S rRNA methyltransferase   n=10
        1x  cfr(D)
        1x  cfrE
 ==========================================================================
-OXA-62-like beta-lactamase   n=10
-       1x  OXA-62
-       1x  OXA-151
-       1x  OXA-153
-       1x  OXA-154
-       1x  OXA-155
-       1x  OXA-156
-       1x  OXA-157
-       1x  OXA-158
-       1x  OXA-1149
-       1x  OXA-1228
-==========================================================================
 nitroimidazole reductase   n=10
        1x  nimD
        1x  nimA
@@ -1271,6 +1687,17 @@ nitroimidazole reductase   n=10
        1x  nimK
        1x  nimB
        1x  Clostridioides difficile nimB
+==========================================================================
+OXA-10-like beta-lactamase   n=9
+       1x  OXA-256
+       1x  OXA-35
+       1x  OXA-7
+       1x  OXA-795
+       1x  OXA-827
+       1x  OXA-836
+       1x  OXA-932
+       1x  OXA-1168
+       1x  OXA-1175
 ==========================================================================
 CphA beta-lactamase   n=9
        1x  cphA7
@@ -1294,16 +1721,16 @@ multidrug and toxic compound extrusion (MATE) transporter   n=9
        1x  PmpM
        1x  CrcB
 ==========================================================================
-OXA-23-like beta-lactamase   n=9
-       1x  OXA-133
-       1x  OXA-49
-       1x  OXA-818
-       1x  OXA-812
-       1x  OXA-809
-       1x  OXA-811
-       1x  OXA-1221
-       1x  OXA-968
-       1x  OXA-969
+FOX beta-lactamase   n=9
+       1x  FOX-1
+       1x  FOX-4
+       1x  FOX-12
+       1x  FOX-13
+       1x  FOX-15
+       1x  FOX-16
+       1x  FOX-18
+       1x  FOX-19
+       1x  FOX-21
 ==========================================================================
 pmr phosphoethanolamine transferase   n=9
        1x  eptA
@@ -1315,28 +1742,6 @@ pmr phosphoethanolamine transferase   n=9
        1x  ArnT
        1x  cprR
        1x  cprS
-==========================================================================
-FRI beta-lactamase   n=9
-       1x  FRI-1
-       1x  FRI-2
-       1x  FRI-4
-       1x  FRI-5
-       1x  FRI-6
-       1x  FRI-8
-       1x  FRI-9
-       1x  FRI-11
-       1x  FRI-12
-==========================================================================
-CfiA beta-lactamase   n=9
-       1x  CfiA10
-       1x  CfiA11
-       1x  CfiA14
-       1x  CfiA17
-       1x  CfiA21
-       1x  CfiA23
-       1x  CfiA26
-       1x  CfiA28
-       1x  CfiA29
 ==========================================================================
 subclass B3 LRA beta-lactamase   n=8
        1x  LRA-12
@@ -1358,15 +1763,15 @@ msr-type ABC-F protein   n=8
        1x  msr(G)
        1x  msr(I)
 ==========================================================================
-SHV beta-lactamase   n=8
-       1x  SHV-128
-       1x  SHV-188
-       1x  SHV-21
-       1x  SHV-100
-       1x  SHV-122
-       1x  SHV-16
-       1x  SHV-190
-       1x  SHV-245
+OCH beta-lactamase   n=8
+       1x  OCH-1
+       1x  OCH-3
+       1x  OCH-7
+       1x  OCH-8
+       1x  OCH-2
+       1x  OCH-4
+       1x  OCH-5
+       1x  OCH-6
 ==========================================================================
 AAC(2')   n=8
        1x  AAC(2')-Ib
@@ -1378,15 +1783,15 @@ AAC(2')   n=8
        1x  AAC(2')-IIb
        1x  AAC(2')-Ie
 ==========================================================================
-LEN beta-lactamase   n=8
-       1x  LEN-5
-       1x  LEN-41
-       1x  LEN-26
-       1x  LEN-17
-       1x  LEN-42
-       1x  LEN-43
-       1x  LEN-37
-       1x  LEN-39
+OXA-55-like beta-lactamase   n=8
+       1x  OXA-55
+       1x  OXA-729
+       1x  OXA-960
+       1x  OXA-961
+       1x  OXA-962
+       1x  OXA-963
+       1x  OXA-964
+       1x  OXA-965
 ==========================================================================
 vanX   n=8
        1x  vanX gene in vanF cluster
@@ -1398,43 +1803,51 @@ vanX   n=8
        1x  vanX gene in vanA cluster
        1x  vanX gene in vanP cluster
 ==========================================================================
-OXA-114-like beta-lactamase   n=8
-       1x  OXA-114a
-       1x  OXA-114c
-       1x  OXA-114g
-       1x  OXA-114n
-       1x  OXA-114p
-       1x  OXA-114s
-       1x  OXA-114u
-       1x  OXA-839
+OXA-61-like beta-lactamase   n=8
+       1x  OXA-583
+       1x  OXA-598
+       1x  OXA-602
+       1x  OXA-605
+       1x  OXA-606
+       1x  OXA-607
+       1x  OXA-659
+       1x  OXA-660
 ==========================================================================
-FONA beta-lactamase   n=8
-       1x  FONA-2
-       1x  FONA-1
-       1x  FONA-3
-       1x  FONA-4
-       1x  FONA-5
-       1x  FONA-6
-       1x  FONA-10
-       1x  FONA-7
+PER beta-lactamase   n=7
+       1x  PER-4
+       1x  PER-2
+       1x  PER-7
+       1x  PER-6
+       1x  PER-12
+       1x  PER-16
+       1x  PER-18
 ==========================================================================
-TEM beta-lactamase   n=7
-       1x  TEM-102
-       1x  TEM-195
-       1x  TEM-121
-       1x  TEM-178
-       1x  TEM-193
-       1x  TEM-194
-       1x  TEM-60
+vga-type ABC-F protein   n=7
+       1x  vgaALC
+       1x  vgaA
+       1x  vgaD
+       1x  vgaE
+       1x  vgaB
+       1x  vgaC
+       1x  vga(E) Staphylococcus cohnii
 ==========================================================================
-VIM beta-lactamase   n=7
-       1x  VIM-12
-       1x  VIM-38
-       1x  VIM-25
-       1x  VIM-13
-       1x  VIM-53
-       1x  VIM-69
-       1x  VIM-71
+OXA-143-like beta-lactamase   n=7
+       1x  OXA-143
+       1x  OXA-255
+       1x  OXA-253
+       1x  OXA-182
+       1x  OXA-649
+       1x  OXA-945
+       1x  OXA-1182
+==========================================================================
+OXA-22-like beta-lactamase   n=7
+       1x  OXA-22
+       1x  OXA-443
+       1x  OXA-899
+       1x  OXA-569
+       1x  OXA-572
+       1x  OXA-574
+       1x  OXA-1177
 ==========================================================================
 vanH   n=7
        1x  vanH gene in vanO cluster
@@ -1454,14 +1867,14 @@ streptogramin vat acetyltransferase   n=7
        1x  vatF
        1x  VatI
 ==========================================================================
-FOX beta-lactamase   n=7
-       1x  FOX-4
-       1x  FOX-13
-       1x  FOX-15
-       1x  FOX-16
-       1x  FOX-18
-       1x  FOX-19
-       1x  FOX-21
+LHK beta-lactamase   n=7
+       1x  LHK-1
+       1x  LHK-2
+       1x  LHK-3
+       1x  LHK-4
+       1x  LHK-5
+       1x  LHK-6
+       1x  LHK-7
 ==========================================================================
 OXA-60-like beta-lactamase   n=6
        1x  OXA-60
@@ -1487,38 +1900,6 @@ APH(2'')   n=6
        1x  APH(2'')-IIa
        1x  APH(2'')-If
 ==========================================================================
-vga-type ABC-F protein   n=6
-       1x  vgaALC
-       1x  vgaD
-       1x  vgaE
-       1x  vgaB
-       1x  vgaC
-       1x  vga(E) Staphylococcus cohnii
-==========================================================================
-OCH beta-lactamase   n=6
-       1x  OCH-1
-       1x  OCH-3
-       1x  OCH-8
-       1x  OCH-2
-       1x  OCH-5
-       1x  OCH-6
-==========================================================================
-OXA-143-like beta-lactamase   n=6
-       1x  OXA-143
-       1x  OXA-255
-       1x  OXA-253
-       1x  OXA-182
-       1x  OXA-945
-       1x  OXA-1182
-==========================================================================
-OXA-63-like beta-lactamase   n=6
-       1x  OXA-137
-       1x  OXA-63
-       1x  OXA-192
-       1x  OXA-478
-       1x  OXA-1102
-       1x  OXA-1104
-==========================================================================
 PBP2-like beta-lactam resistant peptidoglycan transpeptidase   n=6
        1x  mecR1
        1x  mecC
@@ -1535,21 +1916,21 @@ vanY   n=6
        1x  vanY gene in vanD cluster
        1x  vanY gene in vanG cluster
 ==========================================================================
-OXA-22-like beta-lactamase   n=6
-       1x  OXA-22
-       1x  OXA-443
-       1x  OXA-899
-       1x  OXA-569
-       1x  OXA-572
-       1x  OXA-574
+OXA-214-like beta-lactamase   n=6
+       1x  OXA-215
+       1x  OXA-214
+       1x  OXA-264
+       1x  OXA-575
+       1x  OXA-845
+       1x  OXA-936
 ==========================================================================
-OXA-55-like beta-lactamase   n=6
-       1x  OXA-55
-       1x  OXA-729
-       1x  OXA-960
-       1x  OXA-961
-       1x  OXA-962
-       1x  OXA-965
+GES beta-lactamase   n=6
+       1x  GES-10
+       1x  GES-8
+       1x  GES-32
+       1x  GES-41
+       1x  GES-42
+       1x  GES-44
 ==========================================================================
 vanT   n=6
        1x  vanT gene in vanG cluster
@@ -1559,13 +1940,21 @@ vanT   n=6
        1x  vanTr gene in vanL cluster
        1x  vanT gene in vanN cluster
 ==========================================================================
-LHK beta-lactamase   n=6
-       1x  LHK-1
-       1x  LHK-2
-       1x  LHK-3
-       1x  LHK-5
-       1x  LHK-6
-       1x  LHK-7
+ARL Beta-lactamase   n=6
+       1x  ARL-1
+       1x  ARL-2
+       1x  ARL-3
+       1x  ARL-4
+       1x  ARL-5
+       1x  ARL-6
+==========================================================================
+PLA beta-lactamase   n=6
+       1x  PLA-1
+       1x  PLA-2a
+       1x  PLA-3
+       1x  PLA-6
+       1x  PLA-4
+       1x  PLA-5
 ==========================================================================
 RAHN beta-lactamase   n=6
        1x  RAHN-1
@@ -1583,33 +1972,19 @@ SGM beta-lactamase   n=6
        1x  SGM-6
        1x  SGM-7
 ==========================================================================
-OXA-10-like beta-lactamase   n=5
-       1x  OXA-35
-       1x  OXA-7
-       1x  OXA-836
-       1x  OXA-1168
-       1x  OXA-1175
-==========================================================================
-PER beta-lactamase   n=5
-       1x  PER-4
-       1x  PER-2
-       1x  PER-6
-       1x  PER-12
-       1x  PER-8
-==========================================================================
-OXA-229-like beta-lactamase   n=5
-       1x  OXA-229
-       1x  OXA-228
-       1x  OXA-355
-       1x  OXA-300
-       1x  OXA-1144
-==========================================================================
 TlrA-like 23S rRNA methyltransferase   n=5
        1x  myrA
        1x  chrB
        1x  RlmA(II)
        1x  emtA
        1x  tlrB
+==========================================================================
+OXA-2-like beta-lactamase   n=5
+       1x  OXA-21
+       1x  OXA-53
+       1x  OXA-1085
+       1x  OXA-1173
+       1x  OXA-1243
 ==========================================================================
 lsa-type ABC-F protein   n=5
        1x  lsaE
@@ -1624,6 +1999,13 @@ vanXY   n=5
        1x  vanXY gene in vanC cluster
        1x  vanXY gene in vanN cluster
        1x  vanXY gene in vanL cluster
+==========================================================================
+ANT(6)   n=5
+       1x  aadK
+       1x  ANT(6)-Ia
+       1x  ANT(6)-Ib
+       1x  aad(6)
+       1x  aadS
 ==========================================================================
 gene modulating beta-lactam resistance   n=5
        1x  mecR1
@@ -1660,12 +2042,19 @@ sal-type ABC-F protein   n=5
        1x  salD
        1x  salE
 ==========================================================================
-ARL Beta-lactamase   n=5
-       1x  ARL-1
-       1x  ARL-2
-       1x  ARL-4
-       1x  ARL-5
-       1x  ARL-6
+OXA-274-like beta-lactamase   n=5
+       1x  OXA-275
+       1x  OXA-274
+       1x  OXA-667
+       1x  OXA-669
+       1x  OXA-944
+==========================================================================
+LUT beta-lactamase   n=5
+       1x  LUT-1
+       1x  LUT-3
+       1x  LUT-4
+       1x  LUT-5
+       1x  LUT-6
 ==========================================================================
 OXA-548-like beta-lactamase   n=5
        1x  OXA-548
@@ -1688,17 +2077,29 @@ HER beta-lactamase   n=5
        1x  HER-6
        1x  HER-8
 ==========================================================================
+NDM beta-lactamase   n=4
+       1x  NDM-6
+       1x  NDM-10
+       1x  NDM-18
+       1x  NDM-56
+==========================================================================
 Target protecting FusB-type protein conferring resistance to Fusidic acid   n=4
        1x  fusB
        1x  fusD
        1x  fusC
        1x  FusF
 ==========================================================================
-ANT(6)   n=4
-       1x  aadK
-       1x  ANT(6)-Ia
-       1x  ANT(6)-Ib
-       1x  aadS
+SRT beta-lactamase   n=4
+       1x  SRT-1
+       1x  SRT-2
+       1x  SRT-3
+       1x  SRT-4
+==========================================================================
+BlaZ beta-lactamase   n=4
+       1x  PC1 beta-lactamase (blaZ)
+       1x  blaR1
+       1x  mecC-type BlaZ
+       1x  PC1
 ==========================================================================
 macrolide esterase   n=4
        1x  EreA
@@ -1718,17 +2119,35 @@ General Bacterial Porin with reduced permeability to beta-lactams   n=4
        1x  Burkholderia pseudomallei Omp38
        1x  Klebsiella pneumoniae OmpK37
 ==========================================================================
+CepA beta-lactamase   n=4
+       1x  cepA
+       1x  CepA-29
+       1x  CepA-44
+       1x  CepA-49
+==========================================================================
+OXA-364-like beta-lactamase   n=4
+       1x  OXA-364
+       1x  OXA-455
+       1x  OXA-513
+       1x  OXA-787
+==========================================================================
+ROB beta-lactamase   n=4
+       1x  ROB-3
+       1x  ROB-6
+       1x  ROB-2
+       1x  ROB-12
+==========================================================================
+AAC(6')-Ib-cr   n=4
+       1x  AAC(6')-Ib-cr3
+       1x  AAC(6')-Ib-cr6
+       1x  AAC(6')-Ib-cr8
+       1x  AAC(6')-Ib-cr9
+==========================================================================
 AXC beta-lactamase   n=4
        1x  AXC-1
        1x  AXC-2
        1x  AXC-3
        1x  AXC-8
-==========================================================================
-OXA-61-like beta-lactamase   n=4
-       1x  OXA-605
-       1x  OXA-607
-       1x  OXA-659
-       1x  OXA-660
 ==========================================================================
 PFM beta-lactamase   n=4
        1x  PFM-1
@@ -1742,15 +2161,15 @@ PAM beta-lactamase   n=4
        1x  PAM-3
        1x  PAM-5
 ==========================================================================
+VEB beta-lactamase   n=3
+       1x  VEB-3
+       1x  VEB-17
+       1x  VEB-24
+==========================================================================
 TLA beta-lactamase   n=3
        1x  TLA-2
        1x  TLA-1
        1x  TLA-3
-==========================================================================
-SRT beta-lactamase   n=3
-       1x  SRT-1
-       1x  SRT-3
-       1x  SRT-4
 ==========================================================================
 APH(9)   n=3
        1x  APH(9)-Ia
@@ -1762,45 +2181,30 @@ OXA-46-like beta-lactamase   n=3
        1x  OXA-119
        1x  OXA-205
 ==========================================================================
-BlaZ beta-lactamase   n=3
-       1x  PC1 beta-lactamase (blaZ)
-       1x  blaR1
-       1x  mecC-type BlaZ
-==========================================================================
 class C LRA beta-lactamase   n=3
        1x  LRA-18
        1x  LRA-13
        1x  LRA-10
+==========================================================================
+OXA-198-like beta-lactamase   n=3
+       1x  OXA-198
+       1x  OXA-1056
+       1x  OXA-1057
 ==========================================================================
 rifampin monooxygenase   n=3
        1x  iri
        1x  Streptomyces venezuelae rox
        1x  Nocardia farcinica rox
 ==========================================================================
-OXA-214-like beta-lactamase   n=3
-       1x  OXA-215
-       1x  OXA-575
-       1x  OXA-845
-==========================================================================
 APH(6)   n=3
        1x  APH(6)-Ib
        1x  APH(6)-Id
        1x  APH(6)-Ia
 ==========================================================================
-MIR beta-lactamase   n=3
-       1x  MIR-9
-       1x  MIR-13
-       1x  MIR-14
-==========================================================================
 ANT(4')   n=3
        1x  ANT(4')-IIa
        1x  ANT(4')-IIb
        1x  ANT(4')-Ib
-==========================================================================
-OXA-2-like beta-lactamase   n=3
-       1x  OXA-53
-       1x  OXA-1085
-       1x  OXA-1173
 ==========================================================================
 AQU beta-lactamase   n=3
        1x  AQU-1
@@ -1832,10 +2236,15 @@ polymyxin resistance operon   n=3
        1x  almF
        1x  almE
 ==========================================================================
-OXA-274-like beta-lactamase   n=3
-       1x  OXA-275
-       1x  OXA-274
-       1x  OXA-944
+CIA beta-lactamase   n=3
+       1x  CIA-1
+       1x  CIA-2
+       1x  CIA-3
+==========================================================================
+CME beta-lactamase   n=3
+       1x  CME-1
+       1x  CME-2
+       1x  CME-3
 ==========================================================================
 Outer Membrane Porin (Opr)   n=3
        1x  ParS
@@ -1847,15 +2256,10 @@ CRH beta-lactamase   n=3
        1x  CRH-2
        1x  CRH-3
 ==========================================================================
-GES beta-lactamase   n=3
-       1x  GES-32
-       1x  GES-42
-       1x  GES-44
-==========================================================================
-LUT beta-lactamase   n=3
-       1x  LUT-1
-       1x  LUT-5
-       1x  LUT-6
+KLUC beta-lactamase   n=3
+       1x  KLUC-1
+       1x  KLUC-4
+       1x  KLUC-6
 ==========================================================================
 vanW   n=3
        1x  vanW gene in vanB cluster
@@ -1872,13 +2276,18 @@ aminoglycoside bifunctional resistance protein   n=3
        1x  ANT(3'')-II-AAC(6')-IId bifunctional protein
        1x  AAC(3)-Ib/AAC(6')-Ib3 bifunctional protein
 ==========================================================================
-NDM beta-lactamase   n=2
-       1x  NDM-6
-       1x  NDM-18
+PNC beta-lactamase   n=3
+       1x  PNC-1
+       1x  PNC-2
+       1x  PNC-3
 ==========================================================================
 GIM beta-lactamase   n=2
        1x  GIM-1
        1x  GIM-3
+==========================================================================
+CfxA beta-lactamase   n=2
+       1x  CfxA2
+       1x  CfxA6
 ==========================================================================
 APH(4)   n=2
        1x  APH(4)-Ia
@@ -1908,6 +2317,14 @@ class A LRA beta-lactamase   n=2
        1x  LRA-5
        1x  LRA-1
 ==========================================================================
+OXA-58-like beta-lactamase   n=2
+       1x  OXA-164
+       1x  OXA-512
+==========================================================================
+OXA-24-like beta-lactamase   n=2
+       1x  OXA-25
+       1x  OXA-1081
+==========================================================================
 AIM beta-lactamase   n=2
        1x  AIM-1
        1x  AIM-2
@@ -1915,10 +2332,6 @@ AIM beta-lactamase   n=2
 class A Bacillus cereus Bc beta-lactamase   n=2
        1x  BcI
        1x  BcIII
-==========================================================================
-OXA-198-like beta-lactamase   n=2
-       1x  OXA-198
-       1x  OXA-1056
 ==========================================================================
 OXA-5-like beta-lactamase   n=2
        1x  OXA-5
@@ -1944,10 +2357,6 @@ MUS beta-lactamase   n=2
        1x  MUS-1
        1x  MUS-2
 ==========================================================================
-CepA beta-lactamase   n=2
-       1x  cepA
-       1x  CepA-44
-==========================================================================
 APH(3'')   n=2
        1x  APH(3'')-Ia
        1x  APH(3'')-Ic
@@ -1955,10 +2364,6 @@ APH(3'')   n=2
 subclass B3 PEDO beta-lactamase   n=2
        1x  PEDO-1
        1x  PEDO-2
-==========================================================================
-OXA-364-like beta-lactamase   n=2
-       1x  OXA-364
-       1x  OXA-455
 ==========================================================================
 kdpDE   n=2
        1x  kdpE
@@ -1988,10 +2393,6 @@ BKC Beta-lactamase   n=2
        1x  BKC-1
        1x  BKC-2
 ==========================================================================
-CIA beta-lactamase   n=2
-       1x  CIA-1
-       1x  CIA-2
-==========================================================================
 CAM beta-lactamase   n=2
        1x  CAM-1
        1x  CAM-2
@@ -2003,10 +2404,6 @@ IDC beta-lactamase   n=2
 Intrinsic peptide antibiotic resistant Lps   n=2
        1x  LpsB
        1x  LpsA
-==========================================================================
-ROB beta-lactamase   n=2
-       1x  ROB-2
-       1x  ROB-12
 ==========================================================================
 AFM beta-lactamase   n=2
        1x  AFM-1
@@ -2024,10 +2421,6 @@ CMA beta-lactamase   n=2
        1x  CMA-1
        1x  CMA-2
 ==========================================================================
-CME beta-lactamase   n=2
-       1x  CME-2
-       1x  CME-3
-==========================================================================
 CSA beta-lactamase   n=2
        1x  CSA-1
        1x  CSA-2
@@ -2044,9 +2437,17 @@ POM beta-lactamase   n=2
        1x  POM-1
        1x  POM-2
 ==========================================================================
+PST beta-lactamase   n=2
+       1x  PST-1
+       1x  PST-2
+==========================================================================
 RSD2 beta-lactamase   n=2
        1x  RSD2-1
        1x  RSD2-2
+==========================================================================
+SFC beta-lactamase   n=2
+       1x  SFC-1
+       1x  SFC-2
 ==========================================================================
 KHM beta-lactamase   n=2
        1x  KHM-1
@@ -2068,9 +2469,9 @@ GMA beta-lactamase   n=2
        1x  GMA-1
        1x  GMA-2
 ==========================================================================
-PNC beta-lactamase   n=2
-       1x  PNC-1
-       1x  PNC-3
+PEN-B beta-lactamase   n=2
+       1x  PEN-B1
+       1x  PEN-B2
 ==========================================================================
 SED beta-lactamase   n=2
        1x  SED-2
@@ -2080,8 +2481,8 @@ AMM beta-lactamase   n=2
        1x  AMM-1
        1x  AMM-2
 ==========================================================================
-VEB beta-lactamase   n=1
-       1x  VEB-3
+CblA beta-lactamase   n=1
+       1x  CblA-1
 ==========================================================================
 SME beta-lactamase   n=1
        1x  SME-2
@@ -2094,9 +2495,6 @@ rifampin glycosyltransferase   n=1
 ==========================================================================
 tsnR 23S rRNA methyltransferase   n=1
        1x  tsnR
-==========================================================================
-CfxA beta-lactamase   n=1
-       1x  CfxA2
 ==========================================================================
 OXA-42-like beta-lactamase   n=1
        1x  OXA-43
@@ -2118,9 +2516,6 @@ TUS beta-lactamase   n=1
 ==========================================================================
 vanV   n=1
        1x  vanV gene in vanB cluster
-==========================================================================
-OXA-24-like beta-lactamase   n=1
-       1x  OXA-25
 ==========================================================================
 chloramphenicol phosphotransferase   n=1
        1x  cmlv
@@ -2148,6 +2543,9 @@ BEL beta-lactamase   n=1
 ==========================================================================
 CAU beta-lactamase   n=1
        1x  CAU-1
+==========================================================================
+AER beta-lactamase   n=1
+       1x  AER-1
 ==========================================================================
 SIM beta-lactamase   n=1
        1x  SIM-1
@@ -2236,6 +2634,9 @@ FTU beta-lactamase   n=1
 mgt macrolide glycotransferase   n=1
        1x  mgtA
 ==========================================================================
+SFH beta-lactamase   n=1
+       1x  SFH-1
+==========================================================================
 Edeine acetyltransferase   n=1
        1x  EdeQ
 ==========================================================================
@@ -2287,6 +2688,9 @@ TRU beta-lactamase   n=1
 CBP beta-lactamase   n=1
        1x  CBP-1
 ==========================================================================
+BIL Beta-lactamase   n=1
+       1x  BIL-1
+==========================================================================
 CGA beta-lactamase   n=1
        1x  CGA-1
 ==========================================================================
@@ -2331,9 +2735,6 @@ GPC beta-lactamase   n=1
 ==========================================================================
 blaS   n=1
        1x  blaS1
-==========================================================================
-AAC(6')-Ib-cr   n=1
-       1x  AAC(6')-Ib-cr9
 ==========================================================================
 PAC beta-lactamase   n=1
        1x  PAC-1
@@ -2407,9 +2808,6 @@ GRD23 beta-lactamase   n=1
 GRD33 beta-lactamase   n=1
        1x  GRD33-1
 ==========================================================================
-KLUC beta-lactamase   n=1
-       1x  KLUC-1
-==========================================================================
 LRG beta-lactamase   n=1
        1x  LRG-1
 ==========================================================================
@@ -2443,17 +2841,11 @@ OXA-493-like beta-lactamase   n=1
 PAU beta-lactamase   n=1
        1x  PAU-1
 ==========================================================================
-PLA beta-lactamase   n=1
-       1x  PLA-1
-==========================================================================
 PLN beta-lactamase   n=1
        1x  PLN-1
 ==========================================================================
 PME beta-lactamase   n=1
        1x  PME-1
-==========================================================================
-PST beta-lactamase   n=1
-       1x  PST-1
 ==========================================================================
 PSV beta-lactamase   n=1
        1x  PSV-1
@@ -2463,9 +2855,6 @@ RSA2 beta-lactamase   n=1
 ==========================================================================
 RUB beta-lactamase   n=1
        1x  RUB-1
-==========================================================================
-SFC beta-lactamase   n=1
-       1x  SFC-1
 ==========================================================================
 SFO beta-lactamase   n=1
        1x  SFO-1
@@ -2628,9 +3017,6 @@ MUN beta-lactamase   n=1
 ==========================================================================
 PAD beta-lactamase   n=1
        1x  PAD-1
-==========================================================================
-PEN-B beta-lactamase   n=1
-       1x  PEN-B1
 ==========================================================================
 RAA beta-lactamase   n=1
        1x  RAA-1

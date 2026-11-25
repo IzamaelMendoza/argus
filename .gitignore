@@ -101,3 +101,9 @@ data/models/respaldo/
 # --- Modelos experimentales de la etapa 1 (el de producción es el _v2) ---
 data/models/argus_rf_k6_id99_completo.joblib
 data/models/argus_rf_k6_id99_sinparientes.joblib
+
+# --- Respaldo del estado al 99 % (sus archivos útiles ya están en data/models/versiones/) ---
+respaldo_id99/
+
+# --- Modelo de control del 99.5 % (su resultado queda en el notebook y el CSV) ---
+data/models/argus_rf_k6_id995_sinparientes.joblib

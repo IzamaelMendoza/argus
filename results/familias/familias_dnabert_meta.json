@@ -31,12 +31,12 @@
   ],
   "semilla": 42,
   "checkpoint_por": "balanced accuracy de validacion",
-  "mejor_epoca": 23,
-  "val_balanced_acc": 0.6956118615654724,
-  "test_gen_balanced_acc": 0.7356114149068698,
-  "test_gen_f1_macro": 0.6708368547396615,
-  "test_n_genes": 386,
+  "mejor_epoca": 19,
+  "val_balanced_acc": 0.6861182129268992,
+  "test_gen_balanced_acc": 0.7542730104288735,
+  "test_gen_f1_macro": 0.7174322096114871,
+  "test_n_genes": 546,
   "regla_gen": "promedio de probabilidades entre fragmentos",
-  "n_genes": 1932,
-  "n_fragmentos": 4293
+  "n_genes": 2727,
+  "n_fragmentos": 6012
 }

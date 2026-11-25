@@ -1,0 +1,138 @@
+/home/r4gbi/miniconda3/envs/resistencia_args/lib/python3.11/site-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Some weights of the model checkpoint at zhihan1996/DNA_bert_6 were not used when initializing BertModel: ['cls.predictions.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.decoder.bias', 'cls.predictions.decoder.weight', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+============================================================================================
+ETAPA 2 con DNABERT-6  (familia del gen)
+modelo: zhihan1996/DNA_bert_6 | K=6 | ventana=500 | min_pb=150 | max_len=512
+============================================================================================
+torch 2.15.0+cpu | hilos 6 | CPU
+
+2,727 genes -> 6,012 fragmentos | 17 clases
+
+familia                                      genes       %    frags
+otras beta-lactamasas                          760   27.9%     1671
+OXA beta-lactamasa                             612   22.4%     1224
+cefalosporinasa AmpC (ADC/ACT/CMY)             419   15.4%     1036
+beta-lactamasa de espectro extendido           121    4.4%      242
+eflujo MFS                                     102    3.7%      299
+carbapenemasa (IMP/VIM/NDM/KPC)                101    3.7%      202
+eflujo RND                                      82    3.0%      340
+AAC acetiltransferasa                           78    2.9%       97
+van / glucopéptidos                             78    2.9%      150
+qnr quinolonas                                  77    2.8%      115
+Erm metiltransferasa 23S                        60    2.2%      119
+dfr dihidrofolato reductasa                     56    2.1%       56
+MCR fosfoetanolamina transferasa                43    1.6%      134
+ABC-F protección ribosomal                      37    1.4%      120
+ANT nucleotidiltransferasa                      37    1.4%       73
+APH fosfotransferasa                            33    1.2%       67
+regulador de eflujo                             31    1.1%       67
+
+la familia mas chica tiene 31 genes (eso limita en cuantos pliegues se puede cortar)
+
+train 3,847 frag (1,745 genes) | val 961 (436) | test 1,204 (546)
+  pliegues: 5 para test, 5 para val (los limita la familia mas chica)
+
+Cargando zhihan1996/DNA_bert_6 ...
+  listo en 2s | capas 12 | cabezas 12 | hidden 768 | vocab 4101 | max_pos 512
+
+Calculando embeddings (es la parte lenta; se cachea en disco):
+  train: 256/3847  (2.1 frag/s, faltan ~28.3 min)     train: 512/3847  (2.2 frag/s, faltan ~25.5 min)     train: 768/3847  (2.2 frag/s, faltan ~23.3 min)     train: 1024/3847  (2.2 frag/s, faltan ~21.3 min)     train: 1280/3847  (2.2 frag/s, faltan ~19.3 min)     train: 1536/3847  (2.2 frag/s, faltan ~17.4 min)     train: 1792/3847  (2.2 frag/s, faltan ~15.4 min)     train: 2048/3847  (2.2 frag/s, faltan ~13.5 min)     train: 2304/3847  (2.2 frag/s, faltan ~11.6 min)     train: 2560/3847  (2.2 frag/s, faltan ~9.6 min)     train: 2816/3847  (2.2 frag/s, faltan ~7.7 min)     train: 3072/3847  (2.2 frag/s, faltan ~5.8 min)     train: 3328/3847  (2.2 frag/s, faltan ~3.9 min)     train: 3584/3847  (2.2 frag/s, faltan ~2.0 min)     train: 3840/3847  (2.2 frag/s, faltan ~0.1 min)     train: 3847/3847  (2.2 frag/s, faltan ~0.0 min)   
+  val: 256/961  (2.2 frag/s, faltan ~5.3 min)     val: 512/961  (2.2 frag/s, faltan ~3.4 min)     val: 768/961  (2.2 frag/s, faltan ~1.5 min)     val: 961/961  (2.2 frag/s, faltan ~0.0 min)   
+  test: 256/1204  (2.2 frag/s, faltan ~7.1 min)     test: 512/1204  (2.2 frag/s, faltan ~5.2 min)     test: 768/1204  (2.2 frag/s, faltan ~3.3 min)     test: 1024/1204  (2.2 frag/s, faltan ~1.4 min)     test: 1204/1204  (2.2 frag/s, faltan ~0.0 min)   
+  train (3847, 768) | val (961, 768) | test (1204, 768)
+
+Pesos de clase (balanced, como en el codigo de original): min 0.21 max 6.29
+
+Entrenando la cabeza (checkpoint por BALANCED ACCURACY de val, no por val_loss):
+  epoca   1  val balanced acc 0.4408  *
+  epoca   2  val balanced acc 0.5437  *
+  epoca   3  val balanced acc 0.5707  *
+  epoca   4  val balanced acc 0.5961  *
+  epoca   5  val balanced acc 0.6065  *
+  epoca   6  val balanced acc 0.6132  *
+  epoca   7  val balanced acc 0.6447  *
+  epoca  11  val balanced acc 0.6555  *
+  epoca  13  val balanced acc 0.6774  *
+  epoca  16  val balanced acc 0.6534
+  epoca  19  val balanced acc 0.6861  *
+  epoca  21  val balanced acc 0.6326
+  epoca  26  val balanced acc 0.6459
+  epoca  31  val balanced acc 0.6456
+  early stopping en la epoca 31 (12 sin mejorar)
+  mejor: epoca 19, val balanced accuracy 0.6861
+
+============================================================================================
+RESULTADOS -- DNABERT
+============================================================================================
+
+--- TEST, nivel fragmento ---
+  balanced accuracy: 0.681   F1 macro: 0.643   exactitud: 0.796
+
+--- TEST, nivel gen (promedio de probabilidades) ---
+  balanced accuracy: 0.754   F1 macro: 0.717   exactitud: 0.857
+  genes evaluados: 546
+                                      precision    recall  f1-score   support
+
+               AAC acetiltransferasa      0.727     0.533     0.615        15
+          ABC-F protección ribosomal      0.364     0.571     0.444         7
+          ANT nucleotidiltransferasa      0.500     0.571     0.533         7
+                APH fosfotransferasa      0.600     0.429     0.500         7
+            Erm metiltransferasa 23S      0.421     0.667     0.516        12
+    MCR fosfoetanolamina transferasa      0.875     0.778     0.824         9
+                  OXA beta-lactamasa      0.982     0.918     0.949       122
+beta-lactamasa de espectro extendido      0.962     1.000     0.980        25
+     carbapenemasa (IMP/VIM/NDM/KPC)      0.909     1.000     0.952        20
+  cefalosporinasa AmpC (ADC/ACT/CMY)      0.965     0.988     0.976        84
+         dfr dihidrofolato reductasa      0.538     0.636     0.583        11
+                          eflujo MFS      0.750     0.857     0.800        21
+                          eflujo RND      0.652     0.882     0.750        17
+               otras beta-lactamasas      0.977     0.829     0.897       152
+                      qnr quinolonas      1.000     1.000     1.000        16
+                 regulador de eflujo      0.273     0.600     0.375         5
+                 van / glucopéptidos      0.450     0.562     0.500        16
+
+                            accuracy                          0.857       546
+                           macro avg      0.703     0.754     0.717       546
+                        weighted avg      0.885     0.857     0.866       546
+
+Matriz de confusion a nivel gen:
+      0    1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16
+   0    8    0    2    1    1    0    0    0    0    0    2    0    0    0    0    0    1   AAC acetiltransferasa
+   1    0    4    0    0    0    0    0    0    0    0    0    0    1    0    0    0    2   ABC-F protección ribosomal
+   2    0    2    4    0    0    0    0    0    0    0    0    0    0    0    0    0    1   ANT nucleotidiltransferasa
+   3    1    0    0    3    0    0    0    0    0    0    1    0    0    0    0    0    2   APH fosfotransferasa
+   4    0    1    0    0    8    0    0    0    0    0    0    0    1    0    0    1    1   Erm metiltransferasa 23S
+   5    0    0    0    0    0    7    0    0    0    0    0    0    1    0    0    1    0   MCR fosfoetanolamina transferasa
+   6    1    0    0    0    3    0  112    0    1    0    1    0    1    2    0    0    1   OXA beta-lactamasa
+   7    0    0    0    0    0    0    0   25    0    0    0    0    0    0    0    0    0   beta-lactamasa de espectro extendido
+   8    0    0    0    0    0    0    0    0   20    0    0    0    0    0    0    0    0   carbapenemasa (IMP/VIM/NDM/KPC)
+   9    0    0    0    0    0    0    1    0    0   83    0    0    0    0    0    0    0   cefalosporinasa AmpC (ADC/ACT/CMY)
+  10    0    1    0    0    0    0    1    0    0    0    7    1    0    0    0    1    0   dfr dihidrofolato reductasa
+  11    0    1    0    0    0    1    0    0    0    0    0   18    0    0    0    0    1   eflujo MFS
+  12    0    0    0    0    0    0    0    0    0    0    0    2   15    0    0    0    0   eflujo RND
+  13    0    1    1    1    6    0    0    1    1    3    2    2    4  126    0    3    1   otras beta-lactamasas
+  14    0    0    0    0    0    0    0    0    0    0    0    0    0    0   16    0    0   qnr quinolonas
+  15    0    0    0    0    0    0    0    0    0    0    0    0    0    1    0    3    1   regulador de eflujo
+  16    1    1    1    0    1    0    0    0    0    0    0    1    0    0    0    2    9   van / glucopéptidos
+
+============================================================================================
+COMPARACION CONTRA EL RANDOM FOREST
+============================================================================================
+  modelo                              balanced acc   F1 macro
+  RandomForest k-meros k=6                   0.664      0.657
+  DNABERT-6 congelado + MLP                  0.754      0.717
+
+  diferencia: +0.090  ->  gana DNABERT-6
+  Mismas etiquetas, misma fragmentacion, mismo corte por gen y misma
+  semilla, asi que la comparacion es directa.
+
+Guardado:
+  /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/data/models/dnabert6_familias_cabeza.pt
+  /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/familias/familias_dnabert_meta.json  (17 familias)
+  /mnt/c/Users/r4gbi/Desktop/Proyecto_Residencias/results/familias/dnabert6_norm.npy
+
+La GUI (app/familias_dnabert_gui.py) lee estos tres y ya los usa:
+MODELO_FAMILIA = 'dnabert' en argus_gui.py. No hay que cambiar nada mas.
