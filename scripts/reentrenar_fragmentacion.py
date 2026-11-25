@@ -41,7 +41,7 @@ from sklearn.model_selection import StratifiedGroupKFold
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--raiz", default=None)
-ap.add_argument("--identidad", default="95", choices=["95", "90", "85", "99"])
+ap.add_argument("--identidad", default="95", choices=["95", "90", "85", "99", "995"])
 ap.add_argument("--filtro", default=None,
                 help="FASTA que restringe el pool de positivos; sustituye al que se deduce de --identidad")
 ap.add_argument("--min-pb", type=int, default=150, help="bases reales mínimas (asesora: 150)")
@@ -77,7 +77,7 @@ FASTA_1K1K = INTER / "muestra_genes_completos.fasta"
 # POS ya contiene exactamente el conjunto de ese nivel, asi que no se filtra.
 if args.filtro:
     FILTRO = Path(args.filtro).expanduser()
-elif args.identidad in ("95", "99"):
+elif args.identidad in ("95", "99", "995"):
     FILTRO = None
 else:
     FILTRO = INTER / f"positivo_id{args.identidad}_limpio.fasta"

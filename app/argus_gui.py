@@ -131,18 +131,93 @@ def leer_fasta(ruta):
 #  3. CONEXIÓN REAL CON EL MODELO ENTRENADO (.joblib)
 # ============================================================
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-IDENTIDAD_MODELO = 99
 VERSION_MODELO = "_v2"      # "" = modelo viejo (relleno con ceros) | "_v2" = fragmentación
-RUTA_MODELO = os.path.join(RAIZ, "data", "models",f"argus_rf_k6_id{IDENTIDAD_MODELO}{VERSION_MODELO}.joblib")
-UMBRAL_FAMILIA = 0.20    
+UMBRAL_FAMILIA = 0.20
 UMBRAL_DEFECTO = 0.465
+
+# ------------------------------------------------------------
+#  Versiones del conjunto de entrenamiento
+# ------------------------------------------------------------
+# Cada versión es un agrupamiento distinto de CD-HIT. Los modelos de las dos
+# etapas se entrenaron por separado con cada una, así que al cambiar de versión
+# se cambian LOS DOS, nunca uno solo: mezclar la etapa 1 de un conjunto con la
+# etapa 2 de otro daría resultados que no corresponden a ninguna medición.
+#
+# El orden de esta lista es el orden del selector de la interfaz.
+VERSIONES = [
+    {"clave": "99",  "nombre": "CD-HIT 99 %",
+     "detalle": "-c 0.99 · cobertura 0.90"},
+    {"clave": "995", "nombre": "CD-HIT 99.5 %",
+     "detalle": "-c 0.995 · cobertura 0.95"},
+]
+VERSION_DEFECTO = "99"
+
+def ruta_etapa1(version):
+    """El .joblib del modelo binario de esa versión."""
+    return os.path.join(RAIZ, "data", "models",
+                        f"argus_rf_k6_id{version}{VERSION_MODELO}.joblib")
+
+def carpeta_version(version):
+    return os.path.join(RAIZ, "data", "models", "versiones", f"id{version}")
+
+def ruta_familias_rf(version):
+    """El RandomForest de familias. Si no hay carpeta por versión, usa el de app/."""
+    p = os.path.join(carpeta_version(version), "familias_rf.joblib")
+    return p if os.path.exists(p) else os.path.join(
+        os.path.dirname(os.path.abspath(__file__)), "modelo_familias.joblib")
+
+def info_version(version):
+    """Resumen legible de una versión, leído de sus metadatos. Nunca escrito a mano.
+
+    Devuelve (texto, hay_todo). Si falta algo lo dice en el texto, para que el
+    problema se vea antes de iniciar el análisis y no a media corrida.
+    """
+    partes, completo = [], True
+
+    p1 = ruta_etapa1(version)
+    if os.path.exists(p1):
+        inf = os.path.join(carpeta_version(version), "etapa1_info.json")
+        if os.path.exists(inf):
+            try:
+                with open(inf, encoding="utf-8") as fh:
+                    d = json.load(fh)
+                m = d.get("metricas_1k1k_gen") or {}
+                partes.append(f"etapa 1: F1 {m.get('f1', float('nan')):.3f}"
+                              f" · umbral {d.get('umbral', '?')}")
+            except Exception:
+                partes.append("etapa 1: lista")
+        else:
+            partes.append("etapa 1: lista")
+    else:
+        partes.append("etapa 1: FALTA el modelo")
+        completo = False
+
+    meta = os.path.join(carpeta_version(version), "dnabert_meta.json")
+    if not os.path.exists(meta):
+        meta = os.path.join(RAIZ, "results", "familias", "familias_dnabert_meta.json")
+    if os.path.exists(meta):
+        try:
+            with open(meta, encoding="utf-8") as fh:
+                d = json.load(fh)
+            partes.append(f"etapa 2: {len(d.get('clases', []))} familias"
+                          f" · {d.get('test_gen_balanced_acc', float('nan')):.3f}")
+        except Exception:
+            partes.append("etapa 2: lista")
+    else:
+        partes.append("etapa 2: FALTA el metadato")
+        completo = False
+
+    return "   ·   ".join(partes), completo
+
 # ------------------------------------------------------------
 #  Etapa 2 (familia del gen)
 # ------------------------------------------------------------
-# Conjunto al 99 % de identidad, 17 familias, misma particion por gen:
-#   "dnabert" -> DNABERT-6, balanced accuracy 0.736 (necesita el .pt y GPU)
-#   "rf"      -> RandomForest sobre k-meros, 0.722 (instantaneo, sin GPU)
-# La diferencia es de 0.014, asi que la dependencia de DNABERT no se paga.
+#   "dnabert" -> DNABERT-6 congelado + cabeza MLP (más lento, no necesita GPU
+#                pero la agradece)
+#   "rf"      -> RandomForest sobre k-meros (instantáneo)
+# Cuál conviene depende de la versión del conjunto: con el del 99 % los dos
+# quedan casi iguales, con el del 99.5 % DNABERT saca ventaja clara. Los números
+# de cada uno se leen de sus metadatos, no se escriben aquí.
 MODELO_FAMILIA = "dnabert"
 
 # Fragmentos por gen que ve DNABERT, tomando los de mayor probabilidad de la
@@ -165,8 +240,9 @@ def _fijar_k(k):
     KMERS = ["".join(p) for p in product("ACGT", repeat=K)]
     KMER_IDX = {km: i for i, km in enumerate(KMERS)}
 
-def cargar_modelo(ruta=RUTA_MODELO):
+def cargar_modelo(version=VERSION_DEFECTO, ruta=None):
     """Carga el .joblib (dict de ARGus v2 o RF suelto) y ajusta K automáticamente."""
+    ruta = ruta or ruta_etapa1(version)
     if not os.path.exists(ruta):
         raise FileNotFoundError(
             f"No se encontró el archivo del modelo en:\n{ruta}\n\n"
@@ -191,15 +267,20 @@ def cargar_modelo(ruta=RUTA_MODELO):
     return rf, umbral
 
 
-def predecir_mag(secuencias, callback_progreso=None, esta_detenido=None, nombre_defecto=None):
+def predecir_mag(secuencias, callback_progreso=None, esta_detenido=None,
+                 nombre_defecto=None, version=VERSION_DEFECTO):
     """
     secuencias: lista de (id, secuencia) leídas del MAG.
     Regla de gen: ARG si algún fragmento tiene probabilidad >= umbral.
     nombre_defecto: nombre del MAG cuando el encabezado no trae 'MAG|...'
                     (normalmente el nombre del archivo, para que el mapa de calor
                     tenga UNA columna por MAG y no una por secuencia).
+    version: clave del conjunto de entrenamiento ("99", "995"). Decide LAS DOS
+             etapas a la vez; no se pueden mezclar entre versiones.
     """
-    modelo_etapa1, umbral = cargar_modelo()
+    modelo_etapa1, umbral = cargar_modelo(version)
+    print(f"[modelo] conjunto {version} | etapa 1: "
+          f"{os.path.basename(ruta_etapa1(version))} | umbral {umbral}")
 
     base_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -207,16 +288,18 @@ def predecir_mag(secuencias, callback_progreso=None, esta_detenido=None, nombre_
     # archivo del modelo, sin internet la primera vez), se cae al RandomForest.
     usar_dnabert = False
     if MODELO_FAMILIA == "dnabert" and fam_dnabert is not None:
-        usar_dnabert = fam_dnabert.cargar(base_dir)
+        usar_dnabert = fam_dnabert.cargar(base_dir, version)
         if usar_dnabert:
             print("[familias]", fam_dnabert.info())
         else:
             print("[familias] DNABERT no disponible:", fam_dnabert.motivo_no_disponible())
             print("[familias] se usa el RandomForest de k-meros")
 
-    ruta_familias = os.path.join(base_dir, "modelo_familias.joblib")
+    ruta_familias = ruta_familias_rf(version)
     modelo_etapa2 = None if usar_dnabert else (
         joblib.load(ruta_familias) if os.path.exists(ruta_familias) else None)
+    if modelo_etapa2 is not None:
+        print(f"[familias] RandomForest · {os.path.basename(ruta_familias)}")
 
     datos = []
     total = len(secuencias)
@@ -320,10 +403,11 @@ class HiloPrediccion(QThread):
     finalizado = Signal(list, bool)   # (datos_resultado, fue_cancelado)
     error = Signal(str)
 
-    def __init__(self, secuencias, nombre_mag=None):
+    def __init__(self, secuencias, nombre_mag=None, version=VERSION_DEFECTO):
         super().__init__()
         self.secuencias = secuencias
         self.nombre_mag = nombre_mag
+        self.version = version
         self._detener = False
 
     def solicitar_parada(self):
@@ -335,7 +419,8 @@ class HiloPrediccion(QThread):
                 self.secuencias,
                 callback_progreso=lambda act, tot: self.progreso.emit(act, tot),
                 esta_detenido=lambda: self._detener,
-                nombre_defecto=self.nombre_mag
+                nombre_defecto=self.nombre_mag,
+                version=self.version
             )
             self.finalizado.emit(resultados, self._detener)
         except Exception as e:
@@ -833,6 +918,7 @@ class VentanaPrincipal(QMainWindow):
         self.hilo = None
         self._col_orden_activa = -1
         self._orden_ascendente = True
+        self.version_actual = self._leer_version()   # se recuerda entre sesiones
 
         self.setStyleSheet(generar_estilo(PALETAS[self.tema]))
 
@@ -891,6 +977,23 @@ class VentanaPrincipal(QMainWindow):
         self.boton_detener.clicked.connect(self.detener_analisis)
         barra.addWidget(self.boton_detener)
 
+        # ---------- SELECTOR DE VERSIÓN DEL MODELO ----------
+        # Cambia las dos etapas a la vez. Se bloquea mientras corre un análisis
+        # para que nadie lo mueva a media corrida y termine con una tabla donde
+        # la mitad de los genes se evaluó con un modelo y la otra mitad con otro.
+        lbl_ver = QLabel("Modelo:")
+        lbl_ver.setObjectName("etiquetaControl")
+        barra.addWidget(lbl_ver)
+
+        self.combo_version = QComboBox()
+        self.combo_version.setMinimumWidth(150)
+        for v in VERSIONES:
+            self.combo_version.addItem(v["nombre"], v["clave"])
+        idx = self.combo_version.findData(self.version_actual)
+        self.combo_version.setCurrentIndex(idx if idx >= 0 else 0)
+        self.combo_version.currentIndexChanged.connect(self._al_cambiar_version)
+        barra.addWidget(self.combo_version)
+
         barra.addStretch()
 
         self.label_estado = QLabel("Sin archivo cargado — mostrando datos de ejemplo.")
@@ -924,8 +1027,39 @@ class VentanaPrincipal(QMainWindow):
 
         self.setCentralWidget(contenedor)
 
+        self._refrescar_info_version()
+
         # Al abrir la app, mostrar el último análisis guardado (si existe)
         self._cargar_ultimo_al_inicio()
+
+    # ---------- VERSIÓN DEL MODELO ----------
+    @staticmethod
+    def _leer_version():
+        claves = [v["clave"] for v in VERSIONES]
+        try:
+            v = QSettings("ARGus", "ARGusGUI").value("version_modelo", VERSION_DEFECTO)
+            return v if v in claves else VERSION_DEFECTO
+        except Exception:
+            return VERSION_DEFECTO
+
+    def _al_cambiar_version(self, *_):
+        if self.hilo and self.hilo.isRunning():
+            return
+        self.version_actual = self.combo_version.currentData()
+        try:
+            QSettings("ARGus", "ARGusGUI").setValue("version_modelo", self.version_actual)
+        except Exception:
+            pass
+        self._refrescar_info_version()
+
+    def _refrescar_info_version(self):
+        """Deja en el tooltip del selector lo que de verdad traen los archivos de
+        esa versión, leído de sus metadatos. No ocupa espacio en la barra, pero
+        sigue disponible al pasar el cursor."""
+        texto, _ = info_version(self.version_actual)
+        det = next((v["detalle"] for v in VERSIONES
+                    if v["clave"] == self.version_actual), "")
+        self.combo_version.setToolTip(f"{det}\n{texto}")
 
     def _cargar_logo(self, ruta, alt):
         """Carga un logo escalado; si no existe, muestra texto de respaldo."""
@@ -1118,9 +1252,22 @@ class VentanaPrincipal(QMainWindow):
         if not self.secuencias_cargadas:
             return
 
+        # Se avisa aquí, antes de arrancar, en vez de dejar que truene a media
+        # corrida con un error de archivo no encontrado.
+        texto, completo = info_version(self.version_actual)
+        if not completo:
+            nombre = next((v["nombre"] for v in VERSIONES
+                           if v["clave"] == self.version_actual), self.version_actual)
+            self._msg(QMessageBox.Warning, "Faltan archivos del modelo",
+                      f"Al modelo «{nombre}» le faltan archivos:\n\n{texto}\n\n"
+                      "Escoge la otra versión, o genera los que faltan con "
+                      "scripts/reentrenar_fragmentacion.py y scripts/familias_dnabert.py.")
+            return
+
         self.boton_cargar.setEnabled(False)
         self.boton_iniciar.setEnabled(False)
         self.boton_detener.setEnabled(True)
+        self.combo_version.setEnabled(False)
 
         self.label_estado.setText("⏳ Iniciando predicción...")
         self.label_estado.setStyleSheet("color: #FD7E14; font-weight: bold;")
@@ -1132,7 +1279,8 @@ class VentanaPrincipal(QMainWindow):
         self.barra_progreso.show()
 
         nombre_mag = os.path.splitext(os.path.basename(self.ruta_actual))[0]
-        self.hilo = HiloPrediccion(self.secuencias_cargadas, nombre_mag=nombre_mag)
+        self.hilo = HiloPrediccion(self.secuencias_cargadas, nombre_mag=nombre_mag,
+                                   version=self.version_actual)
         self.hilo.progreso.connect(self.actualizar_progreso)
         self.hilo.finalizado.connect(self.analisis_terminado)
         self.hilo.error.connect(self.analisis_error)
@@ -1185,6 +1333,7 @@ class VentanaPrincipal(QMainWindow):
         self.boton_cargar.setEnabled(True)
         self.boton_iniciar.setEnabled(True)
         self.boton_detener.setEnabled(False)
+        self.combo_version.setEnabled(True)
 
         if resultados:
             self.datos = resultados
@@ -1204,6 +1353,9 @@ class VentanaPrincipal(QMainWindow):
                     "n_procesadas": n_procesadas,
                     "n_resistentes": n_res,
                     "cancelado": bool(fue_cancelado),
+                    # sin esto, el historial mezclaría corridas de versiones
+                    # distintas sin forma de distinguirlas después
+                    "version": self.version_actual,
                 })
                 self.refrescar_historial()
             except Exception as e:
@@ -1232,6 +1384,7 @@ class VentanaPrincipal(QMainWindow):
         self.boton_cargar.setEnabled(True)
         self.boton_iniciar.setEnabled(True)
         self.boton_detener.setEnabled(False)
+        self.combo_version.setEnabled(True)
         self.label_estado.setText("❌ Error durante el análisis.")
         self.label_estado.setStyleSheet("color: #DC3545; font-weight: bold;")
         self._msg(QMessageBox.Critical, "Error en la predicción", f"Ocurrió un fallo al ejecutar el modelo:\n{mensaje_error}")
@@ -1312,7 +1465,7 @@ class VentanaPrincipal(QMainWindow):
         nota.setStyleSheet("color: #6C757D; font-style: italic;")
         layout.addWidget(nota)
 
-        columnas = ["Fecha", "Archivo", "Secuencias", "Con resistencia", "Estado"]
+        columnas = ["Fecha", "Archivo", "Modelo", "Secuencias", "Con resistencia", "Estado"]
         self.tabla_historial = QTableWidget(0, len(columnas))
         self.tabla_historial.setHorizontalHeaderLabels(columnas)
         self.tabla_historial.setAlternatingRowColors(True)
@@ -1355,7 +1508,10 @@ class VentanaPrincipal(QMainWindow):
                 secuencias, estado = f"{procesadas}/{total}", "Parcial (detenido)"
             else:
                 secuencias, estado = f"{procesadas}", "Completo"
-            valores = [m.get("fecha", ""), m.get("archivo", ""), secuencias,
+            clave = m.get("version")
+            nombre_ver = next((v["nombre"] for v in VERSIONES if v["clave"] == clave),
+                              "—" if clave is None else str(clave))
+            valores = [m.get("fecha", ""), m.get("archivo", ""), nombre_ver, secuencias,
                        str(m.get("n_resistentes", 0)), estado]
             for col, v in enumerate(valores):
                 item = QTableWidgetItem(v)
@@ -1371,9 +1527,13 @@ class VentanaPrincipal(QMainWindow):
             return
         self.datos = datos
         self.refrescar_vistas()
+        clave = meta.get("version")
+        nombre_ver = next((v["nombre"] for v in VERSIONES if v["clave"] == clave), None)
+        linea_ver = f"\nModelo: {nombre_ver}" if nombre_ver else ""
         self.label_estado.setText(
             f"🕘 Historial: {meta.get('archivo', '?')}"
             f"\n{meta.get('n_procesadas', len(datos))} secuencias, \n{meta.get('n_resistentes', '?')} con resistencia. \n({meta.get('fecha', '')})"
+            + linea_ver
         )
         self.label_estado.setStyleSheet("color: #6C757D; font-weight: bold;")
         if cambiar_pestana:

@@ -9,13 +9,23 @@ Cómo funciona:
     GUI. Si el MAG no trae ningún gen resistente, nunca se carga.
   - Una sola carga por sesión: queda en memoria a nivel de módulo, así que varios
     análisis seguidos no vuelven a pagar el costo.
+  - Varias versiones del modelo: el cuerpo de DNABERT es el MISMO para todas (es
+    el preentrenado de Hugging Face), así que al cambiar de versión solo se
+    recarga la cabeza, que pesa menos de 1 MB. Cambiar de 99 % a 99.5 % cuesta
+    milisegundos, no los 400 MB de la primera carga.
   - Si algo falla (sin internet la primera vez, falta un archivo, falta torch),
-    `disponible()` devuelve False y la GUI cae al RandomForest sin tronar.
+    `cargar()` devuelve False y la GUI cae al RandomForest sin tronar.
 
-Archivos que necesita (los genera scripts/familias_dnabert.py --completo):
-  data/models/dnabert6_familias_cabeza.pt        pesos de la cabeza MLP
-  results/familias/familias_dnabert_meta.json    lista de clases y configuración
-  results/familias/dnabert6_norm.npy             media y desviación del train
+Archivos que necesita por versión (los genera scripts/familias_dnabert.py):
+  data/models/versiones/id<V>/dnabert_cabeza.pt     pesos de la cabeza MLP
+  data/models/versiones/id<V>/dnabert_meta.json     lista de clases y configuración
+  data/models/versiones/id<V>/dnabert_norm.npy      media y desviación del train
+
+Si esa carpeta no existe, cae a las rutas de siempre, que es donde el script de
+entrenamiento deja los archivos recién salidos:
+  data/models/dnabert6_familias_cabeza.pt
+  results/familias/familias_dnabert_meta.json
+  results/familias/dnabert6_norm.npy
 
 La primera vez descarga el modelo de Hugging Face (359 MB) y lo deja en la caché
 de huggingface_hub; después abre en ~1 segundo.
@@ -31,43 +41,81 @@ K = 6
 MAX_LEN = 512
 BATCH = 16
 
+# El cuerpo de DNABERT es compartido entre versiones; la cabeza no.
 _E = {"estado": "sin_cargar", "error": None, "tok": None, "bert": None,
-      "cabeza": None, "clases": None, "mu": None, "sd": None, "torch": None}
+      "cabeza": None, "clases": None, "mu": None, "sd": None, "torch": None,
+      "version": None}
 
 
-def _rutas(base_dir):
-    """base_dir es la carpeta de la GUI (app/); el proyecto es su carpeta madre."""
+def _rutas(base_dir, version=None):
+    """Rutas de los tres archivos del modelo entrenado.
+
+    base_dir es la carpeta de la GUI (app/); el proyecto es su carpeta madre.
+    Con `version`, busca primero en la carpeta de esa versión y solo cae a las
+    rutas planas si esa carpeta no está completa. Así conviven las dos cosas:
+    el archivo recién entrenado, que siempre aterriza en las rutas planas, y las
+    versiones ya archivadas.
+    """
     raiz = Path(base_dir).resolve().parent
-    return {
+    planas = {
         "cabeza": raiz / "data" / "models" / "dnabert6_familias_cabeza.pt",
         "meta":   raiz / "results" / "familias" / "familias_dnabert_meta.json",
         "norm":   raiz / "results" / "familias" / "dnabert6_norm.npy",
     }
+    if version is None:
+        return planas
+
+    carpeta = raiz / "data" / "models" / "versiones" / f"id{version}"
+    porversion = {
+        "cabeza": carpeta / "dnabert_cabeza.pt",
+        "meta":   carpeta / "dnabert_meta.json",
+        "norm":   carpeta / "dnabert_norm.npy",
+    }
+    return porversion if all(p.exists() for p in porversion.values()) else planas
 
 
-def archivos_listos(base_dir):
+def archivos_listos(base_dir, version=None):
     """True si están los tres archivos del modelo entrenado. No carga nada."""
-    return all(p.exists() for p in _rutas(base_dir).values())
+    return all(p.exists() for p in _rutas(base_dir, version).values())
 
 
 def motivo_no_disponible():
     return _E["error"]
 
 
-def cargar(base_dir):
-    """Carga DNABERT y la cabeza. Devuelve True si quedó listo. Idempotente."""
-    if _E["estado"] == "listo":
-        return True
-    if _E["estado"] == "fallido":
-        return False
+def version_cargada():
+    return _E["version"]
 
-    r = _rutas(base_dir)
+
+def _cargar_cuerpo():
+    """Tokenizador y BERT preentrenado. Son los mismos para todas las versiones."""
+    if _E["tok"] is not None and _E["bert"] is not None:
+        return True
+    from transformers import AutoTokenizer, AutoModel
+    # sin trust_remote_code: DNA_bert_6 es un BERT estándar y con esa bandera
+    # chocan las clases BertConfig (lo documentó la asesora en su código)
+    _E["tok"] = AutoTokenizer.from_pretrained(MODELO_HF)
+    _E["bert"] = AutoModel.from_pretrained(MODELO_HF).eval()
+    return True
+
+
+def cargar(base_dir, version=None):
+    """Carga DNABERT y la cabeza de `version`. True si quedó listo. Idempotente.
+
+    Si ya está cargada otra versión, cambia solo la cabeza y deja el cuerpo en
+    memoria.
+    """
+    if _E["estado"] == "listo" and _E["version"] == version:
+        return True
+
+    r = _rutas(base_dir, version)
     faltan = [k for k, p in r.items() if not p.exists()]
     if faltan:
         _E["error"] = ("Faltan archivos del modelo DNABERT: "
                        + ", ".join(str(r[k].name) for k in faltan)
-                       + ". Corre scripts/familias_dnabert.py --completo")
+                       + ". Corre scripts/familias_dnabert.py")
         _E["estado"] = "fallido"
+        _E["version"] = version
         return False
 
     try:
@@ -80,7 +128,7 @@ def cargar(base_dir):
         _E["estado"] = "fallido"
         return False
     try:
-        from transformers import AutoTokenizer, AutoModel
+        import transformers  # noqa: F401
     except ImportError:
         _E["error"] = "Falta transformers. Instala: pip install 'transformers==4.30.2'"
         _E["estado"] = "fallido"
@@ -95,10 +143,7 @@ def cargar(base_dir):
         norm = np.load(r["norm"])
         mu, sd = norm[0:1].astype(np.float32), norm[1:2].astype(np.float32)
 
-        # sin trust_remote_code: DNA_bert_6 es un BERT estándar y con esa bandera
-        # chocan las clases BertConfig (lo documentó la asesora en su código)
-        tok = AutoTokenizer.from_pretrained(MODELO_HF)
-        bert = AutoModel.from_pretrained(MODELO_HF).eval()
+        _cargar_cuerpo()
 
         # misma arquitectura que en el entrenamiento
         cabeza = nn.Sequential(nn.Linear(dim, 256), nn.ReLU(), nn.Dropout(0.3),
@@ -106,12 +151,13 @@ def cargar(base_dir):
         cabeza.load_state_dict(torch.load(r["cabeza"], map_location="cpu"))
         cabeza.eval()
 
-        _E.update(estado="listo", error=None, tok=tok, bert=bert, cabeza=cabeza,
-                  clases=clases, mu=mu, sd=sd, torch=torch)
+        _E.update(estado="listo", error=None, cabeza=cabeza, clases=clases,
+                  mu=mu, sd=sd, torch=torch, version=version)
         return True
     except Exception as e:
         _E["error"] = f"No se pudo cargar DNABERT: {type(e).__name__}: {e}"
         _E["estado"] = "fallido"
+        _E["version"] = version
         return False
 
 
@@ -166,4 +212,5 @@ def info():
     """Para mostrar en la GUI qué modelo de familias está activo."""
     if _E["estado"] != "listo":
         return f"DNABERT no cargado ({_E['estado']})"
-    return f"DNABERT-6 · {len(_E['clases'])} familias"
+    v = f" · conjunto {_E['version']}" if _E["version"] else ""
+    return f"DNABERT-6 · {len(_E['clases'])} familias{v}"
